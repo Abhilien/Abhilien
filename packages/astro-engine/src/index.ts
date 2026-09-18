@@ -17,3 +17,6 @@ export * from './core/ayanamsa.js';
 export * from './core/ephemeris.js';
 export * from './chart/houses.js';
 export * from './chart/kundali.js';
+export * from './chart/varga.js';
+export * from './chart/dignity.js';
+export * from './chart/aspects.js';
