@@ -32,3 +32,4 @@ export * from './rules/engine.js';
 export * from './core/format.js';
 export * from './panchang/panchang.js';
 export * from './matching/ashtakoot.js';
+export * from './strength/ashtakavarga.js';
