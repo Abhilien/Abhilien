@@ -14,6 +14,7 @@ import { ALL_DOSHA_RULES } from './doshas.js';
 import type { Rule, Finding } from './types.js';
 import type { Kundali } from '../core/types.js';
 import type { AspectOptions } from '../chart/aspects.js';
+import { sentenceCase } from '../core/format.js';
 
 export const ALL_RULES: Rule[] = [...ALL_YOGA_RULES, ...ALL_DOSHA_RULES];
 
@@ -50,6 +51,9 @@ export function evaluateRules(chart: Kundali, options: EvaluateOptions = {}): An
 
     findings.push({
       ...result,
+      // `detail` is always a standalone sentence, so it is capitalised here
+      // rather than in each of the rules that build one.
+      ...(result.detail === undefined ? {} : { detail: sentenceCase(result.detail) }),
       ruleId: rule.id,
       name: rule.name,
       ...(rule.nameHi === undefined ? {} : { nameHi: rule.nameHi }),

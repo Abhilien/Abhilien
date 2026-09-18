@@ -24,3 +24,15 @@ export function listSentence(items: string[]): string {
 export function agrees(count: number, singular: string, plural: string): string {
   return count === 1 ? singular : plural;
 }
+
+/**
+ * Capitalise the first letter of a standalone sentence.
+ *
+ * Rule `detail` strings are always whole sentences, but they often begin with a
+ * graha name that carries its article ("the Moon and Venus..."), which reads as
+ * a typo at the start of a line.
+ */
+export function sentenceCase(text: string): string {
+  if (text.length === 0) return text;
+  return text[0]!.toUpperCase() + text.slice(1);
+}

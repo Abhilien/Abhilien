@@ -9,17 +9,18 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "noImplicitOverride": true,
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "outDir": "dist",
     "rootDir": "src",
     "skipLibCheck": true,
-    "verbatimModuleSyntax": true,
-    "composite": true
+    "verbatimModuleSyntax": true
   },
   "include": [
     "src/**/*.ts"
+  ],
+  "references": [
+    {
+      "path": "../../packages/astro-engine"
+    }
   ]
 }
