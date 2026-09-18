@@ -20,3 +20,7 @@ export * from './chart/kundali.js';
 export * from './chart/varga.js';
 export * from './chart/dignity.js';
 export * from './chart/aspects.js';
+export * from './dasha/types.js';
+export * from './dasha/vimshottari.js';
+export * from './dasha/yogini.js';
+export * from './dasha/ashtottari.js';
