@@ -35,3 +35,5 @@ export * from './matching/ashtakoot.js';
 export * from './strength/ashtakavarga.js';
 export * from './rectification/events.js';
 export * from './rectification/rectify.js';
+export * from './transit/gochar.js';
+export * from './transit/sadesati.js';

@@ -46,6 +46,8 @@ a set of guardrails verifies that it didn't.
 - **Strength** — Ashtakavarga (Bhinna and Sarva) with self-checking tables.
 - **Rectification** — birth-time search from dated life events, with a confidence
   that is allowed to say no.
+- **Transits** — Gochar from the natal Moon with vedha obstruction and
+  Ashtakavarga bindus; Sade Sati across a lifetime with its three phases; Dhaiya.
 - **Rules** — yogas and doshas, each with a classical citation, each disputed
   rule flagged as disputed, each dosha carrying its cancellations.
 - **Panchang** — five limbs, Rahu Kaal, Gulika, Yamaganda, Abhijit, choghadiya,
@@ -69,6 +71,9 @@ Not by assertion. The suite checks things the code cannot fake:
 - Vargottama is **derived** to fall on the 1st/5th/9th navamsa of movable/fixed/
   dual signs, matching the classical statement.
 - Ashtakavarga tables must total 48/49/39/54/56/52/39 and **exactly 337**.
+- Saturn's sign ingresses must match published dates (Kumbha 17 Jan 2023, Meena
+  29 Mar 2025), Sade Sati must recur on Saturn's own 29.5-year cycle, and every
+  natal Moon sign must get three or four periods per century.
 - Dasha sub-periods must tile their parent with no gap or overlap.
 - India's Independence chart reproduces the published horoscope: **Vrishabha
   lagna 7°43′, Moon in Pushya**.
@@ -137,7 +142,7 @@ a missing one:
   India extract (~500k places) behind the same interface.
 - **Voice and more languages.** Hindi is complete; the engine is ready for the
   rest. Bhashini (Government of India) provides free Indic ASR and TTS.
-- **Transits, Sade Sati, muhurta selection, Prashna.**
+- **Muhurta selection and Prashna.**
 
 ## Before selling this
 

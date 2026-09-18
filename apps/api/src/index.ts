@@ -6,7 +6,10 @@
  * server that will hold people's birth data.
  */
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
-import { castChart, gunaMilan, computePanchang, rectify } from '@jyotish/engine';
+import {
+  castChart, gunaMilan, computePanchang, rectify,
+  transitReport, sadeSatiStatus, dhaiyaPeriods,
+} from '@jyotish/engine';
 import type { BirthData, LifeEvent, EventType } from '@jyotish/engine';
 import { EVENT_SIGNATURES } from '@jyotish/engine';
 import { buildFactBundle } from './facts.js';
@@ -158,6 +161,32 @@ const routes: Record<string, (body: any) => Promise<unknown>> = {
     Object.entries(EVENT_SIGNATURES).map(([type, sig]) => ({
       type, label: sig.label, primaryHouses: sig.primary, karaka: sig.karaka,
     })),
+
+  /** Current transits read against a natal chart, with vedha and bindus. */
+  '/v1/transits': async (body) => {
+    const birth = parseBirth(body.birth);
+    const { chart } = castChart(birth);
+    const at = body.date ? new Date(body.date) : new Date();
+    if (Number.isNaN(at.getTime())) throw new Error('date is invalid');
+    return { date: at.toISOString(), transits: transitReport(chart, at) };
+  },
+
+  /**
+   * Sade Sati status and every period across a lifetime, plus the Dhaiya
+   * transits. The summary always states that the cycle is universal, because
+   * that is the fact this topic is most often sold against.
+   */
+  '/v1/sadesati': async (body) => {
+    const birth = parseBirth(body.birth);
+    const { chart } = castChart(birth);
+    const at = body.asOf ? new Date(body.asOf) : new Date();
+    if (Number.isNaN(at.getTime())) throw new Error('asOf is invalid');
+
+    const status = sadeSatiStatus(chart, at);
+    const from = new Date(chart.utcISO);
+    const to = new Date(from.getTime() + 100 * 365.25 * 86400000);
+    return { ...status, dhaiya: dhaiyaPeriods(chart, from, to) };
+  },
 
   /** Panchang for a place and moment. */
   '/v1/panchang': async (body) => {

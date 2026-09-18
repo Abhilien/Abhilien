@@ -103,6 +103,23 @@ function tropicalLongitude(graha: Graha, time: Astro.AstroTime, nodeModel: NodeM
   return apparentEclipticOfDate(body, time).longitude;
 }
 
+/**
+ * Sidereal longitude only, skipping the speed calculation.
+ *
+ * `grahaPosition` differentiates numerically to get daily motion, which costs
+ * two extra ephemeris evaluations. Scanning decades of transits to find sign
+ * ingresses needs thousands of samples and does not need speed, so this exists
+ * to make that roughly three times cheaper.
+ */
+export function siderealLongitudeOf(
+  graha: Graha,
+  time: Astro.AstroTime,
+  ayanamsaDegrees: number,
+  nodeModel: NodeModel = 'Mean',
+): number {
+  return norm360(tropicalLongitude(graha, time, nodeModel) - ayanamsaDegrees);
+}
+
 /** Apparent daily motion in longitude, deg/day, by central difference. */
 function longitudeSpeed(graha: Graha, time: Astro.AstroTime, nodeModel: NodeModel): number {
   const before = tropicalLongitude(graha, time.AddDays(-SPEED_DELTA_DAYS), nodeModel);
