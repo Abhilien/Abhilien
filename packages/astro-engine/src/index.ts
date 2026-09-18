@@ -33,3 +33,5 @@ export * from './core/format.js';
 export * from './panchang/panchang.js';
 export * from './matching/ashtakoot.js';
 export * from './strength/ashtakavarga.js';
+export * from './rectification/events.js';
+export * from './rectification/rectify.js';

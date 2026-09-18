@@ -6,8 +6,9 @@
  * server that will hold people's birth data.
  */
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
-import { castChart, gunaMilan, computePanchang } from '@jyotish/engine';
-import type { BirthData } from '@jyotish/engine';
+import { castChart, gunaMilan, computePanchang, rectify } from '@jyotish/engine';
+import type { BirthData, LifeEvent, EventType } from '@jyotish/engine';
+import { EVENT_SIGNATURES } from '@jyotish/engine';
 import { buildFactBundle } from './facts.js';
 import { deterministicReading } from './deterministic.js';
 import { narrate, answerQuestion, modelAvailable } from './narrator.js';
@@ -109,6 +110,54 @@ const routes: Record<string, (body: any) => Promise<unknown>> = {
     const b = castChart(parseBirth(body.second)).chart;
     return gunaMilan(a, b);
   },
+
+  /**
+   * Birth-time rectification from dated life events.
+   *
+   * Returns a ranked shortlist with an explicit confidence that is allowed to
+   * be inconclusive — and usually is, for the minute. The rising sign is
+   * reported separately and is often settled even when the minute is not.
+   */
+  '/v1/rectify': async (body) => {
+    const birth = parseBirth(body.birth);
+    if (!Array.isArray(body.events) || body.events.length === 0) {
+      throw new Error('events is required: a list of {type, date, precision?}');
+    }
+
+    const events: LifeEvent[] = body.events.map((raw: any, i: number) => {
+      if (typeof raw?.type !== 'string' || !(raw.type in EVENT_SIGNATURES)) {
+        throw new Error(
+          `event ${i} has an unknown type; must be one of: `
+          + `${Object.keys(EVENT_SIGNATURES).join(', ')}`,
+        );
+      }
+      const date = new Date(raw.date);
+      if (Number.isNaN(date.getTime())) throw new Error(`event ${i} has an invalid date`);
+      return {
+        type: raw.type as EventType,
+        date,
+        ...(raw.precision ? { precision: raw.precision } : {}),
+        ...(typeof raw.note === 'string' ? { note: raw.note } : {}),
+      };
+    });
+
+    const result = rectify(birth, events, {
+      ...(typeof body.windowMinutes === 'number'
+        ? { windowMinutes: Math.min(180, Math.max(5, body.windowMinutes)) } : {}),
+      ...(typeof body.stepMinutes === 'number'
+        ? { stepMinutes: Math.min(15, Math.max(1, body.stepMinutes)) } : {}),
+    });
+
+    // The full candidate list is large and mostly noise; the shortlist is what
+    // a caller acts on.
+    return { ...result, candidates: result.candidates.slice(0, 15) };
+  },
+
+  /** The life-event types rectification understands. */
+  '/v1/rectify/events': async () =>
+    Object.entries(EVENT_SIGNATURES).map(([type, sig]) => ({
+      type, label: sig.label, primaryHouses: sig.primary, karaka: sig.karaka,
+    })),
 
   /** Panchang for a place and moment. */
   '/v1/panchang': async (body) => {

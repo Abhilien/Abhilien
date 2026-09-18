@@ -44,6 +44,8 @@ a set of guardrails verifies that it didn't.
 - **Charts** — whole-sign, Equal, Porphyry, Sripati. All sixteen vargas.
 - **Dashas** — Vimshottari to five levels, Yogini, Ashtottari.
 - **Strength** — Ashtakavarga (Bhinna and Sarva) with self-checking tables.
+- **Rectification** — birth-time search from dated life events, with a confidence
+  that is allowed to say no.
 - **Rules** — yogas and doshas, each with a classical citation, each disputed
   rule flagged as disputed, each dosha carrying its cancellations.
 - **Panchang** — five limbs, Rahu Kaal, Gulika, Yamaganda, Abhijit, choghadiya,
@@ -88,6 +90,25 @@ texts say do not exist. Three mechanisms push against that:
 A test asserts that no rule's stated effect uses "you" or "will" — findings are
 traditional attributions, not claims about a person.
 
+### The rectification result is the clearest case
+
+Birth-time rectification is where an astrology product is most tempted to invent
+confidence, so its confidence was **measured against a null** rather than
+assumed. Scoring twelve sets of *random* event dates produced peaks standing
+1.1–2.7 standard deviations above their window mean; a synthetic true history
+scored only 1.2. Noise routinely out-scored signal. Per-event agreement failed
+the same way. Only leave-one-out stability separated them at all (signal 13.5
+minutes, noise median 50), and noise still beat it in 3 trials of 12.
+
+So the module has **no "Strong" or "Certain" tier for the minute** — the type
+itself makes that unrepresentable — and when it does state a result the verdict
+discloses that random dates cleared the same bar about one time in six.
+
+What it *can* do reliably it reports separately: the rising sign is often
+settled even when the minute is not, and that is the output a practitioner can
+act on. On a synthetic history it recovers the true birth time to within one
+minute while still, correctly, declining to claim it.
+
 ## Running it
 
 ```bash
@@ -112,9 +133,6 @@ a missing one:
   choice. It lands when it can be validated against reference tables.
 - **KP system and Placidus houses.** Held back for the same reason — validated
   against KP reference tables, or not shipped.
-- **Birth-time rectification.** The single most valuable missing feature: most
-  users do not know their birth minute, and the ascendant moves a degree every
-  four minutes.
 - **Full place database.** 150 places are bundled; production needs the GeoNames
   India extract (~500k places) behind the same interface.
 - **Voice and more languages.** Hindi is complete; the engine is ready for the
