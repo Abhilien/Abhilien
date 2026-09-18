@@ -172,6 +172,13 @@ export const GRAHA_NAMES_SA: Record<Graha, string> = {
   Jupiter: 'Guru', Venus: 'Shukra', Saturn: 'Shani', Rahu: 'Rahu', Ketu: 'Ketu',
 };
 
+/** English names, used in the English `detail` prose that rules emit. The
+ *  structured `grahas` array on a finding is what the UI localises from. */
+export const GRAHA_NAMES_EN: Record<Graha, string> = {
+  Sun: 'the Sun', Moon: 'the Moon', Mars: 'Mars', Mercury: 'Mercury',
+  Jupiter: 'Jupiter', Venus: 'Venus', Saturn: 'Saturn', Rahu: 'Rahu', Ketu: 'Ketu',
+};
+
 export const GRAHA_NAMES_HI: Record<Graha, string> = {
   Sun: 'सूर्य', Moon: 'चन्द्र', Mars: 'मंगल', Mercury: 'बुध',
   Jupiter: 'गुरु', Venus: 'शुक्र', Saturn: 'शनि', Rahu: 'राहु', Ketu: 'केतु',
