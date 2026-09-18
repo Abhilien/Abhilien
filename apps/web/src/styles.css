@@ -1,0 +1,201 @@
+/*
+ * Mobile-first, low-end-Android-first.
+ *
+ * No web fonts: a Devanagari webfont is 150 KB or more and this app has to be
+ * usable on a 2G connection, so we lean on the system Indic fonts every Android
+ * device ships. No CSS framework either — the whole sheet is smaller than a
+ * framework's reset alone.
+ */
+
+:root {
+  --bg: #fbf7f0;
+  --surface: #ffffff;
+  --surface-alt: #f4eee3;
+  --ink: #241d14;
+  --ink-soft: #6b5d4a;
+  --line: #ded2bd;
+  --accent: #9a3412;
+  --accent-soft: #fde9d9;
+  --good: #14532d;
+  --good-soft: #dcf0e2;
+  --warn: #7c2d12;
+  --warn-soft: #fde5d3;
+  --muted: #8a7a63;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(36, 29, 20, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #14110d;
+    --surface: #1d1913;
+    --surface-alt: #262019;
+    --ink: #f0e8dc;
+    --ink-soft: #b5a894;
+    --line: #3a3128;
+    --accent: #f4a06a;
+    --accent-soft: #3a2314;
+    --good: #86d7a3;
+    --good-soft: #14301f;
+    --warn: #f0a27a;
+    --warn-soft: #3a2014;
+    --muted: #8d8071;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #14110d;
+  --surface: #1d1913;
+  --surface-alt: #262019;
+  --ink: #f0e8dc;
+  --ink-soft: #b5a894;
+  --line: #3a3128;
+  --accent: #f4a06a;
+  --accent-soft: #3a2314;
+  --good: #86d7a3;
+  --good-soft: #14301f;
+  --warn: #f0a27a;
+  --warn-soft: #3a2014;
+  --muted: #8d8071;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+html[lang='hi'] body { font-family: system-ui, 'Noto Sans Devanagari', sans-serif; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 96px; }
+
+/* --- header --- */
+header {
+  position: sticky; top: 0; z-index: 10;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  padding: 10px 0 0;
+}
+.bar { display: flex; align-items: baseline; gap: 10px; padding: 0 16px; max-width: 720px; margin: 0 auto; }
+.bar h1 { font-size: 19px; margin: 0; letter-spacing: -0.01em; }
+.bar .sub { font-size: 12px; color: var(--muted); flex: 1; }
+.bar button { font-size: 13px; }
+
+nav {
+  display: flex; gap: 2px; overflow-x: auto; max-width: 720px;
+  margin: 8px auto 0; padding: 0 16px;
+  scrollbar-width: none;
+}
+nav::-webkit-scrollbar { display: none; }
+nav button {
+  flex: none; border: 0; background: none; color: var(--ink-soft);
+  padding: 8px 12px; font-size: 14px; cursor: pointer;
+  border-bottom: 2px solid transparent; white-space: nowrap;
+}
+nav button[aria-selected='true'] { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+/* --- generic --- */
+.card {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 14px; margin: 14px 0;
+  box-shadow: var(--shadow);
+}
+h2 { font-size: 16px; margin: 20px 0 8px; letter-spacing: -0.01em; }
+h3 { font-size: 14px; margin: 0 0 6px; }
+p { margin: 8px 0; }
+.muted { color: var(--muted); font-size: 13px; }
+
+label { display: block; font-size: 13px; color: var(--ink-soft); margin: 10px 0 3px; }
+input, select, button {
+  font: inherit; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); padding: 9px 10px; width: 100%;
+}
+input:focus, select:focus, button:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+button { cursor: pointer; width: auto; }
+button.primary {
+  background: var(--accent); color: #fff; border-color: var(--accent);
+  font-weight: 600; padding: 11px 18px; width: 100%; margin-top: 14px;
+}
+button.ghost { background: none; border-color: var(--line); padding: 6px 10px; font-size: 13px; }
+button.ghost[aria-pressed='true'] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.row { display: flex; gap: 10px; }
+.row > * { flex: 1; min-width: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+
+/* --- place search --- */
+.results { border: 1px solid var(--line); border-radius: 8px; margin-top: 4px; overflow: hidden; }
+.results button {
+  display: block; width: 100%; text-align: left; border: 0; border-radius: 0;
+  border-bottom: 1px solid var(--line); background: var(--surface); padding: 9px 10px;
+}
+.results button:last-child { border-bottom: 0; }
+.results button:hover { background: var(--surface-alt); }
+.results .r-region { color: var(--muted); font-size: 12px; }
+
+/* --- tables --- */
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--line); }
+th { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.scroll-x { overflow-x: auto; }
+
+/* --- kundali diagram --- */
+.kundali { width: 100%; height: auto; display: block; max-width: 420px; margin: 0 auto; }
+.k-frame { fill: var(--surface); stroke: var(--ink); stroke-width: 2; }
+.k-cell { fill: none; stroke: var(--line); stroke-width: 1.5; }
+.k-line { stroke: var(--ink); stroke-width: 1.5; fill: none; }
+.k-lagna { stroke: var(--accent); stroke-width: 2.5; }
+.k-sign { font-size: 12px; fill: var(--muted); font-weight: 600; }
+.k-sign-left { text-anchor: start; }
+.k-house { font-size: 11px; fill: var(--muted); }
+.k-graha { font-size: 13px; fill: var(--ink); font-weight: 600; }
+
+/* --- findings --- */
+.finding { border-left: 3px solid var(--line); padding: 10px 0 10px 12px; margin: 12px 0; }
+.finding.favourable { border-left-color: var(--good); }
+.finding.difficult { border-left-color: var(--warn); }
+.finding.cancelled { border-left-color: var(--muted); opacity: 0.85; }
+.finding h3 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.tag {
+  font-size: 11px; padding: 2px 7px; border-radius: 999px;
+  background: var(--surface-alt); color: var(--muted); font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.tag.good { background: var(--good-soft); color: var(--good); }
+.tag.bad { background: var(--warn-soft); color: var(--warn); }
+.cite { font-size: 12px; color: var(--muted); margin-top: 6px; }
+.cite b { color: var(--ink-soft); font-weight: 600; }
+
+/* --- notices --- */
+.notice {
+  background: var(--warn-soft); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 11px 13px; margin: 12px 0; font-size: 13px;
+}
+.notice h3 { color: var(--warn); }
+.notice ul { margin: 6px 0 0; padding-left: 18px; }
+.notice li { margin: 4px 0; }
+
+/* --- score bar --- */
+.bar-track { background: var(--surface-alt); border-radius: 999px; height: 7px; overflow: hidden; margin-top: 3px; }
+.bar-fill { background: var(--accent); height: 100%; border-radius: 999px; }
+.score { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; }
+.score small { font-size: 15px; color: var(--muted); font-weight: 400; }
+
+/* --- timeline --- */
+.period { display: flex; align-items: baseline; gap: 10px; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+.period.now { background: var(--accent-soft); border-radius: 6px; }
+.period .lord { font-weight: 600; min-width: 74px; }
+.period .span { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+footer { color: var(--muted); font-size: 12px; margin-top: 28px; }

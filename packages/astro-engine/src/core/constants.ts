@@ -190,6 +190,12 @@ export const GRAHA_ABBR: Record<Graha, string> = {
   Jupiter: 'Ju', Venus: 'Ve', Saturn: 'Sa', Rahu: 'Ra', Ketu: 'Ke',
 };
 
+/** Devanagari abbreviations used inside chart diagrams in Hindi. */
+export const GRAHA_ABBR_HI: Record<Graha, string> = {
+  Sun: 'सू', Moon: 'चं', Mars: 'मं', Mercury: 'बु',
+  Jupiter: 'गु', Venus: 'शु', Saturn: 'श', Rahu: 'रा', Ketu: 'के',
+};
+
 /** Natural benefic / malefic status. The Moon and Mercury are conditional — a
  *  waning Moon and a Mercury joined to a malefic turn malefic — so those are
  *  resolved per-chart in `dignity.ts`, not read from here. */
