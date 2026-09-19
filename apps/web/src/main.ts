@@ -17,17 +17,22 @@ import {
   RASHI_NAMES_SA, RASHI_NAMES_HI, GRAHA_NAMES_SA, GRAHA_NAMES_HI,
   NAKSHATRA_NAMES_SA, NAKSHATRA_NAMES_HI, GRAHA_ABBR, GRAHA_ABBR_HI,
   GRAHAS, VARGAS, ordinal,
+  transitReport, sadeSatiStatus, dhaiyaPeriods,
+  rectify, EVENT_SIGNATURES,
 } from '@jyotish/engine';
 import type {
   BirthData, Kundali, Graha, RashiIndex, TimeAccuracy, ChartStyle,
 } from '@jyotish/engine';
-import type { VargaCode } from '@jyotish/engine';
+import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/engine';
+import type { RectificationResult } from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
 import { searchPlaces, formatPlace, type Place } from './data/places.js';
 import { loadProfiles, saveProfile, deleteProfile, type Profile } from './storage.js';
 import { t, lang, setLang } from './i18n.js';
 
-type Tab = 'chart' | 'dasha' | 'yogas' | 'panchang' | 'match';
+type Tab = 'chart' | 'dasha' | 'yogas' | 'transits' | 'panchang' | 'match' | 'rectify';
+
+interface DraftEvent { type: EventType; date: string; precision: EventPrecision }
 
 interface State {
   tab: Tab;
@@ -50,6 +55,10 @@ interface State {
   profiles: Profile[];
   matchA: string;
   matchB: string;
+  rectifyEvents: DraftEvent[];
+  rectifyWindow: number;
+  rectifyResult: RectificationResult | null;
+  rectifyError: string | null;
 }
 
 const state: State = {
@@ -73,6 +82,10 @@ const state: State = {
   profiles: loadProfiles(),
   matchA: '',
   matchB: '',
+  rectifyEvents: [],
+  rectifyWindow: 30,
+  rectifyResult: null,
+  rectifyError: null,
 };
 
 // --- localised name helpers -------------------------------------------------
@@ -463,18 +476,190 @@ function matchTab(): string {
     </div>`;
 }
 
+
+function transitsTab(): string {
+  if (!state.chart) return birthForm();
+  const chart = state.chart;
+  const now = new Date();
+  const transits = transitReport(chart, now);
+  const status = sadeSatiStatus(chart, now);
+  const dhaiya = dhaiyaPeriods(
+    chart, new Date(chart.utcISO),
+    new Date(new Date(chart.utcISO).getTime() + 100 * 365.25 * 86400000),
+  );
+
+  const phaseLabel: Record<string, string> = {
+    Rising: t('phaseRising'), Peak: t('phasePeak'), Setting: t('phaseSetting'),
+  };
+
+  // Compact symbols rather than words: "NOT FAVOURABLE" does not fit a column
+  // on a 360px screen, and wrapping it pushes the table past the viewport.
+  const rows = transits.map((tr) => {
+    const mark = tr.obstructedBy ? '\u2298' : tr.favourable ? '\u2713' : '';
+    const title = tr.obstructedBy
+      ? `${t('blocked')} \u2014 ${grahaName(tr.obstructedBy)}`
+      : tr.favourable ? t('favourable') : t('neutralTransit');
+    return `<tr>
+      <td><strong>${grahaName(tr.graha)}</strong>${tr.retrograde ? ' <span class="tag">R</span>' : ''}</td>
+      <td>${rashi(tr.rashi)}</td>
+      <td class="num">${ordinal(tr.houseFromMoon)}</td>
+      <td class="num">${tr.bindus === null ? '\u2014' : `${tr.bindus}/8`}</td>
+      <td class="verdict" title="${esc(title)}" aria-label="${esc(title)}">${mark}</td>
+    </tr>`;
+  }).join('');
+
+  // Sade Sati is where this app most has to resist alarming people, so the
+  // universality note from the engine is shown in full rather than trimmed.
+  const sadeSatiCard = `
+    <h2>${t('sadeSati')}</h2>
+    <div class="card">
+      <h3>${status.active
+        ? `${t('sadeSatiRunning')} \u00b7 ${phaseLabel[status.phase ?? 'Peak']}`
+        : t('sadeSatiNotRunning')}</h3>
+      ${status.period ? `
+        <div class="bar-track" style="margin:10px 0 14px">
+          <div class="bar-fill" style="width:${Math.round(
+            ((now.getTime() - status.period.start.getTime())
+              / (status.period.end.getTime() - status.period.start.getTime())) * 100)}%"></div>
+        </div>
+        ${status.period.phases.map((ph) => {
+          const running = now >= ph.start && now < ph.end;
+          return `<div class="period${running ? ' now' : ''}">
+            <span class="lord">${phaseLabel[ph.phase]}</span>
+            <span class="span">${rashi(ph.sign)} \u00b7 ${localDate(ph.start)} \u2013 ${localDate(ph.end)}</span>
+          </div>`;
+        }).join('')}` : ''}
+      <p class="muted" style="margin-top:12px">${esc(status.summary)}</p>
+    </div>
+
+    <h2>${t('allPeriods')}</h2>
+    <div class="card">
+      ${status.all.map((p) => {
+        const running = now >= p.start && now < p.end;
+        // The search runs a hundred years from birth, so the final period is
+        // often cut off by that horizon. Showing its clipped length as though
+        // it were a real 1.6-year Sade Sati would be simply wrong.
+        return `<div class="period${running ? ' now' : ''}">
+          <span class="span">${localDate(p.start)} \u2013 ${
+            p.truncated ? '\u2026' : localDate(p.end)}</span>
+          <span class="muted" style="margin-left:auto">${
+            p.truncated ? t('continuesBeyond') : `${p.years.toFixed(1)}y`}</span>
+        </div>`;
+      }).join('')}
+    </div>
+
+    ${dhaiya.length ? `<h2>${t('dhaiya')}</h2><div class="card">
+      ${dhaiya.map((d) => `<div class="period">
+        <span class="lord">${d.kind === 'KantakaShani' ? t('kantakaShani') : t('ashtamaShani')}</span>
+        <span class="span">${rashi(d.sign)} \u00b7 ${localDate(d.start)} \u2013 ${
+          d.truncated ? '\u2026' : localDate(d.end)}</span>
+      </div>`).join('')}
+    </div>` : ''}`;
+
+  return `
+    <h2>${t('transitsToday')}</h2>
+    <div class="card scroll-x">
+      <table>
+        <thead><tr>
+          <th>${t('graha')}</th><th>${t('rashi')}</th>
+          <th>${t('fromMoon')}</th><th>${t('bindusLabel')}</th><th></th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <p class="muted" style="margin-top:8px">
+        \u2713 ${t('favourable')} \u00b7 \u2298 ${t('blocked')} \u00b7 ${t('bindusLabel')} ${t('outOfEight')}
+      </p>
+    </div>
+    ${sadeSatiCard}`;
+}
+
+function rectifyTab(): string {
+  if (!state.chart) return birthForm();
+
+  const types = Object.keys(EVENT_SIGNATURES) as EventType[];
+  const precisions: [EventPrecision, string][] = [
+    ['Day', t('precisionDay')], ['Month', t('precisionMonth')], ['Year', t('precisionYear')],
+  ];
+
+  // Two lines per event: four controls side by side truncate the date to "1:"
+  // and the precision to "Tc" at phone width.
+  const eventRows = state.rectifyEvents.map((ev, i) => `
+    <div class="event-row">
+      <select data-rect="type" data-index="${i}" aria-label="${t('eventType')}">
+        ${types.map((ty) =>
+          `<option value="${ty}"${ty === ev.type ? ' selected' : ''}>${esc(EVENT_SIGNATURES[ty].label)}</option>`).join('')}
+      </select>
+      <div class="row">
+        <input type="date" data-rect="date" data-index="${i}"
+               value="${esc(ev.date)}" aria-label="${t('eventDate')}">
+        <select data-rect="precision" data-index="${i}" aria-label="${t('eventPrecision')}">
+          ${precisions.map(([v, label]) =>
+            `<option value="${v}"${v === ev.precision ? ' selected' : ''}>${label}</option>`).join('')}
+        </select>
+        <button class="ghost remove" data-action="rect-remove" data-index="${i}"
+                aria-label="${t('removeEvent')}">\u00d7</button>
+      </div>
+    </div>`).join('');
+
+  const result = state.rectifyResult;
+  const resultCard = result ? `
+    <div class="card">
+      <div class="muted">${t('bestFit')}</div>
+      <div class="score">${String(result.best.hour).padStart(2, '0')}:${String(result.best.minute).padStart(2, '0')}</div>
+      <p class="muted">${rashi(result.best.lagnaRashi)} ${result.best.lagnaDegree.toFixed(1)}\u00b0</p>
+      <table style="margin-top:10px">
+        <tr><th>${t('confidence')}</th><td>${result.confidence}</td></tr>
+        <tr><th>${t('ascendantConfidence')}</th><td>${result.lagnaConfidence} \u00b7 ${rashi(result.lagnaConsensus[0]!.rashi)}</td></tr>
+        <tr><th>${t('stability')}</th><td class="num">\u00b1${Math.round(result.stabilityMinutes)} min</td></tr>
+      </table>
+      <p style="margin-top:12px">${esc(result.verdict)}</p>
+      <button class="ghost" data-action="rect-apply" style="margin-top:10px">${t('applyTime')}</button>
+    </div>
+
+    <h2>${t('shortlist')}</h2>
+    <div class="card">
+      ${result.candidates.slice(0, 8).map((c) => `<div class="period${
+        c.hour === result.best.hour && c.minute === result.best.minute ? ' now' : ''}">
+        <span class="lord">${String(c.hour).padStart(2, '0')}:${String(c.minute).padStart(2, '0')}</span>
+        <span class="span">${rashi(c.lagnaRashi)} ${c.lagnaDegree.toFixed(1)}\u00b0</span>
+        <span class="muted" style="margin-left:auto">${c.score.toFixed(1)}</span>
+      </div>`).join('')}
+    </div>` : '';
+
+  return `
+    <h2>${t('rectifyTitle')}</h2>
+    <div class="card">
+      <p class="muted">${t('rectifyIntro')}</p>
+      ${eventRows}
+      <div class="chips">
+        <button class="ghost" data-action="rect-add">+ ${t('addEvent')}</button>
+      </div>
+
+      <label for="rect-window">${t('searchWindow')} \u00b1${state.rectifyWindow} ${t('minutesEitherWay')}</label>
+      <input id="rect-window" type="range" min="10" max="120" step="5"
+             value="${state.rectifyWindow}" data-rect="window">
+
+      ${state.rectifyError ? `<div class="notice">${esc(state.rectifyError)}</div>` : ''}
+      <button class="primary" data-action="rect-run">${t('runRectify')}</button>
+    </div>
+    ${resultCard}`;
+}
+
 // --- shell ------------------------------------------------------------------
 
 const TABS: [Tab, string][] = [
   ['chart', 'tabChart'], ['dasha', 'tabDasha'], ['yogas', 'tabYogas'],
-  ['panchang', 'tabPanchang'], ['match', 'tabMatch'],
+  ['transits', 'tabTransits'], ['panchang', 'tabPanchang'],
+  ['match', 'tabMatch'], ['rectify', 'tabRectify'],
 ];
 
 function render(): void {
   const body = state.tab === 'chart' ? chartTab()
     : state.tab === 'dasha' ? dashaTab()
     : state.tab === 'yogas' ? yogasTab()
+    : state.tab === 'transits' ? transitsTab()
     : state.tab === 'panchang' ? panchangTab()
+    : state.tab === 'rectify' ? rectifyTab()
     : matchTab();
 
   const saved = state.profiles.length ? `
@@ -569,6 +754,55 @@ document.addEventListener('click', (event) => {
       deleteProfile(target.dataset.id!);
       state.profiles = loadProfiles();
       break;
+
+    case 'rect-add': {
+      // Seed a new row at a plausible adult date so the picker does not open
+      // on today, which is almost never the answer.
+      const seedYear = (state.chart?.birth.year ?? 1990) + 25;
+      state.rectifyEvents.push({ type: 'Marriage', date: `${seedYear}-01-01`, precision: 'Day' });
+      state.rectifyResult = null;
+      break;
+    }
+
+    case 'rect-remove':
+      state.rectifyEvents.splice(Number(target.dataset.index), 1);
+      state.rectifyResult = null;
+      break;
+
+    case 'rect-run': {
+      if (!state.chart) break;
+      const events: LifeEvent[] = state.rectifyEvents
+        .filter((e) => e.date)
+        .map((e) => ({ type: e.type, date: new Date(e.date), precision: e.precision }));
+
+      if (events.length < 3) {
+        state.rectifyError = t('needMoreEvents');
+        state.rectifyResult = null;
+        break;
+      }
+      try {
+        state.rectifyError = null;
+        state.rectifyResult = rectify(state.chart.birth, events, {
+          windowMinutes: state.rectifyWindow,
+        });
+      } catch (error) {
+        state.rectifyError = error instanceof Error ? error.message : String(error);
+        state.rectifyResult = null;
+      }
+      break;
+    }
+
+    case 'rect-apply': {
+      const best = state.rectifyResult?.best;
+      if (!best) break;
+      state.form.time = `${String(best.hour).padStart(2, '0')}:${String(best.minute).padStart(2, '0')}`;
+      // A rectified time is an inference, so the chart is marked as such rather
+      // than silently promoted to an exact birth time.
+      state.form.accuracy = 'ToFiveMin';
+      recompute();
+      state.tab = 'chart';
+      break;
+    }
     default:
       return;
   }
@@ -577,6 +811,27 @@ document.addEventListener('click', (event) => {
 
 document.addEventListener('input', (event) => {
   const el = event.target as HTMLInputElement | HTMLSelectElement;
+
+  // Rectification rows are index-addressed, since the list is rebuilt on every
+  // render and element identity does not survive.
+  const rect = el.dataset.rect;
+  if (rect) {
+    if (rect === 'window') {
+      state.rectifyWindow = Number(el.value);
+      render();
+      return;
+    }
+    const row = state.rectifyEvents[Number(el.dataset.index)];
+    if (!row) return;
+    if (rect === 'type') row.type = el.value as EventType;
+    else if (rect === 'date') row.date = el.value;
+    else if (rect === 'precision') row.precision = el.value as EventPrecision;
+    state.rectifyResult = null;
+    // Deliberately no re-render: rebuilding the list mid-edit would close the
+    // date picker and drop focus.
+    return;
+  }
+
   const field = el.dataset.field;
   if (!field) return;
 

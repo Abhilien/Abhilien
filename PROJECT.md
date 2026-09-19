@@ -14,7 +14,7 @@ mobile app, and an AI narration layer that cannot fabricate.
 | Package | What it is | State |
 |---|---|---|
 | `packages/astro-engine` | Deterministic Jyotish engine. No network, no clock, no randomness, no model. | 175 tests |
-| `apps/web` | Offline-first PWA, 58 KB gzipped, Hindi and English. | Verified in a real browser |
+| `apps/web` | Offline-first PWA, 67 KB gzipped, Hindi and English. Seven tabs covering chart, dashas, yogas, transits, panchang, matching and birth-time rectification. | Verified in a real browser |
 | `apps/api` | HTTP API + grounded AI narration with guardrails. | 20 tests |
 
 ## The one idea everything follows from
@@ -140,6 +140,7 @@ a missing one:
   against KP reference tables, or not shipped.
 - **Full place database.** 150 places are bundled; production needs the GeoNames
   India extract (~500k places) behind the same interface.
+- **Muhurta selection and Prashna.**
 - **Voice and more languages.** Hindi is complete; the engine is ready for the
   rest. Bhashini (Government of India) provides free Indic ASR and TTS.
 - **Muhurta selection and Prashna.**
