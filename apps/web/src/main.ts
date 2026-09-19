@@ -19,18 +19,20 @@ import {
   GRAHAS, VARGAS, ordinal,
   transitReport, sadeSatiStatus, dhaiyaPeriods,
   rectify, EVENT_SIGNATURES,
+  findMuhurtas, ACTIVITY_RULES,
 } from '@jyotish/engine';
 import type {
   BirthData, Kundali, Graha, RashiIndex, TimeAccuracy, ChartStyle,
 } from '@jyotish/engine';
 import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/engine';
-import type { RectificationResult } from '@jyotish/engine';
+import type { RectificationResult, MuhurtaActivity, MuhurtaResult } from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
 import { searchPlaces, formatPlace, type Place } from './data/places.js';
 import { loadProfiles, saveProfile, deleteProfile, type Profile } from './storage.js';
 import { t, lang, setLang } from './i18n.js';
 
-type Tab = 'chart' | 'dasha' | 'yogas' | 'transits' | 'panchang' | 'match' | 'rectify';
+type Tab = 'chart' | 'dasha' | 'yogas' | 'transits' | 'panchang'
+  | 'muhurta' | 'match' | 'rectify';
 
 interface DraftEvent { type: EventType; date: string; precision: EventPrecision }
 
@@ -59,6 +61,12 @@ interface State {
   rectifyWindow: number;
   rectifyResult: RectificationResult | null;
   rectifyError: string | null;
+  muhurtaActivity: MuhurtaActivity;
+  muhurtaFrom: string;
+  muhurtaTo: string;
+  muhurtaResult: MuhurtaResult | null;
+  muhurtaError: string | null;
+  muhurtaOpenFactors: number | null;
 }
 
 const state: State = {
@@ -86,7 +94,18 @@ const state: State = {
   rectifyWindow: 30,
   rectifyResult: null,
   rectifyError: null,
+  muhurtaActivity: 'Marriage',
+  muhurtaFrom: isoDay(new Date()),
+  muhurtaTo: isoDay(new Date(Date.now() + 60 * 86400000)),
+  muhurtaResult: null,
+  muhurtaError: null,
+  muhurtaOpenFactors: null,
 };
+
+/** `YYYY-MM-DD` in the viewer's own zone, which is what a date input expects. */
+function isoDay(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
 
 // --- localised name helpers -------------------------------------------------
 
@@ -645,12 +664,76 @@ function rectifyTab(): string {
     ${resultCard}`;
 }
 
+
+function muhurtaTab(): string {
+  const activities = Object.keys(ACTIVITY_RULES) as MuhurtaActivity[];
+  const result = state.muhurtaResult;
+  const rule = ACTIVITY_RULES[state.muhurtaActivity];
+
+  const gradeLabel: Record<string, string> = {
+    Excellent: t('gradeExcellent'), Good: t('gradeGood'), Acceptable: t('gradeAcceptable'),
+  };
+
+  const windows = result ? (result.windows.length === 0
+    ? `<div class="card"><p>${t('noWindows')}</p><p class="muted">${esc(result.summary)}</p></div>`
+    : `${result.windows.map((w, i) => {
+      const open = state.muhurtaOpenFactors === i;
+      return `<div class="card">
+        <h3>${localDate(w.start)} \u00b7 ${localTime(w.start, tz())} \u2013 ${localTime(w.end, tz())}
+          <span class="tag ${w.grade === 'Excellent' ? 'good' : ''}">${gradeLabel[w.grade]}</span></h3>
+        <p class="muted">${esc(w.name)} \u00b7 ${esc(w.day.weekday)} \u00b7
+          ${esc(w.day.nakshatra)} \u00b7 ${esc(w.day.yoga)} yoga \u00b7 ${t('dayScore')} ${w.day.score}/100</p>
+        <div class="bar-track"><div class="bar-fill" style="width:${w.score}%"></div></div>
+        <button class="ghost" data-action="mu-factors" data-index="${i}"
+                style="margin-top:10px">${t('showFactors')}</button>
+        ${open ? `<table style="margin-top:10px">
+          ${w.day.factors.map((f) => `<tr>
+            <td class="verdict">${f.ok ? '\u2713' : '\u2298'}</td>
+            <th>${esc(f.name)}</th>
+            <td>${esc(f.detail)}</td>
+          </tr>`).join('')}
+        </table>` : ''}
+      </div>`;
+    }).join('')}
+    <p class="muted">${esc(result.summary)}</p>`) : '';
+
+  return `
+    <h2>${t('muhurtaTitle')}</h2>
+    <div class="card">
+      <p class="muted">${t('muhurtaIntro')}</p>
+
+      <label for="mu-activity">${t('activity')}</label>
+      <select id="mu-activity" data-mu="activity">
+        ${activities.map((a) => `<option value="${a}"${a === state.muhurtaActivity ? ' selected' : ''}>${
+          esc(lang() === 'hi' ? ACTIVITY_RULES[a].labelHi : ACTIVITY_RULES[a].label)}</option>`).join('')}
+      </select>
+
+      <div class="row">
+        <div><label for="mu-from">${t('fromDate')}</label>
+          <input id="mu-from" type="date" data-mu="from" value="${esc(state.muhurtaFrom)}"></div>
+        <div><label for="mu-to">${t('toDate')}</label>
+          <input id="mu-to" type="date" data-mu="to" value="${esc(state.muhurtaTo)}"></div>
+      </div>
+
+      ${rule.caution ? `<div class="notice"><h3>\u26a0</h3><p>${esc(rule.caution)}</p></div>` : ''}
+      ${state.muhurtaError ? `<div class="notice">${esc(state.muhurtaError)}</div>` : ''}
+      <button class="primary" data-action="mu-run">${t('findTimes')}</button>
+    </div>
+    ${windows}`;
+}
+
+/** Timezone to display muhurta windows in: the chart's, else the device's. */
+function tz(): string {
+  return state.chart?.birth.location.timezone
+    ?? Intl.DateTimeFormat().resolvedOptions().timeZone;
+}
+
 // --- shell ------------------------------------------------------------------
 
 const TABS: [Tab, string][] = [
   ['chart', 'tabChart'], ['dasha', 'tabDasha'], ['yogas', 'tabYogas'],
   ['transits', 'tabTransits'], ['panchang', 'tabPanchang'],
-  ['match', 'tabMatch'], ['rectify', 'tabRectify'],
+  ['muhurta', 'tabMuhurta'], ['match', 'tabMatch'], ['rectify', 'tabRectify'],
 ];
 
 function render(): void {
@@ -659,6 +742,7 @@ function render(): void {
     : state.tab === 'yogas' ? yogasTab()
     : state.tab === 'transits' ? transitsTab()
     : state.tab === 'panchang' ? panchangTab()
+    : state.tab === 'muhurta' ? muhurtaTab()
     : state.tab === 'rectify' ? rectifyTab()
     : matchTab();
 
@@ -792,6 +876,39 @@ document.addEventListener('click', (event) => {
       break;
     }
 
+    case 'mu-factors': {
+      const index = Number(target.dataset.index);
+      state.muhurtaOpenFactors = state.muhurtaOpenFactors === index ? null : index;
+      break;
+    }
+
+    case 'mu-run': {
+      const from = new Date(state.muhurtaFrom);
+      const to = new Date(state.muhurtaTo);
+      if (Number.isNaN(from.getTime()) || Number.isNaN(to.getTime()) || to <= from) {
+        state.muhurtaError = `${t('fromDate')} / ${t('toDate')}`;
+        state.muhurtaResult = null;
+        break;
+      }
+      // Scanning runs on the device, so the range is capped to keep a budget
+      // phone responsive rather than locking the UI for several seconds.
+      if (to.getTime() - from.getTime() > 183 * 86400000) {
+        state.muhurtaError = t('rangeTooLong');
+        state.muhurtaResult = null;
+        break;
+      }
+      const location = state.chart?.birth.location ?? {
+        latitude: 28.6139, longitude: 77.209, timezone: 'Asia/Kolkata', label: 'New Delhi',
+      };
+      state.muhurtaError = null;
+      state.muhurtaOpenFactors = null;
+      state.muhurtaResult = findMuhurtas(state.muhurtaActivity, from, to, location, {
+        ...(state.chart ? { natal: state.chart } : {}),
+        limit: 10,
+      });
+      break;
+    }
+
     case 'rect-apply': {
       const best = state.rectifyResult?.best;
       if (!best) break;
@@ -814,6 +931,16 @@ document.addEventListener('input', (event) => {
 
   // Rectification rows are index-addressed, since the list is rebuilt on every
   // render and element identity does not survive.
+  const mu = el.dataset.mu;
+  if (mu) {
+    if (mu === 'activity') state.muhurtaActivity = el.value as MuhurtaActivity;
+    else if (mu === 'from') state.muhurtaFrom = el.value;
+    else if (mu === 'to') state.muhurtaTo = el.value;
+    state.muhurtaResult = null;
+    if (mu === 'activity') render();   // the caution banner depends on it
+    return;
+  }
+
   const rect = el.dataset.rect;
   if (rect) {
     if (rect === 'window') {

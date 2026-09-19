@@ -9,8 +9,9 @@ import { createServer, type IncomingMessage, type ServerResponse } from 'node:ht
 import {
   castChart, gunaMilan, computePanchang, rectify,
   transitReport, sadeSatiStatus, dhaiyaPeriods,
+  findMuhurtas, ACTIVITY_RULES,
 } from '@jyotish/engine';
-import type { BirthData, LifeEvent, EventType } from '@jyotish/engine';
+import type { BirthData, LifeEvent, EventType, MuhurtaActivity } from '@jyotish/engine';
 import { EVENT_SIGNATURES } from '@jyotish/engine';
 import { buildFactBundle } from './facts.js';
 import { deterministicReading } from './deterministic.js';
@@ -187,6 +188,54 @@ const routes: Record<string, (body: any) => Promise<unknown>> = {
     const to = new Date(from.getTime() + 100 * 365.25 * 86400000);
     return { ...status, dhaiya: dhaiyaPeriods(chart, from, to) };
   },
+
+  /**
+   * Auspicious windows for an activity across a date range.
+   *
+   * A natal chart is optional but strongly recommended: without it the Tara
+   * bala and Chandra bala factors cannot be computed and the ranking is
+   * generic rather than personal.
+   */
+  '/v1/muhurta': async (body) => {
+    if (typeof body.activity !== 'string' || !(body.activity in ACTIVITY_RULES)) {
+      throw new Error(
+        `activity is required and must be one of: ${Object.keys(ACTIVITY_RULES).join(', ')}`,
+      );
+    }
+    const loc = body.location;
+    if (!loc || typeof loc.latitude !== 'number' || typeof loc.timezone !== 'string') {
+      throw new Error('location with latitude, longitude and timezone is required');
+    }
+
+    const from = new Date(body.from);
+    const to = new Date(body.to);
+    if (Number.isNaN(from.getTime()) || Number.isNaN(to.getTime())) {
+      throw new Error('from and to must be valid dates');
+    }
+    // A year of scanning is the most this should do in one request.
+    if (to.getTime() - from.getTime() > 366 * 86400000) {
+      throw new Error('the range must be a year or less');
+    }
+
+    const natal = body.birth ? castChart(parseBirth(body.birth)).chart : undefined;
+    return findMuhurtas(body.activity as MuhurtaActivity, from, to, loc, {
+      ...(natal ? { natal } : {}),
+      ...(typeof body.limit === 'number' ? { limit: Math.min(50, Math.max(1, body.limit)) } : {}),
+      ...(typeof body.minimumDayScore === 'number'
+        ? { minimumDayScore: Math.min(100, Math.max(0, body.minimumDayScore)) } : {}),
+    });
+  },
+
+  /** The activities muhurta selection understands. */
+  '/v1/muhurta/activities': async () =>
+    Object.entries(ACTIVITY_RULES).map(([activity, rule]) => ({
+      activity,
+      label: rule.label,
+      labelHi: rule.labelHi,
+      natures: rule.natures,
+      weekdays: rule.weekdays,
+      ...(rule.caution ? { caution: rule.caution } : {}),
+    })),
 
   /** Panchang for a place and moment. */
   '/v1/panchang': async (body) => {

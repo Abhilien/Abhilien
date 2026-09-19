@@ -130,8 +130,16 @@ function findLimbEnd(
   return time.AddDays(high).date;
 }
 
-/** Sunrise, sunset and the following sunrise for a place and date. */
-function solarEvents(date: Date, location: GeoLocation) {
+/**
+ * Sunrise, sunset and the following sunrise for the Hindu day containing `date`.
+ *
+ * Exported so that everything which needs a day's boundaries derives them from
+ * exactly this function. Two independent sunrise searches disagree by tens of
+ * milliseconds, which is enough for a window beginning at sunrise to be
+ * attributed to the previous day, and for two adjacent segments to register as
+ * overlapping. One source of truth removes the whole class of problem.
+ */
+export function solarDay(date: Date, location: GeoLocation) {
   const observer = new Astro.Observer(location.latitude, location.longitude, location.altitude ?? 0);
 
   // The Hindu day opens at the LAST sunrise at or before the queried instant.
@@ -194,6 +202,39 @@ function segment(start: Date, end: Date, part: number, of: number, name: string)
   };
 }
 
+/**
+ * The sunrise-anchored divisions of a day.
+ *
+ * Split out because muhurta selection needs exactly these and nothing else, and
+ * routing it through `computePanchang` would pay for four limb-end bisections
+ * per day that it never reads — the difference between a scan that feels
+ * instant on a budget phone and one that freezes it for ten seconds.
+ */
+export function dayDivisions(
+  sunrise: Date,
+  sunset: Date,
+  nextSunrise: Date | null,
+  weekdayIndex: number,
+): {
+  rahuKaal: DayWindow; gulikaKaal: DayWindow; yamaganda: DayWindow;
+  abhijitMuhurta: DayWindow | null; choghadiya: DayWindow[]; hora: DayWindow[];
+} {
+  return {
+    rahuKaal: segment(sunrise, sunset, RAHU_KAAL_PART[weekdayIndex]!, 8, 'Rahu Kaal'),
+    gulikaKaal: segment(sunrise, sunset, GULIKA_PART[weekdayIndex]!, 8, 'Gulika Kaal'),
+    yamaganda: segment(sunrise, sunset, YAMAGANDA_PART[weekdayIndex]!, 8, 'Yamaganda'),
+    // Abhijit is the 8th of 15 daylight muhurtas, straddling local noon. It is
+    // conventionally not observed on Wednesday.
+    abhijitMuhurta: weekdayIndex === 3
+      ? null
+      : segment(sunrise, sunset, 8, 15, 'Abhijit Muhurta'),
+    choghadiya: CHOGHADIYA_DAY[weekdayIndex]!.map(
+      (name, i) => segment(sunrise, sunset, i + 1, 8, name),
+    ),
+    hora: buildHoras(sunrise, sunset, nextSunrise, weekdayIndex),
+  };
+}
+
 export interface PanchangOptions {
   ayanamsa?: AyanamsaSystem;
 }
@@ -227,7 +268,7 @@ export function computePanchang(
       : MOVABLE_KARANAS[(karanaIndex - 1) % 7]!;
 
   // --- sunrise-anchored day ---
-  const { sunrise, sunset, nextSunrise } = solarEvents(date, location);
+  const { sunrise, sunset, nextSunrise } = solarDay(date, location);
 
   // The vara belongs to the sunrise that opened the current Hindu day, and must
   // be read in local civil terms, not UTC, or it flips either side of midnight.
@@ -236,24 +277,12 @@ export function computePanchang(
     : localWeekday(date, location.timezone);
 
   const dayWindows = (sunrise && sunset)
-    ? {
-      rahuKaal: segment(sunrise, sunset, RAHU_KAAL_PART[localVaraIndex]!, 8, 'Rahu Kaal'),
-      gulikaKaal: segment(sunrise, sunset, GULIKA_PART[localVaraIndex]!, 8, 'Gulika Kaal'),
-      yamaganda: segment(sunrise, sunset, YAMAGANDA_PART[localVaraIndex]!, 8, 'Yamaganda'),
-      // Abhijit is the 8th of 15 daylight muhurtas, straddling local noon. It is
-      // conventionally not observed on Wednesday.
-      abhijitMuhurta: localVaraIndex === 3
-        ? null
-        : segment(sunrise, sunset, 8, 15, 'Abhijit Muhurta'),
-      choghadiya: CHOGHADIYA_DAY[localVaraIndex]!.map(
-        (name, i) => segment(sunrise, sunset, i + 1, 8, name),
-      ),
-      hora: buildHoras(sunrise, sunset, nextSunrise, localVaraIndex),
-    }
+    ? dayDivisions(sunrise, sunset, nextSunrise, localVaraIndex)
     : {
       rahuKaal: null, gulikaKaal: null, yamaganda: null,
       abhijitMuhurta: null, choghadiya: [], hora: [],
     };
+
 
   return {
     date,
@@ -330,7 +359,7 @@ function buildHoras(
 }
 
 /** Day of week as observed locally, 0 = Sunday. */
-function localWeekday(instant: Date, timeZone: string): number {
+export function localWeekday(instant: Date, timeZone: string): number {
   const name = new Intl.DateTimeFormat('en-US', { timeZone, weekday: 'short' }).format(instant);
   return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(name);
 }

@@ -14,7 +14,7 @@ mobile app, and an AI narration layer that cannot fabricate.
 | Package | What it is | State |
 |---|---|---|
 | `packages/astro-engine` | Deterministic Jyotish engine. No network, no clock, no randomness, no model. | 175 tests |
-| `apps/web` | Offline-first PWA, 67 KB gzipped, Hindi and English. Seven tabs covering chart, dashas, yogas, transits, panchang, matching and birth-time rectification. | Verified in a real browser |
+| `apps/web` | Offline-first PWA, 70 KB gzipped, Hindi and English. Eight tabs: chart, dashas, yogas, transits, panchang, muhurta, matching and birth-time rectification. | Verified in a real browser |
 | `apps/api` | HTTP API + grounded AI narration with guardrails. | 20 tests |
 
 ## The one idea everything follows from
@@ -48,6 +48,8 @@ a set of guardrails verifies that it didn't.
   that is allowed to say no.
 - **Transits** — Gochar from the natal Moon with vedha obstruction and
   Ashtakavarga bindus; Sade Sati across a lifetime with its three phases; Dhaiya.
+- **Muhurta** — auspicious windows for ten activities, scored factor by factor
+  against the five limbs plus Tara and Chandra bala.
 - **Rules** — yogas and doshas, each with a classical citation, each disputed
   rule flagged as disputed, each dosha carrying its cancellations.
 - **Panchang** — five limbs, Rahu Kaal, Gulika, Yamaganda, Abhijit, choghadiya,
@@ -140,10 +142,10 @@ a missing one:
   against KP reference tables, or not shipped.
 - **Full place database.** 150 places are bundled; production needs the GeoNames
   India extract (~500k places) behind the same interface.
-- **Muhurta selection and Prashna.**
+- **Prashna (horary).**
 - **Voice and more languages.** Hindi is complete; the engine is ready for the
   rest. Bhashini (Government of India) provides free Indic ASR and TTS.
-- **Muhurta selection and Prashna.**
+- **Prashna (horary).**
 
 ## Before selling this
 
