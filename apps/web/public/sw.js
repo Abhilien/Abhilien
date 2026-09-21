@@ -6,11 +6,17 @@
  * revalidate against a server at runtime: every calculation happens on the
  * device, so a stale cache is a fully working app, not a degraded one.
  */
-const CACHE = 'kundali-v1';
+const CACHE = 'kundali-v2';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((cache) => cache.addAll(['/', '/index.html', '/manifest.webmanifest']))
+    caches.open(CACHE)
+      // tier1 is 82 KB gzipped and is what makes place search work with no
+      // signal, so it is part of the shell rather than a later fetch.
+      .then((cache) => cache.addAll([
+        '/', '/index.html', '/manifest.webmanifest',
+        '/places/tier1.txt', '/places/index.json',
+      ]))
       .then(() => self.skipWaiting()),
   );
 });

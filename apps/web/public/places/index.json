@@ -1,0 +1,223 @@
+{
+ "source": "GeoNames (https://www.geonames.org/), CC BY 4.0",
+ "generated": "2026-09-21",
+ "tier1": 7117,
+ "states": [
+  {
+   "code": "01",
+   "name": "Andaman and Nicobar",
+   "places": 146,
+   "bytes": 3293
+  },
+  {
+   "code": "02",
+   "name": "Andhra Pradesh",
+   "places": 26538,
+   "bytes": 710833
+  },
+  {
+   "code": "30",
+   "name": "Arunachal Pradesh",
+   "places": 418,
+   "bytes": 8935
+  },
+  {
+   "code": "03",
+   "name": "Assam",
+   "places": 1129,
+   "bytes": 27284
+  },
+  {
+   "code": "34",
+   "name": "Bihar",
+   "places": 43046,
+   "bytes": 1007523
+  },
+  {
+   "code": "05",
+   "name": "Chandigarh",
+   "places": 43,
+   "bytes": 1031
+  },
+  {
+   "code": "37",
+   "name": "Chhattisgarh",
+   "places": 17990,
+   "bytes": 413422
+  },
+  {
+   "code": "52",
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "places": 46,
+   "bytes": 1008
+  },
+  {
+   "code": "07",
+   "name": "Delhi",
+   "places": 496,
+   "bytes": 12783
+  },
+  {
+   "code": "33",
+   "name": "Goa",
+   "places": 372,
+   "bytes": 8199
+  },
+  {
+   "code": "09",
+   "name": "Gujarat",
+   "places": 4120,
+   "bytes": 94993
+  },
+  {
+   "code": "10",
+   "name": "Haryana",
+   "places": 7054,
+   "bytes": 165934
+  },
+  {
+   "code": "11",
+   "name": "Himachal Pradesh",
+   "places": 21081,
+   "bytes": 453280
+  },
+  {
+   "code": "12",
+   "name": "Jammu and Kashmir",
+   "places": 11432,
+   "bytes": 255551
+  },
+  {
+   "code": "38",
+   "name": "Jharkhand",
+   "places": 27944,
+   "bytes": 649170
+  },
+  {
+   "code": "19",
+   "name": "Karnataka",
+   "places": 32709,
+   "bytes": 818573
+  },
+  {
+   "code": "13",
+   "name": "Kerala",
+   "places": 5860,
+   "bytes": 143907
+  },
+  {
+   "code": "41",
+   "name": "Ladakh",
+   "places": 477,
+   "bytes": 10493
+  },
+  {
+   "code": "14",
+   "name": "Lakshadweep",
+   "places": 1,
+   "bytes": 22
+  },
+  {
+   "code": "35",
+   "name": "Madhya Pradesh",
+   "places": 49027,
+   "bytes": 1126776
+  },
+  {
+   "code": "16",
+   "name": "Maharashtra",
+   "places": 23403,
+   "bytes": 539114
+  },
+  {
+   "code": "17",
+   "name": "Manipur",
+   "places": 195,
+   "bytes": 4476
+  },
+  {
+   "code": "18",
+   "name": "Meghalaya",
+   "places": 203,
+   "bytes": 4769
+  },
+  {
+   "code": "31",
+   "name": "Mizoram",
+   "places": 195,
+   "bytes": 4577
+  },
+  {
+   "code": "20",
+   "name": "Nagaland",
+   "places": 199,
+   "bytes": 4501
+  },
+  {
+   "code": "21",
+   "name": "Odisha",
+   "places": 21723,
+   "bytes": 518086
+  },
+  {
+   "code": "22",
+   "name": "Puducherry",
+   "places": 210,
+   "bytes": 5649
+  },
+  {
+   "code": "23",
+   "name": "Punjab",
+   "places": 11260,
+   "bytes": 268422
+  },
+  {
+   "code": "24",
+   "name": "Rajasthan",
+   "places": 19824,
+   "bytes": 466628
+  },
+  {
+   "code": "29",
+   "name": "Sikkim",
+   "places": 325,
+   "bytes": 7202
+  },
+  {
+   "code": "25",
+   "name": "Tamil Nadu",
+   "places": 39376,
+   "bytes": 1060345
+  },
+  {
+   "code": "40",
+   "name": "Telangana",
+   "places": 13038,
+   "bytes": 325594
+  },
+  {
+   "code": "26",
+   "name": "Tripura",
+   "places": 76,
+   "bytes": 1892
+  },
+  {
+   "code": "36",
+   "name": "Uttar Pradesh",
+   "places": 155266,
+   "bytes": 3825030
+  },
+  {
+   "code": "39",
+   "name": "Uttarakhand",
+   "places": 11551,
+   "bytes": 264377
+  },
+  {
+   "code": "28",
+   "name": "West Bengal",
+   "places": 4059,
+   "bytes": 94825
+  }
+ ]
+}

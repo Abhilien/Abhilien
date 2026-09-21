@@ -27,7 +27,10 @@ import type {
 import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/engine';
 import type { RectificationResult, MuhurtaActivity, MuhurtaResult } from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
-import { searchPlaces, formatPlace, type Place } from './data/places.js';
+import {
+  ensurePlacesLoaded, placesLoaded, searchPlaces, searchState,
+  loadState, allStates, formatPlace, type Place,
+} from './data/places.js';
 import { loadProfiles, saveProfile, deleteProfile, type Profile } from './storage.js';
 import { t, lang, setLang } from './i18n.js';
 
@@ -51,6 +54,10 @@ interface State {
     longitude: string;
     timezone: string;
     query: string;
+    /** State whose village shard is in use, when tier 1 did not have the place. */
+    stateCode: string | null;
+    stateLoading: boolean;
+    stateCount: number | null;
   };
   chartStyle: ChartStyle;
   varga: VargaCode;
@@ -84,6 +91,9 @@ const state: State = {
     longitude: '',
     timezone: 'Asia/Kolkata',
     query: '',
+    stateCode: null,
+    stateLoading: false,
+    stateCount: null,
   },
   chartStyle: 'NorthIndian',
   varga: 'D9',
@@ -176,7 +186,12 @@ function recompute(): void {
 
 function birthForm(): string {
   const f = state.form;
-  const results = f.query && !f.place ? searchPlaces(f.query) : [];
+  const results = f.query && !f.place
+    ? (f.stateCode
+      // A chosen state means tier 1 already missed, so its villages lead.
+      ? [...searchState(f.stateCode, f.query, 6), ...searchPlaces(f.query, 3)]
+      : searchPlaces(f.query))
+    : [];
 
   const accuracyOptions: [TimeAccuracy, string][] = [
     ['Exact', t('accuracyExact')],
@@ -225,9 +240,24 @@ function birthForm(): string {
       ` : `
         <input id="f-place" data-field="query" value="${esc(f.place ? formatPlace(f.place) : f.query)}"
                placeholder="${t('searchPlace')}" autocomplete="off">
+        ${!placesLoaded() ? `<p class="muted">${t('loadingPlaces')}</p>` : ''}
         ${results.length ? `<div class="results">${results.map((p, i) =>
           `<button data-action="pick-place" data-index="${i}">${esc(p.name)}
             <span class="r-region">${esc(p.country === 'India' ? p.region : p.country)}</span></button>`).join('')}</div>` : ''}
+
+        <label for="f-state">${t('notFoundPlace')}</label>
+        <select id="f-state" data-field="stateCode">
+          <option value="">${t('chooseState')}</option>
+          ${allStates().map((st) => `<option value="${st.code}"${
+            st.code === f.stateCode ? ' selected' : ''}>${esc(st.name)}</option>`).join('')}
+        </select>
+        ${f.stateLoading ? `<p class="muted">${t('loadingVillages')}</p>` : ''}
+        ${f.stateCount !== null && !f.stateLoading
+          ? (f.stateCount > 0
+            ? `<p class="muted">${f.stateCount.toLocaleString()} ${t('villagesLoaded')}</p>`
+            : `<div class="notice">${t('shardUnavailable')}</div>`)
+          : ''}
+
         <div class="chips"><button class="ghost" data-action="manual-on">${t('manualCoords')}</button></div>
       `}
 
@@ -771,6 +801,7 @@ function render(): void {
       <footer>
         <p><strong>${t('disclaimerTitle')}</strong></p>
         <p>${t('disclaimer')}</p>
+        <p>${t('placesAttribution')}</p>
       </footer>
     </main>`;
 }
@@ -799,7 +830,10 @@ document.addEventListener('click', (event) => {
       state.form.manual = false;
       break;
     case 'pick-place': {
-      const results = searchPlaces(state.form.query);
+      const f = state.form;
+      const results = f.stateCode
+        ? [...searchState(f.stateCode, f.query, 6), ...searchPlaces(f.query, 3)]
+        : searchPlaces(f.query);
       const picked = results[Number(target.dataset.index)];
       if (picked) { state.form.place = picked; state.form.query = formatPlace(picked); }
       break;
@@ -966,6 +1000,25 @@ document.addEventListener('input', (event) => {
   if (field === 'matchA') { state.matchA = el.value; render(); return; }
   if (field === 'matchB') { state.matchB = el.value; render(); return; }
 
+  if (field === 'stateCode') {
+    const code = el.value || null;
+    state.form.stateCode = code;
+    state.form.stateCount = null;
+    state.form.place = null;
+    if (!code) { render(); return; }
+
+    // Village shards run to hundreds of kilobytes, so the load is explicit and
+    // its progress is shown rather than the UI simply hanging.
+    state.form.stateLoading = true;
+    render();
+    void loadState(code).then((rows) => {
+      state.form.stateLoading = false;
+      state.form.stateCount = rows.length;
+      render();
+    });
+    return;
+  }
+
   if (field === 'query') {
     state.form.query = el.value;
     state.form.place = null;
@@ -983,6 +1036,10 @@ document.addEventListener('input', (event) => {
 
 setLang(lang());
 render();
+
+// Tier 1 is precached by the service worker, so this normally resolves from
+// cache; the form is usable with the diaspora list meanwhile.
+void ensurePlacesLoaded().then(render);
 
 // Register the offline worker only in a real deployment; a failure here must
 // never stop the app rendering.
