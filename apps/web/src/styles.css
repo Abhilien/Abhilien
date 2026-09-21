@@ -217,3 +217,17 @@ td.verdict { font-size: 17px; text-align: center; width: 1.8em; }
   flex: 0 0 auto; width: 40px; padding: 9px 0;
   font-size: 18px; line-height: 1; text-align: center;
 }
+
+/* Saved charts: a load button paired with its own delete, so saving is
+   reversible rather than a one-way accumulation. */
+.saved-chip { display: inline-flex; }
+.saved-chip .ghost { border-radius: 8px 0 0 8px; }
+.saved-chip .del {
+  border-radius: 0 8px 8px 0; border-left: 0;
+  padding: 6px 9px; color: var(--muted);
+}
+.saved-chip .del:hover { color: var(--warn); background: var(--warn-soft); }
+
+/* First-run explainer. */
+.welcome { background: var(--surface-alt); border-style: dashed; }
+.welcome h3 { font-size: 16px; margin-bottom: 8px; }

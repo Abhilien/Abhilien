@@ -82,6 +82,21 @@ const en: Dict = {
   shardUnavailable: 'The full village list is not available on this deployment. Use coordinates below.',
   placesAttribution: 'Place data from GeoNames, CC BY 4.0.',
   loadingPlaces: 'Loading places…',
+  share: 'Share',
+  shareImage: 'Share image',
+  copied: 'Copied to clipboard',
+  downloaded: 'Image saved',
+  shareFailed: 'Could not share on this device',
+  deleteChart: 'Delete',
+  confirmDelete: 'Delete this saved chart?',
+  welcomeTitle: 'Your Vedic birth chart, computed exactly',
+  welcomeBody:
+    'Enter your birth date, time and place. Everything is calculated on this device — '
+    + 'nothing is sent anywhere, and it works without a network. Positions and periods are '
+    + 'astronomy and are exact; interpretations are what classical texts say, with the source '
+    + 'shown for each one.',
+  welcomeNoTime: 'Do not know your birth time? Enter your best guess and set how sure you are — '
+    + 'the app will say which parts of the chart it cannot determine.',
   tabChart: 'Chart',
   tabDasha: 'Dasha',
   tabYogas: 'Yogas',
@@ -244,6 +259,20 @@ const hi: Dict = {
   shardUnavailable: 'इस संस्करण में पूरी गाँव सूची उपलब्ध नहीं है। नीचे अक्षांश-देशांतर भरें।',
   placesAttribution: 'स्थान डेटा: GeoNames, CC BY 4.0.',
   loadingPlaces: 'स्थान लोड हो रहे हैं…',
+  share: 'साझा करें',
+  shareImage: 'चित्र साझा करें',
+  copied: 'कॉपी हो गया',
+  downloaded: 'चित्र सहेजा गया',
+  shareFailed: 'इस डिवाइस पर साझा नहीं हो सका',
+  deleteChart: 'हटाएँ',
+  confirmDelete: 'यह सहेजी गई कुण्डली हटाएँ?',
+  welcomeTitle: 'आपकी वैदिक जन्म कुण्डली, सटीक गणना',
+  welcomeBody:
+    'जन्म तिथि, समय और स्थान भरें। सारी गणना इसी डिवाइस पर होती है — कुछ भी कहीं नहीं भेजा जाता, '
+    + 'और यह बिना नेटवर्क के भी चलता है। ग्रह स्थिति और दशाएँ खगोलीय गणना हैं और पूर्णतः सटीक हैं; '
+    + 'फलादेश शास्त्रों के अनुसार है, प्रत्येक के स्रोत सहित।',
+  welcomeNoTime: 'जन्म समय ज्ञात नहीं? अनुमान भरें और बताएँ कि कितना निश्चित है — '
+    + 'ऐप बता देगा कि कुण्डली के कौन से भाग निर्धारित नहीं हो सकते।',
   tabChart: 'कुण्डली',
   tabDasha: 'दशा',
   tabYogas: 'योग',

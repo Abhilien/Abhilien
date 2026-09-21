@@ -27,6 +27,7 @@ import type {
 import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/engine';
 import type { RectificationResult, MuhurtaActivity, MuhurtaResult } from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
+import { buildShareText, shareText, shareChartImage } from './ui/share.js';
 import {
   ensurePlacesLoaded, placesLoaded, searchPlaces, searchState,
   loadState, allStates, formatPlace, type Place,
@@ -74,6 +75,8 @@ interface State {
   muhurtaResult: MuhurtaResult | null;
   muhurtaError: string | null;
   muhurtaOpenFactors: number | null;
+  /** Transient confirmation after a share or copy. */
+  toast: string | null;
 }
 
 const state: State = {
@@ -110,6 +113,7 @@ const state: State = {
   muhurtaResult: null,
   muhurtaError: null,
   muhurtaOpenFactors: null,
+  toast: null,
 };
 
 /** `YYYY-MM-DD` in the viewer's own zone, which is what a date input expects. */
@@ -275,7 +279,14 @@ function warningsBlock(): string {
 }
 
 function chartTab(): string {
-  if (!state.chart) return birthForm();
+  if (!state.chart) {
+    const firstRun = state.profiles.length === 0;
+    return `${firstRun ? `<div class="card welcome">
+      <h3>${t('welcomeTitle')}</h3>
+      <p class="muted">${t('welcomeBody')}</p>
+      <p class="muted">${t('welcomeNoTime')}</p>
+    </div>` : ''}${birthForm()}`;
+  }
   const chart = state.chart;
   const conditions = allConditions(chart);
   const vargas = buildAllVargas(chart);
@@ -361,9 +372,12 @@ function chartTab(): string {
     </div>
     ${divisional}
     <div class="chips">
+      <button class="ghost" data-action="share">${t('share')}</button>
+      <button class="ghost" data-action="share-image">${t('shareImage')}</button>
       <button class="ghost" data-action="save">${t('saveProfile')}</button>
       <button class="ghost" data-action="reset">${t('newChart')}</button>
-    </div>`;
+    </div>
+    ${state.toast ? `<p class="muted" role="status">${esc(state.toast)}</p>` : ''}`;
 }
 
 function dashaTab(): string {
@@ -778,8 +792,11 @@ function render(): void {
 
   const saved = state.profiles.length ? `
     <div class="chips">
-      ${state.profiles.slice(0, 6).map((p) =>
-        `<button class="ghost" data-action="load-profile" data-id="${p.id}">${esc(p.name)}</button>`).join('')}
+      ${state.profiles.slice(0, 8).map((p) => `<span class="saved-chip">
+        <button class="ghost" data-action="load-profile" data-id="${p.id}">${esc(p.name)}</button>
+        <button class="ghost del" data-action="delete-profile" data-id="${p.id}"
+                aria-label="${t('deleteChart')} ${esc(p.name)}">\u00d7</button>
+      </span>`).join('')}
     </div>` : '';
 
   document.getElementById('app')!.innerHTML = `
@@ -812,6 +829,8 @@ document.addEventListener('click', (event) => {
   const target = (event.target as HTMLElement).closest<HTMLElement>('[data-action]');
   if (!target) return;
   const action = target.dataset.action!;
+
+  if (action !== 'share' && action !== 'share-image') state.toast = null;
 
   switch (action) {
     case 'tab':
@@ -868,10 +887,44 @@ document.addEventListener('click', (event) => {
       recompute();
       break;
     }
-    case 'delete-profile':
+    case 'delete-profile': {
+      const profile = state.profiles.find((x) => x.id === target.dataset.id);
+      // Deleting someone's saved birth data is not undoable, so it is confirmed.
+      if (profile && !window.confirm(`${t('confirmDelete')}\n\n${profile.name}`)) break;
       deleteProfile(target.dataset.id!);
       state.profiles = loadProfiles();
       break;
+    }
+
+    case 'share': {
+      if (!state.chart) break;
+      const text = buildShareText(state.chart, state.form.name || undefined);
+      void shareText(text, t('appName')).then((outcome) => {
+        state.toast = outcome === 'copied' ? t('copied')
+          : outcome === 'failed' ? t('shareFailed') : null;
+        render();
+      });
+      break;
+    }
+
+    case 'share-image': {
+      const svg = document.querySelector<SVGElement>('svg.kundali');
+      if (!svg || !state.chart) break;
+      const name = (state.form.name || 'kundali').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      const birthTz = state.chart.birth.location.timezone;
+      const caption = {
+        title: state.form.name || t('appName'),
+        subtitle: `${localDate(new Date(state.chart.utcISO), birthTz)} `
+          + `${localTime(new Date(state.chart.utcISO), birthTz)} \u00b7 `
+          + `${state.chart.birth.location.label ?? ''}`,
+      };
+      void shareChartImage(svg, `${name}.png`, t('appName'), caption).then((outcome) => {
+        state.toast = outcome === 'downloaded' ? t('downloaded')
+          : outcome === 'failed' ? t('shareFailed') : null;
+        render();
+      });
+      break;
+    }
 
     case 'rect-add': {
       // Seed a new row at a plausible adult date so the picker does not open
