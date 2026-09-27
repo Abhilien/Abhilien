@@ -10,3 +10,7 @@ coverage/
 # `node scripts/build-places.mjs`. Only the tier-1 file is committed, and the
 # app works fully without the shards.
 apps/web/public/places/state-*.txt
+
+# Subpath build used to prove the base-path config; regenerate with
+# APP_BASE=/kundali/ npx vite build --outDir dist-sub/kundali
+apps/web/dist-sub/

@@ -5,8 +5,17 @@
  * shell is cached on install and served cache-first. There is nothing to
  * revalidate against a server at runtime: every calculation happens on the
  * device, so a stale cache is a fully working app, not a degraded one.
+ *
+ * Every path here is resolved against this file's own URL rather than written
+ * with a leading slash, so the same worker serves the app from a domain root
+ * and from a subpath like /kundali/.
  */
-const CACHE = 'kundali-v2';
+const CACHE = 'kundali-v3';
+
+/** This worker's directory — the deployed base of the app. */
+const BASE = new URL('./', self.location).href;
+const at = (path) => new URL(path, BASE).href;
+const SHELL = at('index.html');
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -14,8 +23,8 @@ self.addEventListener('install', (event) => {
       // tier1 is 82 KB gzipped and is what makes place search work with no
       // signal, so it is part of the shell rather than a later fetch.
       .then((cache) => cache.addAll([
-        '/', '/index.html', '/manifest.webmanifest',
-        '/places/tier1.txt', '/places/index.json',
+        BASE, SHELL, at('manifest.webmanifest'),
+        at('places/tier1.txt'), at('places/index.json'),
       ]))
       .then(() => self.skipWaiting()),
   );
@@ -46,7 +55,7 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         // A navigation with no network falls back to the cached shell.
-        .catch(() => (request.mode === 'navigate' ? caches.match('/index.html') : undefined));
+        .catch(() => (request.mode === 'navigate' ? caches.match(SHELL) : undefined));
     }),
   );
 });

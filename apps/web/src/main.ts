@@ -32,7 +32,9 @@ import {
   ensurePlacesLoaded, placesLoaded, searchPlaces, searchState,
   loadState, allStates, formatPlace, type Place,
 } from './data/places.js';
-import { loadProfiles, saveProfile, deleteProfile, type Profile } from './storage.js';
+import {
+  loadProfiles, saveProfile, deleteProfile, loadLast, saveLast, clearLast, type Profile,
+} from './storage.js';
 import { t, lang, setLang } from './i18n.js';
 
 type Tab = 'chart' | 'dasha' | 'yogas' | 'transits' | 'panchang'
@@ -54,6 +56,12 @@ interface State {
     latitude: string;
     longitude: string;
     timezone: string;
+    /**
+     * The place name behind the coordinates, when there is one. A restored or
+     * saved chart carries the name it was cast with, so reopening the app still
+     * says "Sasaram, Bihar" rather than falling back to "24.949, 84.016".
+     */
+    placeLabel: string;
     query: string;
     /** State whose village shard is in use, when tier 1 did not have the place. */
     stateCode: string | null;
@@ -93,6 +101,7 @@ const state: State = {
     latitude: '',
     longitude: '',
     timezone: 'Asia/Kolkata',
+    placeLabel: '',
     query: '',
     stateCode: null,
     stateLoading: false,
@@ -159,7 +168,7 @@ function buildBirthData(): BirthData | null {
       latitude: Number(f.latitude),
       longitude: Number(f.longitude),
       timezone: f.timezone,
-      label: `${f.latitude}, ${f.longitude}`,
+      label: f.placeLabel || `${f.latitude}, ${f.longitude}`,
     }
     : f.place && {
       latitude: f.place.latitude,
@@ -184,6 +193,7 @@ function recompute(): void {
   const result = castChart(birth, { chartStyle: state.chartStyle });
   state.chart = result.chart;
   state.warnings = result.warnings;
+  saveLast(state.form.name, birth, state.tab);
 }
 
 // --- screens ----------------------------------------------------------------
@@ -835,6 +845,7 @@ document.addEventListener('click', (event) => {
   switch (action) {
     case 'tab':
       state.tab = target.dataset.tab as Tab;
+      if (state.chart) saveLast(state.form.name, state.chart.birth, state.tab);
       break;
     case 'lang':
       setLang(lang() === 'hi' ? 'en' : 'hi');
@@ -854,7 +865,11 @@ document.addEventListener('click', (event) => {
         ? [...searchState(f.stateCode, f.query, 6), ...searchPlaces(f.query, 3)]
         : searchPlaces(f.query);
       const picked = results[Number(target.dataset.index)];
-      if (picked) { state.form.place = picked; state.form.query = formatPlace(picked); }
+      if (picked) {
+        state.form.place = picked;
+        state.form.query = formatPlace(picked);
+        state.form.placeLabel = formatPlace(picked);
+      }
       break;
     }
     case 'calculate':
@@ -871,6 +886,8 @@ document.addEventListener('click', (event) => {
       state.warnings = [];
       state.form.place = null;
       state.form.query = '';
+      state.form.placeLabel = '';
+      clearLast();
       break;
     case 'load-profile': {
       const profile = state.profiles.find((p) => p.id === target.dataset.id);
@@ -883,6 +900,7 @@ document.addEventListener('click', (event) => {
       state.form.latitude = String(b.location.latitude);
       state.form.longitude = String(b.location.longitude);
       state.form.timezone = b.location.timezone;
+      state.form.placeLabel = b.location.label ?? '';
       state.form.accuracy = b.timeAccuracy ?? 'ToMinute';
       recompute();
       break;
@@ -1084,10 +1102,42 @@ document.addEventListener('input', (event) => {
     return;
   }
 
+  // Typing a new coordinate means this is no longer the remembered place.
+  if (field === 'latitude' || field === 'longitude') state.form.placeLabel = '';
+
   (state.form as unknown as Record<string, string>)[field] = el.value;
 });
 
+/**
+ * Bring back the chart the viewer was last reading.
+ *
+ * Someone who casts their chart, closes the app and reopens it should not be
+ * met with a blank form — on a phone that is the difference between a tool and a
+ * toy. The birth data is replayed through the ordinary form fields so there is
+ * exactly one code path that produces a chart.
+ */
+function restoreLast(): void {
+  const last = loadLast();
+  if (!last) return;
+  const b = last.birth;
+  state.form.name = last.name;
+  state.form.date = `${b.year}-${String(b.month).padStart(2, '0')}-${String(b.day).padStart(2, '0')}`;
+  state.form.time = `${String(b.hour).padStart(2, '0')}:${String(b.minute).padStart(2, '0')}`;
+  state.form.accuracy = b.timeAccuracy ?? 'ToMinute';
+  // Coordinates rather than a place lookup: the place shards may not have
+  // loaded yet, and the stored latitude and longitude are what was actually used.
+  state.form.manual = true;
+  state.form.latitude = String(b.location.latitude);
+  state.form.longitude = String(b.location.longitude);
+  state.form.timezone = b.location.timezone;
+  state.form.placeLabel = b.location.label ?? '';
+  state.form.query = b.location.label ?? '';
+  if (TABS.some(([id]) => id === last.tab)) state.tab = last.tab as Tab;
+  recompute();
+}
+
 setLang(lang());
+restoreLast();
 render();
 
 // Tier 1 is precached by the service worker, so this normally resolves from
@@ -1098,7 +1148,7 @@ void ensurePlacesLoaded().then(render);
 // never stop the app rendering.
 if ('serviceWorker' in navigator && import.meta.env?.PROD) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => { /* offline is a bonus, not a requirement */ });
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => { /* offline is a bonus, not a requirement */ });
   });
 }
 

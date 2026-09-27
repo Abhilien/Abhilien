@@ -67,6 +67,13 @@ const shards = new Map<string, Place[]>();
 const shardLoads = new Map<string, Promise<Place[]>>();
 
 /** Load tier 1 and the state index. Idempotent; safe to call on every render. */
+/**
+ * Where the app is deployed. Vite substitutes this at build time, so the same
+ * bundle works from a domain root and from a subpath like /kundali/ — a
+ * hardcoded leading slash 404s on the latter.
+ */
+const BASE = import.meta.env.BASE_URL;
+
 export function ensurePlacesLoaded(): Promise<void> {
   if (!tier1Ready) tier1Ready = load();
   return tier1Ready;
@@ -75,8 +82,8 @@ export function ensurePlacesLoaded(): Promise<void> {
 async function load(): Promise<void> {
   try {
     const [rowsText, indexJson] = await Promise.all([
-      fetch('/places/tier1.txt').then((r) => (r.ok ? r.text() : '')),
-      fetch('/places/index.json').then((r) => (r.ok ? r.json() : null)),
+      fetch(`${BASE}places/tier1.txt`).then((r) => (r.ok ? r.text() : '')),
+      fetch(`${BASE}places/index.json`).then((r) => (r.ok ? r.json() : null)),
     ]);
 
     if (indexJson?.states) {
@@ -115,7 +122,7 @@ export function loadState(code: string): Promise<Place[]> {
 
   let pending = shardLoads.get(code);
   if (!pending) {
-    pending = fetch(`/places/state-${code}.txt`)
+    pending = fetch(`${BASE}places/state-${code}.txt`)
       .then((r) => (r.ok ? r.text() : ''))
       .then((text) => {
         const region = stateNames.get(code) ?? code;

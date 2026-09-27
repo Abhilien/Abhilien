@@ -7,6 +7,13 @@ import { fileURLToPath } from 'node:url';
  * across the boundary — bundle size is a product requirement here, not a nicety.
  */
 export default defineConfig({
+  /**
+   * Deploy target. Empty means a domain root; set APP_BASE=/kundali/ to publish
+   * under a subpath (a GitHub Pages project site, say). Everything that fetches
+   * an asset at runtime reads import.meta.env.BASE_URL, so one env var moves the
+   * whole app.
+   */
+  base: process.env.APP_BASE || '/',
   resolve: {
     alias: {
       '@jyotish/engine': fileURLToPath(
