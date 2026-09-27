@@ -149,6 +149,8 @@ const en: Dict = {
   from: 'From',
   to: 'To',
   balanceAtBirth: 'Balance at birth',
+  yearsShort: 'yrs',
+  monthsShort: 'mo',
 
   findings: 'Findings',
   noFindings: 'No yogas or doshas from the current rule set fired for this chart.',
@@ -225,6 +227,8 @@ const hi: Dict = {
   precisionDay: 'दिन',
   precisionMonth: 'माह',
   precisionYear: 'वर्ष',
+  yearsShort: 'वर्ष',
+  monthsShort: 'माह',
   removeEvent: 'हटाएँ',
   runRectify: 'सर्वोत्तम समय खोजें',
   searchWindow: 'खोज सीमा',

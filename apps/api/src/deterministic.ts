@@ -36,8 +36,15 @@ export function deterministicReading(facts: FactBundle): string {
   }
 
   // --- warnings come early, not buried ---
-  if (facts.warnings.length > 0) {
-    sections.push(`Worth knowing before reading further: ${facts.warnings.join(' ')}`);
+  // The opening paragraph above already explains an unknown birth time in full,
+  // so repeating it here reads like a machine talking to itself — which is
+  // exactly how it read before: two paragraphs in a row saying the ascendant
+  // cannot be determined.
+  const unsaid = facts.warnings.filter(
+    (w) => !(w.code === 'UNKNOWN_BIRTH_TIME' && !facts.chart.housesUsable),
+  );
+  if (unsaid.length > 0) {
+    sections.push(`Worth knowing before reading further: ${unsaid.map((w) => w.message).join(' ')}`);
   }
 
   // --- dasha ---
@@ -48,7 +55,7 @@ export function deterministicReading(facts: FactBundle): string {
     sections.push(paragraph(
       `The Vimshottari dasha running now is ${maha.lord}, from ${maha.from} to ${maha.to},`,
       `and within it the ${antar.lord} sub-period, from ${antar.from} to ${antar.to}.`,
-      `At birth the balance was ${facts.dasha.balanceAtBirth}.`,
+      `The dasha balance at birth was ${facts.dasha.balanceAtBirth}.`,
     ));
     if (facts.dasha.upcoming.length > 1) {
       const next = facts.dasha.upcoming[1]!;

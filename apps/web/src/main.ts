@@ -125,6 +125,23 @@ const state: State = {
   toast: null,
 };
 
+/**
+ * "4 yrs 8 mo" rather than "4.69 yrs". The decimal is the arithmetic; nobody
+ * reads their dasha balance that way.
+ */
+function yearsAndMonths(years: number): string {
+  const whole = Math.floor(years);
+  const months = Math.round((years - whole) * 12);
+  // 4.99 years is five years, not "4 yrs 12 mo".
+  const y = months === 12 ? whole + 1 : whole;
+  const m = months === 12 ? 0 : months;
+  const parts = [
+    y > 0 ? `${y} ${t('yearsShort')}` : '',
+    m > 0 ? `${m} ${t('monthsShort')}` : '',
+  ].filter(Boolean);
+  return parts.length ? parts.join(' ') : `< 1 ${t('monthsShort')}`;
+}
+
 /** `YYYY-MM-DD` in the viewer's own zone, which is what a date input expects. */
 function isoDay(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -412,7 +429,7 @@ function dashaTab(): string {
   return `
     <div class="card">
       <div class="muted">${t('balanceAtBirth')}</div>
-      <strong>${grahaName(balance.lord)} — ${balance.remainingYears.toFixed(2)} yrs</strong>
+      <strong>${grahaName(balance.lord)} — ${yearsAndMonths(balance.remainingYears)}</strong>
       <p class="muted">${nakshatra(chart.positions.Moon.nakshatra)} ${t('pada')} ${chart.positions.Moon.pada}</p>
     </div>
     ${running}

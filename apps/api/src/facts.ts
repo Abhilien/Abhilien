@@ -57,7 +57,7 @@ export interface FactBundle {
   }[];
   ashtakavarga: { house: number; sign: string; bindus: number; strength: string }[];
   /** Warnings the chart itself carries. The narration must not paper over these. */
-  warnings: string[];
+  warnings: { code: string; message: string }[];
   /** Every proper noun the model is permitted to use, for post-generation checks. */
   vocabulary: {
     findingNames: string[];
@@ -69,6 +69,26 @@ export interface FactBundle {
 }
 
 const iso = (d: Date) => d.toISOString().slice(0, 10);
+
+/**
+ * "4 years and 8 months", not "4.69 years".
+ *
+ * The decimal is what the arithmetic produces and what a developer wants to
+ * see; it is not how anyone says this out loud, and the reading is meant to be
+ * read by a customer.
+ */
+function yearsAndMonths(years: number): string {
+  const whole = Math.floor(years);
+  const months = Math.round((years - whole) * 12);
+  // Rounding can carry: 4.99 years is five years, not "4 years and 12 months".
+  const y = months === 12 ? whole + 1 : whole;
+  const m = months === 12 ? 0 : months;
+  const parts = [
+    y > 0 ? `${y} year${y === 1 ? '' : 's'}` : '',
+    m > 0 ? `${m} month${m === 1 ? '' : 's'}` : '',
+  ].filter(Boolean);
+  return parts.length ? parts.join(' and ') : 'less than a month';
+}
 
 export function buildFactBundle(birth: BirthData, asOf = new Date()): FactBundle {
   const { chart, warnings } = castChart(birth);
@@ -157,7 +177,7 @@ export function buildFactBundle(birth: BirthData, asOf = new Date()): FactBundle
     positions,
     houses,
     dasha: {
-      balanceAtBirth: `${GRAHA_NAMES_SA[balance.lord]}, ${balance.remainingYears.toFixed(2)} years remaining at birth`,
+      balanceAtBirth: `${GRAHA_NAMES_SA[balance.lord]}, ${yearsAndMonths(balance.remainingYears)} remaining`,
       current: chain.map((p, i) => ({
         level: levelName[i] ?? `level ${i + 1}`,
         lord: GRAHA_NAMES_SA[p.lord],
@@ -168,7 +188,7 @@ export function buildFactBundle(birth: BirthData, asOf = new Date()): FactBundle
     },
     findings,
     ashtakavarga: ashtakavargaRows,
-    warnings: warnings.map((w) => w.message),
+    warnings: warnings.map((w) => ({ code: w.code, message: w.message })),
     vocabulary: {
       findingNames: findings.map((f) => f.name),
       grahaNames: GRAHAS.map((g) => GRAHA_NAMES_SA[g]),

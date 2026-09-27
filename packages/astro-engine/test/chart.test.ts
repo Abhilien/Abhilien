@@ -198,6 +198,29 @@ describe('historical Indian time', () => {
     const { warnings } = castChart(birth({ timeAccuracy: 'Unknown' }));
     expect(warnings.map((w) => w.code)).toContain('UNKNOWN_BIRTH_TIME');
   });
+
+  it('warns when the birth time is only known to the hour or part of day', () => {
+    for (const accuracy of ['ToHour', 'ToPartOfDay'] as const) {
+      const { warnings } = castChart(birth({ timeAccuracy: accuracy }));
+      expect(warnings.map((w) => w.code), accuracy).toContain('COARSE_BIRTH_TIME');
+    }
+  });
+
+  it('stays quiet only for the accuracies that really are precise', () => {
+    for (const accuracy of ['Exact', 'ToMinute', 'ToFiveMin', 'ToFifteenMin'] as const) {
+      const { warnings } = castChart(birth({ timeAccuracy: accuracy }));
+      expect(warnings.map((w) => w.code), accuracy).not.toContain('COARSE_BIRTH_TIME');
+    }
+  });
+
+  it('treats an accuracy it does not recognise as coarse, not as precise', () => {
+    // TypeScript cannot reach a caller passing JSON over HTTP. The failure this
+    // guards against is silent: an unrecognised value used to fall through to
+    // "no warning", so a typo in a request body bought a confidently stated
+    // ascendant for someone whose birth time was a guess.
+    const { warnings } = castChart(birth({ timeAccuracy: 'WithinHour' as never }));
+    expect(warnings.map((w) => w.code)).toContain('COARSE_BIRTH_TIME');
+  });
 });
 
 describe('obliquity', () => {

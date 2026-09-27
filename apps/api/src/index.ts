@@ -11,7 +11,8 @@ import {
   transitReport, sadeSatiStatus, dhaiyaPeriods,
   findMuhurtas, ACTIVITY_RULES,
 } from '@jyotish/engine';
-import type { BirthData, LifeEvent, EventType, MuhurtaActivity } from '@jyotish/engine';
+import type { LifeEvent, EventType, MuhurtaActivity } from '@jyotish/engine';
+import { parseBirth } from './parse.js';
 import { EVENT_SIGNATURES } from '@jyotish/engine';
 import { buildFactBundle } from './facts.js';
 import { deterministicReading } from './deterministic.js';
@@ -44,26 +45,6 @@ async function readJson(req: IncomingMessage): Promise<unknown> {
 }
 
 /** Validate birth data rather than trusting the client's shape. */
-function parseBirth(value: unknown): BirthData {
-  const b = value as Partial<BirthData>;
-  const loc = b?.location;
-  if (
-    typeof b?.year !== 'number' || typeof b?.month !== 'number' || typeof b?.day !== 'number'
-    || typeof b?.hour !== 'number' || typeof b?.minute !== 'number'
-    || !loc || typeof loc.latitude !== 'number' || typeof loc.longitude !== 'number'
-    || typeof loc.timezone !== 'string'
-  ) {
-    throw new Error(
-      'birth must supply year, month, day, hour, minute and a location with '
-      + 'latitude, longitude and an IANA timezone',
-    );
-  }
-  if (Math.abs(loc.latitude) > 90 || Math.abs(loc.longitude) > 180) {
-    throw new Error('latitude must be within +/-90 and longitude within +/-180');
-  }
-  return b as BirthData;
-}
-
 const routes: Record<string, (body: any) => Promise<unknown>> = {
   /** The raw computation. No model involved, ever. */
   '/v1/chart': async (body) => {

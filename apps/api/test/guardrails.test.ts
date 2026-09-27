@@ -147,7 +147,24 @@ describe('fact bundle', () => {
 
   it('carries the chart warnings through to the narration layer', () => {
     const blind = buildFactBundle({ ...birth, timeAccuracy: 'Unknown' });
-    expect(blind.warnings.join(' ')).toMatch(/birth time/i);
+    expect(blind.warnings.map((w) => w.message).join(' ')).toMatch(/birth time/i);
+    expect(blind.warnings.map((w) => w.code)).toContain('UNKNOWN_BIRTH_TIME');
     expect(deterministicReading(blind)).toMatch(/birth time is not known/i);
+  });
+
+  it('says an unknown birth time once, not twice', () => {
+    // The opening paragraph and the warnings block both used to explain it, so
+    // the reading led with two consecutive paragraphs making the same point.
+    const blind = deterministicReading(buildFactBundle({ ...birth, timeAccuracy: 'Unknown' }));
+    const mentions = blind.split(/\n\n/).filter((p) => /ascendant|birth time/i.test(p)).length;
+    expect(mentions).toBe(1);
+  });
+
+  it('still surfaces a warning the reading does not otherwise cover', () => {
+    // A coarse time keeps its houses, so nothing else in the reading says the
+    // rising sign may be wrong — that warning has to survive the filter.
+    const coarse = buildFactBundle({ ...birth, timeAccuracy: 'ToHour' });
+    expect(coarse.warnings.map((w) => w.code)).toContain('COARSE_BIRTH_TIME');
+    expect(deterministicReading(coarse)).toMatch(/known only roughly/i);
   });
 });

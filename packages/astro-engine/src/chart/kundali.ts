@@ -11,7 +11,7 @@ import { computePositions, ascendant, decomposeLongitude } from '../core/ephemer
 import { buildBhavas, houseOf } from './houses.js';
 import { GRAHAS } from '../core/constants.js';
 import type {
-  BirthData, ChartSettings, Kundali, Graha, BhavaNumber, RashiIndex,
+  BirthData, ChartSettings, Kundali, Graha, BhavaNumber, RashiIndex, TimeAccuracy,
 } from '../core/types.js';
 import { DEFAULT_SETTINGS } from '../core/types.js';
 
@@ -132,7 +132,13 @@ function timeAccuracyWarnings(birth: BirthData): ChartWarning[] {
         'up to 13° out over a full day.',
     }];
   }
-  if (accuracy === 'ToHour' || accuracy === 'ToPartOfDay') {
+  // Inverted on purpose: precision is the thing that must be stated, not
+  // assumed. A caller outside TypeScript — the HTTP API, a JSON body, a future
+  // binding — can hand us a value we have never heard of, and treating that as
+  // "known to the minute" is precisely the false confidence this project exists
+  // to avoid. Anything not on this list is qualified.
+  const precise: TimeAccuracy[] = ['Exact', 'ToMinute', 'ToFiveMin', 'ToFifteenMin'];
+  if (!precise.includes(accuracy)) {
     return [{
       code: 'COARSE_BIRTH_TIME',
       message:
