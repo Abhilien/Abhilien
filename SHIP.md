@@ -108,11 +108,29 @@ it.
 
 One thing that is not code, and it is the real risk:
 
-**Get a practising astrologer to read fifty generated readings.** The
+**Get a practising astrologer to read a pack of generated readings.** The
 astronomy is verified against JPL ephemerides and the rules are cited to their
 texts, but nobody has yet checked that the readings are *useful* — that they
 say what a Jyotishi would say, in the register a customer expects. No amount of
-further engineering establishes that, and it is cheap to find out.
+further engineering establishes that, and it is cheap to find out:
+
+```bash
+npm run build
+npm run review          # → review-pack.html
+```
+
+That is 23 charts chosen to stress what is most likely to be wrong — four times
+of day at one place, Srinagar against Kanyakumari at the same instant, births
+from before 1955 when India had no single time offset, and births where the
+time is not properly known. Each one shows the computed positions, so a
+reviewer can check them against their own software, and the reading as a
+customer sees it, with room to write what it should have said instead. Open it
+on a phone or print it and hand it over.
+
+Generating that pack found four real bugs on its first run, including an
+ascendant being stated to the arcsecond for a birth time the app had been told
+was a guess. It is worth running again whenever the rules or the narration
+change.
 
 And a housekeeping item: this is `Abhilien/Abhilien`, the repository whose
 `README.md` renders on your GitHub profile. Move the project to its own

@@ -12,7 +12,8 @@
     "test": "npm run test --workspaces --if-present",
     "places": "node scripts/fetch-geonames.mjs && node scripts/build-places.mjs .geonames/IN.txt .geonames/admin1CodesASCII.txt",
     "serve": "npx http-server apps/web/dist -p 8801 -s",
-    "verify": "node scripts/verify-deployment.mjs apps/web/dist"
+    "verify": "node scripts/verify-deployment.mjs apps/web/dist",
+    "review": "node scripts/review-pack.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {
