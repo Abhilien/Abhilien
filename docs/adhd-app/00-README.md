@@ -10,7 +10,8 @@ The working name is **Waypoint**. It is a placeholder, and trademark clearance i
 3. [`03-product.md`](03-product.md): Thesis, principles, the full feature set with a critique of every original idea, the features we missed, and detailed specifications
 4. [`04-experience.md`](04-experience.md): AI architecture, UX architecture, home screen, personality, notifications, conversations, user journeys, first month
 5. [`05-business-and-build.md`](05-business-and-build.md): Prioritisation (MVP to Future), monetisation, market, privacy & safety, accessibility, technical architecture, differentiation, roadmap, risks, open questions, and the final answer
-6. [`06-references.md`](06-references.md): All sources
+6. [`07-screens-and-build-specs.md`](07-screens-and-build-specs.md): Example screens, data model, cue engine, parser contract and test cases, leave-engine maths, MVP backlog with acceptance criteria, analytics taxonomy, discovery research kit
+7. [`06-references.md`](06-references.md): All sources
 
 ## Evidence labelling used throughout
 

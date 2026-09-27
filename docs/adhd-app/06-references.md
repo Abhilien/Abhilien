@@ -8,7 +8,7 @@ The sources below were checked during research in September 2026. Links go to th
 2. † Willcutt, E. G., Doyle, A. E., Nigg, J. T., Faraone, S. V., & Pennington, B. F. (2005). Validity of the executive function theory of ADHD: A meta-analytic review. *Biological Psychiatry*, 57(11), 1336–1346.
 3. Faraone, S. V., et al. (2021). The World Federation of ADHD International Consensus Statement: 208 evidence-based conclusions about the disorder. *Neuroscience & Biobehavioral Reviews*, 128, 789–818. https://www.sciencedirect.com/science/article/pii/S014976342100049X
 4. Staley, B. S., et al. (2024). ADHD diagnosis, treatment, and telehealth use in adults: National Center for Health Statistics Rapid Surveys System, United States, Oct–Nov 2023. *MMWR*, 73(40). https://www.cdc.gov/mmwr/volumes/73/wr/mm7340a1.htm
-5. † Song, P., et al. (2021). The prevalence of adult ADHD: A global systematic review and meta-analysis. *Journal of Global Health*, 11, 04009.
+5. Song, P., et al. (2021). The prevalence of adult ADHD: A global systematic review and meta-analysis. *Journal of Global Health*, 11, 04009. https://jogh.org/documents/2021/jogh-11-04009.pdf
 6. Marx, I., et al. (2021). Meta-analysis: Altered perceptual timing abilities in ADHD. *JAACAP*, 60(12). https://www.jaacap.org/article/S0890-8567(21)02045-1/fulltext (summary: https://www.adhdevidence.org/blog/time-blindness-found-to-be-a-consistent-feature-of-adhd)
 7. Time perception in adult ADHD: Findings from a decade (a review) (2023). https://pmc.ncbi.nlm.nih.gov/articles/PMC9962130/
 8. Altgassen, M., Kretschmer, A., & Kliegel, M. (2014). Task dissociation in prospective memory performance in individuals with ADHD. *Journal of Attention Disorders*, 18(7). https://doi.org/10.1177/1087054712445484
@@ -41,7 +41,7 @@ The sources below were checked during research in September 2026. Links go to th
 30. Sundelin, T., Landry, S., & Axelsson, J. (2023/2024). Is snoozing losing? Why intermittent morning alarms are used and how they affect sleep, cognition, cortisol, and mood. *Journal of Sleep Research*. https://pubmed.ncbi.nlm.nih.gov/37849039/
 31. McFarlane, S. J., Garcia, J. E., Verhagen, D. S., & Dyer, A. G. (2020). Alarm tones, music and their elements: Analysis of reported waking sounds to counteract sleep inertia. *PLoS ONE*, 15(1), e0215788. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215788
 32. Coogan, A. N., & McGowan, N. M. (2017). A systematic review of circadian function, chronotype and chronotherapy in ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*, 9, 129–147. https://pubmed.ncbi.nlm.nih.gov/28064405/ · See also: ADHD as a circadian rhythm disorder: evidence and implications for chronotherapy (2025). https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12728042/
-33. † Díaz-Román, A., Mitchell, R., & Cortese, S. (2018). Sleep in adults with ADHD: Systematic review and meta-analysis of subjective and objective studies. *Neuroscience & Biobehavioral Reviews*, 89, 61–71.
+33. Díaz-Román, A., Mitchell, R., & Cortese, S. (2018). Sleep in adults with ADHD: Systematic review and meta-analysis of subjective and objective studies. *Neuroscience & Biobehavioral Reviews*, 89, 61–71. https://pubmed.ncbi.nlm.nih.gov/29477617/
 
 ## Body doubling, social facilitation, breaks, noise
 
@@ -58,10 +58,10 @@ The sources below were checked during research in September 2026. Links go to th
 ## Behavioural science (supplementary, "F" series)
 
 - **F1** † Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the "planning fallacy": Why people underestimate their task completion times. *JPSP*, 67(3), 366–381.
-- **F2** † Kruger, J., & Evans, M. (2004). If you don't want to be late, enumerate: Unpacking reduces the planning fallacy. *Journal of Experimental Social Psychology*, 40(5), 586–598.
+- **F2** Kruger, J., & Evans, M. (2004). If you don't want to be late, enumerate: Unpacking reduces the planning fallacy. *Journal of Experimental Social Psychology*, 40(5), 586–598. https://www.sciencedirect.com/science/article/abs/pii/S002210310300177X
 - **F5** † Chernev, A., Böckenholt, U., & Goodman, J. (2015). Choice overload: A conceptual review and meta-analysis. *Journal of Consumer Psychology*, 25(2), 333–358. (See also Scheibehenne, Greifeneder & Todd, 2010, *JCR*.)
 - **F6** † Hagger, M. S., et al. (2016). A multilab preregistered replication of the ego-depletion effect. *Perspectives on Psychological Science*, 11(4), 546–573.
-- **F7** † Hupfeld, K. E., Abagis, T. R., & Shah, P. (2019). Living "in the zone": Hyperfocus in adult ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*, 11, 191–208.
+- **F7** Hupfeld, K. E., Abagis, T. R., & Shah, P. (2019). Living "in the zone": Hyperfocus in adult ADHD. *ADHD Attention Deficit and Hyperactivity Disorders*, 11, 191–208. https://link.springer.com/article/10.1007/s12402-018-0272-y
 - **F8** † Ashinoff, B. K., & Abu-Akel, A. (2021). Hyperfocus: The forgotten frontier of attention. *Psychological Research*, 85, 1–19.
 - **F9** † Plichta, M. M., & Scheres, A. (2014). Ventral-striatal responsiveness during reward anticipation in ADHD and its relation to trait impulsivity in the healthy population: A meta-analytic review of the fMRI literature. *Neuroscience & Biobehavioral Reviews*, 38, 125–134.
 - **F10** † Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. *Psychological Bulletin*, 125(6), 627–668.

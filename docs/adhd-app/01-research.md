@@ -100,7 +100,7 @@ These run on a small **personal timing model**: how long *you* really take to ge
 
 ### 2.10 Sleep and mornings
 
-- **[E]** Sleep problems are common in adult ADHD: poorer sleep quality and more sleep-onset difficulty in subjective and objective studies [33]. A systematic review of circadian studies finds **later chronotype and delayed circadian phase** (e.g. later melatonin onset) associated with ADHD [32].
+- **[E]** Adults with ADHD *report* more sleep problems than controls. In a 2018 meta-analysis they differed on 7 of 9 self-reported measures, including sleep-onset latency, night awakenings, daytime sleepiness and sleep quality. **Objective** studies found few differences [33]. **[I]** The experience of poor sleep is real, but the mechanism is unsettled, so the app should support routines and not make sleep claims. A systematic review of circadian studies finds **later chronotype and delayed circadian phase** (e.g. later melatonin onset) associated with ADHD [32].
 - **[E]** **Snoozing isn't necessarily bad.** In habitual snoozers, 30 minutes of snoozing did not harm, and in some tests slightly improved, cognition on waking compared with waking at once [30].
 - **[E]** Melodic alarm sounds are *associated* with lower self-reported sleep inertia (survey, N = 50, correlational) [31].
 - **[E]** Writing a specific **to-do list for tomorrow** before bed helped people fall asleep about 9 minutes faster than writing about completed tasks (polysomnography, N = 57) [23].
