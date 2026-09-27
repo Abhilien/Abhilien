@@ -19,6 +19,7 @@ import type {
   Stage,
   State,
   Trait,
+  VerificationKey,
 } from './types';
 import { REACH_ORDER } from './labels';
 
@@ -435,5 +436,55 @@ export function markNoticesRead(s: State, uid: string): State {
   if (!s.notices.some((n) => n.for === uid && !n.read)) return s;
   const d = clone(s);
   for (const n of d.notices) if (n.for === uid) n.read = true;
+  return d;
+}
+
+// ---------------------------------------------------------------------------
+// Visits, verification, reminders
+// ---------------------------------------------------------------------------
+
+/** Record a profile view, once per viewer per day. Incognito views are never stored. */
+export function recordVisit(s: State, from: string, to: string): State {
+  if (from === to || !s.users[from] || !s.users[to]) return s;
+  const u = s.users[from];
+  if (entitlements(u.plan).incognito && u.settings.incognito) return s;
+  const today = s.now.slice(0, 10);
+  if (s.visits.some((v) => v.from === from && v.to === to && v.at.slice(0, 10) === today)) return s;
+  return { ...s, visits: [{ from, to, at: s.now }, ...s.visits] };
+}
+
+export const PREMIUM_VERIFICATION: VerificationKey[] = ['employment', 'education'];
+
+export function verify(s: State, uid: string, key: VerificationKey): State {
+  const u = s.users[uid];
+  if (u.verification[key]) return s;
+  if (PREMIUM_VERIFICATION.includes(key) && !entitlements(u.plan).advancedVerification) return s;
+  const d = clone(s);
+  d.users[uid].verification[key] = true;
+  return d;
+}
+
+export const WAITING_REMINDER_DAYS = 7;
+
+/**
+ * A single, gentle reminder for mutual interest that has waited a week.
+ * Never repeated, never counted, never urgent.
+ */
+export function remindWaiting(s: State): State {
+  const due = s.connections.filter(
+    (c) => c.status === 'mutual' && !c.remindedAt && daysBetween(c.mutualAt, s.now) >= WAITING_REMINDER_DAYS,
+  );
+  if (!due.length) return s;
+  const d = clone(s);
+  const told = new Set<string>();
+  for (const c of d.connections) {
+    if (!due.some((x) => x.id === c.id)) continue;
+    c.remindedAt = d.now;
+    for (const u of c.users) {
+      if (told.has(`${u}:${c.kind}`)) continue;
+      told.add(`${u}:${c.kind}`);
+      notify(d, u, 'Someone on your waiting list is still interested.', `/connections?kind=${c.kind}`);
+    }
+  }
   return d;
 }

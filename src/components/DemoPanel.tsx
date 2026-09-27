@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { eligible } from '../domain/discovery';
-import { hasInterest } from '../domain/rules';
+import { hasInterest, remindWaiting } from '../domain/rules';
 import { PERSONAS } from '../domain/seed';
 import type { State } from '../domain/types';
 import { useStore } from '../state/store';
@@ -98,7 +98,7 @@ export function DemoPanel({ onDone }: { onDone?: () => void }) {
           <button
             className="chip outline"
             onClick={() => {
-              act((s) => ({ ...s, day: s.day + 1 }));
+              act((s) => remindWaiting({ ...s, day: s.day + 1, now: new Date(new Date(s.now).getTime() + 86_400_000).toISOString() }));
               toast('It’s tomorrow. A fresh, small set of recommendations is ready.');
             }}
           >

@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
 import { Icon, type IconName } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
-import { FeedbackDetail, Verification } from '../components/Trust';
-import { PlanTag, Segmented, ToggleRow, TopBar } from '../components/ui';
+import { FeedbackDetail } from '../components/Trust';
+import { Avatar as MiniAvatar } from '../components/Portrait';
+import { PlanTag, Segmented, Sheet, Tick, ToggleRow, TopBar } from '../components/ui';
 import { COUNTRIES } from '../domain/seed';
 import { entitlements } from '../domain/entitlements';
-import { FIELD_LABEL, INTENT_LABEL, REACH_LABEL, REACH_ORDER, SHARE_LABEL } from '../domain/labels';
-import { updateSettings } from '../domain/rules';
+import { FIELD_LABEL, INTENT_LABEL, REACH_LABEL, REACH_ORDER, SHARE_LABEL, VERIFICATION_LABEL } from '../domain/labels';
+import { PREMIUM_VERIFICATION, updateSettings, verify } from '../domain/rules';
+import { useState } from 'react';
 import { isFeedbackVisible, maturity, MATURITY_LABEL } from '../domain/trust';
-import type { Intent, Kind, Reach, ShareLevel, SharedField, State } from '../domain/types';
+import type { Intent, Kind, Reach, ShareLevel, SharedField, State, VerificationKey } from '../domain/types';
 import { useStore } from '../state/store';
 
 export function YouScreen({ onOpenDemo }: { onOpenDemo: () => void }) {
@@ -55,7 +57,7 @@ export function YouScreen({ onOpenDemo }: { onOpenDemo: () => void }) {
         <section className="section">
           <p className="eyebrow" style={{ marginBottom: 10 }}>Verification</p>
           <div className="card flat">
-            <Verification user={viewer} />
+            <VerificationList />
             <p className="tiny faint" style={{ marginTop: 12 }}>
               {e.advancedVerification
                 ? 'Premium includes employment and education verification.'
@@ -280,6 +282,8 @@ export function PrivacySettings() {
           </div>
         </section>
 
+        <Visitors />
+
         <section className="section">
           <div className="row between" style={{ marginBottom: 6 }}>
             <p className="eyebrow">Progressive sharing</p>
@@ -358,5 +362,118 @@ export function ProfileSettings() {
         </section>
       </div>
     </>
+  );
+}
+
+// ---------------------------------------------------------------------------
+
+const VERIFY_STEPS: Record<VerificationKey, string> = {
+  identity: 'Scan a government ID. We confirm your name and age, then delete the image.',
+  phone: 'Confirm a one-time code sent by SMS. Your number is never shown to anyone.',
+  photo: 'Take a short selfie video. We check it matches your profile photos.',
+  employment: 'Connect a work email or upload a recent payslip. Only your job title is confirmed.',
+  education: 'Upload a degree certificate or verify through your university email.',
+  profile: 'We review your profile details for consistency. Nothing changes publicly except the tick.',
+};
+
+function VerificationList() {
+  const { viewer, act, toast } = useStore();
+  const [open, setOpen] = useState<VerificationKey | null>(null);
+  const [checking, setChecking] = useState(false);
+  const premium = entitlements(viewer.plan).advancedVerification;
+  const keys = Object.keys(VERIFICATION_LABEL) as VerificationKey[];
+  const locked = open ? PREMIUM_VERIFICATION.includes(open) && !premium : false;
+
+  return (
+    <>
+      <div className="check-list">
+        {keys.map((k) => (
+          <button
+            key={k}
+            type="button"
+            className={`check${viewer.verification[k] ? '' : ' off'}`}
+            style={{ background: 'none', border: 0, padding: 0, textAlign: 'left' }}
+            onClick={() => !viewer.verification[k] && setOpen(k)}
+            aria-label={viewer.verification[k] ? `${VERIFICATION_LABEL[k]} verified` : `Verify ${VERIFICATION_LABEL[k].toLowerCase()}`}
+          >
+            <Tick on={viewer.verification[k]} />
+            {VERIFICATION_LABEL[k]}
+            {!viewer.verification[k] && <span className="tiny" style={{ color: 'var(--accent)', fontWeight: 600 }}>Verify</span>}
+          </button>
+        ))}
+      </div>
+      <Sheet open={!!open} onClose={() => !checking && setOpen(null)} label="Verify">
+        {open && (
+          <>
+            <div className="row between">
+              <p className="eyebrow">Verification</p>
+              {PREMIUM_VERIFICATION.includes(open) && <span className="plan-tag">Premium</span>}
+            </div>
+            <h2 className="display sm" style={{ margin: '6px 0 8px' }}>Verify your {VERIFICATION_LABEL[open].toLowerCase()}</h2>
+            <p className="muted">{VERIFY_STEPS[open]}</p>
+            <p className="tiny faint" style={{ marginTop: 10 }}>
+              A tick means this was independently confirmed. It doesn’t rank you, and it’s never required.
+            </p>
+            {locked ? (
+              <Link to="/premium" className="btn secondary block" style={{ marginTop: 18 }} onClick={() => setOpen(null)}>
+                About Premium
+              </Link>
+            ) : (
+              <button
+                className="btn primary block"
+                style={{ marginTop: 18 }}
+                disabled={checking}
+                onClick={() => {
+                  setChecking(true);
+                  setTimeout(() => {
+                    act((s) => verify(s, viewer.id, open));
+                    toast(`${VERIFICATION_LABEL[open]} verified.`);
+                    setChecking(false);
+                    setOpen(null);
+                  }, 1300);
+                }}
+              >
+                {checking ? 'Checking…' : 'Start (demo)'}
+              </button>
+            )}
+          </>
+        )}
+      </Sheet>
+    </>
+  );
+}
+
+function Visitors() {
+  const { state, viewer } = useStore();
+  const week = new Date(state.now).getTime() - 7 * 86_400_000;
+  const seen = new Set<string>();
+  const list = state.visits
+    .filter((v) => v.to === viewer.id && new Date(v.at).getTime() >= week)
+    .filter((v) => (seen.has(v.from) ? false : (seen.add(v.from), true)));
+  return (
+    <section className="section">
+      <p className="eyebrow" style={{ marginBottom: 6 }}>Recent profile visitors</p>
+      <p className="small muted" style={{ marginBottom: 10 }}>
+        The last 7 days, kept here rather than sent as notifications. Members browsing in Incognito never appear.
+      </p>
+      {list.length ? (
+        <div className="list">
+          {list.map((v) => {
+            const u = state.users[v.from];
+            return (
+              <Link key={v.from} to={`/profile/${u.id}`} className="list-row">
+                <MiniAvatar p={u.profile.portraits[0]} size={36} />
+                <div className="grow">
+                  <div style={{ fontWeight: 550 }}>{u.profile.firstName}</div>
+                  <div className="tiny faint">{u.profile.place.city}</div>
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      ) : (
+        <p className="small muted">No visitors this week.</p>
+      )}
+    </section>
   );
 }

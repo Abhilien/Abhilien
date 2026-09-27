@@ -1,9 +1,10 @@
+import { useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { HeroCaption, PhotoHero, ProfileBody } from '../components/ProfileBody';
 import { FeedbackDetail, FeedbackLocked } from '../components/Trust';
 import { Empty, TopBar } from '../components/ui';
-import { expressInterest, hasInterest, holdsSlot, openConnectionBetween, slotFree, startPrimary } from '../domain/rules';
+import { expressInterest, hasInterest, holdsSlot, openConnectionBetween, recordVisit, slotFree, startPrimary } from '../domain/rules';
 import { feedbackAccess } from '../domain/trust';
 import type { Kind } from '../domain/types';
 import { useStore } from '../state/store';
@@ -13,6 +14,9 @@ export function ProfileScreen() {
   const { state, viewer, act, toast } = useStore();
   const nav = useNavigate();
   const user = state.users[id];
+  useEffect(() => {
+    act((s) => recordVisit(s, s.viewerId, id));
+  }, [act, id]);
   if (!user) {
     return (
       <>
