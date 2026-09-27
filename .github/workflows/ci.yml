@@ -1,0 +1,44 @@
+# Continuous checks.
+#
+# Deliberately does not touch the network beyond npm: the place database's
+# tier-1 file is committed, so a GeoNames outage can never turn this red. The
+# full database is rebuilt in the deploy workflow, where a stale download is a
+# real problem rather than a false alarm.
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      # tsc runs as part of the web build, so a type error fails here too.
+      - name: Test
+        run: npm test --workspaces --if-present
+
+      - name: Build
+        run: npm run build
+
+      # The app has to stay small enough to install over a 2G connection, so
+      # the budget is enforced rather than hoped for.
+      - name: Check bundle budget
+        run: |
+          bytes=$(gzip -c apps/web/dist/assets/*.js | wc -c)
+          echo "JS bundle: $bytes bytes gzipped"
+          if [ "$bytes" -gt 90000 ]; then
+            echo "::error::bundle is $bytes bytes gzipped, budget is 90000"
+            exit 1
+          fi

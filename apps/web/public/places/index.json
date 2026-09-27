@@ -1,7 +1,7 @@
 {
  "source": "GeoNames (https://www.geonames.org/), CC BY 4.0",
- "generated": "2026-09-21",
- "tier1": 7117,
+ "generated": "2026-09-27",
+ "tier1": 7118,
  "states": [
   {
    "code": "01",
@@ -30,8 +30,8 @@
   {
    "code": "34",
    "name": "Bihar",
-   "places": 43046,
-   "bytes": 1007523
+   "places": 43045,
+   "bytes": 1007496
   },
   {
    "code": "05",

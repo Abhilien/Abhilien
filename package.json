@@ -3,10 +3,19 @@
   "private": true,
   "version": "0.1.0",
   "description": "Kundali / Vedic astrology platform — deterministic engine, offline-first app, grounded AI narration",
-  "workspaces": ["packages/*", "apps/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "build": "npm run build --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present"
+    "test": "npm run test --workspaces --if-present",
+    "places": "node scripts/fetch-geonames.mjs && node scripts/build-places.mjs .geonames/IN.txt .geonames/admin1CodesASCII.txt",
+    "serve": "npx http-server apps/web/dist -p 8801 -s",
+    "verify": "node scripts/verify-deployment.mjs apps/web/dist"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
 }

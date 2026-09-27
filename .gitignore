@@ -14,3 +14,6 @@ apps/web/public/places/state-*.txt
 # Subpath build used to prove the base-path config; regenerate with
 # APP_BASE=/kundali/ npx vite build --outDir dist-sub/kundali
 apps/web/dist-sub/
+
+# GeoNames dump, downloaded by scripts/fetch-geonames.mjs
+.geonames/

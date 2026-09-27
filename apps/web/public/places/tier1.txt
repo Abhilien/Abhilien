@@ -4467,6 +4467,7 @@ Egarkunr	38	23.751	86.769
 Arwani	12	33.782	75.067
 Satgawan	38	24.548	84.282
 Sarjapur	19	12.860	77.787
+Shitab Diara	34	25.756	84.613
 Ilampillai	25	11.607	78.007
 Chittapari	21	18.243	82.050
 Sidsar	09	21.719	72.111

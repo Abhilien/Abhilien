@@ -13,7 +13,7 @@ mobile app, and an AI narration layer that cannot fabricate.
 
 | Package | What it is | State |
 |---|---|---|
-| `packages/astro-engine` | Deterministic Jyotish engine. No network, no clock, no randomness, no model. | 175 tests |
+| `packages/astro-engine` | Deterministic Jyotish engine. No network, no clock, no randomness, no model. | 241 tests |
 | `apps/web` | Offline-first PWA, 70 KB gzipped, Hindi and English. Eight tabs: chart, dashas, yogas, transits, panchang, muhurta, matching and birth-time rectification. | Verified in a real browser |
 | `apps/api` | HTTP API + grounded AI narration with guardrails. | 20 tests |
 
@@ -119,15 +119,27 @@ minute while still, correctly, declining to claim it.
 ## Running it
 
 ```bash
-npm install
-npm --workspace @jyotish/engine run test    # 175 tests
-npm --workspace @jyotish/engine run build
+npm ci
+npm test                                    # 261 tests: 241 engine, 20 API
+npm run build                               # → apps/web/dist
 npm --workspace @jyotish/web run dev        # the app
 npm --workspace @jyotish/api run dev        # the API
 ```
 
+Optionally, the full place database — 550,000 villages on top of the committed
+7,118 cities and towns:
+
+```bash
+npm run places
+```
+
 The API works without an `ANTHROPIC_API_KEY` — it serves template readings,
 which is the intended free tier.
+
+**To publish it, see [SHIP.md](SHIP.md).** The app is static files and needs no
+server; `npm run verify` drives the built artifact in a real browser, offline
+reload included, and is what stands between a config change and a broken
+deployment.
 
 ## What is not done yet
 
@@ -140,12 +152,12 @@ a missing one:
   choice. It lands when it can be validated against reference tables.
 - **KP system and Placidus houses.** Held back for the same reason — validated
   against KP reference tables, or not shipped.
-- **Full place database.** 150 places are bundled; production needs the GeoNames
-  India extract (~500k places) behind the same interface.
 - **Prashna (horary).**
 - **Voice and more languages.** Hindi is complete; the engine is ready for the
   rest. Bhashini (Government of India) provides free Indic ASR and TTS.
-- **Prashna (horary).**
+- **A practising astrologer's review.** Not code, and the largest open risk:
+  the astronomy is checked against JPL ephemerides and every rule is cited, but
+  nobody has confirmed the readings say what a Jyotishi would say.
 
 ## Before selling this
 
