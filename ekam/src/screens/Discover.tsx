@@ -3,10 +3,10 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
 import { HeroCaption, PhotoHero, ProfileBody } from '../components/ProfileBody';
-import { Empty, Segmented, Sheet, Skeleton, TopBar } from '../components/ui';
-import { effectiveReach, ensureDaily } from '../domain/discovery';
+import { Empty, Segmented, Sheet, Skeleton, ToggleRow, TopBar } from '../components/ui';
+import { effectiveReach, ensureDaily, refreshDaily } from '../domain/discovery';
 import { entitlements } from '../domain/entitlements';
-import { REACH_LABEL } from '../domain/labels';
+import { INTENT_LABEL, REACH_LABEL } from '../domain/labels';
 import {
   expressInterest,
   hasInterest,
@@ -16,9 +16,10 @@ import {
   pass,
   primaryOf,
   startPrimary,
+  updateSettings,
   type InterestOutcome,
 } from '../domain/rules';
-import type { Kind } from '../domain/types';
+import type { DiscoveryFilters, Intent, Kind } from '../domain/types';
 import { useStore } from '../state/store';
 
 type Result = { id: string; outcome: InterestOutcome };
@@ -32,6 +33,10 @@ export function DiscoverScreen() {
   const [loading, setLoading] = useState(true);
   const [attempt, setAttempt] = useState(0);
   const [result, setResult] = useState<Result | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const f = viewer.settings.filters;
+  const filtersActive =
+    entitlements(viewer.plan).advancedFilters && (f.minAge > 21 || f.maxAge < 45 || f.verifiedOnly || f.intents.length > 0);
 
   useEffect(() => {
     setLoading(true);
@@ -62,9 +67,14 @@ export function DiscoverScreen() {
       <TopBar
         title={<span className="display sm" style={{ fontSize: 26 }}>Discover</span>}
         right={
-          <Link to="/you/discovery" className="chip outline" style={{ textDecoration: 'none' }}>
-            <Icon name="globe" size={14} /> {REACH_LABEL[reach].title}
-          </Link>
+          <div className="row" style={{ '--gap': '6px' } as React.CSSProperties}>
+            <button className="chip outline" onClick={() => setFiltersOpen(true)} aria-label="Filters">
+              Filters{filtersActive ? ' ·' : ''}
+            </button>
+            <Link to="/you/discovery" className="chip outline" style={{ textDecoration: 'none' }}>
+              <Icon name="globe" size={14} /> {REACH_LABEL[reach].title}
+            </Link>
+          </div>
         }
       />
       <div className="scroll flush">
@@ -143,6 +153,7 @@ export function DiscoverScreen() {
       </div>
 
       <InterestResult result={result} kind={kind} onClose={() => setResult(null)} />
+      <FiltersSheet open={filtersOpen} kind={kind} onClose={() => setFiltersOpen(false)} />
     </>
   );
 }
@@ -261,5 +272,91 @@ function NothingInReach({ kind }: { kind: Kind }) {
           : 'We only show people who fit what you’ve both said matters. Widening your reach can help.'}
       </Empty>
     </div>
+  );
+}
+
+const AGES = Array.from({ length: 25 }, (_, i) => 21 + i);
+const FILTER_INTENTS: Intent[] = ['casual', 'serious', 'long-term', 'marriage', 'exploring'];
+
+function FiltersSheet({ open, kind, onClose }: { open: boolean; kind: Kind; onClose: () => void }) {
+  const { viewer, act, toast } = useStore();
+  const allowed = entitlements(viewer.plan).advancedFilters;
+  const [draft, setDraft] = useState<DiscoveryFilters>(viewer.settings.filters);
+  useEffect(() => {
+    if (open) setDraft(viewer.settings.filters);
+  }, [open, viewer.settings.filters]);
+  const set = (patch: Partial<DiscoveryFilters>) => setDraft((d) => ({ ...d, ...patch }));
+
+  return (
+    <Sheet open={open} onClose={onClose} label="Discovery filters">
+      <div className="row between">
+        <p className="eyebrow">Advanced filters</p>
+        {!allowed && <span className="plan-tag">Premium</span>}
+      </div>
+      <h2 className="display sm" style={{ margin: '6px 0 6px' }}>Narrow today’s selection</h2>
+      <p className="small muted" style={{ marginBottom: 16 }}>
+        Filters make your five recommendations more relevant. They never add more people to your day.
+      </p>
+      <fieldset disabled={!allowed} style={{ border: 0, padding: 0, margin: 0, opacity: allowed ? 1 : 0.5 }}>
+        <div className="row" style={{ '--gap': '10px' } as React.CSSProperties}>
+          <div className="field grow">
+            <label htmlFor="f-min">Age from</label>
+            <select id="f-min" className="input" value={draft.minAge} onChange={(e) => set({ minAge: Math.min(+e.target.value, draft.maxAge) })}>
+              {AGES.map((a) => <option key={a} value={a}>{a}</option>)}
+            </select>
+          </div>
+          <div className="field grow">
+            <label htmlFor="f-max">to</label>
+            <select id="f-max" className="input" value={draft.maxAge} onChange={(e) => set({ maxAge: Math.max(+e.target.value, draft.minAge) })}>
+              {AGES.map((a) => <option key={a} value={a}>{a}</option>)}
+            </select>
+          </div>
+        </div>
+        {kind === 'romantic' && (
+          <div style={{ marginTop: 16 }}>
+            <div className="small" style={{ fontWeight: 550, marginBottom: 6 }}>Looking for</div>
+            <div className="chips">
+              {FILTER_INTENTS.map((i) => (
+                <button
+                  key={i}
+                  type="button"
+                  className="chip"
+                  aria-pressed={draft.intents.includes(i)}
+                  onClick={() => set({ intents: draft.intents.includes(i) ? draft.intents.filter((x) => x !== i) : [...draft.intents, i] })}
+                >
+                  {INTENT_LABEL[i]}
+                </button>
+              ))}
+            </div>
+            <p className="tiny faint" style={{ marginTop: 6 }}>None selected means any intention.</p>
+          </div>
+        )}
+        <div className="list" style={{ marginTop: 16 }}>
+          <ToggleRow
+            title="Identity and photo verified only"
+            checked={draft.verifiedOnly}
+            onChange={(v) => set({ verifiedOnly: v })}
+            disabled={!allowed}
+          />
+        </div>
+      </fieldset>
+      {allowed ? (
+        <button
+          className="btn primary block"
+          style={{ marginTop: 18 }}
+          onClick={() => {
+            act((s) => refreshDaily(updateSettings(s, viewer.id, { filters: draft }), viewer.id, kind));
+            onClose();
+            toast('Filters applied to today’s selection.');
+          }}
+        >
+          Apply
+        </button>
+      ) : (
+        <Link to="/premium" className="btn secondary block" style={{ marginTop: 18 }} onClick={onClose}>
+          About Premium
+        </Link>
+      )}
+    </Sheet>
   );
 }

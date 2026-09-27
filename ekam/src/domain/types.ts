@@ -91,6 +91,14 @@ export interface Profile {
   openTo: Kind[];
 }
 
+export interface DiscoveryFilters {
+  minAge: number;
+  maxAge: number;
+  verifiedOnly: boolean;
+  /** Empty means any intent. */
+  intents: Intent[];
+}
+
 export interface Settings {
   feedbackVisible: boolean;
   incognito: boolean;
@@ -102,6 +110,8 @@ export interface Settings {
   relocation: boolean;
   international: boolean;
   sharing: Record<SharedField, ShareLevel>;
+  /** Premium only; ignored on Free. */
+  filters: DiscoveryFilters;
 }
 
 export interface History {
@@ -201,6 +211,8 @@ export interface Connection {
   invite?: { by: string; at: string };
   checkins: Record<string, CheckIn>;
   fromRomance?: boolean;
+  /** When the gentle "still interested" reminder was last sent. */
+  remindedAt?: string;
   /** Users who have been invited to leave Connection Feedback. */
   feedbackDue: string[];
 }
@@ -240,5 +252,7 @@ export interface State {
   connections: Connection[];
   feedback: FeedbackEntry[];
   notices: Notice[];
+  /** Profile views. Incognito members are never recorded. */
+  visits: { from: string; to: string; at: string }[];
   discovery: Record<string, Partial<Record<Kind, DailyDiscovery>>>;
 }

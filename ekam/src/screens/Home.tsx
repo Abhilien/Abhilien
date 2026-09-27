@@ -26,6 +26,13 @@ export function HomeScreen({ onOpenDemo }: { onOpenDemo: () => void }) {
     (id) => !hasInterest(state, viewer.id, id, 'romantic') && !hasPassed(state, viewer.id, id, 'romantic'),
   ).length;
 
+  const friendDaily = viewer.profile.openTo.includes('friendship')
+    ? ensureDaily(state, viewer.id, 'friendship').discovery[viewer.id]?.friendship
+    : undefined;
+  const friendRemaining = (friendDaily?.ids ?? []).filter(
+    (id) => !hasInterest(state, viewer.id, id, 'friendship') && !hasPassed(state, viewer.id, id, 'friendship'),
+  ).length;
+
   const lead = romantic
     ? romantic.status === 'paused'
       ? `Your connection with ${state.users[other(romantic, viewer.id)].profile.firstName} is paused and reserved.`
@@ -117,6 +124,11 @@ export function HomeScreen({ onOpenDemo }: { onOpenDemo: () => void }) {
                 <p className="small muted" style={{ marginTop: 4 }}>
                   {remaining > 0 ? 'Selected for you today, each with a reason.' : 'A new, small selection arrives tomorrow.'}
                 </p>
+                {friendDaily && (
+                  <p className="small" style={{ marginTop: 8, color: 'var(--friend)' }}>
+                    {friendRemaining > 0 ? `Plus ${friendRemaining} for friendship` : 'Friendship: done for today'}
+                  </p>
+                )}
               </div>
               <span className="icon-btn"><Icon name="arrowRight" size={18} /></span>
             </div>

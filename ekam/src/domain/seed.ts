@@ -23,7 +23,7 @@ import type {
 } from './types';
 
 const DAY = 86_400_000;
-export const STATE_VERSION = 3;
+export const STATE_VERSION = 4;
 
 // ---------------------------------------------------------------------------
 // Places
@@ -123,6 +123,7 @@ const defaultSettings: Settings = {
   relocation: false,
   international: false,
   sharing: { profession: 'discovery', education: 'discovery', future: 'mutual', languages: 'discovery' },
+  filters: { minAge: 21, maxAge: 45, verifiedOnly: false, intents: [] },
 };
 
 let seedIndex = 0;
@@ -1305,6 +1306,12 @@ export function createSeedState(nowMs = Date.now()): State {
     connections,
     feedback,
     notices,
+    visits: [
+      { from: 'kavya', to: 'abhishek', at: ago(1) },
+      { from: 'aisha', to: 'abhishek', at: ago(2) },
+      { from: 'aditya', to: 'meera', at: ago(0.5) },
+      { from: 'rehan', to: 'sarah', at: ago(3) },
+    ],
     discovery: {},
   };
 }

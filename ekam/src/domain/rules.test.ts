@@ -1,10 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { curate, eligible, ensureDaily } from './discovery';
+import { curate, eligible, ensureDaily, refreshDaily } from './discovery';
 import {
   closeConnection,
   expressInterest,
   moveToFriendship,
+  pass,
   pauseConnection,
+  recordVisit,
+  remindWaiting,
   primaryOf,
   returnToWaiting,
   setPlan,
@@ -12,6 +15,7 @@ import {
   startPrimary,
   submitFeedback,
   updateSettings,
+  verify,
   waitingOf,
 } from './rules';
 import { createSeedState } from './seed';
@@ -201,5 +205,45 @@ describe('maturity', () => {
     expect(maturity(s.users.ananya, s.now)).toBe('established');
     expect(maturity(s.users.riya, s.now)).toBe('limited');
     expect(maturity(s.users.aisha, s.now)).toBe('new');
+  });
+});
+
+describe('second pass: filters, visits, verification, reminders', () => {
+  it('advanced filters apply to Premium only', () => {
+    let s = updateSettings(fresh(), 'abhishek', { filters: { minAge: 21, maxAge: 29, verifiedOnly: false, intents: [] } });
+    expect(curate(s, 'abhishek', 'romantic').every((id) => s.users[id].profile.age <= 29)).toBe(true);
+    s = updateSettings(fresh(), 'meera', { filters: { minAge: 40, maxAge: 45, verifiedOnly: false, intents: [] } });
+    expect(curate(s, 'meera', 'romantic').length).toBeGreaterThan(0); // ignored on Free
+  });
+
+  it('changing filters can never exceed the daily limit', () => {
+    let s = ensureDaily(fresh(), 'abhishek', 'romantic');
+    for (const id of s.discovery.abhishek!.romantic!.ids.slice(0, 3)) s = pass(s, 'abhishek', id, 'romantic');
+    s = refreshDaily(s, 'abhishek', 'romantic');
+    expect(s.discovery.abhishek!.romantic!.ids.length).toBeLessThanOrEqual(5);
+    const unacted = s.discovery.abhishek!.romantic!.ids.filter((id) => !s.passes.some((p) => p.to === id));
+    expect(unacted.length).toBeLessThanOrEqual(2);
+  });
+
+  it('incognito Premium views are not recorded', () => {
+    let s = recordVisit(fresh(), 'abhishek', 'aisha');
+    expect(s.visits.some((v) => v.from === 'abhishek' && v.to === 'aisha')).toBe(true);
+    s = updateSettings(fresh(), 'abhishek', { incognito: true });
+    expect(recordVisit(s, 'abhishek', 'aisha').visits.some((v) => v.to === 'aisha')).toBe(false);
+  });
+
+  it('employment verification needs Premium', () => {
+    expect(verify(fresh(), 'meera', 'employment').users.meera.verification.employment).toBe(false);
+    expect(verify(fresh(), 'meera', 'identity').users.meera.verification.identity).toBe(true);
+    expect(verify(fresh(), 'abhishek', 'education').users.abhishek.verification.education).toBe(true);
+  });
+
+  it('waiting reminders are sent once, after a week', () => {
+    let s = fresh();
+    expect(remindWaiting(s)).toBe(s); // nothing has waited 7 days yet
+    s = { ...s, now: new Date(new Date(s.now).getTime() + 8 * 86_400_000).toISOString() };
+    const r = remindWaiting(s);
+    expect(r.notices.filter((n) => n.for === 'abhishek' && n.text.includes('still interested')).length).toBe(2);
+    expect(remindWaiting(r)).toBe(r);
   });
 });

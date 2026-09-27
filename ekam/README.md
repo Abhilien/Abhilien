@@ -54,6 +54,7 @@ Rules enforced in `src/domain/rules.ts` (and covered by tests):
 - **Changing Primary** means first deciding what happens to the current one: *continue*, *move to friendship*, *pause and return to waiting* (mutual interest kept), or *close*.
 - **Romance → friendship** frees the romantic slot. The friendship becomes Primary if both friendship slots are free, otherwise it goes to the waiting list, marked “once romantic”.
 - **Closure** asks for a reason plus an optional kind note. Neither person is shown to the other in Discovery again, and closures are never counted publicly.
+- **Waiting reminder:** after mutual interest has waited 7 days, each person gets one gentle “Someone on your waiting list is still interested.” It is never repeated and never shows a count.
 - **Pausing your profile** hides you from new Discovery. Your connections and waiting lists stay exactly as they are.
 
 ## Trust, transparency and feedback
@@ -81,6 +82,10 @@ Downgrading to Free switches your feedback back to visible.
 
 ## Premium
 
+- **Advanced filters** (age, intention, verified-only) narrow the day’s 5. Changing filters keeps people you already considered counted, so filters can never show more than 5 a day.
+- **Incognito** views are never recorded. Everyone else’s views appear in a quiet *Recent profile visitors* list under Privacy, never as notifications.
+- **Verification:** identity, phone, photo and profile checks are free. Employment and education are Premium. You can run each check from You → Verification (simulated).
+
 Premium gives you **more reach, more information, more control and more verification**. It **never** gives you more Primaries, unlimited swiping, boosts, a higher ranking, a way to look at feedback while hiding your own, or a view of who passed on you. The rules live in `src/domain/entitlements.ts`. `concierge` is a reserved plan with a `matchmaker` entitlement, so a future human-matchmaking tier can be added without changing the model.
 
 ---
@@ -97,7 +102,7 @@ src/
     privacy.ts       progressive sharing (Discovery → Mutual → Primary)
     entitlements.ts  what each plan unlocks
     seed.ts          fictional community covering every state
-    rules.test.ts    25 tests of the rules above
+    rules.test.ts    30 tests of the rules above
   state/
     store.tsx        React context, simulated clock, localStorage persistence
     simulate.ts      demo stand-in for “the other person”

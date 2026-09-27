@@ -59,12 +59,24 @@ export function eligible(s: State, viewer: User, cand: User, kind: Kind): boolea
   if (cand.settings.anonymousDiscovery && entitlements(cand.plan).anonymousDiscovery) {
     if (!hasInterest(s, cand.id, viewer.id, kind)) return false;
   }
+  if (!passesFilters(viewer, cand)) return false;
   if (kind === 'romantic') {
     if (!viewer.profile.seeking.includes(cand.profile.gender)) return false;
     if (!cand.profile.seeking.includes(viewer.profile.gender)) return false;
     if (!intentsCompatible(viewer.profile.intent, cand.profile.intent)) return false;
   }
   return withinReach(viewer, cand);
+}
+
+/** Premium advanced filters. They narrow the daily set; they never enlarge it. */
+export function passesFilters(viewer: User, cand: User): boolean {
+  if (!entitlements(viewer.plan).advancedFilters) return true;
+  const f = viewer.settings.filters;
+  if (!f) return true;
+  if (cand.profile.age < f.minAge || cand.profile.age > f.maxAge) return false;
+  if (f.verifiedOnly && !(cand.verification.identity && cand.verification.photo)) return false;
+  if (f.intents.length && !f.intents.includes(cand.profile.intent)) return false;
+  return true;
 }
 
 export interface Compatibility {
@@ -159,6 +171,23 @@ function hash(str: string): number {
   let h = 0;
   for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) | 0;
   return Math.abs(h);
+}
+
+/**
+ * Rebuild today's set after filters change. People already acted on today stay
+ * counted, so changing filters can never show more than the daily limit.
+ */
+export function refreshDaily(s: State, viewerId: string, kind: Kind): State {
+  const existing = s.discovery[viewerId]?.[kind];
+  const acted =
+    existing?.day === s.day
+      ? existing.ids.filter((id) => hasInterest(s, viewerId, id, kind) || hasPassed(s, viewerId, id, kind))
+      : [];
+  const fresh = curate(s, viewerId, kind).slice(0, Math.max(0, DAILY_RECOMMENDATIONS - acted.length));
+  return {
+    ...s,
+    discovery: { ...s.discovery, [viewerId]: { ...s.discovery[viewerId], [kind]: { day: s.day, ids: [...acted, ...fresh] } } },
+  };
 }
 
 /** Returns state with today's set stored (so it can't be refreshed endlessly). */
