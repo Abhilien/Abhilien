@@ -66,28 +66,41 @@ let tier1Ready: Promise<void> | null = null;
 const shards = new Map<string, Place[]>();
 const shardLoads = new Map<string, Promise<Place[]>>();
 
-/** Load tier 1 and the state index. Idempotent; safe to call on every render. */
 /**
- * Where the app is deployed.
+ * Where the data files are, discovered rather than assumed.
  *
- * Derived from this bundle's own URL rather than from the page's, because the
- * two are not interchangeable. `import.meta.env.BASE_URL` is a build-time
- * string, and a relative one resolves against the document — so a page served
- * at `/app` rather than `/app/` silently looks for the place files one
- * directory too high, renders perfectly, and finds no towns. The script's URL
- * is resolved by the browser and is always right, and the bundle sits one
- * directory below the app root.
+ * Every way of deriving this at build time has a host that breaks it.
+ * `import.meta.env.BASE_URL` is a build-time string. A relative URL resolves
+ * against the document, so a page at `/app` rather than `/app/` looks one
+ * directory too high. `import.meta.url` is exact for a bundled module and
+ * meaningless for an inlined one, where it is just the document again. Each of
+ * those is right somewhere and wrong somewhere else, and the failure is silent:
+ * the app renders perfectly and finds no towns.
  *
- * The build-time value is kept as the fallback for any environment that does
- * not give a module its own URL.
+ * So the candidates are tried in order against the smallest file, and the first
+ * one that answers wins. The probe is not an extra request — the state index
+ * has to be fetched anyway, so on a normal deployment the first candidate
+ * succeeds and this costs nothing.
  */
-const BASE = (() => {
-  try {
-    return new URL('../', import.meta.url).href;
-  } catch {
-    return import.meta.env.BASE_URL;
-  }
-})();
+function baseCandidates(): string[] {
+  const out: string[] = [];
+  const add = (fn: () => string) => { try { const v = fn(); if (v) out.push(v); } catch { /* not available here */ } };
+
+  // A bundled module sits one directory below the app root.
+  add(() => new URL('../', import.meta.url).href);
+  // The document's own directory: correct whenever the page URL ends in a slash.
+  add(() => new URL('./', document.baseURI).href);
+  // The page URL treated as a directory: correct when it does not.
+  add(() => document.baseURI.replace(/[?#].*$/, '').replace(/\/?$/, '/'));
+  // An app that owns its origin, which is how a published artifact is served.
+  add(() => new URL('/', location.href).href);
+  add(() => import.meta.env.BASE_URL);
+
+  return [...new Set(out)];
+}
+
+/** Resolved once the probe succeeds; every later fetch uses it. */
+let BASE = import.meta.env.BASE_URL;
 
 export function ensurePlacesLoaded(): Promise<void> {
   if (!tier1Ready) tier1Ready = load();
@@ -95,19 +108,29 @@ export function ensurePlacesLoaded(): Promise<void> {
 }
 
 async function load(): Promise<void> {
-  try {
-    const [rowsText, indexJson] = await Promise.all([
-      fetch(`${BASE}places/tier1.txt`).then((r) => (r.ok ? r.text() : '')),
-      fetch(`${BASE}places/index.json`).then((r) => (r.ok ? r.json() : null)),
-    ]);
+  let indexJson: { states?: StateInfo[] } | null = null;
 
-    if (indexJson?.states) {
-      states = indexJson.states.map((s: StateInfo) => ({
-        code: s.code, name: s.name, places: s.places,
-      }));
-      stateNames = new Map(states.map((s) => [s.code, s.name]));
+  for (const candidate of baseCandidates()) {
+    try {
+      const response = await fetch(`${candidate}places/index.json`);
+      if (!response.ok) continue;
+      indexJson = await response.json();
+      BASE = candidate;
+      break;
+    } catch {
+      // This candidate is not where the files are. Try the next.
     }
+  }
 
+  if (indexJson?.states) {
+    states = indexJson.states.map((s: StateInfo) => ({
+      code: s.code, name: s.name, places: s.places,
+    }));
+    stateNames = new Map(states.map((s) => [s.code, s.name]));
+  }
+
+  try {
+    const rowsText = await fetch(`${BASE}places/tier1.txt`).then((r) => (r.ok ? r.text() : ''));
     tier1 = rowsText.split('\n').filter(Boolean).map((row) => {
       const [name, state, lat, lon] = row.split('\t');
       return {

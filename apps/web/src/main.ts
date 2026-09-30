@@ -28,6 +28,7 @@ import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/e
 import type { RectificationResult, MuhurtaActivity, MuhurtaResult } from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
 import { buildShareText, shareText, shareChartImage } from './ui/share.js';
+import { deliverReport } from './pdf/report.js';
 import {
   ensurePlacesLoaded, placesLoaded, searchPlaces, searchState,
   loadState, allStates, formatPlace, type Place,
@@ -401,6 +402,7 @@ function chartTab(): string {
     <div class="chips">
       <button class="ghost" data-action="share">${t('share')}</button>
       <button class="ghost" data-action="share-image">${t('shareImage')}</button>
+      <button class="ghost" data-action="pdf">${t('downloadPdf')}</button>
       <button class="ghost" data-action="save">${t('saveProfile')}</button>
       <button class="ghost" data-action="reset">${t('newChart')}</button>
     </div>
@@ -857,7 +859,7 @@ document.addEventListener('click', (event) => {
   if (!target) return;
   const action = target.dataset.action!;
 
-  if (action !== 'share' && action !== 'share-image') state.toast = null;
+  if (action !== 'share' && action !== 'share-image' && action !== 'pdf') state.toast = null;
 
   switch (action) {
     case 'tab':
@@ -955,6 +957,22 @@ document.addEventListener('click', (event) => {
       };
       void shareChartImage(svg, `${name}.png`, t('appName'), caption).then((outcome) => {
         state.toast = outcome === 'downloaded' ? t('downloaded')
+          : outcome === 'failed' ? t('shareFailed') : null;
+        render();
+      });
+      break;
+    }
+
+    case 'pdf': {
+      if (!state.chart) break;
+      const file = (state.form.name || 'kundali').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      state.toast = t('pdfBuilding');
+      render();
+      void deliverReport(state.chart, {
+        name: state.form.name,
+        filename: `${file}.pdf`,
+      }).then((outcome) => {
+        state.toast = outcome === 'downloaded' ? t('pdfReady')
           : outcome === 'failed' ? t('shareFailed') : null;
         render();
       });
