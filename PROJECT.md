@@ -1,7 +1,12 @@
-# Kundali — a Vedic astrology platform
+# Aistro — a Vedic astrology platform
 
 A complete, working Jyotish product: an exact calculation engine, an offline
 mobile app, and an AI narration layer that cannot fabricate.
+
+The product is **Aistro**. The internal packages stay under `@jyotish/*` and
+the code keeps saying *kundali*, *rashi*, *dasha* and the rest: those are the
+domain's own words, not branding, and renaming them would cost precision and
+buy nothing.
 
 > **Note on this repository.** This is `Abhilien/Abhilien`, the special repo
 > whose `README.md` renders on your GitHub profile. That file has been left

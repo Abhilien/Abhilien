@@ -10,7 +10,7 @@
  * with a leading slash, so the same worker serves the app from a domain root
  * and from a subpath like /kundali/.
  */
-const CACHE = 'kundali-v3';
+const CACHE = 'aistro-v1';
 
 /** This worker's directory — the deployed base of the app. */
 const BASE = new URL('./', self.location).href;

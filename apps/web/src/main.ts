@@ -1,5 +1,5 @@
 /**
- * Kundali — an offline-first Vedic astrology app.
+ * Aistro — an offline-first Vedic astrology app.
  *
  * Everything runs on the device. There is no server, no account and no network
  * call: the engine computes the chart locally in a few milliseconds, which keeps
@@ -945,7 +945,7 @@ document.addEventListener('click', (event) => {
     case 'share-image': {
       const svg = document.querySelector<SVGElement>('svg.kundali');
       if (!svg || !state.chart) break;
-      const name = (state.form.name || 'kundali').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+      const name = (state.form.name || 'aistro-kundali').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
       const birthTz = state.chart.birth.location.timezone;
       const caption = {
         title: state.form.name || t('appName'),

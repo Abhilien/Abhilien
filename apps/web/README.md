@@ -1,4 +1,4 @@
-# Kundali — web app
+# Aistro — web app
 
 An offline-first Vedic astrology app. Everything runs on the device: the engine
 computes the chart locally in a few milliseconds, so there is no server, no

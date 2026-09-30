@@ -12,7 +12,7 @@ export type Lang = 'en' | 'hi';
 type Dict = Record<string, string>;
 
 const en: Dict = {
-  appName: 'Kundali',
+  appName: 'Aistro',
   tagline: 'Vedic chart, computed exactly',
 
   tabTransits: 'Transits',
@@ -191,7 +191,7 @@ const en: Dict = {
 };
 
 const hi: Dict = {
-  appName: 'कुण्डली',
+  appName: 'Aistro',
   tagline: 'वैदिक कुण्डली, सटीक गणना',
 
   tabTransits: 'गोचर',

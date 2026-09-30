@@ -2,7 +2,7 @@
   "name": "jyotish-monorepo",
   "private": true,
   "version": "0.1.0",
-  "description": "Kundali / Vedic astrology platform — deterministic engine, offline-first app, grounded AI narration",
+  "description": "Aistro — Vedic astrology platform: deterministic engine, offline-first app, grounded AI narration",
   "workspaces": [
     "packages/*",
     "apps/*"

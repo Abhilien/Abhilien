@@ -194,7 +194,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kundali — reading review pack</title>
+<title>Aistro — reading review pack</title>
 <style>
   :root {
     --ink: #1c1917; --muted: #78716c; --line: #e7e5e4;
@@ -258,7 +258,7 @@ const html = `<!doctype html>
 </head>
 <body>
 <div class="wrap">
-  <h1>Kundali — reading review</h1>
+  <h1>Aistro — reading review</h1>
   <p class="lede">
     ${entries.length} charts, generated ${stamp}. Each one is here for a reason,
     printed in orange under its heading — times of day, latitudes from Srinagar to

@@ -1,4 +1,4 @@
-# Kundali API — narration and services
+# Aistro API — narration and services
 
 An HTTP API over the engine, plus the AI narration layer.
 

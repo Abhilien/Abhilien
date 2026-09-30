@@ -49,7 +49,13 @@ describe('the five limbs', () => {
     expect(p.karana.index).toBeLessThanOrEqual(59);
   });
 
-  it('runs the karana cycle correctly over a whole lunar month', () => {
+  // 240 full panchang computations, each with a sunrise search and four boundary
+  // bisections. It measured 4.8s against vitest's 5s default, so it passed alone
+  // and failed at random under a loaded parallel run — the worst kind of red,
+  // because it looks like a bug in whatever was changed that day. The work is
+  // real and the coverage is worth it, so the budget is stated rather than
+  // silently skated past.
+  it('runs the karana cycle correctly over a whole lunar month', { timeout: 30_000 }, () => {
     // Kimstughna opens the month, the seven movable karanas repeat eight times,
     // and Shakuni, Chatushpada and Naga close it.
     const names = new Set<string>();

@@ -23,6 +23,8 @@ export function buildShareText(chart: Kundali, name?: string): string {
   }).format(new Date(chart.utcISO));
 
   const lines: string[] = [];
+  // The word kundali stays — it is what the thing is — and Aistro is what made
+  // it. A shared chart is the cheapest advertising this product has.
   lines.push(name ? `Kundali — ${name}` : 'Kundali');
   lines.push(`${when} · ${chart.birth.location.label ?? ''}`);
   lines.push('');
@@ -64,6 +66,10 @@ export function buildShareText(chart: Kundali, name?: string): string {
   lines.push(`Ayanamsa ${formatDMS(chart.ayanamsa, 0)} (${chart.settings.ayanamsa}).`);
   lines.push('Positions are astronomy and are exact. Interpretations are what classical');
   lines.push('texts say, offered for reflection rather than as advice.');
+  lines.push('');
+  // A shared chart is the cheapest advertising this product has, and it costs
+  // one line. It goes last so it never crowds out the reading itself.
+  lines.push('Computed with Aistro');
 
   return lines.join('\n');
 }
