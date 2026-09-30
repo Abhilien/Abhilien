@@ -68,11 +68,26 @@ const shardLoads = new Map<string, Promise<Place[]>>();
 
 /** Load tier 1 and the state index. Idempotent; safe to call on every render. */
 /**
- * Where the app is deployed. Vite substitutes this at build time, so the same
- * bundle works from a domain root and from a subpath like /kundali/ — a
- * hardcoded leading slash 404s on the latter.
+ * Where the app is deployed.
+ *
+ * Derived from this bundle's own URL rather than from the page's, because the
+ * two are not interchangeable. `import.meta.env.BASE_URL` is a build-time
+ * string, and a relative one resolves against the document — so a page served
+ * at `/app` rather than `/app/` silently looks for the place files one
+ * directory too high, renders perfectly, and finds no towns. The script's URL
+ * is resolved by the browser and is always right, and the bundle sits one
+ * directory below the app root.
+ *
+ * The build-time value is kept as the fallback for any environment that does
+ * not give a module its own URL.
  */
-const BASE = import.meta.env.BASE_URL;
+const BASE = (() => {
+  try {
+    return new URL('../', import.meta.url).href;
+  } catch {
+    return import.meta.env.BASE_URL;
+  }
+})();
 
 export function ensurePlacesLoaded(): Promise<void> {
   if (!tier1Ready) tier1Ready = load();
