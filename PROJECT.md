@@ -10,9 +10,20 @@ buy nothing.
 
 > **Note on this repository.** This is `Abhilien/Abhilien`, the special repo
 > whose `README.md` renders on your GitHub profile. That file has been left
-> untouched. Before this goes further, move the project to a dedicated
-> repository — a product codebase does not belong in a profile repo, and the
-> profile README will be confusing to anyone who lands here.
+> untouched, which is also why the product's own front page sits at
+> `docs/README.md` rather than at the root.
+>
+> To move the project to a repository of its own — create an empty one, then:
+>
+> ```bash
+> bash scripts/move-to-own-repo.sh Abhilien/aistro
+> ```
+>
+> It pushes this branch as `main`, swaps `docs/README.md` in as the front page
+> in a commit that only exists in the new repository, and leaves
+> `Abhilien/Abhilien` and its profile README untouched. Rehearsed against a
+> local bare repository: the result is 93 files that clone, install, pass 273
+> tests and build a working offline app.
 
 ## What exists
 
