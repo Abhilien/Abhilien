@@ -39,3 +39,6 @@ export * from './transit/gochar.js';
 export * from './transit/sadesati.js';
 export * from './muhurta/activities.js';
 export * from './muhurta/muhurta.js';
+export * from './prediction/bala.js';
+export * from './prediction/predict.js';
+export * from './prediction/devanagari.js';

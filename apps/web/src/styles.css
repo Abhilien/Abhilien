@@ -233,3 +233,38 @@ td.verdict { font-size: 17px; text-align: center; width: 1.8em; }
 /* First-run explainer. */
 .welcome { background: var(--surface-alt); border-style: dashed; }
 .welcome h3 { font-size: 16px; margin-bottom: 8px; }
+
+/* Segmented control: day / month / year. One choice, always visibly made. */
+.seg { display: flex; gap: 0; margin: 4px 0 14px; }
+.seg button {
+  flex: 1; border: 1px solid var(--line); background: var(--surface);
+  color: var(--ink); padding: 9px 6px; font-size: 14px; cursor: pointer;
+  border-radius: 0; border-right-width: 0;
+}
+.seg button:first-child { border-radius: 8px 0 0 8px; }
+.seg button:last-child { border-radius: 0 8px 8px 0; border-right-width: 1px; }
+.seg button.active {
+  background: var(--accent); color: #fff; border-color: var(--accent);
+  font-weight: 600;
+}
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* Which houses a period weighs on. */
+.areas { margin: 6px 0 0; padding-left: 0; list-style: none; }
+.areas li { display: flex; gap: 8px; align-items: baseline; margin-bottom: 7px; }
+.areas .tag { flex: none; }
+
+/*
+ * One factor of a reading. The stripe carries the polarity, so the shape of the
+ * period is legible before any of it is read; colour alone would not survive a
+ * colour-blind reader, which is why the label says it too.
+ */
+.factor { border-left: 3px solid var(--line); }
+.factor.supportive { border-left-color: var(--good); }
+.factor.testing { border-left-color: var(--warn); }
+.factor.mixed { border-left-color: var(--muted); }
+.factor h3 { margin-bottom: 2px; }
+
+/* A delete that asks first, in the page rather than in a browser dialog. */
+.saved-chip.confirming { border-color: var(--warn); }
+.ghost.danger { color: var(--warn); font-weight: 600; }

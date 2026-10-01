@@ -322,57 +322,82 @@ export function kundaliReport(chart: Kundali, options: ReportOptions = {}): Uint
  * how a kundali actually travels between families. Falling back to a download
  * for desktop, where there is no share sheet.
  */
+export type DeliveryOutcome =
+  | { status: 'shared' }
+  | { status: 'saved' }
+  | { status: 'cancelled' }
+  | { status: 'failed'; reason: string };
+
+/**
+ * Hand the report to the viewer.
+ *
+ * Three routes, because three kinds of host exist. A phone has a share sheet,
+ * which is how a kundali actually travels between families. A sandboxed host —
+ * the claude.ai artifact viewer, where this gets demonstrated — makes an
+ * ordinary download link inert and offers a mediated save instead. A desktop
+ * browser has the link.
+ *
+ * The order matters and so does the honesty. An earlier version fell back to
+ * the link whenever the mediated save was unavailable and then reported
+ * success — so in a sandbox it said "Report saved" while nothing had been
+ * saved at all. A host that mediates saves is now never given the inert link as
+ * a consolation; it reports what actually happened.
+ */
 export async function deliverReport(
   chart: Kundali, options: ReportOptions & { filename?: string } = {},
-): Promise<'shared' | 'downloaded' | 'failed'> {
+): Promise<DeliveryOutcome> {
   let bytes: Uint8Array;
   try {
     bytes = kundaliReport(chart, options);
-  } catch {
-    return 'failed';
+  } catch (error) {
+    return { status: 'failed', reason: error instanceof Error ? error.message : 'report' };
   }
 
   const filename = options.filename ?? 'kundali.pdf';
   const blob = new Blob([bytes as BlobPart], { type: 'application/pdf' });
-  const file = new File([blob], filename, { type: 'application/pdf' });
 
-  if (navigator.canShare?.({ files: [file] }) && navigator.share) {
-    try {
+  // 1. The share sheet, where there is one.
+  try {
+    const file = new File([blob], filename, { type: 'application/pdf' });
+    if (navigator.canShare?.({ files: [file] }) && navigator.share) {
       await navigator.share({ files: [file], title: options.name || 'Kundali' });
-      return 'shared';
-    } catch (error) {
-      if (error instanceof Error && error.name === 'AbortError') return 'shared';
+      return { status: 'shared' };
     }
+  } catch (error) {
+    // Dismissing the sheet is a choice, not a failure.
+    if (error instanceof Error && error.name === 'AbortError') return { status: 'cancelled' };
   }
 
-  // Some hosts sandbox the page and make an ordinary download link inert — the
-  // claude.ai artifact viewer does, which is where this app gets demonstrated.
-  // Such a host offers a mediated save instead. Absent everywhere else, so this
-  // costs a nullish check on a normal deployment.
+  // 2. A host that mediates saves. If one is present it is the only route that
+  //    works here, so its answer is the answer.
   const mediated = await hostSave();
   if (mediated) {
     try {
       await mediated({ filename, data: blob });
-      return 'downloaded';
+      return { status: 'saved' };
     } catch (error) {
-      // The viewer declining is an answer, not a failure to report as one.
-      const code = (error as { code?: string } | null)?.code;
-      if (code === 'declined' || code === 'rate_limited') return 'shared';
-      // Anything else: fall through and try the ordinary link.
+      const code = (error as { code?: string } | null)?.code ?? 'unknown';
+      if (code === 'declined') return { status: 'cancelled' };
+      return { status: 'failed', reason: code };
     }
   }
 
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = filename;
-  link.click();
-  // Revoking immediately can cancel the download on some browsers.
-  setTimeout(() => URL.revokeObjectURL(url), 30_000);
-  return 'downloaded';
+  // 3. An ordinary download.
+  try {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    link.click();
+    // Revoking immediately can cancel the download on some browsers.
+    setTimeout(() => URL.revokeObjectURL(url), 30_000);
+    return { status: 'saved' };
+  } catch (error) {
+    return { status: 'failed', reason: error instanceof Error ? error.message : 'download' };
+  }
 }
 
-/** The host's mediated save, when the page is running inside one that has it. */
+/** The host's mediated save, when the page runs inside one that has it. */
 type HostSave = (request: { filename: string; data: Blob }) => Promise<unknown>;
 
 async function hostSave(): Promise<HostSave | null> {

@@ -13,6 +13,7 @@
 import './styles.css';
 import {
   castChart, evaluateRules, mahadashas, dashaBalance, dashaChainAt,
+  predict, houseMeaning,
   computePanchang, gunaMilan, buildAllVargas, allConditions, formatDMS,
   RASHI_NAMES_SA, RASHI_NAMES_HI, GRAHA_NAMES_SA, GRAHA_NAMES_HI,
   NAKSHATRA_NAMES_SA, NAKSHATRA_NAMES_HI, GRAHA_ABBR, GRAHA_ABBR_HI,
@@ -23,9 +24,12 @@ import {
 } from '@jyotish/engine';
 import type {
   BirthData, Kundali, Graha, RashiIndex, TimeAccuracy, ChartStyle,
+  PredictionSpan, Prediction, PredictionFactor,
 } from '@jyotish/engine';
 import type { VargaCode, EventType, EventPrecision, LifeEvent } from '@jyotish/engine';
-import type { RectificationResult, MuhurtaActivity, MuhurtaResult } from '@jyotish/engine';
+import type {
+  RectificationResult, MuhurtaActivity, MuhurtaResult, MuhurtaWindow, GeoLocation,
+} from '@jyotish/engine';
 import { renderChart, renderVarga, SIGN_ABBR_SA } from './ui/chart.js';
 import { buildShareText, shareText, shareChartImage } from './ui/share.js';
 import { deliverReport } from './pdf/report.js';
@@ -38,16 +42,12 @@ import {
 } from './storage.js';
 import { t, lang, setLang } from './i18n.js';
 
-type Tab = 'chart' | 'dasha' | 'yogas' | 'transits' | 'panchang'
+type Tab = 'chart' | 'dasha' | 'yogas' | 'predict' | 'transits' | 'panchang'
   | 'muhurta' | 'match' | 'rectify';
 
 interface DraftEvent { type: EventType; date: string; precision: EventPrecision }
 
-interface State {
-  tab: Tab;
-  chart: Kundali | null;
-  warnings: { code: string; message: string }[];
-  form: {
+interface FormState {
     name: string;
     date: string;
     time: string;
@@ -68,7 +68,44 @@ interface State {
     stateCode: string | null;
     stateLoading: boolean;
     stateCount: number | null;
-  };
+}
+
+/**
+ * A blank form, and the single definition of what "new chart" means. Resetting
+ * by listing fields at the call site is how the old reset came to miss five of
+ * them; anything added here is cleared for free.
+ */
+const BLANK_FORM: FormState = {
+  name: '',
+  date: '1990-08-15',
+  time: '10:30',
+  place: null,
+  accuracy: 'ToMinute',
+  manual: false,
+  latitude: '',
+  longitude: '',
+  timezone: 'Asia/Kolkata',
+  placeLabel: '',
+  query: '',
+  stateCode: null,
+  stateLoading: false,
+  stateCount: null,
+};
+
+interface State {
+  tab: Tab;
+  chart: Kundali | null;
+  warnings: { code: string; message: string }[];
+  form: FormState;
+  /** Saved chart awaiting a second tap to confirm its deletion. */
+  confirmingDelete: string | null;
+  predictionSpan: PredictionSpan;
+  predictionDate: string;
+  predictionResult: Prediction | null;
+  /** A five-year scan blocks the thread, so the UI says so before it starts. */
+  muhurtaRunning: boolean;
+  /** 0-100 while a scan is running, so the wait is legible rather than a freeze. */
+  muhurtaProgress: number;
   chartStyle: ChartStyle;
   varga: VargaCode;
   profiles: Profile[];
@@ -92,22 +129,13 @@ const state: State = {
   tab: 'chart',
   chart: null,
   warnings: [],
-  form: {
-    name: '',
-    date: '1990-08-15',
-    time: '10:30',
-    place: null,
-    accuracy: 'ToMinute',
-    manual: false,
-    latitude: '',
-    longitude: '',
-    timezone: 'Asia/Kolkata',
-    placeLabel: '',
-    query: '',
-    stateCode: null,
-    stateLoading: false,
-    stateCount: null,
-  },
+  form: { ...BLANK_FORM },
+  confirmingDelete: null,
+  predictionSpan: 'Day',
+  predictionDate: isoDay(new Date()),
+  predictionResult: null,
+  muhurtaRunning: false,
+  muhurtaProgress: 0,
   chartStyle: 'NorthIndian',
   varga: 'D9',
   profiles: loadProfiles(),
@@ -738,6 +766,73 @@ function rectifyTab(): string {
 }
 
 
+/**
+ * Predictions for a chosen day, month or year.
+ *
+ * Every line here comes from a factor the engine produced, and each one is
+ * labelled with the computation behind it. Nothing is written that a factor
+ * does not entail — which is also why a quiet period is allowed to say so
+ * instead of reaching for something to fill the space.
+ */
+function predictTab(): string {
+  if (!state.chart) return `<h2>${t('predictTitle')}</h2><div class="card"><p>${t('castFirst')}</p></div>`;
+
+  const spans: [PredictionSpan, string][] = [
+    ['Day', t('spanDay')], ['Month', t('spanMonth')], ['Year', t('spanYear')],
+  ];
+  const result = state.predictionResult;
+
+  const tenorWord = (tenor: number): string =>
+    tenor > 0.35 ? t('tenorStrong')
+      : tenor > 0.1 ? t('tenorSupportive')
+      : tenor < -0.35 ? t('tenorDemanding')
+      : tenor < -0.1 ? t('tenorTesting')
+      : t('tenorMixed');
+
+  const sourceLabel: Record<PredictionFactor['source'], string> = {
+    Dasha: t('srcDasha'), Antardasha: t('srcAntardasha'), Gochar: t('srcGochar'),
+    SadeSati: t('srcSadeSati'), Panchang: t('srcPanchang'),
+    TaraBala: t('srcTaraBala'), ChandraBala: t('srcChandraBala'),
+  };
+
+  const body = !result ? '' : (result.quiet
+    ? `<div class="card"><p>${t('predictQuiet')}</p></div>`
+    : `<div class="card">
+        <h3>${t('overallTenor')}: ${tenorWord(result.tenor)}</h3>
+        <p class="muted">${localDate(result.from)}${result.span === 'Day' ? ''
+          : ` \u2013 ${localDate(new Date(result.to.getTime() - 86400000))}`}</p>
+        ${result.areas.length ? `<p>${t('areasTouched')}</p>
+          <ul class="areas">${result.areas.map((a) => `<li>
+            <span class="tag ${a.emphasis > 0 ? 'good' : ''}">${ordinal(a.house)}</span>
+            ${esc(houseMeaning(a.house, lang()))}</li>`).join('')}</ul>`
+          : `<p class="muted">${t('noAreas')}</p>`}
+      </div>
+      ${result.factors.map((f) => `<div class="card factor ${f.polarity.toLowerCase()}">
+        <h3>${esc(f.subject)}</h3>
+        <p class="muted">${esc(sourceLabel[f.source])} \u00b7 ${esc(t(`pol${f.polarity}`))}</p>
+        <p>${esc(f.text)}</p>
+      </div>`).join('')}
+      <p class="muted">${t('predictFooter')}</p>`);
+
+  return `
+    <h2>${t('predictTitle')}</h2>
+    <div class="card">
+      <p class="muted">${t('predictIntro')}</p>
+
+      <div class="seg">
+        ${spans.map(([id, label]) => `<button data-action="pred-span" data-value="${id}"
+          class="${state.predictionSpan === id ? 'active' : ''}">${label}</button>`).join('')}
+      </div>
+
+      <label for="pred-date">${state.predictionSpan === 'Day' ? t('whichDay')
+        : state.predictionSpan === 'Month' ? t('whichMonth') : t('whichYear')}</label>
+      <input id="pred-date" type="date" data-pred="date" value="${esc(state.predictionDate)}">
+
+      <button class="primary" data-action="pred-run">${t('readPeriod')}</button>
+    </div>
+    ${body}`;
+}
+
 function muhurtaTab(): string {
   const activities = Object.keys(ACTIVITY_RULES) as MuhurtaActivity[];
   const result = state.muhurtaResult;
@@ -790,9 +885,83 @@ function muhurtaTab(): string {
 
       ${rule.caution ? `<div class="notice"><h3>\u26a0</h3><p>${esc(rule.caution)}</p></div>` : ''}
       ${state.muhurtaError ? `<div class="notice">${esc(state.muhurtaError)}</div>` : ''}
-      <button class="primary" data-action="mu-run">${t('findTimes')}</button>
+      <button class="primary" data-action="mu-run"${state.muhurtaRunning ? ' disabled' : ''}>${
+        state.muhurtaRunning
+          ? `${t('searching')} ${state.muhurtaProgress}%`
+          : t('findTimes')}</button>
     </div>
     ${windows}`;
+}
+
+/**
+ * The longest span a muhurta search will scan, in days.
+ *
+ * Five years. The limit is the device, not the astronomy: the cheap first pass
+ * runs about 0.5ms a day and the full panchang only on the survivors, which
+ * measured 986ms for 1,826 days here. A budget Android is several times slower,
+ * which is why the search announces itself before it starts.
+ */
+const MAX_SCAN_DAYS = 1827;
+
+
+/**
+ * Scan for muhurta windows a slice at a time.
+ *
+ * Five years in one call blocks the main thread for about thirteen seconds in a
+ * browser — not slow, frozen: the page cannot repaint, scroll or answer, and a
+ * "Searching" label set just before it never appears. Slicing the range and
+ * yielding between slices gives the browser its thread back often enough to
+ * paint, which turns a hang into a progress bar.
+ *
+ * The slices are independent: a window's score depends only on its own day, so
+ * scanning in parts and merging gives the same answer as scanning once.
+ */
+async function scanForWindows(from: Date, to: Date, location: GeoLocation): Promise<void> {
+  // Big enough that the per-slice overhead is noise, small enough that the page
+  // never stops answering for more than about a second and a half.
+  const SLICE_DAYS = 180;
+  const total = to.getTime() - from.getTime();
+  const collected: MuhurtaWindow[] = [];
+  let examined = 0;
+  let activity: MuhurtaResult | null = null;
+
+  try {
+    for (let cursor = from.getTime(); cursor < to.getTime();) {
+      const end = Math.min(cursor + SLICE_DAYS * 86400000, to.getTime());
+      const slice = findMuhurtas(
+        state.muhurtaActivity, new Date(cursor), new Date(end), location,
+        { ...(state.chart ? { natal: state.chart } : {}), limit: 10 },
+      );
+      activity ??= slice;
+      collected.push(...slice.windows);
+      examined += slice.daysExamined;
+      cursor = end;
+
+      state.muhurtaProgress = Math.round(((cursor - from.getTime()) / total) * 100);
+      // Write the percentage straight into the button rather than calling
+      // render(): a full innerHTML rebuild of the app per slice doubled the
+      // scan's wall time to no purpose, since one label is all that changed.
+      const button = document.querySelector('[data-action="mu-run"]');
+      if (button) button.textContent = `${t('searching')} ${state.muhurtaProgress}%`;
+      // Hand the thread back so the browser can actually paint it.
+      await new Promise((resolve) => { setTimeout(resolve, 0); });
+    }
+
+    const best = collected.sort((a, b) => b.score - a.score || a.start.getTime() - b.start.getTime())
+      .slice(0, 10)
+      .sort((a, b) => a.start.getTime() - b.start.getTime());
+
+    state.muhurtaResult = activity
+      ? { ...activity, windows: best, daysExamined: examined,
+          summary: t('scanSummary').replace('{days}', String(examined)).replace('{found}', String(best.length)) }
+      : null;
+  } catch {
+    state.muhurtaError = t('shareFailed');
+  } finally {
+    state.muhurtaRunning = false;
+    state.muhurtaProgress = 0;
+    render();
+  }
 }
 
 /** Timezone to display muhurta windows in: the chart's, else the device's. */
@@ -805,7 +974,7 @@ function tz(): string {
 
 const TABS: [Tab, string][] = [
   ['chart', 'tabChart'], ['dasha', 'tabDasha'], ['yogas', 'tabYogas'],
-  ['transits', 'tabTransits'], ['panchang', 'tabPanchang'],
+  ['predict', 'tabPredict'], ['transits', 'tabTransits'], ['panchang', 'tabPanchang'],
   ['muhurta', 'tabMuhurta'], ['match', 'tabMatch'], ['rectify', 'tabRectify'],
 ];
 
@@ -813,6 +982,7 @@ function render(): void {
   const body = state.tab === 'chart' ? chartTab()
     : state.tab === 'dasha' ? dashaTab()
     : state.tab === 'yogas' ? yogasTab()
+    : state.tab === 'predict' ? predictTab()
     : state.tab === 'transits' ? transitsTab()
     : state.tab === 'panchang' ? panchangTab()
     : state.tab === 'muhurta' ? muhurtaTab()
@@ -821,11 +991,18 @@ function render(): void {
 
   const saved = state.profiles.length ? `
     <div class="chips">
-      ${state.profiles.slice(0, 8).map((p) => `<span class="saved-chip">
+      ${state.profiles.slice(0, 8).map((p) => (state.confirmingDelete === p.id
+        ? `<span class="saved-chip confirming">
+        <button class="ghost danger" data-action="delete-profile-confirm" data-id="${p.id}">
+          ${t('confirmDeleteShort')}</button>
+        <button class="ghost del" data-action="delete-profile-cancel"
+                aria-label="${t('cancel')}">\u00d7</button>
+      </span>`
+        : `<span class="saved-chip">
         <button class="ghost" data-action="load-profile" data-id="${p.id}">${esc(p.name)}</button>
         <button class="ghost del" data-action="delete-profile" data-id="${p.id}"
                 aria-label="${t('deleteChart')} ${esc(p.name)}">\u00d7</button>
-      </span>`).join('')}
+      </span>`)).join('')}
     </div>` : '';
 
   document.getElementById('app')!.innerHTML = `
@@ -866,9 +1043,19 @@ document.addEventListener('click', (event) => {
       state.tab = target.dataset.tab as Tab;
       if (state.chart) saveLast(state.form.name, state.chart.birth, state.tab);
       break;
-    case 'lang':
+    case 'lang': {
       setLang(lang() === 'hi' ? 'en' : 'hi');
+      // A reading already on screen was composed in the old language; recompute
+      // it rather than leaving half the page in each.
+      if (state.predictionResult && state.chart) {
+        const when = new Date(`${state.predictionDate}T12:00:00`);
+        state.predictionResult = predict(state.chart, when, state.predictionSpan, {
+          location: state.chart.birth.location,
+          lang: lang(),
+        });
+      }
       break;
+    }
     case 'style':
       state.chartStyle = target.dataset.value as ChartStyle;
       break;
@@ -901,11 +1088,22 @@ document.addEventListener('click', (event) => {
       break;
     }
     case 'reset':
+      // "New chart" has to mean a new chart. Clearing the result but leaving the
+      // name, the date, the time and the coordinates behind meant the next
+      // person's chart was cast from the last person's details unless they
+      // noticed and overwrote every field.
       state.chart = null;
       state.warnings = [];
-      state.form.place = null;
-      state.form.query = '';
-      state.form.placeLabel = '';
+      state.form = { ...BLANK_FORM };
+      state.rectifyEvents = [];
+      state.rectifyResult = null;
+      state.rectifyError = null;
+      state.muhurtaResult = null;
+      state.muhurtaError = null;
+      state.muhurtaOpenFactors = null;
+      state.predictionResult = null;
+      state.confirmingDelete = null;
+      state.tab = 'chart';
       clearLast();
       break;
     case 'load-profile': {
@@ -925,13 +1123,25 @@ document.addEventListener('click', (event) => {
       break;
     }
     case 'delete-profile': {
-      const profile = state.profiles.find((x) => x.id === target.dataset.id);
-      // Deleting someone's saved birth data is not undoable, so it is confirmed.
-      if (profile && !window.confirm(`${t('confirmDelete')}\n\n${profile.name}`)) break;
-      deleteProfile(target.dataset.id!);
-      state.profiles = loadProfiles();
+      // Deleting saved birth data is not undoable, so it asks first — but it
+      // asks in the page. window.confirm is not available everywhere this runs:
+      // a sandboxed host returns false from it without showing anything, which
+      // silently turned every delete into a cancel and made the button look
+      // broken. A confirmation the page draws itself always works.
+      state.confirmingDelete = target.dataset.id!;
       break;
     }
+
+    case 'delete-profile-confirm': {
+      deleteProfile(target.dataset.id!);
+      state.profiles = loadProfiles();
+      state.confirmingDelete = null;
+      break;
+    }
+
+    case 'delete-profile-cancel':
+      state.confirmingDelete = null;
+      break;
 
     case 'share': {
       if (!state.chart) break;
@@ -972,9 +1182,30 @@ document.addEventListener('click', (event) => {
         name: state.form.name,
         filename: `${file}.pdf`,
       }).then((outcome) => {
-        state.toast = outcome === 'downloaded' ? t('pdfReady')
-          : outcome === 'failed' ? t('shareFailed') : null;
+        state.toast = outcome.status === 'saved' ? t('pdfReady')
+          : outcome.status === 'shared' ? null
+          : outcome.status === 'cancelled' ? null
+          // Naming the reason beats a bare failure: "declined", "too_large" and
+          // "unavailable" each tell the reader something different about what
+          // to try next, and tell us something when they report it.
+          : `${t('pdfFailed')} (${outcome.reason})`;
         render();
+      });
+      break;
+    }
+
+    case 'pred-span':
+      state.predictionSpan = target.dataset.value as PredictionSpan;
+      state.predictionResult = null;
+      break;
+
+    case 'pred-run': {
+      if (!state.chart) break;
+      const when = new Date(`${state.predictionDate}T12:00:00`);
+      if (Number.isNaN(when.getTime())) break;
+      state.predictionResult = predict(state.chart, when, state.predictionSpan, {
+        location: state.chart.birth.location,
+        lang: lang(),
       });
       break;
     }
@@ -1030,9 +1261,10 @@ document.addEventListener('click', (event) => {
         state.muhurtaResult = null;
         break;
       }
-      // Scanning runs on the device, so the range is capped to keep a budget
-      // phone responsive rather than locking the UI for several seconds.
-      if (to.getTime() - from.getTime() > 183 * 86400000) {
+      // Scanning runs on the device. Measured, not guessed: the two-pass scan
+      // covers five years in about a second on a laptop, so the cap is five
+      // years and the UI says it is working rather than appearing to hang.
+      if (to.getTime() - from.getTime() > MAX_SCAN_DAYS * 86400000) {
         state.muhurtaError = t('rangeTooLong');
         state.muhurtaResult = null;
         break;
@@ -1042,10 +1274,11 @@ document.addEventListener('click', (event) => {
       };
       state.muhurtaError = null;
       state.muhurtaOpenFactors = null;
-      state.muhurtaResult = findMuhurtas(state.muhurtaActivity, from, to, location, {
-        ...(state.chart ? { natal: state.chart } : {}),
-        limit: 10,
-      });
+      state.muhurtaResult = null;
+      state.muhurtaRunning = true;
+      state.muhurtaProgress = 0;
+      render();
+      void scanForWindows(from, to, location);
       break;
     }
 
@@ -1078,6 +1311,13 @@ document.addEventListener('input', (event) => {
     else if (mu === 'to') state.muhurtaTo = el.value;
     state.muhurtaResult = null;
     if (mu === 'activity') render();   // the caution banner depends on it
+    return;
+  }
+
+  const pred = el.dataset.pred;
+  if (pred === 'date') {
+    state.predictionDate = el.value;
+    state.predictionResult = null;
     return;
   }
 

@@ -24,9 +24,9 @@ import {
 import { NAKSHATRA_SPAN, NAKSHATRA_NAMES_SA, WEEKDAY_NAMES_SA } from '../core/constants.js';
 import {
   ACTIVITY_RULES, NAKSHATRA_NATURE, INAUSPICIOUS_YOGAS, RIKTA_TITHIS,
-  TARA_NAMES, INAUSPICIOUS_TARAS, FAVOURABLE_CHANDRA_HOUSES,
   type MuhurtaActivity,
 } from './activities.js';
+import { taraBala, chandraBala } from '../prediction/bala.js';
 import type {
   GeoLocation, Kundali, AyanamsaSystem, NakshatraIndex, RashiIndex,
 } from '../core/types.js';
@@ -183,28 +183,26 @@ function scoreDay(
   });
 
   if (natal) {
-    const natalNakshatra = natal.positions.Moon.nakshatra;
-    const taraNumber = (((limbs.nakshatra - natalNakshatra + 27) % 27) % 9) + 1;
-    const taraOk = !INAUSPICIOUS_TARAS.includes(taraNumber);
+    // The same two functions a daily prediction uses, so a day cannot be
+    // obstructive on one screen and auspicious on the next.
+    const tara = taraBala(natal, limbs.nakshatra);
     factors.push({
       name: 'Tara bala',
-      ok: taraOk,
-      points: taraOk ? 10 : 0,
+      ok: tara.favourable,
+      points: tara.favourable ? 10 : 0,
       maximum: 10,
-      detail: `${TARA_NAMES[taraNumber - 1]} tara counted from the natal Moon`
-        + (taraOk ? '.' : ', which the tradition treats as obstructive.'),
+      detail: `${tara.name} tara counted from the natal Moon`
+        + (tara.favourable ? '.' : ', which the tradition treats as obstructive.'),
     });
 
-    const moonSign = Math.floor(limbs.moon / 30) as RashiIndex;
-    const houseFromNatalMoon = (((moonSign - natal.positions.Moon.rashi + 12) % 12) + 1);
-    const chandraOk = FAVOURABLE_CHANDRA_HOUSES.includes(houseFromNatalMoon);
+    const chandra = chandraBala(natal, Math.floor(limbs.moon / 30) as RashiIndex);
     factors.push({
       name: 'Chandra bala',
-      ok: chandraOk,
-      points: chandraOk ? 10 : 0,
+      ok: chandra.favourable,
+      points: chandra.favourable ? 10 : 0,
       maximum: 10,
-      detail: `The Moon is in the ${ordinal(houseFromNatalMoon)} from the natal Moon`
-        + (chandraOk ? ', which supports action.' : ', which the tradition does not favour.'),
+      detail: `The Moon is in the ${ordinal(chandra.houseFromMoon)} from the natal Moon`
+        + (chandra.favourable ? ', which supports action.' : ', which the tradition does not favour.'),
     });
   }
 
