@@ -19,7 +19,7 @@ One room, two characters, ten objects, ten events, running in the browser in 3D.
 
 ## Run it
 
-It is a single self-contained `index.html` (three.js loads from a CDN). Open it in a browser, or serve the folder:
+It is a single `index.html` plus a vendored copy of three.js r128 (`three.min.js`, MIT licence). Open it in a browser, or serve the folder:
 
 ```bash
 python3 -m http.server 8000   # then open http://localhost:8000
