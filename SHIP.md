@@ -73,13 +73,14 @@ Three requirements, all of which the hosts above satisfy by default:
 
 ### GitHub Pages
 
-`.github/workflows/deploy.yml` builds the full place database and publishes.
-It is `workflow_dispatch` only — a push never deploys, because publishing is an
-outward-facing act and this repository doubles as a GitHub profile.
+`.github/workflows/deploy.yml` builds the full place database, runs the tests
+and the browser check, and publishes `apps/web/dist` to the `gh-pages` branch on
+every push to `main`. The live app is at https://abhilien.github.io/aistro/.
 
-Before the first run: **Settings → Pages → Source → GitHub Actions**. Then run
-the workflow from the Actions tab, with `base` set to `/` for a user site
-(`abhilien.github.io`) or `/<repo>/` for a project site.
+Pages serves the `gh-pages` branch (**Settings → Pages → Source → Deploy from a
+branch → gh-pages**). To deploy at a different path, run the workflow from the
+Actions tab with `base` set to `/` for a user site (`abhilien.github.io`) or
+`/<repo>/` for a project site.
 
 ## What about the AI part?
 

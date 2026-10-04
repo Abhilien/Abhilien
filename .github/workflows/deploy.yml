@@ -1,35 +1,32 @@
 # Publish the app to GitHub Pages.
 #
-# Manual by design. Publishing is an outward-facing act and this repository is
-# also a GitHub profile, so a push should never deploy on its own — run this
-# workflow when you actually want the live site to change.
-#
-# Before the first run, in Settings → Pages, set Source to "GitHub Actions".
+# Runs on every push to main, and on demand. Nothing is published unless the
+# tests and the browser check below pass. The built site goes to the gh-pages
+# branch, which GitHub Pages serves at abhilien.github.io/aistro/.
 name: Deploy
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       base:
         description: 'Path the app is served from. "/" for a user site (abhilien.github.io), "/<repo>/" for a project site.'
         required: true
-        default: '/'
+        default: '/aistro/'
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.pages.outputs.page_url }}
+    env:
+      APP_BASE: ${{ inputs.base || '/aistro/' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -59,8 +56,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          APP_BASE: ${{ inputs.base }}
 
       # The last gate before anything is public. Serves the artifact exactly as
       # a host would and drives it in a browser: a wrong base path or a worker
@@ -70,11 +65,10 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Verify the built app
-        run: node scripts/verify-deployment.mjs apps/web/dist "${{ inputs.base }}"
+        run: node scripts/verify-deployment.mjs apps/web/dist "$APP_BASE"
 
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - run: touch apps/web/dist/.nojekyll
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          path: apps/web/dist
-      - id: pages
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: apps/web/dist
