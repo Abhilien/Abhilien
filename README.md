@@ -1,6 +1,6 @@
 # Aistro
 
-**Live app: https://abhilien.github.io/aistro/**
+**Live app: https://abhilien.github.io/Abhilien/aistro/**
 
 A Vedic astrology platform: an exact calculation engine, an offline-first app,
 and an AI narration layer that cannot fabricate.

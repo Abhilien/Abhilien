@@ -73,14 +73,11 @@ Three requirements, all of which the hosts above satisfy by default:
 
 ### GitHub Pages
 
-`.github/workflows/deploy.yml` builds the full place database, runs the tests
-and the browser check, and publishes `apps/web/dist` to the `gh-pages` branch on
-every push to `main`. The live app is at https://abhilien.github.io/aistro/.
-
-Pages serves the `gh-pages` branch (**Settings → Pages → Source → Deploy from a
-branch → gh-pages**). To deploy at a different path, run the workflow from the
-Actions tab with `base` set to `/` for a user site (`abhilien.github.io`) or
-`/<repo>/` for a project site.
+The live app is at https://abhilien.github.io/Abhilien/aistro/. It is served
+from the `gh-pages` branch of Abhilien/Abhilien, alongside the other projects.
+To update it, build with `APP_BASE=/Abhilien/aistro/ npm run build`, run
+`npm run verify -- /Abhilien/aistro/`, and replace the `aistro/` folder on that
+branch with `apps/web/dist`.
 
 ## What about the AI part?
 
