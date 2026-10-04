@@ -106,6 +106,8 @@ test('distress switches to one-thing mode instead of making tasks', async ({ pag
 });
 
 test('has no detectable accessibility violations on the main screens', async ({ page }) => {
+  // Scan the resting state: mid-fade-in colours would give random contrast results.
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.getByRole('button', { name: 'Show me a demo day' }).click();
   for (const tab of ['Now', 'Later', 'You']) {
     await page.getByRole('tab', { name: tab }).click();
