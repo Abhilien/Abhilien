@@ -3,7 +3,7 @@
 A working prototype of an intentional dating and matrimonial platform built on **scarcity of attention**.
 You can meet many people and like many people, but you give your full attention to one.
 
-**Live demo: https://abhilien.github.io/ekam/**
+**Live demo: https://abhilien.github.io/Abhilien/ekam/**
 
 > You don’t need 1,000 matches. You need enough choice to find someone — and enough restraint to actually get to know them.
 
