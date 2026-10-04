@@ -1,0 +1,11 @@
+{
+  "name": "Waypoint",
+  "short_name": "Waypoint",
+  "description": "Cues you at the right moment, gets you started, remembers where you stopped.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#1f7a74",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

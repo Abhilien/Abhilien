@@ -1,6 +1,6 @@
 # Waypoint: an ADHD executive-function layer. Research & product concept
 
-This folder holds the full research and product concept for an ADHD-focused mobile app.
+This folder holds the full research and product concept for an ADHD-focused mobile app. A working implementation of the MVP lives in [`/waypoint`](../../waypoint/README.md).
 The working name is **Waypoint**. It is a placeholder, and trademark clearance is still needed (see Part 4, §13).
 
 **Read in order:**
