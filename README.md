@@ -3,10 +3,11 @@
 A working prototype of an intentional dating and matrimonial platform built on **scarcity of attention**.
 You can meet many people and like many people, but you give your full attention to one.
 
+**Live demo: https://abhilien.github.io/ekam/**
+
 > You don’t need 1,000 matches. You need enough choice to find someone — and enough restraint to actually get to know them.
 
 ```bash
-cd ekam
 npm install
 npm run dev          # http://localhost:5173
 npm test             # domain rule tests (vitest)
