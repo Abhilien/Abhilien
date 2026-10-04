@@ -1,6 +1,7 @@
 // YOU: settings, "What I've learned" (observations, never diagnosis), and
 // full control of your data.
 
+import { useState } from 'react';
 import { lateCorrection } from '../core/leave';
 import { actions, useStore } from '../state/store';
 
@@ -10,6 +11,7 @@ export function You({ toast }: { toast: (m: string) => void }) {
   const ledger = useStore((s) => s.ledger);
   const lc = lateCorrection(lags);
   const notifSupported = typeof Notification !== 'undefined';
+  const [confirmDelete, setConfirmDelete] = useState(false);
 
   return (
     <div className="stack">
@@ -121,13 +123,17 @@ export function You({ toast }: { toast: (m: string) => void }) {
           <button
             className="btn"
             onClick={() => {
-              if (confirm('Delete everything? This cannot be undone.')) {
-                actions.deleteEverything(new Date());
-                toast('Everything deleted.');
+              if (!confirmDelete) {
+                setConfirmDelete(true);
+                return;
               }
+              actions.deleteEverything(new Date());
+              setConfirmDelete(false);
+              toast('Everything deleted.');
             }}
+            onBlur={() => setConfirmDelete(false)}
           >
-            Delete everything
+            {confirmDelete ? 'Tap again to delete everything' : 'Delete everything'}
           </button>
         </div>
       </section>
