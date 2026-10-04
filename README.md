@@ -1,6 +1,6 @@
 # The Production World
 
-**Live demo: https://abhilien.github.io/production-world/**
+**Live demo: https://abhilien.github.io/Abhilien/production-world/**
 
 A working test of one idea for AI filmmaking: **the world exists first, and events actually happen in it. Every shot is just a camera looking at that world**, so cameras can change without the story changing.
 
