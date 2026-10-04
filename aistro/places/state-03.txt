@@ -1,0 +1,1129 @@
+Abhaipur	27.033	94.324
+Abhaipuriagaon	26.719	94.421
+Abongkethe	26.197	92.961
+Adabari	26.165	91.678
+Adabari	26.293	91.433
+Adarsha No.1	26.311	94.089
+Agamani	26.202	89.775
+Agia	26.090	90.562
+Agrong	26.596	90.732
+Agrophathal	25.756	90.903
+Ahataguri	26.833	93.867
+Ahaturi Natua Gaon	26.262	92.325
+Ahomgaon	26.726	94.122
+Ahompathar	26.509	90.884
+Akogaon	26.570	93.921
+Aksiguri	26.320	89.856
+Alakjhar	26.425	89.943
+Alakjhari	26.257	89.873
+Alengi Gaon	26.576	94.142
+Algapur	24.746	92.605
+Algapur	24.867	92.687
+Algpur	24.867	92.687
+Alikakh	26.108	91.271
+Amguri	26.571	93.051
+Amguri	26.622	90.232
+Amguri Bazar	26.635	90.564
+Amguri Nepali	27.331	95.245
+Amihora	26.352	89.999
+Amlakhi	25.947	93.510
+Amlighat	26.117	92.275
+Amraghat	24.604	92.956
+Amranga	26.036	91.526
+Amrikhoa	26.349	91.251
+Amring	25.743	92.815
+Amtala	26.078	91.418
+Amtika	26.761	90.528
+Anjakpani	26.450	93.100
+Arearjhar Pt I	26.268	90.415
+Arimara	26.044	90.658
+Arunachal	24.867	92.767
+Atgharitari	26.253	89.802
+Atharikhat	26.721	91.749
+Athkhel	26.796	94.655
+Aujari	26.236	92.291
+Auniati Sattra	26.900	94.083
+Bachagaon	26.593	93.451
+Bachagaon	27.135	94.116
+Badagaon	26.822	92.179
+Badaniakhia	26.303	91.427
+Badati	26.951	93.960
+Badlapathar	26.250	90.971
+Badulahati	26.953	93.839
+Bag-O-Bahar PT V	24.587	92.686
+Bag-o-Bahar PT III	24.588	92.702
+Baga	25.411	92.839
+Bagarigaon	25.968	92.605
+Bagbor	26.217	90.850
+Bagha Bazar	24.539	92.837
+Baghadahar	24.609	92.331
+Baghdokra	26.353	89.799
+Baghjap	26.170	92.219
+Bagribari	26.199	90.129
+Baguliaghat	26.057	93.193
+Bahadurpur	24.756	92.374
+Baida	26.029	90.405
+Baihata	26.358	91.705
+Baishya Para	26.463	91.407
+Baitha Langso	25.970	92.594
+Bajugaon	26.490	89.890
+Baladhan	25.065	93.218
+Balagaon	26.132	91.331
+Balajan	26.154	89.965
+Balajan	26.248	90.875
+Balapara	26.259	91.128
+Balarbitha	26.391	91.022
+Baligaon	27.547	94.721
+Baligaon	27.652	94.675
+Balijan	27.450	94.279
+Balijan	27.532	95.175
+Balikuchi	26.154	92.481
+Balimari	26.488	89.985
+Balimora	27.378	95.283
+Balipara	26.820	92.684
+Balipukhuri	27.010	93.765
+Bamaijhora	26.394	89.997
+Bampara	26.295	91.151
+Bamun Baradi	26.330	91.066
+Bamunbari	26.526	91.284
+Bamungaon	26.922	94.164
+Bamunkuchi	26.506	91.224
+Bandapara	25.946	91.105
+Baneikuchi	26.509	91.892
+Bangali Garigaon	26.791	94.574
+Banglabari Bagicha	26.427	90.216
+Banguk	28.028	95.540
+Baniargool	24.780	92.458
+Banikuchi	26.509	91.892
+Banjaguri	26.350	89.796
+Banmurigaon	26.350	92.233
+Bansbari	26.422	89.995
+Bansbera	26.756	92.589
+Bansipara	26.341	89.851
+Banskandi	24.803	92.874
+Banskata	25.957	90.048
+Bapujar	26.816	93.179
+Bar Dambuk	26.050	93.539
+Bar Dhoa	26.413	92.545
+Bara Bazari	24.438	92.322
+Bara Bongiedisa	25.365	93.204
+Bara Digar	25.374	93.302
+Bara Laokuti	26.337	89.812
+Barabadha	26.361	89.907
+Baraigaon	26.610	91.577
+Barajangaon	26.329	89.887
+Barakhola	24.932	92.744
+Baralimarigaon	26.351	92.159
+Barama	26.525	91.349
+Barangabari	26.454	91.919
+Barapunjee Pt I	24.793	92.289
+Barbaru	27.400	94.867
+Barchola	26.600	92.383
+Barduar	25.922	91.476
+Bardubi Road	27.402	95.318
+Barhalla	26.450	94.150
+Barhat	27.142	95.286
+Barigaon Dighalipara	26.636	92.353
+Barjabil	26.491	89.959
+Barjhar	26.533	91.367
+Barjhora	26.277	89.972
+Barkuti	26.320	90.153
+Barlum	25.872	93.477
+Barmara	26.341	91.200
+Barnagar Banekuchi	26.475	91.383
+Bartala	26.268	91.317
+Baruagaon	26.450	94.083
+Basbari	26.207	89.902
+Batabari	26.834	92.224
+Batelegaon	27.673	94.690
+Bater	26.275	89.813
+Bathegaon	26.463	93.726
+Batikuriha	26.294	91.099
+Baut Bazar	25.737	92.690
+Behali	26.833	93.345
+Behiating	27.395	94.897
+Bekattari	26.283	91.296
+Beloguri	26.678	93.599
+Belpara	26.323	89.805
+Belsiri	26.790	92.533
+Beltola	25.859	93.446
+Benghari	26.740	91.969
+Bengtol	26.638	90.479
+Bengtol No. I	26.625	90.483
+Berung	27.916	95.416
+Betanigaon	27.279	95.028
+Betjan Gaon	27.499	95.444
+Betoni	26.911	93.847
+Bhadoi Pachali	27.301	95.344
+Bhadra	27.037	94.828
+Bhaga Bazar	24.685	92.761
+Bhairiguri	26.444	89.916
+Bhalukmara	26.683	94.467
+Bhandari	26.267	94.137
+Bhanga	24.855	92.486
+Bhangamur	26.281	92.309
+Bhanjang Basti, Haflong	25.158	93.021
+Bhaorajhora	26.259	89.976
+Bharegaon	26.300	91.685
+Bharegaon	26.469	91.139
+Bhasanigaon	26.307	90.228
+Bhatipara	26.453	90.816
+Bhatupara	26.432	89.976
+Bhaulaguri	26.472	89.985
+Bhauraguri	26.426	90.073
+Bhawanipur	26.458	91.066
+Bhebelingaon	27.545	94.640
+Bhella	26.299	91.076
+Bherbherigaon	26.308	89.877
+Bhergaon	26.709	92.364
+Bhomrabil	26.465	89.904
+Bhowraguri Satbil II	26.427	90.069
+Bhuragaon	26.399	92.251
+Bhurakata	25.627	89.912
+Bhurkuchi	26.540	91.292
+Bhutiagaon	26.767	94.183
+Bhuyarkuchi	26.475	91.454
+Bi Ingli	26.470	93.431
+Bidyardabri	26.265	89.787
+Bihar Khun	25.951	93.197
+Bihiating Gaon	27.548	95.429
+Bihuguri	26.674	92.703
+Bijni	26.557	91.067
+Bijoynagar	26.103	91.507
+Bikrampur	24.924	92.657
+Bilasipara Pt	26.335	89.843
+Bilkhawtlir	24.292	92.694
+Bilmukh	27.300	94.330
+Bilpar	26.563	91.252
+Bindukuri	26.717	92.717
+Binnakandi	24.725	92.979
+Binnakandi	24.783	93.024
+Binoigutia	27.466	95.078
+Birinchiguri	26.717	90.448
+Birpara	26.021	91.262
+Bishanpur	26.349	89.886
+Bishnath	26.667	93.165
+Bishnupur	26.165	91.738
+Boalipar	24.719	92.579
+Bogadol	25.944	90.170
+Bogaigaon	27.228	94.796
+Bogar Gaon	26.586	94.154
+Boginadi	27.415	94.684
+Boitamari	26.351	90.511
+Boko	25.981	91.240
+Bokuloni	27.358	95.390
+Boldakgiri	25.827	90.131
+Bolung	28.053	95.677
+Bor Ali	26.993	94.633
+Borbil	26.989	94.750
+Borbila	26.473	90.808
+Borboha	26.015	92.925
+Bordoloni	27.403	94.419
+Bordubi	27.399	95.312
+Borduttighat	26.950	93.967
+Borgaon	26.597	90.803
+Borghoria	26.602	93.797
+Borhula	26.031	93.877
+Boriagaon	26.699	91.278
+Borigaon	26.366	92.453
+Borka	26.290	91.672
+Borkanda Sapatgram	26.231	90.153
+Borobinnyakhata- II	26.459	90.062
+Borpak	26.686	93.741
+Bosagaon	26.463	94.113
+Budrutop	26.317	91.000
+Budura Gaon	26.672	91.789
+Bura Timung	26.175	93.656
+Burabe	25.714	93.332
+Burakek	26.003	93.164
+Burhi Khow	27.290	94.925
+Buri Khamar	26.552	90.900
+Burichatan	26.476	89.927
+Campbellpur	26.386	89.874
+Chagalchari	26.459	91.176
+Chaikambao	25.206	92.984
+Chakali Pathar	26.279	93.923
+Chakalia	27.135	94.823
+Chakialgaon	27.157	94.729
+Chamaria	26.068	91.150
+Chandpur	26.421	89.930
+Chandrapur	26.230	91.919
+Changchang	26.587	94.454
+Changmai Gaon	26.745	94.345
+Changmai Gaon	27.016	94.664
+Chaorokiagaon	27.104	94.435
+Chapanalla	26.337	92.881
+Chaparmukh	26.200	92.518
+Charduar	26.858	92.767
+Chariali	26.673	94.011
+Charka Hai	25.678	93.239
+Chatachara	24.283	92.433
+Chauldhoa Baligaon	27.434	94.318
+Chedamari	26.523	90.353
+Chengelijan Gaon, Assam, India	27.545	95.503
+Chengelijan Habi No. 1	27.276	95.267
+Chenijan	26.782	94.287
+Chesa	27.008	93.711
+Chetiagaon	27.314	94.415
+Chhaguli	26.284	89.757
+Chhatibargaon	26.544	90.518
+Chhaygaon	26.050	91.397
+Chinatoli	27.037	93.964
+Chirukandi	25.016	92.549
+Chisimgiri	25.882	90.441
+Chithilagram	26.402	90.164
+Chnagmai	26.869	94.833
+Choshinyu	25.912	94.046
+Choto Athiabari	26.444	91.995
+Chunari	26.117	90.350
+Chutia	26.735	93.047
+Chutiya Mirigaon	27.562	94.743
+Cinnamara	26.717	94.233
+Craigpark	25.000	92.533
+Daflagarh	26.854	93.480
+Dagapara	26.321	91.417
+Dagiapara	26.476	91.849
+Daikarguri	26.493	89.965
+Dakhin Kuyabil	26.662	91.991
+Dalaigaon	26.515	91.256
+Daldali	26.270	89.899
+Dalgaon	26.560	92.198
+Dalgoma	26.113	90.792
+Dalgram	24.570	92.412
+Dalu	24.923	92.783
+Damal	26.197	92.330
+Damali	25.914	91.326
+Dambra Bawa	26.316	91.127
+Dambukso	26.135	93.565
+Damchara	25.012	92.726
+Damriguri	26.424	89.906
+Damriguri	26.481	89.890
+Dangori	27.709	95.561
+Dangtal Revenue Circle	26.374	90.465
+Daram	25.861	90.596
+Darangi Para	26.321	91.407
+Darangibra	25.429	93.292
+Daria	26.633	93.933
+Darighat	24.357	92.550
+Darranga	26.792	91.509
+Dasgram	24.849	92.279
+Datma	26.477	90.147
+Dawaguri Number One	26.463	89.901
+Dawaguri Number Three	26.458	89.888
+Dawaguri Number Two	26.451	89.910
+Debara	26.476	91.195
+Debattar Bapupara PT-I	26.080	90.548
+Dehingia Gaon	27.143	94.814
+Deka Chuk	26.723	92.903
+Dekapara	26.410	91.352
+Dengaon	26.233	92.983
+Deoduar	26.346	91.677
+Deosri	26.766	90.467
+Derebara	25.371	92.925
+Dhalai	24.601	92.848
+Dhaligaon	26.497	90.522
+Dhalpur	26.919	93.797
+Dhamdhama	26.559	91.479
+Dhanpur	26.328	90.166
+Dhansiri	25.815	93.621
+Dhansirimukh	26.700	93.617
+Dhapaliagaon	27.283	94.417
+Dharamtul	26.160	92.352
+Dharia	27.365	95.109
+Dhatakharia	26.663	94.140
+Dhaulaguri	26.468	89.994
+Dhenukhana Pathar	27.310	94.463
+Dhontola	26.170	93.939
+Dhupdhara	25.960	91.058
+Dhutramari	26.331	89.861
+Digarkhal	25.025	92.493
+Dighalia Gaon	27.285	95.219
+Dighaltarang	27.606	95.422
+Dighaltari	26.256	89.786
+Digjani	26.328	90.882
+Dihajan	27.130	94.763
+Dihingmukh	27.261	94.703
+Dihira	26.796	91.400
+Dijmur	27.664	94.852
+Diju	27.283	94.050
+Dijugaon	26.521	93.384
+Dikhomukh	26.962	94.415
+Dikrum	26.180	93.573
+Dilai Gate	25.997	93.388
+Dili Terang	26.213	93.678
+Dilibari Tiniali	26.566	93.994
+Dimakuchi	26.741	91.821
+Dimow	27.127	94.742
+Dimow	27.682	94.812
+Dimruguri	26.779	94.201
+Dingdinga	26.351	89.893
+Dingram	26.362	90.156
+Dinjaygaon	27.511	95.182
+Dipa	27.725	94.855
+Dipling	27.105	95.037
+Dirua	26.357	91.340
+Disangmukh	27.067	94.550
+Dissang	27.282	95.135
+Dithur	25.494	92.801
+Doiangmukh	25.804	92.941
+Dolagaon	26.314	90.770
+Dolgaon	26.440	89.996
+Domgaon	27.072	94.564
+Dosatan	26.325	91.908
+Doulashal	26.268	91.228
+Duaapara	26.122	90.653
+Dualasal	26.268	91.229
+Duarmara	27.485	95.735
+Dubia Barigaon	26.908	93.709
+Dudhnai	25.983	90.782
+Dudpatil VIII	24.885	92.814
+Duhalia Pt 1	24.628	92.354
+Duibohin Alma	26.284	89.993
+Dulahatgaon	27.162	93.994
+Dulangmukh	27.504	94.268
+Dulia Puranimelia	26.875	94.529
+Duliagaon	26.893	94.551
+Duligaon	26.258	90.077
+Dullavcherra	24.486	92.434
+Dumduma Gaon	26.674	92.394
+Dumergur	26.326	90.744
+Dumnichauki	26.350	91.833
+Dumsa	27.517	95.867
+Dumunichowki	26.350	91.824
+Duni	26.470	91.844
+Durgapur	26.301	91.079
+Durgapur	26.628	90.594
+Durgapur	26.775	91.373
+Dwarband	24.632	92.709
+East Bhadragaon III	26.467	90.567
+Ekoratoli	27.033	94.710
+Erdangkramsa	26.316	93.246
+Fadepur	26.358	89.903
+Failaguri	26.396	89.873
+Fakiragram	26.362	90.182
+Fakirganj	25.969	90.061
+Furkating	26.469	94.017
+Gabharu	26.683	92.650
+Gagaldubi	27.362	94.183
+Gagnikhat	26.538	91.509
+Gajpuria	26.899	94.546
+Ganak Kuchi Gaon	26.318	91.037
+Gandhapukhuri	26.639	92.185
+Ganganagar	24.608	92.964
+Gangmohthan	26.771	93.314
+Ganjakhauri	24.473	92.565
+Ganju Basti	26.912	93.422
+Garai Mari	26.300	91.233
+Garampani	26.393	93.882
+Garehaga Chuk	27.189	94.158
+Gariagaon	26.695	94.117
+Garobhatkhoa	26.079	90.384
+Garopara	26.344	89.824
+Garopara	26.358	89.915
+Garubhasa	26.567	90.373
+Gayangaon	26.989	94.314
+Gejeragaon	27.123	94.427
+Geleki	26.804	94.701
+Geredonga	25.907	92.932
+Gereki	26.812	93.170
+Gerukabari	26.486	90.694
+Ghahigaon	26.829	93.520
+Ghoga	26.303	91.431
+Ghograpar	26.453	91.510
+Ghoramara	26.593	91.495
+Ginjia	26.807	93.251
+Gogamukh	27.406	94.347
+Gogamukh Tajik	27.400	94.333
+Gohaingaon	26.844	94.200
+Goibarigaon	26.785	91.678
+Gokulkata	26.477	89.878
+Gomariguri	26.329	94.081
+Gopikot	25.081	93.156
+Goramari	26.347	92.293
+Goroimari	26.036	92.727
+Goroimari	26.113	91.236
+Goroimari Ahom	26.720	92.756
+Gosaibori	26.083	90.808
+Goteswar	26.531	91.727
+Grahampur	26.352	89.871
+Guma	26.331	89.885
+Gunjong	25.317	93.011
+Gunjung	25.319	93.012
+Habaipur	25.943	92.824
+Habe	26.429	93.082
+Habialgaon	26.783	94.167
+Habrubil	26.445	89.986
+Hachraobari	26.486	89.948
+Hajua	26.704	91.194
+Hakanamara	26.220	92.334
+Hakma	26.428	89.949
+Halakura	26.252	89.777
+Halbari	25.960	91.491
+Haltugaon	26.487	90.289
+Hang Habai	25.856	92.796
+Hangrum	25.139	93.302
+Hapagaon	26.736	92.146
+Hapheka Bepari	26.190	93.549
+Harchura	26.779	92.778
+Harimura	26.093	90.673
+Haripur	26.323	89.874
+Harisinga	26.720	91.990
+Harjhora	26.260	89.985
+Harwaphuta	26.445	89.916
+Hasanpur	24.846	92.509
+Hatibandha Gaon	26.834	92.212
+Hatikhuli	26.600	93.350
+Hatipara	26.097	91.287
+Hatipara	26.319	92.685
+Haulighat	26.271	91.351
+Hauriajhora	26.251	89.969
+Hekra	26.515	91.508
+Helaigaon	26.302	93.662
+Helapakari	26.433	90.968
+Helem	26.844	93.476
+Helesa	26.335	91.621
+Hespech	26.410	89.935
+Himaigaon	26.095	93.192
+Hodakona	25.947	90.560
+Howang	25.944	93.401
+Howraghat	26.092	93.140
+Hudukhata	26.610	91.103
+Hudupara Gaon	27.294	95.287
+Huliagaon	27.579	94.518
+Huramara	26.432	90.689
+Indrapur	26.471	89.899
+Inglinggaon	26.192	93.342
+Itakhola	25.974	92.910
+Itakhola	26.789	92.965
+Jacobpur	26.400	89.898
+Jagdala	26.653	91.240
+Jagiroad	26.208	92.406
+Jaihing	27.305	94.031
+Jaipur	24.903	93.058
+Jaipur	27.262	95.396
+Jakhalabandha	26.586	92.970
+Jakuradhar	24.611	93.092
+Jalah	26.657	91.216
+Jalkhana	26.446	91.267
+Jalwagiri	25.717	90.721
+Jamduar	26.717	89.883
+Jamguri	26.387	93.960
+Jamindargaon	25.768	93.357
+Jamuguri	26.387	93.964
+Jamuguri	26.722	92.931
+Jangar Choburi	26.682	92.684
+Japidhora Gaon	27.082	95.000
+Jaraguri	26.496	89.882
+Jayrampur	27.351	96.016
+Jeikhan	24.490	93.111
+Jelkarjhar	26.458	90.525
+Jenggaon	26.449	93.212
+Jengpata	26.348	93.674
+Jetukiagaon	26.741	94.350
+Jhalam	27.129	94.861
+Jhanzi	26.867	94.500
+Jhargaon	26.679	92.020
+Jinkata	26.249	89.760
+Jirighat	24.807	93.110
+Jirsong Asong	25.860	93.438
+Jogibheta	26.758	94.281
+Joipur	26.360	89.888
+Jonai	27.833	95.221
+Jongbandha	26.366	89.824
+Joypur Town	27.268	95.392
+Jugalati	26.670	93.665
+Jungterang	25.976	93.354
+Kabula	27.277	95.692
+Kachari Gaon	26.217	92.167
+Kacharigaon	26.365	89.851
+Kadam	27.316	94.149
+Kadamguri	26.456	89.997
+Kadamguri	26.660	92.019
+Kadamtola	26.408	90.649
+Kadamtola	26.640	91.464
+Kaharpara	26.044	91.576
+Kahikuchi	26.359	91.133
+Kahilipara	26.145	91.768
+Kahitama	26.619	90.895
+Kaimari	26.295	89.828
+Kaimati	26.319	89.784
+Kairapur	26.359	89.871
+Kakaman	26.290	92.572
+Kaki	26.017	93.030
+Kakotibari	27.090	95.023
+Kalachanpara	26.319	89.828
+Kalain	24.969	92.569
+Kalakuchi Gaon	26.771	92.628
+Kalgachia	26.359	90.871
+Kaliabor	26.538	92.928
+Kaliani	26.471	93.769
+Kalitagaon	26.899	93.726
+Kalitakuchi	26.154	91.846
+Kamakhya	26.167	91.725
+Kamalpur	26.346	91.677
+Kamandanga	26.366	89.842
+Kamar Pota	26.077	90.922
+Kamarkuchi	26.349	91.480
+Kamarpara	26.430	89.966
+Kampur	26.182	92.651
+Kandhbari	26.300	91.400
+Kangjonggaon	26.238	93.280
+Kanhmun	24.238	92.296
+Kaolakhat	26.615	93.583
+Kaplabori SMY	26.275	91.299
+Karaballe Grant	25.004	92.437
+Karaikandi	24.865	92.867
+Karemura	26.577	91.314
+Karlingpur	26.367	89.891
+Kashikhagra	25.981	90.558
+Kasikatra	26.537	90.415
+Kasomarigaon	26.260	94.019
+Kathiatali	26.183	92.736
+Katigora	24.890	92.585
+Katirampara	26.496	89.927
+Katkali Ghat	24.584	92.296
+Katlichara	24.446	92.565
+Kaupati	26.581	92.243
+Kawadi	26.510	90.769
+Kaya	26.376	91.550
+Kaziranga	26.589	93.408
+Kekuri Bebejia	27.118	94.309
+Kendanapara	26.495	89.990
+Keotkuchi	26.307	91.053
+Kerekoni	27.190	94.783
+Kerhlam	25.016	93.182
+Kerimgaon	27.929	95.650
+Keseruguri	27.639	95.459
+Keseruguri Gaon	27.642	95.462
+Khamar	26.219	90.136
+Khanapara	26.100	91.817
+Khandakarpara	26.402	90.960
+Khangrapara	25.993	90.448
+Khara Bagaribari	25.947	90.832
+Khara Dhara	26.580	91.278
+Kharadhara	26.363	91.120
+Kharia	26.411	91.210
+Kharija Dolaigain PT-I	26.504	90.566
+Kharija Dolaigaon	26.498	90.575
+Kharikatia	26.617	94.255
+Kharikhanapatti	25.888	92.899
+Kharkutta	25.938	90.901
+Kharmauza	26.148	90.487
+Kharsitha	26.453	91.384
+Kharua	26.555	91.348
+Khasua	26.321	89.873
+Khatoalgaon	26.661	94.152
+Khatua Gaon	27.295	95.266
+Khelma	25.529	93.313
+Kheroni	25.853	92.883
+Kheroni Maj Basti	25.815	92.942
+Khoirabari	26.638	91.779
+Khoirabari	26.866	91.952
+Khoiraghutu	26.422	89.877
+Khongra	26.270	91.186
+Khowang	27.275	94.876
+Khudra Purahuria	24.850	92.285
+Khuiarpom	27.194	94.005
+Khumtai	26.609	93.834
+Khursamari	26.343	90.449
+Khutabari	26.067	91.083
+Killarbogh	24.297	92.531
+Kimin	27.302	93.971
+Kismat Kuriha	26.326	91.504
+Kobirali	26.650	92.017
+Kobo	27.787	95.387
+Kochugaon	26.552	90.076
+Kokilamukh	26.827	94.086
+Koliagaon	27.036	94.236
+Krishnai	26.028	90.687
+Krishnanagar	24.503	92.442
+Kseh Kynthang	25.836	92.277
+Kuamahal	26.367	89.910
+Kukar Par	26.304	91.214
+Kukichara	24.387	92.563
+Kulhati	26.246	91.573
+Kumarganj	26.272	89.869
+Kumargaon	26.456	90.741
+Kumargram	26.617	89.829
+Kumarikata	26.731	91.556
+Kumbhir	24.943	92.959
+Kumgari	26.540	90.157
+Kumguri	26.682	91.104
+Kumrikhata	26.732	91.555
+Kunda	26.700	90.867
+Kundarbilgaon	26.841	92.004
+Kundil Bazar	27.833	95.667
+Kursakati	26.048	90.322
+Kursakati	26.267	89.879
+Kursamari	26.520	90.813
+Kurua	26.238	91.821
+Kuthari	26.569	93.240
+Laharighat	26.419	92.343
+Laher	25.707	92.606
+Lahorighat Pam	26.433	92.350
+Laimakuri	27.694	95.030
+Laisong	25.207	93.294
+Lakhuni	26.564	94.439
+Lakwa	27.014	94.857
+Lalaghat	24.555	92.636
+Lalkek	25.432	93.277
+Lalmati	26.305	89.886
+Lalpani	24.810	93.081
+Lalpara	26.386	89.914
+Lalsong	25.017	92.900
+Lalunggaon	27.461	94.552
+Lama Disa	25.346	92.987
+Lamabahadurpur P	24.794	92.340
+Lamajuar	24.839	92.422
+Lamsakhang	25.796	93.047
+Langklam	25.454	92.738
+Langlut	25.468	92.815
+Langra Basti	26.251	93.963
+Langting	25.498	93.114
+Langyen	25.541	92.972
+Lankapatti	25.922	92.942
+Laokhoa	26.533	92.800
+Laow Dalani	26.798	93.199
+Larmare	25.941	91.630
+Lasanbari	26.268	92.383
+Latum Chuk	27.059	94.462
+Lecham Batamari	27.298	94.453
+Leike	25.291	93.431
+Lengrabhita	26.033	90.126
+Lengteng	26.467	93.067
+Letekujan	26.583	93.805
+Likabali	27.661	94.693
+Loch	26.450	91.700
+Lohajani	26.259	89.825
+Loharghat	25.977	91.474
+Loharkhatha	26.297	91.441
+Long-e-tilun	25.967	92.367
+Longkamgaon	26.187	93.375
+Longku	25.673	92.785
+Longpai	25.804	92.492
+Lonpuria	26.943	94.787
+Lotamari	26.396	89.911
+Lungding	25.579	93.188
+Machandoba	26.389	89.919
+Machkhoa	27.333	94.550
+Madanpur	24.563	92.425
+Madhatari	26.586	92.960
+Madhupur	26.450	91.377
+Madhyam Dakumgaon	26.640	90.410
+Mahakal	24.837	92.493
+Maholiapara	26.647	91.815
+Maizgram	24.851	92.315
+Majar Chuk	26.729	92.921
+Majbat	26.786	92.285
+Majer Dabri	26.414	89.872
+Maji	25.901	92.347
+Majuli	26.950	94.167
+Makariagaon	26.106	92.334
+Malaguri	26.473	89.958
+Malanduba	26.253	89.878
+Malandubi	26.711	90.476
+Malangpa	25.218	92.828
+Mali Pather Gaon	27.255	95.402
+Malibaripathar	26.099	91.142
+Malu Khat	26.783	94.117
+Manakasha	26.530	90.834
+Mandalpara	26.489	89.909
+Mandarkati	26.345	89.899
+Mandia Gaon	26.283	90.984
+Mandirapathar	26.043	91.102
+Manikpur	26.372	89.889
+Manipur	24.817	92.955
+Marangaon	26.831	93.296
+Maranjan	27.083	94.917
+Margang	26.057	91.997
+Maripur	26.428	91.211
+Markhan	26.416	89.996
+Masabdisa	25.665	93.169
+Masughat	24.870	92.771
+Masujhora	26.273	89.880
+Mathani	26.620	93.514
+Mathurapur	26.986	94.877
+Matia	26.099	90.800
+Matiajuri	26.440	89.935
+Matie Khana Gaon	27.425	95.237
+Matipara	26.498	89.952
+Mauchar	24.323	92.898
+Maudanga	26.104	93.001
+Mawshaladiang	25.783	92.184
+Mayang	26.258	92.041
+Mayerchar	26.166	90.191
+Mazdia	26.300	91.230
+Mechangbung	25.332	93.523
+Mechpara	26.332	89.901
+Merapani	26.320	94.093
+Merbil Grant	27.307	95.228
+Meruattari	26.304	91.378
+Mijika	26.814	93.147
+Mikirbheta	26.321	92.461
+Mikirgaon	26.141	92.693
+Mikirgaon	26.226	92.757
+Mikirgaon	26.362	93.250
+Misa	26.483	92.933
+Misamari	26.806	92.598
+Mohamai	26.253	89.775
+Mohanbari	27.463	95.021
+Mohmaragaon	27.624	95.167
+Moilang	26.065	94.068
+Molong	24.973	93.148
+Moragang	24.631	92.635
+Moran Gaon	26.690	94.416
+Morangi	26.580	93.817
+Mornai	26.105	90.748
+Motital Pathar	26.777	94.129
+Mubarakbasti	26.097	92.876
+Mugrapur	24.787	92.496
+Mukalmua	26.274	91.354
+Muktapur	26.421	91.737
+Mumgaon	26.381	93.485
+Mupa	25.373	93.119
+Murkong Selek	27.825	95.229
+Musalmanpara	26.345	89.862
+Mushalpur	26.659	91.341
+Mynser	25.915	92.409
+Na Sripuria	27.237	95.218
+Nachankuti	26.412	90.441
+Nadiapara	26.014	91.269
+Nagaon	26.304	91.110
+Nagaon	26.706	92.588
+Nagarbera	26.111	90.990
+Nagargaon	27.004	94.160
+Nagdirgram	24.664	92.866
+Naharani	26.901	93.676
+Naitar	26.070	90.999
+Nakachari	26.706	94.395
+Nakhangia Bongali	27.352	95.156
+Nakhatia	27.283	95.333
+Nakhola	26.122	92.200
+Nalapara	25.890	91.184
+Nalbari	26.657	91.912
+Nam Dabaka	26.099	92.852
+Namdang	26.950	94.545
+Nankar Bhaira	26.487	91.503
+Naobaicha	27.170	94.010
+Naoboicha	27.415	94.684
+Naojan	26.126	93.843
+Naokata	26.648	91.722
+Naolsalia	26.589	94.030
+Naptipara	26.351	91.373
+Narainpur	25.100	92.833
+Narengi Tinali	26.182	91.832
+Narikuchi	26.461	91.572
+Narjan	26.576	93.252
+Nasatra	26.323	91.060
+Nasbor	26.859	93.402
+Natabari	26.307	89.854
+Natanpur Grant	25.011	92.427
+Nathkuchi	26.615	91.285
+Nayagram	24.569	92.422
+Nayapara	26.451	89.900
+Naysatra	26.308	90.693
+Neamati	26.833	94.300
+Neghereting	26.733	94.117
+Nepaligaon	26.969	93.976
+Nepalipara	26.469	89.882
+Nepalpara	26.459	89.980
+New Bongaigaon	26.464	90.564
+New Seren	27.738	94.884
+Nij Charaibahi	26.292	92.455
+Nij Laluk	27.119	93.930
+Nikashi	26.729	91.363
+Nilai Jhora	26.400	89.944
+Nilambazar	24.746	92.350
+Niz Banekuchi	26.473	91.396
+Niz Barala	26.453	91.157
+Niz Chenga	26.305	91.171
+Niz Namati	26.528	91.306
+Niz Saldah	26.453	91.186
+Niz Tengakhat	27.381	95.172
+Niz chirakhowa	25.595	89.909
+No 2 Surjyapur	26.731	92.468
+No. 1 Disiri Pathar	26.787	93.201
+No. 2 Ulubari	26.758	92.607
+No.1.Doulasai	26.293	91.261
+No.1.Larkuchi	26.263	91.301
+Noishapur	26.377	89.866
+Nongiapam	25.787	91.194
+North Salmara	26.366	90.635
+Nowboisa	26.913	94.431
+Nunmati	26.183	91.800
+Oaklands	27.550	95.067
+Oksiguri	26.450	89.970
+Orang	26.701	92.324
+Orangajuli	26.817	91.867
+Paglahat	26.210	89.864
+Pahumaragaon	27.124	94.110
+Paikan Bonmaza	26.370	91.348
+Pailapool	24.830	93.025
+Pakariamukh	26.267	92.050
+Pakhriguri	26.389	90.710
+Paklanggaon	25.850	93.262
+Pakriguri	26.314	89.807
+Pakriguri	26.464	89.970
+Palanghat	24.636	92.857
+Palasbasti No.2	26.700	92.464
+Palasguri	26.474	89.935
+Palaskandi	26.361	89.866
+Panari	26.548	91.837
+Panchgram	24.861	92.596
+Pandu	26.169	91.677
+Paneri	26.051	91.282
+Paneri	26.727	91.916
+Panigaon	26.383	92.794
+Panikhaiti	26.200	91.876
+Paniputa	26.836	92.775
+Panitola	27.492	95.254
+Panitola Gaon	27.493	95.257
+Panwari	26.487	89.955
+Parasu Tangani	26.348	92.463
+Parghat	26.626	93.739
+Pasuarkhal	26.238	90.186
+Patacharkuchi	26.517	91.267
+Patgaon	26.569	90.231
+Pathakata	26.507	90.097
+Pathakhuri	24.379	92.400
+Pathalipam	27.425	94.293
+Patharkandi	24.609	92.321
+Patharughat	26.467	91.867
+Patiladoha	26.503	90.808
+Pengree	27.443	95.774
+Pengri	27.423	95.765
+Perabharigaon	27.195	94.396
+Perhen	26.516	93.650
+Petla	26.251	89.851
+Petla Bhati	26.257	89.857
+Petla Maidhya	26.273	89.857
+Petla Ujan	26.293	89.873
+Phaikulum	25.475	93.452
+Phangchagaon	26.427	93.821
+Phangchogaon	26.513	93.427
+Phatika	26.741	93.205
+Philobari	27.556	95.693
+Phukanbari TE	27.366	95.212
+Phukangaon	27.542	94.604
+Phulaguri	26.267	92.583
+Phuluni	26.204	93.129
+Pingaleswar	26.388	91.774
+Piradhara	26.298	90.693
+Pithakhaitigaon	26.417	92.183
+Pokalagi	26.268	89.761
+Pokalagi	26.352	89.845
+Powai	27.353	95.646
+Pukhuri	27.471	95.337
+Puranigudam	26.376	92.796
+Puthimari	26.694	92.219
+Rabhapara	26.255	89.886
+Raha	26.432	90.879
+Raidang Goan	27.501	95.543
+Raikata Islampur	25.947	92.766
+Raimana	26.634	89.971
+Raipur	26.141	89.838
+Raja Bazar	24.888	93.069
+Raja Mayang	26.238	92.009
+Rajabari	26.937	94.855
+Rajapukhuri	26.096	91.485
+Rajbari	25.867	93.733
+Rajgurugaon	26.780	94.171
+Rakhapara	26.091	90.523
+Ramdia	26.231	91.486
+Ramnagar	24.713	92.967
+Ramnagar	24.826	92.747
+Ramnathpur	26.332	89.845
+Rampur	26.276	91.260
+Ranchapur	26.389	89.899
+Rangagora	27.570	95.297
+Rangamati	26.383	91.967
+Rangangaon	26.425	89.930
+Rangapani	26.317	90.783
+Rangazumi	25.964	94.023
+Rangberam	25.722	90.822
+Rangiaghutu	26.376	89.913
+Rangjoli	25.968	90.936
+Rangsapara	25.842	91.179
+Rangsapara	26.813	92.693
+Ranguapara	26.431	89.931
+Rani	25.808	91.297
+Ranigodam	26.036	91.584
+Ranikhata	26.634	90.384
+Ratabari	24.600	92.402
+Ratuwa	27.392	94.463
+Rengma Pathar	26.178	93.911
+Resamguri	26.476	89.989
+Rihabari	26.602	91.169
+Rimijhimighat I	26.391	90.123
+Romai	27.379	95.062
+Ronghang Arong	25.864	93.453
+Rongkhelan	25.856	93.442
+Rosekandi	24.695	92.715
+Rowmari	26.443	91.942
+Rowta	26.706	92.227
+Rupahi	26.411	92.740
+Rupaigaon	27.445	94.232
+Rupsi	26.124	89.927
+Sadharu Guri	26.754	93.130
+Sadiya	27.831	95.668
+Sagunchara	26.322	89.831
+Sahajuri	26.434	89.952
+Saharghutu	26.436	89.904
+Sahebpara	26.445	89.972
+Saikhoa Ghat	27.755	95.598
+Sakmuthi	26.517	93.017
+Sakmuthigoan	26.569	92.980
+Salaguri	27.065	94.827
+Salana	26.454	92.977
+Saledal	26.429	91.781
+Salikipara NC	27.294	94.204
+Saljuri	26.496	89.981
+Salkocha	26.236	90.339
+Salmara	26.134	90.324
+Salmara	26.261	90.174
+Samaguri	26.416	92.844
+Samala Khat	26.516	91.927
+Samukjan	26.436	93.803
+Sandheli	26.439	91.427
+Santhalpara	26.279	89.903
+Santhalpara	26.453	89.929
+Santipur	26.581	91.458
+Sapkata	26.286	91.388
+Saralpara	26.825	90.250
+Sarhed	26.447	93.357
+Sarkher Basti	25.887	93.155
+Sarpamari	26.307	89.867
+Sarupeta	26.502	91.077
+Sarusajai	26.110	91.761
+Satgaon	26.153	91.845
+Satpakhali	26.064	91.450
+Satra Baradi	26.328	91.050
+Satrakanara	26.257	90.920
+Sechapani	26.288	89.895
+Senga	26.279	91.157
+Serfanguri	26.463	89.948
+Serfanguri	26.635	90.463
+Shamaguri	26.410	89.907
+Shedhumi	25.868	93.952
+Sherpur	24.668	92.349
+Shilbaji	26.480	89.992
+Shilghagri	26.403	89.926
+Shonkaria	26.457	91.465
+Siajuli	27.376	94.095
+Sidhabari	26.268	92.339
+Sidhung	24.514	92.346
+Sidli	26.535	90.453
+Sikarhati	26.031	91.485
+Silapathar	27.595	94.724
+Sildubi	26.584	93.310
+Silghat	26.603	92.926
+Silkuri	24.732	92.788
+Silobari	26.004	91.138
+Silonijan	26.328	93.869
+Silsili Demow Kinar	27.200	94.804
+Simaldahi	26.405	89.914
+Simaltapu	26.434	89.874
+Simanagaon	26.429	92.965
+Simila	26.017	91.159
+Simlabari	26.100	90.450
+Singimari	26.396	90.200
+Singlijan	26.925	93.463
+Singmarigaon	26.050	92.603
+Singra	25.944	91.156
+Singri	26.609	92.461
+Singura	24.709	92.473
+Sipajhar	26.401	91.895
+Sirtiso	25.834	92.524
+Sissiborgaon	27.527	94.676
+Sisumuria	27.203	95.229
+Sitangtola	26.430	89.916
+Solmara	26.380	91.295
+Sonabil	26.819	92.641
+Sonai	24.732	92.890
+Sonaimukh	24.726	92.881
+Sonakhira	24.571	92.288
+Sonali Dabri	26.349	89.827
+Sonapur	26.118	91.972
+Sonarihola	26.548	92.881
+Sonarijangaon	26.224	93.137
+Sonbaraghat	24.754	92.840
+Soneswar	26.344	91.642
+Sonitpur	26.782	92.449
+South Salmara	25.905	90.018
+Sribar Lakhipur	24.819	93.001
+Srihati	26.196	91.551
+Srijangram	26.382	90.733
+Srikona	24.835	92.716
+Srirampur	26.429	89.900
+Suagpur	26.685	91.706
+Subankhata	26.787	91.417
+Sukan Bamnai	26.414	89.940
+Sukan Pukhuri	27.122	94.870
+Sunduba	26.359	92.225
+Tairakuri	26.473	94.153
+Takuamar	26.422	90.436
+Taluagaon	26.322	89.840
+Tama	26.311	89.841
+Tama Hat	26.301	89.850
+Tamulpur	26.617	91.574
+Tarabari	26.231	91.115
+Tarangmukh	26.323	90.244
+Tarani	26.485	91.600
+Tarani pather gaon	27.287	95.275
+Telipara	26.030	91.080
+Tengabari	26.068	90.695
+Tengakhat	27.380	95.163
+Tengapania	27.183	94.651
+Tengnarpat	26.289	89.801
+Teporchali	27.189	94.830
+Thaijuari	25.564	92.971
+Thangmo	25.651	92.651
+Thelamara	26.696	92.558
+Thindawl	24.178	92.700
+Thingje	25.263	93.370
+Thowbanga	26.813	92.896
+Tikalpur	24.949	92.963
+Tikirabali	27.341	95.135
+Tilabani	26.393	89.884
+Tilapara	25.975	90.901
+Tingaon	25.054	92.573
+Tingiri NC	27.373	94.279
+Tingrai Borhula	27.402	95.234
+Tingrai Gaon	27.468	95.567
+Tiniali	26.566	93.994
+Tinkhang	27.213	95.173
+Tipamia	27.264	95.177
+Tipkai	26.290	90.033
+Tiplai	26.050	90.981
+Titabor Tangia	26.316	94.064
+Titkuri	26.453	91.712
+Tokradia	26.243	91.553
+Tukrajhar	26.664	90.451
+Tukrapara	26.096	91.224
+Tulshimukh	26.205	93.205
+Tulsimukh	26.247	92.680
+Tumpung	26.198	93.156
+Tupamari	26.135	91.090
+Turibari	27.361	94.630
+Udalguri	27.556	95.262
+Udarband	24.882	92.882
+Udari	26.286	92.295
+Ukium No. 2	25.853	91.334
+Ukium no. 1	25.845	91.343
+Ulubam	26.118	92.102
+Ulubari	26.370	91.272
+Ulubari	26.500	90.417
+Ulubari	26.733	92.574
+Ulubari	27.186	94.099
+Umednagar	24.567	92.617
+Umpanai Christian	25.936	92.293
+Umswai	25.940	92.239
+Urao Basti	26.876	93.427
+Uriamguri	27.333	95.203
+Uriamguri Baligaon	27.389	94.298
+Uriyamguri	27.509	94.333
+Uzankuri	26.104	91.601
+Vally View	25.863	93.442
+Vawklian	24.454	92.995
+Wathegiri	25.869	90.298
+Yimpang	26.321	94.185

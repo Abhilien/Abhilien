@@ -1,0 +1,496 @@
+AB2 Pandara Road	28.606	77.231
+Adarshnagar	28.719	77.178
+Adb Chini	28.538	77.203
+Akbarpur Majra	28.836	77.185
+Aliganj	28.584	77.222
+Alumgirpur	28.744	77.126
+Amandgram	28.689	77.322
+Ambar Hai	28.578	77.051
+Anand Parbat	28.659	77.176
+Anandnagar	28.674	77.168
+Ansarinagar	28.567	77.214
+Arjunnugar	28.562	77.207
+Asalatpur Khadar	28.542	76.951
+Asalatpur Khadar	28.622	77.079
+Ashoknagar	28.637	77.104
+Asian Games Village	28.553	77.215
+Asmara Lines	28.582	77.146
+Auchandi	28.820	76.996
+Aulia Masjid	28.512	77.180
+Azadnagar	28.664	77.281
+Azadpur	28.707	77.179
+Baba Haridas Enclave	28.646	76.958
+Baba Haridasnagar	28.623	76.971
+Baba Haridasnagar	28.690	76.966
+Badarpur	28.503	77.302
+Badosra	28.530	76.985
+Bagrola	28.571	77.075
+Baird Place	28.601	77.131
+Balbirnagar	28.684	77.290
+Balinagar	28.653	77.128
+Bamnoli	28.544	77.032
+Baqargarh	28.596	76.877
+Basal Darapur	28.657	77.135
+Basantgaon	28.573	77.160
+Bawri	28.600	77.045
+Bazidpur Thakuran	28.806	77.003
+Begampur	28.540	77.208
+Behlolpur Bangar	28.586	77.257
+Bengali Colony	28.538	77.256
+Ber Sarai	28.548	77.183
+Betaista Enclave	28.595	76.977
+Bhagol	28.573	77.275
+Bhajanpura	28.700	77.259
+Bharatnagar	28.566	77.273
+Bharatnagar	28.681	77.177
+Bharaula	28.716	77.171
+Bharthal	28.543	77.051
+Bhikaji Cama Place	28.568	77.186
+Bhili Bhulaiyan	28.673	77.180
+Bhogal	28.584	77.252
+Bholanathnagar	28.669	77.285
+Bhupendrasinghnagar	28.634	77.084
+Biharipur	28.714	77.263
+Bijwasan	28.535	77.054
+Bindapur	28.614	77.070
+Brahmapuri	28.682	77.269
+Budhela	28.638	77.070
+Budhpur Bijapur	28.781	77.138
+Chanakyapuri	28.598	77.188
+Chanakyapuri Colony	28.585	77.200
+Chandarnagar	28.651	77.284
+Chandnagar	28.649	77.097
+Chandni Chauk	28.656	77.226
+Chandpur Kalan	28.753	77.009
+Chandpur Khurd	28.762	77.010
+Char Minar	28.546	77.213
+Chara Mandi	28.611	76.994
+Chatesar	28.756	76.968
+Chaukandi	28.645	77.098
+Chetan Vihar	28.609	76.965
+Chiragh Delhi	28.538	77.230
+Chitral Lines	28.603	77.126
+Chittaranjan Park	28.540	77.248
+Civil Line	28.675	77.224
+Civil Lines	28.680	77.226
+Connaught Place	28.633	77.221
+Dabri	28.610	77.087
+Dahirpur	28.716	77.206
+Darya Ganj	28.645	77.246
+Daryapur Khurd	28.552	76.911
+Dasghara	28.622	77.165
+Dasghara	28.735	77.089
+Dashrath Puri	28.604	77.088
+Daulatpur	28.547	76.959
+Daulotpur	28.741	77.092
+Devnagar	28.654	77.190
+Dhaka	28.709	77.207
+Dhansa	28.556	76.867
+Dharmapura	28.604	76.989
+Dhaula Kuan	28.755	77.149
+Dhola Kuan	28.591	77.166
+Dhul Sira	28.554	77.031
+Dichaon Kalan	28.640	76.983
+Durga Vihar	28.594	76.986
+Dwarka	28.591	77.053
+East Of Kailash	28.559	77.253
+East Patelnagar	28.646	77.176
+Fatehnagar	28.632	77.102
+Firozpur Bangar	28.831	76.982
+Friends Colony	28.565	77.266
+Gandhinagar	28.661	77.267
+Ganeshnagar	28.635	77.087
+Gangatoli	28.787	77.065
+Gaonri	28.692	77.261
+Garhi Bakhtawarpur	28.830	77.181
+Garhi Mendhu	28.703	77.252
+Garhi Pira	28.676	77.092
+Garhi Rindhala	28.729	76.967
+Gautamnagar	28.561	77.211
+Gazipur	28.632	77.320
+Geeta Colony	28.651	77.276
+Ghalibpur	28.528	76.879
+Ghoga	28.831	77.050
+Ghonda	28.689	77.271
+Gobindpura	28.648	77.286
+Goela Khurd	28.586	77.011
+Gopal Nagar Extension	28.605	76.959
+Gopalnagar	28.604	76.963
+Gopalnagar	28.608	76.967
+Gopalnagar	28.613	76.968
+Gopalpur	28.717	77.224
+Govindpuri	28.536	77.264
+Goyindpuri Extension	28.530	77.257
+Green Park	28.555	77.205
+Green Park Extension	28.562	77.203
+Gummanhera	28.533	76.925
+Guru Angadnagar	28.641	77.285
+Guru Nanaknogar	28.646	77.093
+Guru Ramdasnagar	28.636	77.278
+Guru Ravidasnagar	28.684	77.061
+Haibatpur	28.620	76.966
+Hakikatnagar	28.699	77.210
+Halderpur	28.724	77.148
+Hamidpur	28.828	77.149
+Hansnagar	28.573	76.948
+Hareoli	28.833	77.009
+Harijan Colony	28.705	77.210
+Harinagar	28.626	77.116
+Harinagar	28.628	77.100
+Hasanpur	28.553	76.941
+Hasanpur	28.635	77.312
+Hauz Khas	28.553	77.192
+Hauz Khas Enclave	28.549	77.204
+Hauz Rani	28.530	77.212
+Hazrat Nizamuddin	28.588	77.254
+Hiranki	28.799	77.182
+Holambi Kalan	28.804	77.097
+Holambi Khurd	28.797	77.097
+Humayunpur	28.561	77.189
+Indranagar	28.718	77.177
+Indraprasiha	28.609	77.244
+Indrapuri	28.491	77.306
+Indrapuri	28.629	77.150
+Iradatnagar	28.785	77.094
+Isapur	28.538	77.029
+Isapur	28.575	76.866
+Isharheri	28.631	76.934
+Ishwaenagar	28.556	77.276
+JOR BAGH	28.587	77.218
+Jafarpur Kalan	28.672	76.998
+Jagatpur	28.741	77.220
+Jainpur	28.530	76.930
+Jamirnagar	28.562	77.282
+Janakpuri	28.622	77.095
+Jangpura	28.583	77.245
+Janta Colony	28.659	77.118
+Janti Khurd	28.847	77.155
+Jasaula	28.547	77.294
+Jaunti	28.750	76.970
+Jawaharnagar	28.679	77.206
+Jawalaheri	28.668	77.103
+Jhangola	28.830	77.202
+Jharera	28.582	77.142
+Jhiljhili	28.537	76.903
+Jhiwarpura	28.763	76.984
+Jhumil Colony	28.670	77.313
+Jia Sarai	28.547	77.188
+Joga Bai	28.566	77.283
+Jogmaya Mandir	28.526	77.184
+Kabul Lines	28.596	77.128
+Kabulnagar	28.678	77.291
+Kachhipur	28.694	77.306
+Kailashnagar	28.664	77.262
+Kajpura	28.688	77.197
+Kakanagar	28.603	77.234
+Kakrola	28.608	77.019
+Kalkaji Devi	28.549	77.251
+Kalu Sarai	28.544	77.203
+Kalyanpuri	28.614	77.316
+Kamlanagar	28.682	77.204
+Kanganheri	28.546	76.989
+Kankerkhera	28.760	77.101
+Kardampur	28.695	77.286
+Karkar Duman	28.650	77.304
+Kasturb Nikelan	28.572	77.246
+Kasturbanagar	28.578	77.227
+Kasturbanagar	28.669	77.304
+Kateora	28.803	76.978
+Katwaria Sarai	28.543	77.188
+Keren Lines	28.597	77.157
+Kethwara	28.682	77.261
+Khajuri	28.706	77.259
+Khampur	28.824	77.134
+Khanpur	28.514	77.228
+Khanpur Raya	28.650	77.158
+Kharkhari Jatmal	28.580	76.946
+Kharkhari Nahar	28.585	76.960
+Kharkhari Raund	28.562	76.939
+Khera	28.678	77.300
+Khera Dabar	28.583	76.936
+Khera Garhi	28.772	77.122
+Khiata	28.656	77.102
+Khichripur	28.619	77.320
+Khitki	28.532	77.221
+Khor Jat	28.788	76.975
+Khor Punjab	28.776	76.965
+Khuraili Khas	28.644	77.289
+Khuranja	28.656	77.279
+Khushk	28.779	77.165
+Khushk	28.802	77.176
+Khushk Khurd	28.767	77.164
+Khyber Lines	28.588	77.151
+Kidwainagar	28.571	77.215
+Kilokri	28.579	77.265
+King’s Way Camp	28.697	77.209
+Kirbi Place	28.608	77.127
+Kirtinagar	28.653	77.140
+Kishanganj	28.639	77.278
+Kishangarh	28.517	77.168
+Kotla	28.576	77.121
+Kotla	28.613	77.301
+Krishan Vihar	28.606	76.975
+Krishnanagar	28.566	77.190
+Krishnanagar	28.648	77.190
+Krishnanagar	28.658	77.287
+Krishnapuri	28.640	77.085
+Kureni	28.840	77.096
+Kutbapur	28.576	77.022
+Lado Sarai	28.525	77.195
+Lahri Colony	28.657	77.296
+Laikuari	28.503	77.284
+Lajpat Bhavan	28.562	77.237
+Lajpat Nagar	28.573	77.240
+Lakshmi Vihar	28.629	76.996
+Lakshminagar	28.634	77.280
+Laksmibainagar	28.577	77.208
+Lampur	28.851	77.066
+Lodi Colony	28.584	77.226
+Lodi Estate	28.593	77.228
+Luksar	28.618	76.871
+Madangir	28.525	77.233
+Madanpur Dobas	28.716	77.027
+Madanpur Khadar	28.534	77.302
+Madipur	28.673	77.121
+Mahanbirnag	28.637	77.085
+Maharanibagh	28.573	77.264
+Mahipalpur	28.544	77.128
+Mahipalpur Extension	28.550	77.131
+Mahrauli	28.520	77.180
+Mal-Viyanagar	28.533	77.212
+Malakand Lines	28.601	77.145
+Malakpur	28.706	77.199
+Malakpur Zer Najafgarh	28.550	76.900
+Malka Ganj	28.676	77.207
+Mandaoli	28.627	77.294
+Mandhela Kalan	28.612	76.895
+Mandhela Khurd	28.618	76.891
+Mangolpur Kalan	28.698	77.103
+Mangolpur Khurd	28.700	77.095
+Masudabad	28.618	76.992
+Masudpur	28.530	77.152
+Matmy Memar	28.721	77.169
+Matola	28.611	77.048
+Maude Lines	28.579	77.120
+Maujpur	28.690	77.274
+Mauricenagar	28.686	77.206
+Mehramnagar	28.564	77.126
+Mirpur	28.718	77.265
+Model Town	28.709	77.190
+Moti Bagh	28.582	77.179
+Motingagar	28.661	77.142
+Muhammadpur	28.566	77.186
+Muhammadpur Ramzanpur	28.806	77.185
+Muharakpur Kotla	28.573	77.221
+Mujahidpur	28.564	77.224
+Mungashpur	28.818	76.974
+Munirka	28.555	77.174
+Munirpur	28.872	77.070
+Nagla Panchi	28.611	77.255
+Nahri	28.865	77.046
+Nanarpur	28.707	77.117
+Nangal	28.607	77.116
+Nangal Dewat	28.552	77.098
+Nangal Raya	28.609	77.112
+Nangal Thakuran	28.808	77.007
+Nangli	28.598	77.280
+Nangli Jalib	28.633	77.088
+Nangli Puna	28.773	77.148
+Nangli Sakraoti	28.620	77.002
+Nangli Sakraoti	28.624	77.018
+Nangloi Saiyea	28.661	77.084
+Naraina	28.622	77.141
+Nari Niketan	28.624	77.103
+Nasirpur	28.597	77.092
+Nathunagar	28.693	77.301
+Nathupura	28.771	77.176
+Navin Place	28.626	76.967
+Navin Shahdara	28.676	77.284
+Naya Usmanpur	28.686	77.261
+Nehrunagar	28.571	77.254
+Netajinagar	28.574	77.186
+New Friends Colony	28.567	77.273
+New Layalpur Colony	28.650	77.288
+New Multannagar	28.681	77.107
+New Rajendranagar	28.633	77.180
+New Rashanpura	28.601	76.992
+Nicholson Lines	28.601	77.153
+Nilhari	28.706	77.057
+Nilwal	28.667	76.979
+Nirankari Colony	28.712	77.206
+Niwada	28.624	77.028
+Niwada Mazra	28.624	77.048
+Nizampur Rashidpur	28.718	76.960
+Nizamuddin West	28.589	77.247
+North Moti Bagh	28.584	77.170
+Northern Railway Colony	28.601	77.167
+Nurnagar	28.558	77.288
+Okhla	28.534	77.278
+Okhla	28.563	77.290
+Okhla Phase I	28.526	77.282
+Old Chandrawal	28.692	77.228
+Pahar Ganj	28.641	77.215
+Pahar Ganj	28.642	77.213
+Palam	28.589	77.079
+Palam Enclave	28.585	77.091
+Palla	28.842	77.187
+Pandavnagar	28.617	77.286
+Patparganj	28.609	77.295
+Pehladpur	28.579	77.097
+Pindwala Kalan	28.568	76.960
+Pindwala Khurd	28.559	76.963
+Pipal Thola	28.718	77.171
+Pir Ghaib	28.676	77.218
+Pochanpur	28.562	77.048
+Poshangipur	28.625	77.088
+Pratapnagar	28.624	77.106
+Pratappura	28.686	77.281
+Preet Vihar	28.641	77.292
+Preetnagar	28.639	77.299
+Premnagar	28.570	76.976
+Premnagar	28.579	77.221
+Premnagar	28.603	76.982
+Premnagar	28.662	77.162
+Punjabi Bagh	28.664	77.127
+Punjabi Bagh	28.671	77.141
+Purana Roshan Pura	28.607	76.985
+Qazipur	28.578	76.882
+Radhepuri	28.653	77.292
+Raghopur	28.520	77.005
+Raghubir Enclave	28.616	76.978
+Railway Colony	28.503	77.293
+Rajeev Colony	28.593	76.907
+Rajendranangar	28.639	77.184
+Rajgarh Colony	28.659	77.274
+Ramakrishnapuram	28.564	77.181
+Rameshnagar	28.650	77.134
+Ramgarn	28.730	77.163
+Ramlila Ground	28.642	77.232
+Ramnagar	28.655	77.286
+Ramnagar	28.684	77.297
+Rampura	28.677	77.157
+Rangpur	28.532	77.141
+Ranhola	28.659	77.038
+Ranibagh	28.687	77.131
+Raota	28.523	76.902
+Rasulpur	28.706	77.020
+Razapur	28.717	77.127
+Reola Khanpur	28.565	76.982
+Rithala	28.720	77.103
+Rohtasnagar	28.681	77.289
+Roopnagar	28.684	77.201
+Roshan Mandi	28.613	76.992
+Roshan Vihar	28.599	76.984
+Roshanpura	28.609	76.991
+Saboli	28.707	77.306
+Sabzi Mandi	28.673	77.206
+Sadatpur	28.722	77.270
+Sadhnagar	28.588	77.093
+Sadr Bazar	28.658	77.212
+Safdarjung Enclave	28.565	77.197
+Sagarpur	28.592	77.106
+Sahibpura	28.647	77.093
+Sahipur	28.717	77.162
+Saket	28.519	77.213
+Salahpur Majra	28.770	76.998
+Salimgarh	28.661	77.244
+Samaspur Khalsa	28.580	76.907
+Sannaiyat Lines	28.589	77.126
+Sanoth	28.814	77.074
+Santnagar	28.555	77.251
+Sanwalnagar	28.560	77.229
+Saotgarn	28.648	77.089
+Sarai Jolina	28.560	77.272
+Sarangpur	28.541	76.886
+Sarojininagar	28.577	77.197
+Sauda	28.710	76.981
+Seelampur	28.671	77.272
+Shadipur	28.647	77.160
+Shafipur	28.664	77.053
+Shahabad Muhamadpur	28.557	77.073
+Shahdara	28.683	77.290
+Shahlapur	28.518	77.059
+Shahpur Garhi	28.819	77.108
+Shahpur Jat	28.548	77.215
+Shaidpur	28.636	76.909
+Shaikhpur	28.540	77.220
+Shakarpur Khas	28.627	77.279
+Shaktinagar	28.681	77.197
+Shakurbasti	28.684	77.133
+Shakurpur	28.684	77.143
+Shalamar	28.722	77.159
+Shamapur	28.748	77.145
+Shamaspur	28.615	77.288
+Shamnagar	28.646	77.104
+Shankarnagar	28.661	77.276
+Shankarpura	28.763	77.194
+Shantinagar	28.563	77.201
+Shantnagar	28.677	77.164
+Shardapuri Colony	28.645	77.129
+Shastrinagar	28.643	77.278
+Shekhawati Lines	28.580	77.113
+Sherpur	28.712	77.260
+Shiamgir	28.674	77.246
+Shikarpur	28.527	76.953
+Shingaipur	28.704	77.158
+Shiv Enclave Block A	28.624	76.986
+Shiv Enclave Block B	28.619	76.991
+Shiv Enclave Block C	28.622	76.985
+Shri Krishna Colony	28.615	76.988
+Shubhpur	28.754	77.246
+Shumran Lines	28.584	77.122
+Shyam Enclave	28.593	76.995
+Shyamnagar	28.545	77.271
+Silampur	28.666	77.270
+Silampurbasti	28.674	77.270
+Singhola	28.843	77.124
+Singhu	28.851	77.131
+Sohal Sarai	28.556	77.106
+Soreda	28.597	76.937
+South Moti Bagh	28.581	77.172
+South Patelnagar	28.647	77.165
+South Vinaynagar	28.567	77.194
+Srinagar	28.682	77.139
+Srinagar Madipur	28.673	77.112
+Sriniwaspuri	28.565	77.257
+Subhashnagar	28.636	77.115
+Sultanpur Dabas	28.767	77.043
+Sultanpur Mazra	28.691	77.078
+Sundarnagar	28.603	77.243
+Sungarpur	28.823	77.186
+Surkhpur	28.626	76.943
+Suryakunj	28.629	76.969
+Taharpur	28.686	77.319
+Taimurnagar	28.570	77.268
+Tajpur	28.496	77.313
+Tajpur Kalan	28.838	77.170
+Tajpur Khurd	28.576	77.014
+Tankle	28.521	77.065
+Tatarpur	28.646	77.114
+Teen Murti	28.605	77.200
+Tehar	28.634	77.111
+Tiggipur	28.823	77.189
+Tikhand	28.520	77.283
+Tilak Nagar	28.640	77.088
+Tilangpur	28.649	77.029
+Timarpur	28.704	77.223
+Todapur	28.622	77.159
+Trilokpuri	28.612	77.316
+Tughlakabad	28.513	77.269
+Tulsinagar	28.671	77.167
+Usmanpur	28.685	77.253
+Uttamnagar	28.624	77.063
+Vasant Kunj	28.544	77.152
+Vijay Ghat	28.651	77.252
+Vijaynagar	28.692	77.201
+Vinoba Enclave	28.632	76.964
+Vinodnagar	28.622	77.312
+Vishwasnagar	28.664	77.290
+Wazirabad	28.725	77.224
+Wazirabad Mandirwala	28.715	77.231
+Wazirpur	28.690	77.175
+West Patelnagar	28.652	77.164
+Yusuf Sarai	28.560	77.206
+Zangirpur	28.752	77.181
+Zindpur	28.792	77.156
+Zumredpur	28.556	77.243

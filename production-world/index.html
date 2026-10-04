@@ -1,0 +1,615 @@
+<!doctype html><html><head><meta charset=utf8><title>The Production World</title><meta name=description content="A persistent world where events actually happen and cameras only observe: a working 3D prototype for AI filmmaking."><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a film-set monitor (stage) beside a production binder (tabs), with a shooting-order timeline strip under both. */
+:root {
+  --bg: #e9eef0; --panel: #fbfcfc; --fg: #16222a; --muted: #56656f; --line: #d0d9de;
+  --accent: #c8741f; --accent-soft: #f6e3cd; --ok: #25845a; --bad: #bf3f37; --branch: #3467a1; --branch-soft: #dce7f4;
+  --stage: #1a2730; --stage-fg: #e8eef1;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f151a; --panel: #162028; --fg: #e3eaee; --muted: #93a3ad; --line: #2a3843;
+  --accent: #eb9a4a; --accent-soft: #3a2a19; --ok: #4cc08a; --bad: #ec7a70; --branch: #7fa9dc; --branch-soft: #1c2a3b;
+  --stage: #0a1014; --stage-fg: #e8eef1; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f151a; --panel: #162028; --fg: #e3eaee; --muted: #93a3ad; --line: #2a3843;
+  --accent: #eb9a4a; --accent-soft: #3a2a19; --ok: #4cc08a; --bad: #ec7a70; --branch: #7fa9dc; --branch-soft: #1c2a3b;
+  --stage: #0a1014; --stage-fg: #e8eef1; color-scheme: dark }
+
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-inline: 20px; padding-block: 20px 40px; display: grid; gap: 16px }
+header { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: end; justify-content: space-between }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 3.4vw, 36px); line-height: 1.05; margin: 0; letter-spacing: -0.01em; text-wrap: balance }
+.lede { color: var(--muted); max-width: 64ch; margin: 6px 0 0 }
+.by { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 16px; align-items: start }
+@media (max-width: 980px) { .main { grid-template-columns: minmax(0, 1fr) } }
+
+/* Stage */
+.stage { background: var(--stage); color: var(--stage-fg); border-radius: 10px; overflow: hidden; position: relative }
+.slate { display: flex; flex-wrap: wrap; gap: 4px 18px; padding: 10px 14px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; border-bottom: 1px solid rgba(255,255,255,0.09) }
+.slate b { color: #f2b36d; font-weight: 500 }
+.viewport { position: relative; aspect-ratio: 16 / 9; width: 100%; max-width: 100% }
+.viewport canvas { display: block; width: 100% !important; height: 100% !important }
+.cams { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 14px; border-top: 1px solid rgba(255,255,255,0.09); align-items: center }
+.cams .lbl { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.7; margin-right: 4px }
+.cam { font: 500 12px var(--body); color: var(--stage-fg); background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); padding: 5px 10px; border-radius: 6px; cursor: pointer }
+.cam[aria-pressed="true"] { background: #f2b36d; color: #1a1208; border-color: #f2b36d }
+.cam:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.hashbar { margin-left: auto; font-family: var(--mono); font-size: 11px; opacity: 0.85 }
+.hashbar b { color: #9fe0bf; font-weight: 500 }
+.cheatchip { position: absolute; left: 12px; top: 12px; font: 500 11px var(--mono); background: rgba(242,179,109,0.92); color: #1a1208; padding: 4px 8px; border-radius: 4px }
+
+/* Binder */
+.binder { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; min-width: 0; display: grid }
+.tabs { display: flex; border-bottom: 1px solid var(--line); overflow-x: auto }
+.tab { flex: 1 0 auto; font: 600 13px var(--body); color: var(--muted); background: none; border: 0; border-bottom: 2px solid transparent; padding: 11px 12px; cursor: pointer }
+.tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent) }
+.pane { padding: 16px; display: grid; gap: 14px; min-width: 0 }
+.eyebrow { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted) }
+h2 { font-family: var(--display); font-weight: 700; font-size: 22px; line-height: 1.15; margin: 2px 0 0; text-wrap: balance }
+h3 { font: 600 12px var(--body); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px }
+p { margin: 0 }
+ul.plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px }
+.chk { display: grid; grid-template-columns: 18px 1fr; gap: 6px }
+.chk i { font-style: normal; font-weight: 700 }
+.ok { color: var(--ok) } .bad { color: var(--bad) }
+.res li { padding-left: 12px; border-left: 2px solid var(--accent); }
+.chg { font-family: var(--mono); font-size: 12px; display: grid; gap: 3px }
+.chg span.k { color: var(--muted) }
+.cine { background: var(--accent-soft); border-radius: 8px; padding: 10px 12px; display: grid; gap: 6px }
+.cine button { justify-self: start; font: 600 12px var(--body); background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer }
+.muted { color: var(--muted) }
+table.st { width: 100%; border-collapse: collapse; font-size: 12.5px }
+table.st td { padding: 5px 4px; border-bottom: 1px solid var(--line); vertical-align: top }
+table.st td.v { font-family: var(--mono); font-size: 12px }
+table.st td.src { font-family: var(--mono); font-size: 11px; color: var(--muted); text-align: right; white-space: nowrap }
+table.st tr.fresh td { background: var(--accent-soft) }
+table.st tr.ent td { font-weight: 600; padding-top: 10px; border-bottom-color: var(--fg) }
+.scroll { max-height: 470px; overflow: auto }
+.row { display: grid; gap: 4px }
+.row label { display: flex; justify-content: space-between; font-weight: 500 }
+.row label span { font-family: var(--mono); font-variant-numeric: tabular-nums }
+input[type=range] { width: 100%; accent-color: var(--accent) }
+.ratios { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; font-size: 13px }
+.ratios .n { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right }
+.note { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10px }
+.warn { font-size: 12.5px; color: var(--bad) }
+.switch { display: flex; gap: 8px; align-items: center; font-weight: 500 }
+.seg { display: grid; grid-template-columns: 1fr 1fr; gap: 6px }
+.seg button { font: 600 13px var(--body); padding: 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer; text-align: left }
+.seg button small { display: block; font-weight: 400; color: var(--muted); font-size: 12px }
+.seg button[aria-pressed="true"].a { border-color: var(--accent); background: var(--accent-soft) }
+.seg button[aria-pressed="true"].b { border-color: var(--branch); background: var(--branch-soft) }
+.diffrow { font-family: var(--mono); font-size: 12px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; padding: 4px 0; border-bottom: 1px solid var(--line) }
+.diffrow.h { color: var(--muted); font-family: var(--body); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em }
+.btnrow { display: flex; gap: 8px; flex-wrap: wrap }
+.btn { font: 600 12px var(--body); border: 1px solid var(--line); background: var(--panel); color: var(--fg); border-radius: 6px; padding: 6px 10px; cursor: pointer }
+
+/* Timeline */
+.timeline { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 10px }
+.tlhead { display: flex; gap: 10px; align-items: center; flex-wrap: wrap }
+.tlhead .eyebrow { margin-right: auto }
+.steps { display: grid; grid-template-columns: repeat(11, minmax(64px, 1fr)); gap: 6px; overflow-x: auto; padding-bottom: 2px }
+.step { font: 500 11px var(--body); text-align: left; border: 1px solid var(--line); background: var(--bg); color: var(--fg); border-radius: 7px; padding: 6px 7px; cursor: pointer; min-height: 56px; display: grid; align-content: start; gap: 2px }
+.step b { font: 500 11px var(--mono); color: var(--muted) }
+.step.done { background: var(--panel) }
+.step[aria-current="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent) }
+.step.fork b::after { content: " ⑂"; color: var(--branch) }
+.play { font: 600 13px var(--body); background: var(--fg); color: var(--bg); border: 0; border-radius: 6px; padding: 7px 14px; cursor: pointer }
+.legend { font-size: 12.5px; color: var(--muted) }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>The Production World</h1>
+      <p class="lede">A working test of one idea. The world exists first, and events actually happen in it. Every shot is just a camera looking at that world, so cameras can change without the story changing. One room, two characters, ten objects, ten steps.</p>
+    </div>
+    <div class="by">Minimum Viable Production World · v0.1<br>Concept: Abhishek</div>
+  </header>
+
+  <div class="main">
+    <section class="stage" aria-label="Camera view of the world">
+      <div class="slate" id="slate"></div>
+      <div class="viewport" id="viewport"><div class="cheatchip" id="cheatchip" hidden></div></div>
+      <div class="cams" role="group" aria-label="Cameras">
+        <span class="lbl">Camera</span>
+        <button class="cam" id="cam-A" data-cam="A">A · Wide</button>
+        <button class="cam" id="cam-B" data-cam="B">B · Over shoulder</button>
+        <button class="cam" id="cam-C" data-cam="C">C · Plan</button>
+        <button class="cam" id="cam-D" data-cam="D">D · Table close</button>
+        <span class="hashbar" title="A fingerprint of the full world state. It changes when the world changes, never when the camera changes.">World state <b id="hash">—</b></span>
+      </div>
+    </section>
+
+    <section class="binder" aria-label="Production binder">
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" id="tab-event" aria-selected="true" data-pane="event">Event</button>
+        <button class="tab" role="tab" id="tab-world" aria-selected="false" data-pane="world">World state</button>
+        <button class="tab" role="tab" id="tab-scale" aria-selected="false" data-pane="scale">Scale</button>
+        <button class="tab" role="tab" id="tab-branch" aria-selected="false" data-pane="branch">What if</button>
+      </div>
+      <div class="pane" id="pane-event"></div>
+      <div class="pane" id="pane-world" hidden></div>
+      <div class="pane" id="pane-scale" hidden>
+        <div><div class="eyebrow">Scale is part of the world</div><h2>Sizes and ratios</h2></div>
+        <p class="muted">Every size is stored in metres once, in the master world. Shots never resize anything. Change it here and every step and every camera uses the new size.</p>
+        <label class="switch"><input type="checkbox" id="lock" checked> Lock proportions</label>
+        <div class="row"><label for="s-mira">Mira's height <span id="v-mira"></span></label><input type="range" id="s-mira" min="0.4" max="3.4" step="0.01"></div>
+        <div class="row"><label for="s-tomas">Tomas's height <span id="v-tomas"></span></label><input type="range" id="s-tomas" min="0.4" max="3.6" step="0.01"></div>
+        <div class="row"><label for="s-world">Whole world <span id="v-world"></span></label><input type="range" id="s-world" min="0.25" max="2" step="0.01"></div>
+        <div><h3>Ratios held by the world</h3><div class="ratios" id="ratios"></div></div>
+        <p class="warn" id="scalewarn" hidden></p>
+        <div class="btnrow"><button class="btn" id="giant">Mira at 3 m, rest unchanged</button><button class="btn" id="reset">Reset sizes</button></div>
+        <p class="note">With proportions locked, changing one height rescales the whole world, so a doll's-house version of the scene looks exactly like the full-size one. Unlock it to make a deliberate story choice, such as a giant in a normal room, and watch the ratios change.</p>
+      </div>
+      <div class="pane" id="pane-branch" hidden></div>
+    </section>
+  </div>
+
+  <section class="timeline" aria-label="Event timeline">
+    <div class="tlhead">
+      <span class="eyebrow">Scene 01 · Event timeline</span>
+      <span class="legend">⑂ step where the “what if” version splits off</span>
+      <button class="play" id="play">Play scene</button>
+    </div>
+    <div class="steps" id="steps"></div>
+  </section>
+</div>
+
+<script>
+// ===== Production World engine: master reality, events, rules, replay =====
+(function (root) {
+  const TABLE = { hx: 0.7, hz: 0.4, top: 0.75 };
+  const RUG = { hx: 1.3, hz: 1.0 };
+  const EDGE_RISK = 0.18; // metres: objects closer than this to a table edge fall when the table is bumped
+
+  const NAMES = {
+    mira: 'Mira', tomas: 'Tomas', door: 'Door', glass: 'Glass', carton: 'Milk carton',
+    book: 'Book', lamp: 'Floor lamp', rug: 'Rug', table: 'Table', chairA: 'Chair A',
+    chairB: 'Chair B', sideboard: 'Sideboard'
+  };
+
+  // Canonical definitions: what each thing IS. Events never write here.
+  const DEFS = {
+    mira:   { kind: 'character', height: 1.68, note: 'Lead. Right-handed.' },
+    tomas:  { kind: 'character', height: 1.82, note: 'Supporting. Leans on tables.' },
+    table:  { kind: 'furniture', height: 0.75, size: '1.40 × 0.80 m' },
+    chairA: { kind: 'furniture', height: 0.90, seat: 0.45 },
+    chairB: { kind: 'furniture', height: 0.90, seat: 0.45 },
+    sideboard: { kind: 'furniture', height: 0.90 },
+    door:   { kind: 'fixture', height: 2.10 },
+    glass:  { kind: 'prop', height: 0.14, fragile: true, capacity: 0.25 },
+    carton: { kind: 'prop', height: 0.20, capacity: 1.0 },
+    book:   { kind: 'prop', height: 0.03 },
+    lamp:   { kind: 'fixture', height: 1.60 },
+    rug:    { kind: 'surface', size: '2.60 × 2.00 m', absorbs: true }
+  };
+
+  function initial() {
+    const s = {};
+    const put = (id, attrs) => { s[id] = {}; for (const k in attrs) s[id][k] = { v: attrs[k], src: 'Set' }; };
+    put('mira',   { present: false, pos: [2.0, 0, -3.2], posture: 'standing', holding: null });
+    put('tomas',  { present: false, pos: [2.0, 0, -3.2], posture: 'standing', holding: null });
+    put('door',   { open: false });
+    put('glass',  { place: 'sideboard', pos: [2.72, 0.9, 1.0], condition: 'intact', milk: 0 });
+    put('carton', { place: 'sideboard', pos: [2.72, 0.9, 1.3], milk: 1.0 });
+    put('book',   { place: 'sideboard', pos: [2.72, 0.9, 1.68], heldBy: null });
+    put('lamp',   { on: false });
+    put('rug',    { stain: null });
+    put('chairA', { occupant: null });
+    put('chairB', { occupant: null });
+    return s;
+  }
+
+  const clone = (s) => JSON.parse(JSON.stringify(s));
+  const get = (s, id, k) => s[id][k].v;
+  function set(s, id, k, v, src) { s[id][k] = { v, src }; }
+
+  function onTable(p) { return Math.abs(p[1] - TABLE.top) < 0.01 && Math.abs(p[0]) <= TABLE.hx && Math.abs(p[2]) <= TABLE.hz; }
+  function edgeDist(p) { return Math.min(TABLE.hx - Math.abs(p[0]), TABLE.hz - Math.abs(p[2])); }
+  function onRug(p) { return Math.abs(p[0]) <= RUG.hx && Math.abs(p[2]) <= RUG.hz; }
+  const r2 = (n) => Math.round(n * 100) / 100;
+
+  // Rule: a bumped table drops whatever sits near its edge; fragile things break; liquids spill onto what is below.
+  function ruleBump(s, src) {
+    const out = [];
+    ['glass', 'carton'].forEach((id) => {
+      const p = get(s, id, 'pos');
+      if (!onTable(p)) return;
+      const d = edgeDist(p);
+      if (d >= EDGE_RISK) { out.push(`${NAMES[id]} is ${r2(d)} m from the edge (safe margin ${EDGE_RISK} m). It stays.`); return; }
+      const alongX = (TABLE.hx - Math.abs(p[0])) <= (TABLE.hz - Math.abs(p[2]));
+      const land = alongX ? [p[0] + Math.sign(p[0]) * 0.3, 0, p[2]] : [p[0], 0, p[2] + Math.sign(p[2]) * 0.3];
+      land[0] = r2(land[0]); land[2] = r2(land[2]);
+      set(s, id, 'pos', land, src); set(s, id, 'place', 'floor', src);
+      out.push(`${NAMES[id]} is only ${r2(d)} m from the edge, under the ${EDGE_RISK} m margin. It falls ${r2(TABLE.top)} m to the floor.`);
+      if (DEFS[id].fragile) { set(s, id, 'condition', 'broken', src); out.push(`${NAMES[id]} is fragile, so it breaks on impact.`); }
+      const milk = get(s, id, 'milk');
+      if (milk > 0) {
+        set(s, id, 'milk', 0, src);
+        if (onRug(land)) { set(s, 'rug', 'stain', { liquid: 'milk', litres: milk, at: land }, src); out.push(`${milk} L of milk lands on the rug. The rug absorbs liquid, so it now carries a stain.`); }
+        else out.push(`${milk} L of milk spills on the bare floor.`);
+      }
+    });
+    return out;
+  }
+
+  // The ten events. Each is intent + preconditions + a resolution the rules compute, plus what the camera must see.
+  const EVENTS = [
+    { id: 'E1', actor: 'mira', title: 'Mira comes home',
+      intent: 'Mira opens the door and steps into the room.',
+      pre: (s) => [['Door is closed', !get(s, 'door', 'open')], ['Mira is offstage', !get(s, 'mira', 'present')]],
+      apply(s, src) { set(s, 'door', 'open', true, src); set(s, 'mira', 'present', true, src); set(s, 'mira', 'pos', [1.9, 0, -1.7], src);
+        return ['Door swings open and stays open until someone closes it.', 'Mira is now in the room.']; },
+      mustSee: ['mira', 'door'], cam: 'A' },
+    { id: 'E2', actor: 'mira', title: 'A glass on the table',
+      intent: 'Mira takes the glass from the sideboard and sets it on the table.',
+      pre: (s) => [['Glass is intact', get(s, 'glass', 'condition') === 'intact'], ['Glass is on the sideboard', get(s, 'glass', 'place') === 'sideboard']],
+      apply(s, src, br) {
+        const p = br.placement === 'centre' ? [0.05, 0.75, 0.1] : [0.58, 0.75, 0.2];
+        set(s, 'glass', 'pos', p, src); set(s, 'glass', 'place', 'table', src); set(s, 'mira', 'pos', [0.35, 0, 0.95], src);
+        return [`Glass placed at x ${p[0]} m, z ${p[2]} m: ${r2(edgeDist(p))} m from the nearest table edge.`,
+          br.placement === 'centre' ? 'Branch B: she puts it in the middle.' : 'As shot: she puts it near the edge, where Tomas will sit.'];
+      },
+      mustSee: ['glass', 'mira'], cam: 'D' },
+    { id: 'E3', actor: 'mira', title: 'Pouring the milk',
+      intent: 'Mira pours milk from the carton into the glass.',
+      pre: (s) => [['Glass is on the table', get(s, 'glass', 'place') === 'table'], ['Carton has milk', get(s, 'carton', 'milk') > 0]],
+      apply(s, src) { const pour = DEFS.glass.capacity;
+        set(s, 'carton', 'milk', r2(get(s, 'carton', 'milk') - pour), src); set(s, 'glass', 'milk', pour, src);
+        set(s, 'carton', 'pos', [-0.3, 0.75, 0.1], src); set(s, 'carton', 'place', 'table', src);
+        return [`${pour} L poured. The carton drops from 1.00 L to ${r2(get(s, 'carton', 'milk'))} L, and stays that way for the rest of the scene.`, 'Carton left on the table.']; },
+      mustSee: ['glass', 'carton'], cam: 'D' },
+    { id: 'E4', actor: 'tomas', title: 'Tomas sits down',
+      intent: 'Tomas comes in and takes the chair nearest the glass.',
+      pre: (s) => [['Door is open', get(s, 'door', 'open')], ['Chair B is free', get(s, 'chairB', 'occupant') === null]],
+      apply(s, src) { set(s, 'tomas', 'present', true, src); set(s, 'tomas', 'pos', [1.05, 0, 0], src); set(s, 'tomas', 'posture', 'sitting', src); set(s, 'chairB', 'occupant', 'tomas', src);
+        return ['Tomas enters through the open door; nobody had to open it again.', 'Chair B is now occupied.']; },
+      mustSee: ['tomas'], cam: 'A' },
+    { id: 'E5', actor: 'tomas', title: 'The elbow',
+      intent: 'Tomas leans his elbow on the table. The table jolts.',
+      pre: (s) => [['Tomas is seated at the table', get(s, 'tomas', 'posture') === 'sitting']],
+      apply(s, src) { return ['Rule check: table bumped. Every object on the table is tested against its distance to the edge.', ...ruleBump(s, src)]; },
+      mustSee: ['glass', 'tomas'], cam: 'D' },
+    { id: 'E6', actor: 'mira', title: 'Light',
+      intent: 'Mira crosses the room and switches on the floor lamp.',
+      pre: (s) => [['Lamp is off', !get(s, 'lamp', 'on')]],
+      apply(s, src) { set(s, 'lamp', 'on', true, src); set(s, 'mira', 'pos', [-2.15, 0, -1.65], src);
+        return ['Lamp on. From here on every shot is lit by it: lighting is world state, not a per-shot setting.']; },
+      mustSee: ['lamp', 'mira'], cam: 'A' },
+    { id: 'E7', actor: 'tomas', title: 'The book',
+      intent: 'Tomas gets up and takes the book from the sideboard.',
+      pre: (s) => [['Book is on the sideboard', get(s, 'book', 'place') === 'sideboard']],
+      apply(s, src) { set(s, 'tomas', 'posture', 'standing', src); set(s, 'chairB', 'occupant', null, src); set(s, 'tomas', 'pos', [2.2, 0, 1.2], src);
+        set(s, 'book', 'place', 'hand', src); set(s, 'book', 'heldBy', 'tomas', src); set(s, 'tomas', 'holding', 'book', src);
+        return ['Chair B is free again.', 'The book moves with Tomas until he puts it down.']; },
+      mustSee: ['tomas', 'book'], cam: 'A' },
+    { id: 'E8', actor: 'mira', title: 'Dealing with the glass',
+      intent: 'Mira deals with the glass, whatever state it is in.',
+      pre: (s) => [['Glass exists in the world', true]],
+      apply(s, src) {
+        if (get(s, 'glass', 'condition') === 'broken') {
+          set(s, 'glass', 'condition', 'swept up', src); set(s, 'glass', 'pos', [1.75, 0, 1.25], src); set(s, 'mira', 'pos', [1.35, 0, 1.0], src);
+          return ['The glass is broken, so she sweeps the pieces into a pile.', 'The rug stain stays. Rule: sweeping removes shards, not milk. Only washing clears a stain.'];
+        }
+        set(s, 'glass', 'milk', 0, src); set(s, 'mira', 'pos', [0.3, 0, 0.8], src);
+        return ['The glass is intact and full, so she drinks the milk.', 'Same event, same intent: the world state decided what actually happened.'];
+      },
+      mustSee: ['glass', 'mira'], cam: 'D' },
+    { id: 'E9', actor: 'tomas', title: 'Reading by the window',
+      intent: 'Tomas walks to the window and starts reading.',
+      pre: (s) => [['Tomas holds the book', get(s, 'tomas', 'holding') === 'book']],
+      apply(s, src) { set(s, 'tomas', 'pos', [-2.45, 0, 0.7], src); return ['Tomas and the book move together to the window.']; },
+      mustSee: ['tomas'], cam: 'B' },
+    { id: 'E10', actor: 'mira', title: 'Mira sits',
+      intent: 'Mira sits down at the table.',
+      pre: (s) => [['Chair A is free', get(s, 'chairA', 'occupant') === null]],
+      apply(s, src) { set(s, 'mira', 'pos', [-1.05, 0, 0], src); set(s, 'mira', 'posture', 'sitting', src); set(s, 'chairA', 'occupant', 'mira', src);
+        const st = get(s, 'rug', 'stain');
+        return ['Final state check: door ' + (get(s, 'door', 'open') ? 'open' : 'closed') + ', lamp ' + (get(s, 'lamp', 'on') ? 'on' : 'off') + ', carton at ' + get(s, 'carton', 'milk') + ' L, rug ' + (st ? 'stained' : 'clean') + '.',
+          'Nothing was reset between steps. Every fact above was caused by an earlier event.']; },
+      mustSee: ['mira', 'rug'], cam: 'C' }
+  ];
+
+  // Replay: the state at step n is the initial world with events 1..n executed in order.
+  function replay(n, branch) {
+    let s = initial(); const log = [];
+    for (let i = 0; i < n; i++) {
+      const ev = EVENTS[i]; const before = clone(s);
+      const checks = ev.pre(s).map(([label, ok]) => ({ label, ok: !!ok }));
+      const res = ev.apply(s, ev.id, branch);
+      log.push({ ev, checks, res, changes: diff(before, s) });
+    }
+    return { state: s, log };
+  }
+
+  function fmt(v) {
+    if (v === null) return 'none';
+    if (typeof v === 'boolean') return v ? 'yes' : 'no';
+    if (Array.isArray(v)) return `(${v[0]}, ${v[2]})`;
+    if (typeof v === 'object') return `${v.liquid}, ${v.litres} L`;
+    return String(v);
+  }
+
+  function diff(a, b) {
+    const out = [];
+    for (const id in b) for (const k in b[id]) {
+      const x = JSON.stringify(a[id][k].v), y = JSON.stringify(b[id][k].v);
+      if (x !== y) out.push({ id, k, from: fmt(a[id][k].v), to: fmt(b[id][k].v) });
+    }
+    return out;
+  }
+
+  function hash(s, scale) {
+    const str = JSON.stringify([Object.keys(s).map((id) => [id, Object.keys(s[id]).map((k) => s[id][k].v)]), scale]);
+    let h = 5381; for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) >>> 0;
+    return h.toString(16).padStart(8, '0');
+  }
+
+  root.PW = { TABLE, RUG, DEFS, NAMES, EVENTS, initial, replay, diff, hash, fmt, get, onTable, edgeDist };
+})(typeof window !== 'undefined' ? window : globalThis);
+
+</script>
+<script src="three.min.js"></script>
+<script>
+(function () {
+  const { EVENTS, DEFS, NAMES, replay, hash, get, fmt } = window.PW;
+  const $ = (id) => document.getElementById(id);
+  const ui = { step: 5, cam: 'D', branch: { placement: 'edge' }, tab: 'event', cheats: true,
+    scale: { world: 1, mira: 1, tomas: 1 }, playing: null };
+
+  // ---------- 3D ----------
+  const vp = $('viewport');
+  const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  vp.appendChild(renderer.domElement);
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x1a2730);
+  const camera = new THREE.PerspectiveCamera(45, 16 / 9, 0.05, 100);
+  const world = new THREE.Group(); scene.add(world);
+
+  const M = (c, o) => new THREE.MeshStandardMaterial(Object.assign({ color: c, roughness: 0.8 }, o || {}));
+  function box(w, h, d, mat, x, y, z, parent) { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat); m.position.set(x, y, z); m.castShadow = true; m.receiveShadow = true; (parent || world).add(m); return m; }
+
+  scene.add(new THREE.HemisphereLight(0xdfe8ee, 0x3a3128, 0.55));
+  const sun = new THREE.DirectionalLight(0xcfe0ff, 0.75); sun.position.set(-6, 5, 2); sun.castShadow = true;
+  sun.shadow.mapSize.set(1024, 1024); Object.assign(sun.shadow.camera, { left: -5, right: 5, top: 5, bottom: -5 }); scene.add(sun);
+
+  // Room shell (cutaway: back and left walls only)
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(6, 5), M(0xb89b78)); floor.rotation.x = -Math.PI / 2; floor.receiveShadow = true; world.add(floor);
+  const wallM = M(0xd9d4c8);
+  box(3.55, 2.8, 0.1, wallM, -1.225, 1.4, -2.55); box(1.05, 2.8, 0.1, wallM, 2.475, 1.4, -2.55); box(0.9, 0.7, 0.1, wallM, 2.0, 2.45, -2.55);
+  box(0.1, 2.8, 1.6, wallM, -3.05, 1.4, -1.7); box(0.1, 2.8, 2.1, wallM, -3.05, 1.4, 1.45); box(0.1, 0.9, 1.3, wallM, -3.05, 0.45, 0.55); box(0.1, 0.6, 1.3, wallM, -3.05, 2.5, 0.55);
+  const glassPane = new THREE.Mesh(new THREE.PlaneGeometry(1.3, 1.3), new THREE.MeshBasicMaterial({ color: 0x9cc6e8, transparent: true, opacity: 0.55, side: THREE.DoubleSide }));
+  glassPane.rotation.y = Math.PI / 2; glassPane.position.set(-3.04, 1.55, 0.55); world.add(glassPane);
+
+  // Door
+  const doorPivot = new THREE.Group(); doorPivot.position.set(1.55, 0, -2.5); world.add(doorPivot);
+  box(0.9, 2.1, 0.05, M(0x7a4f2e), 0.45, 1.05, 0, doorPivot);
+
+  // Rug + stain
+  const rug = new THREE.Mesh(new THREE.PlaneGeometry(2.6, 2.0), M(0x7d3b3b)); rug.rotation.x = -Math.PI / 2; rug.position.y = 0.004; rug.receiveShadow = true; world.add(rug);
+  const stain = new THREE.Mesh(new THREE.CircleGeometry(0.26, 32), M(0xf4f1e6, { roughness: 0.4 })); stain.rotation.x = -Math.PI / 2; stain.scale.set(1.3, 0.8, 1); stain.position.y = 0.008; world.add(stain);
+
+  // Table, chairs, sideboard
+  const wood = M(0x9a6b43), dark = M(0x5e4430);
+  box(1.4, 0.05, 0.8, wood, 0, 0.725, 0); [[-0.64, -0.34], [0.64, -0.34], [-0.64, 0.34], [0.64, 0.34]].forEach(([x, z]) => box(0.05, 0.7, 0.05, dark, x, 0.35, z));
+  function chair(x, back) { const g = new THREE.Group(); g.position.set(x, 0, 0); world.add(g); box(0.45, 0.05, 0.45, wood, 0, 0.45, 0, g); box(0.05, 0.45, 0.45, wood, back * 0.2, 0.7, 0, g);
+    [[-0.19, -0.19], [0.19, -0.19], [-0.19, 0.19], [0.19, 0.19]].forEach(([a, b]) => box(0.04, 0.43, 0.04, dark, a, 0.215, b, g)); }
+  chair(-1.05, -1); chair(1.05, 1);
+  box(0.5, 0.9, 1.3, M(0x4f6a74), 2.72, 0.45, 1.3);
+
+  // Lamp
+  const lampG = new THREE.Group(); lampG.position.set(-2.6, 0, -2.1); world.add(lampG);
+  box(0.3, 0.03, 0.3, dark, 0, 0.015, 0, lampG);
+  const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.015, 1.5, 8), dark); pole.position.y = 0.75; lampG.add(pole);
+  const shadeM = M(0xe9dcc0, { emissive: 0x000000, side: THREE.DoubleSide });
+  const shade = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.22, 0.25, 24, 1, true), shadeM); shade.position.y = 1.5; lampG.add(shade);
+  const lampLight = new THREE.PointLight(0xffb566, 0, 7, 1.6); lampLight.position.y = 1.45; lampLight.castShadow = true; lampG.add(lampLight);
+
+  // Props
+  const glassG = new THREE.Group(); world.add(glassG);
+  const glassMesh = new THREE.Mesh(new THREE.CylinderGeometry(0.037, 0.032, 0.14, 20, 1, true), new THREE.MeshStandardMaterial({ color: 0xcfe7f2, transparent: true, opacity: 0.45, roughness: 0.1, side: THREE.DoubleSide }));
+  glassMesh.position.y = 0.07; glassG.add(glassMesh);
+  const milk = new THREE.Mesh(new THREE.CylinderGeometry(0.033, 0.03, 0.13, 20), M(0xfbfaf4, { roughness: 0.3 })); glassG.add(milk);
+  const shards = new THREE.Group(); world.add(shards);
+  for (let i = 0; i < 9; i++) { const t = new THREE.Mesh(new THREE.TetrahedronGeometry(0.02 + (i % 3) * 0.008), new THREE.MeshStandardMaterial({ color: 0xcfe7f2, transparent: true, opacity: 0.8, roughness: 0.1 }));
+    const a = i * 2.4, r = 0.05 + (i % 4) * 0.05; t.userData.spread = [Math.cos(a) * r, Math.sin(a) * r]; t.rotation.set(i, i * 2, i * 3); shards.add(t); }
+  const cartonG = new THREE.Group(); world.add(cartonG);
+  box(0.07, 0.2, 0.07, M(0xf3f3ee), 0, 0.1, 0, cartonG); box(0.072, 0.06, 0.072, M(0x3c7bc0), 0, 0.12, 0, cartonG);
+  const book = box(0.16, 0.035, 0.23, M(0xa8322d), 0, 0, 0);
+
+  // Characters
+  function label(text) { const c = document.createElement('canvas'); c.width = 256; c.height = 64; const g = c.getContext('2d');
+    g.fillStyle = 'rgba(15,21,26,0.75)'; g.fillRect(0, 8, 256, 48); g.fillStyle = '#fff'; g.font = '600 30px sans-serif'; g.textAlign = 'center'; g.fillText(text, 128, 43);
+    const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: new THREE.CanvasTexture(c), depthTest: false })); s.scale.set(0.5, 0.125, 1); return s; }
+  function person(name, color, H) {
+    const g = new THREE.Group(); world.add(g); const mat = M(color, { roughness: 0.6 });
+    const legs = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.08, 0.47 * H, 12), M(0x2c3740)); legs.position.y = 0.235 * H; legs.castShadow = true; g.add(legs);
+    const upper = new THREE.Group(); g.add(upper);
+    const torso = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.12, 0.38 * H, 14), mat); torso.position.y = 0.19 * H; torso.castShadow = true; upper.add(torso);
+    const head = new THREE.Mesh(new THREE.SphereGeometry(0.075 * H, 18, 14), M(0xd7a98a, { roughness: 0.7 })); head.position.y = 0.38 * H + 0.075 * H; head.castShadow = true; upper.add(head);
+    const tag = label(name); tag.position.y = 0.53 * H + 0.12; upper.add(tag);
+    return { g, legs, upper, H };
+  }
+  const people = { mira: person('Mira', 0x2f8c8a, DEFS.mira.height), tomas: person('Tomas', 0xc49a3a, DEFS.tomas.height) };
+
+  // Cameras: position and look-at in metres (master-world coordinates)
+  const CAMS = {
+    A: { name: 'Wide', pos: [4.3, 2.7, 4.4], at: [-0.2, 0.7, -0.3] },
+    B: { name: 'Over shoulder', pos: [0.6, 1.62, 2.7], at: [-1.2, 0.9, -0.2] },
+    C: { name: 'Plan', pos: [0.01, 7.6, 0.6], at: [0, 0, 0] },
+    D: { name: 'Table close', pos: [1.75, 1.3, -1.55], at: [0.25, 0.55, 0.15],
+         cheat: { id: 'carton', dx: -0.15, text: 'Shot cheat: carton moved 15 cm for this camera only. The master world is unchanged.' } }
+  };
+
+  // Tweened targets
+  const tw = []; function target(obj, key, to) { let t = tw.find((x) => x.obj === obj && x.key === key); if (!t) { t = { obj, key, v: to.slice() }; tw.push(t); } t.to = to.slice(); }
+  function tick(dt) { const k = 1 - Math.pow(0.001, dt); tw.forEach((t) => { for (let i = 0; i < t.to.length; i++) t.v[i] += (t.to[i] - t.v[i]) * k; const o = t.obj[t.key];
+    if (o.set) o.set(...t.v); else t.obj[t.key] = t.v[0]; }); }
+
+  let state, log, prevStep = null;
+  function applyScene() {
+    const s = state; const S = ui.scale;
+    world.scale.setScalar(S.world);
+    const cam = CAMS[ui.cam];
+    doorPivot.userData.to = get(s, 'door', 'open') ? -1.75 : 0;
+    // glass
+    const gp = get(s, 'glass', 'pos'), cond = get(s, 'glass', 'condition');
+    glassG.visible = cond === 'intact'; shards.visible = cond !== 'intact';
+    target(glassG, 'position', gp);
+    const fill = get(s, 'glass', 'milk') / DEFS.glass.capacity; milk.visible = fill > 0 && cond === 'intact'; milk.scale.y = Math.max(fill, 0.01); milk.position.y = 0.005 + 0.065 * fill;
+    shards.children.forEach((t) => { const sp = cond === 'swept up' ? 0.35 : 1; target(t, 'position', [gp[0] + t.userData.spread[0] * sp, 0.015, gp[2] + t.userData.spread[1] * sp]); });
+    // carton (with per-shot cheat)
+    const cp = get(s, 'carton', 'pos').slice(); const ch = ui.cheats && cam.cheat && cam.cheat.id === 'carton' && get(s, 'carton', 'place') === 'table';
+    if (ch) cp[0] += cam.cheat.dx;
+    target(cartonG, 'position', cp);
+    $('cheatchip').hidden = !ch; if (ch) $('cheatchip').textContent = cam.cheat.text;
+    // book
+    const holder = get(s, 'book', 'heldBy');
+    if (holder) { const p = get(s, holder, 'pos'); const h = DEFS[holder].height * ui.scale[holder]; target(book, 'position', [p[0] + 0.22, 0.55 * h, p[2] + 0.12]); }
+    else { const bp = get(s, 'book', 'pos'); target(book, 'position', [bp[0], bp[1] + 0.018, bp[2]]); }
+    // lamp
+    const on = get(s, 'lamp', 'on'); lampLight.intensity = on ? 1.6 : 0; shadeM.emissive.setHex(on ? 0xffb35c : 0x000000); shadeM.emissiveIntensity = on ? 0.9 : 0;
+    // stain
+    const st = get(s, 'rug', 'stain'); stain.visible = !!st; if (st) stain.position.set(st.at[0], 0.008, st.at[2]);
+    // people
+    ['mira', 'tomas'].forEach((id) => { const P = people[id]; const pos = get(s, id, 'pos'); const sit = get(s, id, 'posture') === 'sitting';
+      P.g.visible = get(s, id, 'present'); P.g.scale.setScalar(ui.scale[id]); target(P.g, 'position', pos);
+      P.legs.visible = !sit; P.upper.position.y = sit ? 0.45 / ui.scale[id] : 0.47 * P.H;
+    });
+    // camera (scaled with the world so framing holds)
+    const W = S.world; camera.position.set(cam.pos[0] * W, cam.pos[1] * W, cam.pos[2] * W); camera.lookAt(cam.at[0] * W, cam.at[1] * W, cam.at[2] * W);
+    camera.updateMatrixWorld();
+  }
+
+  // Door rotation handled directly (single scalar)
+  function doorTick(dt) { const to = doorPivot.userData.to || 0; doorPivot.rotation.y += (to - doorPivot.rotation.y) * (1 - Math.pow(0.001, dt)); }
+
+  function resize() { const w = vp.clientWidth, h = vp.clientHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix(); }
+  new ResizeObserver(resize).observe(vp);
+  let last = performance.now();
+  function loop(now) { const dt = Math.min((now - last) / 1000, 0.1); last = now; tick(dt * 1.4); doorTick(dt * 1.4); renderer.render(scene, camera); requestAnimationFrame(loop); }
+
+  // ---------- Coverage: can the current camera actually see what the event needs? ----------
+  function worldPosOf(id) {
+    const W = ui.scale.world;
+    if (id === 'mira' || id === 'tomas') { const p = get(state, id, 'pos'); const sit = get(state, id, 'posture') === 'sitting'; const h = DEFS[id].height * ui.scale[id]; return new THREE.Vector3(p[0], sit ? 0.45 + 0.4 * h : 0.8 * h, p[2]).multiplyScalar(W); }
+    if (id === 'glass' || id === 'carton') { const p = get(state, id, 'pos'); return new THREE.Vector3(p[0], p[1] + 0.07, p[2]).multiplyScalar(W); }
+    if (id === 'book') { const hb = get(state, 'book', 'heldBy'); const p = hb ? get(state, hb, 'pos') : get(state, 'book', 'pos'); return new THREE.Vector3(p[0], hb ? 0.9 : p[1], p[2]).multiplyScalar(W); }
+    if (id === 'rug') { const st = get(state, 'rug', 'stain'); return new THREE.Vector3(st ? st.at[0] : 0, 0.01, st ? st.at[2] : 0).multiplyScalar(W); }
+    const o = id === 'lamp' ? shade : doorPivot.children[0]; o.updateMatrixWorld(true); return o.getWorldPosition(new THREE.Vector3());
+  }
+  function covers(camKey, ids) {
+    const c = CAMS[camKey], W = ui.scale.world; const cam = camera.clone(); cam.position.set(c.pos[0] * W, c.pos[1] * W, c.pos[2] * W); cam.lookAt(c.at[0] * W, c.at[1] * W, c.at[2] * W);
+    cam.updateMatrixWorld(); cam.updateProjectionMatrix();
+    const f = new THREE.Frustum().setFromProjectionMatrix(new THREE.Matrix4().multiplyMatrices(cam.projectionMatrix, cam.matrixWorldInverse));
+    return ids.map((id) => ({ id, seen: (DEFS[id].kind === 'character' && !get(state, id, 'present')) ? false : f.containsPoint(worldPosOf(id)) }));
+  }
+
+  // ---------- UI ----------
+  const esc = (t) => String(t).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  function renderSlate() {
+    $('slate').innerHTML = `<span>SCENE <b>01</b></span><span>STEP <b>${String(ui.step).padStart(2, '0')}/10</b></span><span>CAM <b>${ui.cam} · ${CAMS[ui.cam].name.toUpperCase()}</b></span><span>VERSION <b>${ui.branch.placement === 'edge' ? 'AS SHOT' : 'WHAT IF'}</b></span>`;
+    $('hash').textContent = '#' + hash(state, ui.scale);
+    document.querySelectorAll('.cam').forEach((b) => b.setAttribute('aria-pressed', b.dataset.cam === ui.cam));
+  }
+  function renderSteps() {
+    const labels = ['The set', ...EVENTS.map((e) => e.title)];
+    $('steps').innerHTML = labels.map((t, i) => `<button class="step${i <= ui.step ? ' done' : ''}${i === 2 ? ' fork' : ''}" data-step="${i}" ${i === ui.step ? 'aria-current="true"' : ''}><b>${i === 0 ? 'SET' : EVENTS[i - 1].id}</b>${esc(t)}</button>`).join('');
+  }
+  function renderEvent() {
+    const p = $('pane-event');
+    if (ui.step === 0) {
+      p.innerHTML = `<div><div class="eyebrow">Before anything happens</div><h2>The set, at rest</h2></div>
+        <p>The master world is built first: a room with ten objects, each with a canonical definition (what it is, its size in metres, whether it breaks, whether it absorbs liquid) and a current state (where it is, what condition it is in).</p>
+        <p class="muted">Mira and Tomas exist but are offstage. Press <b>Play scene</b> or pick a step to run the events in order.</p>
+        <p class="note">Objects: table, chair A, chair B, sideboard, glass, milk carton, book, floor lamp, rug, door.</p>`;
+      return;
+    }
+    const L = log[ui.step - 1], e = L.ev; const cov = covers(ui.cam, e.mustSee); const allSeen = cov.every((c) => c.seen);
+    p.innerHTML = `<div><div class="eyebrow">${e.id} · ${esc(NAMES[e.actor])}</div><h2>${esc(e.title)}</h2></div>
+      <div><h3>Intent</h3><p>${esc(e.intent)}</p></div>
+      <div><h3>Preconditions</h3><ul class="plain">${L.checks.map((c) => `<li class="chk"><i class="${c.ok ? 'ok' : 'bad'}">${c.ok ? '✓' : '✕'}</i>${esc(c.label)}</li>`).join('')}</ul></div>
+      <div><h3>Resolution, computed by the world's rules</h3><ul class="plain res">${L.res.map((r) => `<li>${esc(r)}</li>`).join('')}</ul></div>
+      <div><h3>What changed in the world</h3><div class="chg">${L.changes.map((c) => `<div><span class="k">${esc(NAMES[c.id])}.${c.k}</span> ${esc(c.from)} → <b>${esc(c.to)}</b></div>`).join('') || '<div class="muted">Nothing</div>'}</div></div>
+      <div class="cine"><h3 style="margin:0">Cinematic requirement</h3>
+        <p>Must be seen: ${cov.map((c) => `${esc(NAMES[c.id])} <span class="${c.seen ? 'ok' : 'bad'}">${c.seen ? '✓ in frame' : '✕ not in frame'}</span>`).join(', ')}.</p>
+        <p class="muted">${allSeen ? `Camera ${ui.cam} covers this event.` : `Camera ${ui.cam} misses part of this event. Suggested: camera ${e.cam}.`}</p>
+        ${allSeen || ui.cam === e.cam ? '' : `<button id="usecam" data-cam="${e.cam}">Switch to camera ${e.cam}</button>`}</div>`;
+    const u = $('usecam'); if (u) u.onclick = () => { ui.cam = u.dataset.cam; update(); };
+  }
+  function renderWorld() {
+    const fresh = new Set((ui.step ? log[ui.step - 1].changes : []).map((c) => c.id + '.' + c.k));
+    const skip = { sideboard: 1, table: 1 };
+    const rows = Object.keys(state).filter((id) => !skip[id]).map((id) => {
+      const d = DEFS[id]; const defLine = d.kind === 'character' ? `${(d.height * ui.scale[id] * ui.scale.world).toFixed(2)} m tall` : (d.height ? `${(d.height * ui.scale.world).toFixed(2)} m` : d.size);
+      return `<tr class="ent"><td>${esc(NAMES[id])}</td><td class="v muted" colspan="2">${esc(d.kind)} · ${esc(defLine)}${d.fragile ? ' · fragile' : ''}${d.absorbs ? ' · absorbs liquid' : ''}</td></tr>` +
+        Object.keys(state[id]).map((k) => `<tr class="${fresh.has(id + '.' + k) ? 'fresh' : ''}"><td>${k}</td><td class="v">${esc(fmt(state[id][k].v))}</td><td class="src">since ${state[id][k].src}</td></tr>`).join('');
+    }).join('');
+    $('pane-world').innerHTML = `<div><div class="eyebrow">Master reality at step ${ui.step}</div><h2>Every fact, and what caused it</h2></div>
+      <p class="muted">Grey lines are the canonical definition: what a thing is. The rows under each are its current state, with the event that last set it. Highlighted rows changed in this step. Changing the camera never changes this table.</p>
+      <div class="scroll"><table class="st">${rows}</table></div>`;
+  }
+  function renderBranch() {
+    const A = replay(ui.step, { placement: 'edge' }).state, B = replay(ui.step, { placement: 'centre' }).state;
+    const d = window.PW.diff(A, B);
+    $('pane-branch').innerHTML = `<div><div class="eyebrow">Counterfactual · splits at E2</div><h2>What if she put the glass in the middle?</h2></div>
+      <p>Same ten events, same intents, same order. Only one choice in step 2 changes. The rules work out everything that follows.</p>
+      <div class="seg"><button class="a" id="br-edge" aria-pressed="${ui.branch.placement === 'edge'}">As shot<small>Glass 0.12 m from the edge</small></button>
+      <button class="b" id="br-centre" aria-pressed="${ui.branch.placement === 'centre'}">What if<small>Glass 0.30 m from the edge</small></button></div>
+      <div><h3>Differences at step ${ui.step}</h3>
+      ${d.length ? `<div class="diffrow h"><span>Fact</span><span>As shot</span><span>What if</span></div>` + d.map((x) => `<div class="diffrow"><span>${esc(NAMES[x.id])}.${x.k}</span><span>${esc(x.from)}</span><span>${esc(x.to)}</span></div>`).join('')
+        : `<p class="muted">${ui.step < 2 ? 'The versions have not split yet. Move to step 2 or later.' : 'No difference yet.'}</p>`}</div>
+      <p class="note">Go to step 5 and switch between the two versions. The elbow bump is the same event in both. In one the glass falls, breaks and stains the rug; in the other nothing falls. At step 8 the same intent ("deal with the glass") becomes sweeping up in one world and drinking the milk in the other.</p>`;
+    $('br-edge').onclick = () => { ui.branch.placement = 'edge'; update(); };
+    $('br-centre').onclick = () => { ui.branch.placement = 'centre'; update(); };
+  }
+  function renderScale() {
+    const S = ui.scale, mH = DEFS.mira.height * S.mira * S.world, tH = DEFS.tomas.height * S.tomas * S.world, W = S.world;
+    $('s-mira').value = mH.toFixed(2); $('s-tomas').value = tH.toFixed(2); $('s-world').value = W;
+    $('v-mira').textContent = mH.toFixed(2) + ' m'; $('v-tomas').textContent = tH.toFixed(2) + ' m'; $('v-world').textContent = '× ' + W.toFixed(2);
+    const R = [['Mira : Tomas', mH / tH], ['Mira : table height', mH / (0.75 * W)], ['Tomas : door height', tH / (2.1 * W)], ['Glass : Mira', (0.14 * W) / mH]];
+    const base = [1.68 / 1.82, 1.68 / 0.75, 1.82 / 2.1, 0.14 / 1.68];
+    $('ratios').innerHTML = R.map(([n, v], i) => { const changed = Math.abs(v - base[i]) > 0.005; return `<span>${n}</span><span class="n ${changed ? 'bad' : 'ok'}">${v.toFixed(2)} ${changed ? 'changed' : 'held'}</span>`; }).join('');
+    const w = $('scalewarn'); const off = Math.abs(S.mira - 1) > 0.005 || Math.abs(S.tomas - 1) > 0.005;
+    w.hidden = !off; w.textContent = off ? 'Canonical change: a character’s size no longer matches the world. This is written into the master definition, so every step and every shot now uses it.' : '';
+  }
+  function update() {
+    const r = replay(ui.step, ui.branch); state = r.state; log = r.log;
+    applyScene(); renderSlate(); renderSteps(); renderEvent(); renderWorld(); renderBranch(); renderScale();
+  }
+
+  // Events
+  document.querySelectorAll('.cam').forEach((b) => b.onclick = () => { ui.cam = b.dataset.cam; update(); });
+  $('steps').onclick = (e) => { const b = e.target.closest('.step'); if (!b) return; stop(); ui.step = +b.dataset.step; if (ui.step > 0) ui.cam = EVENTS[ui.step - 1].cam; update(); };
+  document.querySelectorAll('.tab').forEach((t) => t.onclick = () => { document.querySelectorAll('.tab').forEach((x) => { x.setAttribute('aria-selected', x === t); $('pane-' + x.dataset.pane).hidden = x !== t; }); });
+  function stop() { if (ui.playing) { clearInterval(ui.playing); ui.playing = null; $('play').textContent = 'Play scene'; } }
+  $('play').onclick = () => { if (ui.playing) return stop(); ui.step = 0; ui.cam = 'A'; update(); $('play').textContent = 'Stop';
+    ui.playing = setInterval(() => { if (ui.step >= 10) return stop(); ui.step++; ui.cam = EVENTS[ui.step - 1].cam; update(); }, 1900); };
+  $('lock').onchange = () => {};
+  $('s-mira').oninput = (e) => { const v = +e.target.value; if ($('lock').checked) ui.scale.world = v / (DEFS.mira.height * ui.scale.mira); else ui.scale.mira = v / (DEFS.mira.height * ui.scale.world); update(); };
+  $('s-tomas').oninput = (e) => { const v = +e.target.value; if ($('lock').checked) ui.scale.world = v / (DEFS.tomas.height * ui.scale.tomas); else ui.scale.tomas = v / (DEFS.tomas.height * ui.scale.world); update(); };
+  $('s-world').oninput = (e) => { ui.scale.world = +e.target.value; update(); };
+  $('giant').onclick = () => { $('lock').checked = false; ui.scale.mira = 3 / (DEFS.mira.height * ui.scale.world); update(); };
+  $('reset').onclick = () => { $('lock').checked = true; ui.scale = { world: 1, mira: 1, tomas: 1 }; update(); };
+
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  function bg() { const c = getComputedStyle(document.documentElement).getPropertyValue('--stage').trim(); try { scene.background = new THREE.Color(c || '#1a2730'); } catch (e) {} }
+  if (media.addEventListener) media.addEventListener('change', bg); new MutationObserver(bg).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+  resize(); update(); bg(); requestAnimationFrame(loop);
+})();
+</script>
+
+</body></html>

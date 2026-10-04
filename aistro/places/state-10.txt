@@ -1,0 +1,7054 @@
+Abbaspur	28.910	77.011
+Abdalpur	30.246	76.597
+Abdullahgarh	30.169	76.954
+Abdullahpur	29.750	76.985
+Abdullapur	28.108	76.074
+Abdullapur	30.806	76.915
+Abhepur	30.674	76.838
+Abhimanyupur	29.905	76.869
+Abidpura	28.508	76.196
+Abupur	30.404	77.087
+Achanpur	29.666	76.687
+Achaut	28.394	76.266
+Achhej	28.619	76.500
+Achheja	28.055	77.469
+Achina	28.674	76.372
+Addu Majra	30.234	76.735
+Adhaun	30.024	76.827
+Adhmi	29.345	77.112
+Adhoya	30.081	76.488
+Adu ki Dhani	28.735	75.990
+Adukari	28.549	75.862
+Aftabgarh	29.454	76.636
+Agargaon	27.992	77.039
+Agaun	27.729	76.962
+Agaundh	29.993	76.251
+Aghwanpur	29.112	76.995
+Agond	30.016	76.258
+Agroha	29.330	75.634
+Agwanpur	28.167	77.330
+Agwanpur	28.488	77.336
+Ahamad ki Dhani	28.519	75.746
+Ahamadwas	28.455	75.893
+Ahar	29.303	76.746
+Aharwala	30.325	77.328
+Aharwan	28.108	77.257
+Aharwan	29.610	75.546
+Ahbala	29.876	76.840
+Ahbali	29.872	76.849
+Ahian Khera	29.429	76.486
+Ahirka	29.352	76.303
+Ahiron ki Dhani	28.522	76.019
+Ahli Chugha	29.587	75.439
+Ahli Kariyan	29.595	75.426
+Ahli Musa	29.597	75.410
+Ahli Nurki	29.594	75.433
+Ahmadbas Firozpur	27.818	76.979
+Ahmadpur	28.257	77.427
+Ahmadpur	29.755	76.665
+Ahmadpur	30.116	76.846
+Ahmadpur	30.471	77.111
+Ahmadpur Majra	29.421	76.761
+Ahmadpur Partal	28.352	76.570
+Ahmadpurgarh	30.134	76.419
+Ahmedpur	28.970	77.063
+Ahri	28.446	76.631
+Ahrod	28.187	76.381
+Ahulana	29.119	76.647
+Ahulana	29.195	76.934
+Ahun	29.786	76.680
+Aima	30.304	76.696
+Aimotwas	27.838	77.150
+Ainchla	29.571	76.849
+Ainchwari	27.822	77.114
+Ainipura	29.069	76.046
+Aitmadpur	28.450	77.322
+Ajaib	28.983	76.418
+Ajitnagar	30.086	76.462
+Ajitpur	28.717	76.178
+Ajitpura	29.081	76.095
+Ajrana Kalan	30.097	76.787
+Ajrana Khurd	30.105	76.771
+Ajrani	30.072	76.804
+Ajraunda	28.395	77.317
+Ajrawar	30.146	76.691
+Akaira	28.014	76.998
+Akalgarh	29.121	76.462
+Akalgarh	30.074	77.315
+Akalgarh	30.151	77.025
+Akanwali	29.528	75.389
+Akbarpur	27.860	77.108
+Akbarpur	28.157	76.575
+Akbarpur	28.378	77.478
+Akbarpur	28.446	75.793
+Akbarpur	30.143	77.187
+Akbarpur	30.293	76.920
+Akbarpur	30.469	77.094
+Akbarpur Barota	28.908	77.066
+Akbarpur Dakaura	28.111	77.390
+Akhnaka	27.757	76.973
+Akkanwali	29.685	75.781
+Aklimpur	27.961	76.979
+Alampur	29.935	76.830
+Alampur Khera	28.072	77.304
+Alapur	28.178	77.315
+Alauddin Majra	30.232	76.660
+Alaudinpur	28.604	75.801
+Alawalpur	27.980	77.140
+Alawalpur	28.041	76.652
+Alawalpur	28.171	76.787
+Alawalpur	28.176	77.376
+Alawalpur	30.143	77.063
+Alawalwas	29.718	75.491
+Alewah	29.478	76.447
+Ali Brahman	27.921	77.250
+Ali Meo	27.922	77.249
+Ali Muhammad	29.463	75.106
+Aliaspur	30.319	77.149
+Aliawas	28.224	76.500
+Aligarh	28.020	77.414
+Alika	29.735	75.431
+Alika	29.930	74.723
+Alikhpura	29.332	75.457
+Alimuddinpur	28.432	76.763
+Alipur	27.773	76.984
+Alipur	28.369	77.450
+Alipur	29.015	76.052
+Alipur	29.136	75.879
+Alipur	29.514	76.231
+Alipur	29.653	76.794
+Alipur	30.264	77.127
+Alipur	30.601	76.956
+Alipur Khalsa	29.488	77.001
+Alipura	30.021	77.107
+Alipura	30.182	77.411
+Alisherpur Majra	30.384	77.362
+Aliyar	28.374	76.894
+Allahabad	27.892	77.123
+Allahpur	30.270	76.988
+Allika	28.162	77.258
+Alola	29.594	76.742
+Alupur	29.325	76.773
+Amadalpur	28.452	76.667
+Amadalpur	30.137	77.367
+Amamli	30.220	77.310
+Amani	29.673	75.858
+Amargarh	29.617	76.005
+Amargarh	29.850	76.986
+Amargarh Majhara	29.988	76.875
+Amarheri	29.339	76.313
+Amarpur	28.187	77.445
+Amarpur Jorasi	28.015	76.061
+Amarwas	28.593	75.997
+Ambawa	30.701	77.031
+Ambawali	30.323	77.525
+Ambli	30.240	77.185
+Ambo	30.671	77.153
+Amboli	28.447	76.497
+Ambri	30.719	77.053
+Ambwala	30.311	77.197
+Ambwala	30.316	77.300
+Ambwala	30.739	76.935
+Aminabad	27.795	77.242
+Aminpur	28.403	77.444
+Aminpur	30.268	76.691
+Amirwas	28.611	75.779
+Amka	27.872	77.001
+Amka	30.745	76.956
+Amlaki	28.188	76.891
+Amli	30.417	77.158
+Amloha	30.062	77.117
+Amrali Khera	29.362	76.489
+Amrauli	28.044	77.441
+Amrawat	28.770	76.185
+Amritear	29.697	76.149
+Amru	28.195	77.280
+Amta	30.707	77.115
+Amunpur	29.761	76.724
+Ananda	28.104	76.272
+Anandgarh	29.189	76.471
+Anandpur	28.046	76.531
+Anandpur	28.915	76.940
+Anchara Khurd	29.301	76.627
+Andhaki	27.889	77.236
+Andhali	29.879	76.248
+Andhera	29.624	77.096
+Andheri	30.390	77.126
+Andhgarh	29.920	77.048
+Andhop	27.904	77.271
+Anehara Kalan	29.272	76.663
+Anjanthali	29.837	76.887
+Ankhir	28.423	77.288
+Anta	29.415	76.722
+Antari	30.419	77.249
+Anupgarh	29.256	76.352
+Anwal	28.822	76.446
+Anwali	29.000	76.755
+Aqlimpur	27.938	77.028
+Arangpur	28.461	77.266
+Archheri	30.368	76.972
+Arjon Majra	30.327	77.391
+Arjumanpura	29.428	74.662
+Armala	30.612	76.993
+Arnauli	30.173	76.414
+Arnauli	30.225	77.290
+Arnetu	29.957	76.201
+Arniwali	29.442	75.046
+Arthu Kalan	30.154	76.631
+Arthu Khurd	30.161	76.633
+Arwa	28.305	77.464
+Aryanagar Defence Colony	28.676	76.930
+Asa Khera	29.806	74.583
+Asadpur	29.032	77.132
+Asadpur Khera	28.453	76.632
+Asaisika	27.928	77.008
+Asalatpur	28.483	77.362
+Asalwas	28.115	76.621
+Asalwas Dubia	28.668	76.036
+Asalwas Marhata	28.666	76.019
+Asan	28.902	76.772
+Asan	29.312	76.473
+Asan Kalan	29.409	76.878
+Asaota	28.108	77.351
+Asaoti	28.249	77.319
+Asaram ki Dhani	29.524	75.315
+Asauda Sewan	28.748	76.875
+Asauda Todran	28.751	76.872
+Asawari	28.543	76.144
+Asawarpur	28.943	77.108
+Asenda	28.756	76.756
+Aseriwali	30.671	76.946
+Asgharpur	30.464	77.209
+Ashrafgarh	29.292	76.368
+Ashrafpur Matindu	28.869	76.872
+Asiaki Gorawas	28.337	76.650
+Asiaki Tappa Jarthal	28.145	76.708
+Asihar	29.880	74.918
+Aspal Khera	29.937	74.711
+Asranwan	29.276	75.601
+Asthal Bohar	28.877	76.644
+Atah	29.251	77.100
+Atail	29.184	76.967
+Atal	28.839	76.755
+Atali	28.294	77.421
+Atarchata	27.999	77.492
+Ataullahpur	29.356	77.082
+Atawa	30.109	77.125
+Atawardi Sarai	28.502	77.022
+Atela	29.843	76.293
+Atela Kalan	28.594	76.104
+Atela Khurd	28.590	76.096
+Atela Kolan	28.581	76.107
+Aterna	28.228	77.407
+Aterna	28.904	77.157
+Aterna Shamsabad	27.922	77.015
+Athanwali	29.328	74.976
+Atohan	28.094	77.348
+Atwan	30.082	76.844
+Augand	29.670	76.806
+Aujlan	30.250	76.798
+Aulant	28.268	76.467
+Aurangabad	28.010	77.473
+Aurangabad	28.028	77.330
+Aurangabad	28.939	77.138
+Aurangabad	30.101	77.237
+Aurangnagar	29.011	75.982
+Aurangpur	28.518	76.719
+Autha	27.900	77.154
+Avual Chak	29.493	74.916
+Ayalki	29.569	75.494
+Azadgarh	28.907	76.599
+Azadnagar	28.584	76.511
+Azampur	28.398	75.843
+Azampur	30.435	77.107
+Azimgarh	30.145	76.218
+Azimpur	28.116	76.104
+Azizabad	28.025	77.429
+Azizpur	30.258	77.149
+Azizpur	30.317	77.236
+Azizpur	30.319	77.228
+Azizullahpur	29.436	76.992
+Azmatpur	30.092	76.718
+Baba Muniji	28.294	76.636
+Babaheri	30.277	76.804
+Babail	29.429	77.049
+Babain	30.072	76.983
+Babakpur	30.144	76.708
+Babarpur	29.449	76.969
+Babarpur	29.463	76.957
+Babarwali	30.637	77.104
+Babbanpur	29.739	75.686
+Babepur	28.448	76.555
+Babra	28.569	76.638
+Babra Bakipur	28.390	76.847
+Babrauli	28.353	76.483
+Babrauli	28.420	76.956
+Babugarh	30.402	77.126
+Babuliah	28.556	76.499
+Babupur	28.510	76.996
+Bachchon	30.342	77.430
+Bachhro	30.712	77.053
+Bachhro	30.715	77.052
+Bachpari	29.426	76.985
+Bad Sikri	29.611	76.320
+Badal	28.540	76.130
+Badala	28.754	76.253
+Badala	29.114	76.153
+Badanhara	29.684	76.698
+Badanpur	29.545	76.096
+Badanpur	30.127	77.189
+Badapur	27.945	77.050
+Badara	30.680	77.117
+Badarpur	29.853	77.128
+Badarpur	29.963	77.093
+Badarpur Saiyid	28.399	77.413
+Badchhappar	29.118	76.303
+Badehra	29.871	76.775
+Bader	27.810	77.086
+Badesipur	29.801	76.909
+Badesra	28.486	75.993
+Badesra	28.926	76.210
+Badgujar	28.339	76.977
+Badh Khalsa	28.912	77.119
+Badha	28.404	76.944
+Badhaikhera	29.657	75.895
+Badhana	29.455	76.341
+Badhara	28.510	75.937
+Badhauli	30.359	77.043
+Badhawar	29.337	75.962
+Badheri	30.234	77.299
+Badherl	29.902	77.058
+Badhoj	28.025	76.658
+Badhwana	28.466	76.179
+Badial	30.672	77.130
+Badli	27.849	77.145
+Badli	28.573	76.810
+Badon	29.283	75.813
+Badopal	29.416	75.550
+Badopur	27.716	76.954
+Badowala	29.573	76.083
+Badrai	28.422	76.024
+Badraun	28.197	77.378
+Badrola	28.343	77.411
+Badshahpur	28.432	77.364
+Badshahpur	29.038	76.902
+Badshahpur	29.550	76.923
+Badsui	30.073	76.363
+Badua	30.703	77.100
+Baganwala	29.260	76.210
+Baghana	29.503	76.488
+Baghanki	28.312	76.932
+Baghuala	27.790	77.002
+Baghwala	30.489	76.986
+Baghwala Mohalla	28.061	76.583
+Bagla	29.189	75.477
+Bagoa	28.656	76.432
+Bagpat	30.327	77.493
+Bagpatti	29.719	77.009
+Bagpur	28.690	76.563
+Bagran	30.029	76.931
+Bagrat	30.042	76.970
+Bagru	28.989	76.943
+Bagru	28.991	76.938
+Bagru Kalan	29.299	76.604
+Bagru Khurd	29.296	76.607
+Bagthala	30.002	76.731
+Bagttala	28.099	76.644
+Bagwali	30.020	77.262
+Bagwali	30.634	77.109
+Bahadargarh	29.387	76.604
+Bahadarpur	29.377	76.668
+Bahadarpur	30.287	77.511
+Bahadorpur	28.335	77.430
+Bahadurpur	30.009	76.831
+Bahadurpur	30.055	77.233
+Bahal	28.628	75.618
+Bahal ki Dhani	28.639	75.635
+Bahala	28.414	76.294
+Bahalbah	28.930	76.331
+Bahalgarh	28.567	76.505
+Bahalgarh	28.958	77.097
+Bahali	28.078	76.290
+Bahali Anandpur	28.880	76.511
+Bahamniwali	28.625	75.965
+Bahapura	29.249	77.017
+Baharheri Rahnwan	28.310	76.666
+Bahari	29.503	76.506
+Baharjaohh	29.876	76.239
+Bahauddin	29.545	75.216
+Bahauli	29.478	76.882
+Bahbalpur	29.242	76.302
+Bahbalpur	29.280	75.802
+Bahbalpur	29.621	75.343
+Bahbalpur	30.500	76.982
+Bahin	27.958	77.266
+Bahloipur	29.517	77.066
+Bahloli	30.410	76.958
+Bahlolpur	29.730	76.845
+Bahlolpur	29.865	77.018
+Bahlolpur	30.038	77.021
+Bahlon	30.696	77.078
+Bahman Majra	30.189	77.403
+Bahmanwas	28.976	76.633
+Bahmanwas	29.108	76.409
+Bahna	30.688	77.058
+Bahnan	29.981	77.014
+Bahola	29.812	76.782
+Baholi	29.992	76.911
+Bahora Kalan	28.301	76.837
+Bahora Khurd	28.275	76.820
+Bahrampur	30.390	77.442
+Bahrampura	30.111	77.350
+Bahraula	28.086	77.337
+Bahri	29.977	76.824
+Bahu	28.454	76.328
+Bahu Akbarpur	28.910	76.477
+Bahu Jamalpur	28.909	76.528
+Bahunro	29.626	75.690
+Bahya	29.595	74.680
+Bai	29.150	77.033
+Baijalpur	29.493	75.709
+Baindi	30.089	77.168
+Bainsi	29.034	76.416
+Bairan	28.654	75.750
+Bairiawas	28.156	76.653
+Bairsal	29.904	76.946
+Bajada Pahari	28.047	77.292
+Bajana Kalan	29.152	76.868
+Bajana Khurd	29.164	76.863
+Bajar	28.122	76.346
+Bajawah	29.251	76.832
+Bajghera	28.527	77.021
+Bajhera	27.997	77.125
+Bajri	28.377	77.254
+Bakal	29.641	76.575
+Bakala	30.424	77.203
+Bakali	30.024	77.059
+Bakana	30.102	76.889
+Bakapur	28.123	76.649
+Bakarpur	30.115	77.380
+Bakarwala	30.312	77.447
+Bakheta	28.921	76.812
+Bakhli	30.023	76.518
+Bakhtawarpur	29.054	77.117
+Bakhtawarpura	28.855	75.618
+Bakhuwali	29.547	75.299
+Bakipur	29.896	76.946
+Bakirpur	30.425	77.112
+Baknaur	30.254	76.664
+Bakrah	28.708	76.530
+Bakriwali	29.419	75.011
+Bal	29.550	76.813
+Bal Chhappar	30.244	77.235
+Bal Jatan	29.457	76.850
+Bala	29.505	76.788
+Balachaur	30.224	77.361
+Balachaur	30.229	77.377
+Balag	30.689	77.073
+Balaha Kalan	28.100	75.978
+Balaha Khurd	28.095	75.970
+Balahara Dhani	28.885	75.687
+Balahi	30.000	76.758
+Balai	28.192	77.456
+Balak	29.366	75.794
+Balal	27.926	77.057
+Balali	28.506	76.175
+Balana	29.281	76.901
+Balana	30.320	76.731
+Baland	28.801	76.584
+Balanwali	29.466	75.593
+Balauli	30.261	77.393
+Balaur	28.667	76.921
+Balauti	30.674	76.973
+Balautiyon ki Dhani	28.434	75.996
+Balawala	30.243	77.482
+Balawas	28.104	76.532
+Balawas Ahir	28.223	76.563
+Balawas Zamanpur	28.268	76.571
+Balbehra	30.026	76.388
+Baldevnagar	30.386	76.797
+Baldhan Kalan	28.332	76.470
+Baldhan Khurd	28.324	76.474
+Baldhi	29.719	76.990
+Baldwala	30.597	77.133
+Balera	29.492	77.084
+Balewa	28.276	76.696
+Balgram	28.463	77.291
+Balh Majra	30.400	77.163
+Bali	29.062	76.737
+Bali Qutbpur	29.202	76.908
+Baliana	28.880	76.692
+Balianwala	29.715	75.938
+Balir Kalan	28.195	76.694
+Balir Khurd	28.211	76.695
+Baliyala	29.727	75.523
+Baliyali	28.896	76.016
+Balla	28.123	76.977
+Ballab	28.801	76.513
+Ballabgarh	28.337	77.326
+Balohalpur	30.314	77.455
+Balopur	30.482	77.087
+Balrampur	28.393	76.565
+Balsamand	29.073	75.487
+Balsua	30.156	77.087
+Balti	30.384	77.148
+Balu	29.652	76.369
+Balu	29.714	76.826
+Balu	30.746	77.006
+Balwanti	29.898	76.473
+Balwari	28.206	76.417
+Bamatheri	27.780	76.998
+Bamba	30.243	76.667
+Bambawala Pir	30.291	76.891
+Bamla	28.807	76.244
+Bamnaula	28.539	76.767
+Bamnaula Jogi	28.066	77.285
+Bamnauli	28.730	76.944
+Bamnikhera	28.061	77.349
+Bamniwala	29.738	76.332
+Bamrauli	28.264	76.973
+Bana	30.668	76.888
+Bana Bahadurpur	30.427	77.262
+Banarsi	27.937	77.071
+Banarsidas ka Plot	30.043	76.530
+Banaundi	30.448	77.062
+Banawali	29.395	75.437
+Banbhauri	29.406	76.049
+Banchari	27.935	77.350
+Bandaheri	29.017	76.172
+Bandepur	28.968	77.036
+Bandh	29.246	76.859
+Bandh	30.667	77.139
+Bandheri	29.121	75.436
+Bandrana	29.877	76.540
+Bang Ka Bas	27.912	77.126
+Bangarwa	28.217	76.534
+Banghar	30.695	77.065
+Bangram	29.448	75.425
+Banhpur	30.259	76.626
+Bania Khera	29.401	76.487
+Baniawala	30.342	77.465
+Banipur	28.087	76.602
+Baniyani	28.849	76.512
+Bankat	30.373	77.360
+Banl	29.969	77.095
+Banmadauri	29.401	75.291
+Banmar	28.182	76.680
+Banolu	30.704	77.077
+Bansa	29.603	76.835
+Bansewala	30.375	77.283
+Bansgati	30.730	76.964
+Banswa	27.896	77.447
+Banswali	30.660	77.048
+Banwasa	29.144	76.564
+Baola	28.190	76.942
+Baopur	30.105	76.378
+Bapa	30.046	77.101
+Bapas	28.293	76.706
+Bapauli	29.337	77.085
+Bapauli	30.029	77.121
+Bapaura	28.819	76.067
+Bapda	29.973	77.058
+Bapdi	29.974	77.067
+Baqipur	28.893	77.184
+Bar Jamnuwala	30.364	77.255
+Bara	29.144	75.985
+Bara	29.719	75.623
+Bara	30.296	76.799
+Bara Barona	30.573	77.006
+Bara Damupura	30.168	77.416
+Bara Ferozepur	30.695	76.857
+Bara Garh	30.462	77.066
+Bara Gudha	29.699	75.007
+Bara James Sahib	29.060	75.992
+Bara Khudda	30.325	76.904
+Bara Korwa	30.387	76.979
+Bara Kundan	29.158	75.964
+Bara Marwa	30.327	77.273
+Baragaon	29.756	77.064
+Baragaon	30.450	77.104
+Barah Kalan	29.312	76.423
+Barah Khurd	29.302	76.402
+Barahi	28.736	76.895
+Barahlu	28.521	75.727
+Baram	30.068	76.825
+Baram Chari Siwala	29.310	76.513
+Barana	29.460	77.066
+Barana	29.880	76.915
+Barani	29.892	76.894
+Baraoli	29.468	76.964
+Barari Khera	29.220	76.325
+Baras	29.738	76.752
+Barat	30.646	77.069
+Barauda	29.142	76.615
+Barauji	28.073	76.967
+Baraula	30.211	76.760
+Barauli	28.081	77.437
+Barauli	28.378	77.344
+Barauli	29.011	77.169
+Barauli	30.223	76.739
+Barauli	30.294	77.414
+Barauli	30.484	77.103
+Baraunda	29.957	77.059
+Baraundi	29.959	77.045
+Baraut	29.870	76.529
+Barauta	29.624	76.936
+Barauth	29.960	77.018
+Barawat	29.150	77.042
+Barchumala	29.324	74.983
+Bardhana	28.664	76.659
+Barduchaina	28.630	75.812
+Bardudhirja	28.645	75.813
+Bardujogi	28.640	75.776
+Bardumugal	28.644	75.775
+Bardunaya	28.651	75.792
+Bardupurn	28.641	75.817
+Barechhpur	29.981	77.031
+Bargaon	28.090	76.124
+Barhana	28.757	76.674
+Barheri	30.007	77.218
+Bari Barheri	30.384	77.062
+Bari Basi	30.472	77.073
+Bari Bhaini	29.001	76.309
+Bari Kohri	30.505	77.073
+Bari Nagli	30.402	77.419
+Bari Pabni	30.271	77.231
+Bari Panjeori	30.443	77.101
+Bari Rasaur	30.452	77.155
+Bariser	30.717	77.114
+Bariwala	30.604	77.129
+Barka	27.896	77.227
+Barkali	27.917	77.003
+Barkhal	28.410	77.279
+Barna	29.909	76.731
+Barnala	30.390	76.809
+Barod	29.432	76.729
+Baroda	29.438	76.208
+Baroli	29.267	76.358
+Baroli	29.387	76.284
+Barona	28.848	76.902
+Baror	30.717	77.117
+Barota	29.602	75.516
+Barotha	29.121	76.740
+Barotiwala Khol	30.802	76.857
+Barsa	28.515	76.867
+Barsalu	29.887	76.979
+Barsami	30.007	77.101
+Barsan	29.371	76.400
+Barsan	30.039	77.233
+Barsana	28.589	76.120
+Barsana	29.716	76.600
+Barsat	29.505	77.051
+Barsi	29.047	76.026
+Barsola	29.393	76.232
+Barsu Majra	30.447	77.141
+Barta	29.816	76.209
+Bartana	30.473	76.905
+Bartana	30.668	76.827
+Bartauli	30.106	77.058
+Barthal	29.868	76.874
+Baruwali	29.377	74.939
+Barwa	28.964	75.605
+Barwa	29.923	76.770
+Barwala	30.556	76.939
+Barwas	28.483	75.883
+Barwas	28.509	75.891
+Barwasni	29.012	76.964
+Bas	28.361	75.940
+Bas	28.394	76.581
+Bas	28.684	76.393
+Bas	29.112	76.202
+Bas Khurd	28.423	76.071
+Bas Mahauli	27.760	76.946
+Bas Padamka	28.293	76.801
+Basahera	29.190	77.095
+Basai	27.967	75.963
+Basai	28.459	76.985
+Basai Khanzada	27.880	77.046
+Basai Meo	27.757	77.027
+Basana	28.894	76.372
+Basandhi	29.003	77.156
+Basantpur	28.974	76.637
+Basantpur	30.097	77.137
+Basantpur	30.172	76.755
+Basantpur	30.214	77.031
+Basawal	30.827	76.876
+Basdalla	27.862	77.213
+Basdeopura	30.811	76.900
+Basdhara	29.569	76.990
+Basdudha	28.173	76.358
+Baselwah	28.418	77.342
+Basharya	28.391	76.888
+Bashipur	28.004	76.042
+Bashirwas	28.477	75.842
+Basi	29.564	76.546
+Basi Akbarpur	29.546	77.048
+Basin	29.504	75.498
+Basini	29.435	76.736
+Baskusla	28.375	76.908
+Baslanbhi	28.361	76.869
+Basra	29.028	75.529
+Basri	28.426	75.974
+Bastali	29.736	76.723
+Basti Jhiwran	29.482	77.093
+Basti Lalpura	30.378	76.762
+Bastpur	28.262	76.747
+Basunda	28.403	76.776
+Bata	28.056	77.419
+Bata Sadhan	29.712	76.324
+Bataura	30.508	77.107
+Batawar	30.551	76.949
+Bathera	28.477	76.692
+Batheri	29.921	76.607
+Bathwana	28.161	76.600
+Batrohan	30.245	76.612
+Baturi	28.226	76.458
+Batwai	30.592	76.994
+Bauhatwas Ahir	28.217	76.527
+Bauhatwas Bhondu	28.332	76.505
+Baund Kalan	28.779	76.342
+Baund Khurd	28.770	76.338
+Baunta	30.644	77.098
+Bawah	28.395	76.320
+Bawan	29.596	75.787
+Bawan Gujar	28.170	76.470
+Bawana	28.372	76.186
+Bawaria	28.039	77.423
+Bazida Jattan	29.636	76.960
+Bazida Roran	29.712	76.860
+Bazidpur	27.948	77.107
+Bazidpur	28.498	76.354
+Bazidpur	29.712	77.099
+Bazidpur	29.986	76.905
+Bazidpur	30.224	76.918
+Bazidpur	30.541	76.998
+Bazidpur Sabauli	28.888	77.094
+Bazidpur Tappa Haveli	28.599	76.710
+Bedwa	29.066	76.314
+Bega	29.154	77.112
+Begampur	29.493	76.909
+Begampur	30.239	77.449
+Begampur Bapnaut	29.357	76.805
+Begampur Taharpur	29.289	77.093
+Begpur	29.907	76.533
+Begpur Ateli	28.105	76.281
+Begu Majra	30.287	76.772
+Behar	30.637	76.960
+Behni	30.711	77.075
+Behrampur	29.353	77.080
+Behrampur Bharangi	28.095	76.524
+Behvalpur	30.299	76.764
+Bela	28.018	77.429
+Belgarh	30.221	77.489
+Belrakha	29.664	76.128
+Belwala	30.397	77.155
+Belwali	30.666	77.074
+Belwali	30.669	76.954
+Ber Kheri	30.398	77.141
+Bera	30.558	76.908
+Bera Patti	27.905	77.392
+Bergati	30.773	76.988
+Beri Khera	29.389	76.536
+Berinisfi Sohna	28.272	76.953
+Beriyabas	27.689	76.967
+Berla	28.510	76.018
+Berli Kalan	28.303	76.504
+Berli Khurd	28.296	76.511
+Berpura	30.428	76.972
+Bersan	30.234	76.747
+Berthala	30.132	76.983
+Berthali	30.145	76.989
+Berwal	28.132	76.517
+Berwala	30.689	76.918
+Berwala Khurd	29.455	74.573
+Bhada Khera	29.375	76.055
+Bhadana	28.629	76.724
+Bhadana	28.952	76.938
+Bhadani	28.639	76.725
+Bhadarpur	27.808	77.181
+Bhadas	27.941	77.009
+Bhadaur	29.347	76.891
+Bhadaur	30.609	77.057
+Bhadauti Khas	29.249	76.768
+Bhadi	29.109	76.875
+Bhadoti	29.267	76.760
+Bhadrana	28.137	76.513
+Bhadrana Faqiran	29.624	76.206
+Bhadson	29.919	76.970
+Bhagal	30.067	76.419
+Bhagana	29.071	75.853
+Bhagesri	28.681	76.352
+Bhago Majri	30.005	76.210
+Bhagot	28.422	76.269
+Bhagotipur	28.984	76.516
+Bhagpur	30.546	77.059
+Bhagsi	30.526	76.918
+Bhagu Mazra	30.120	77.130
+Bhagwali	30.503	77.002
+Bhagwangarh	30.009	77.158
+Bhagwangarh	30.157	77.330
+Bhagwanpur	28.229	76.669
+Bhagwanpur	30.000	77.154
+Bhagwanpur	30.062	76.957
+Bhagwanpur	30.206	77.380
+Bhagwanpur	30.216	77.129
+Bhagwanpur	30.424	77.387
+Bhagwanpur	30.537	76.937
+Bhagwanpur	30.752	76.917
+Bhagwanpura	28.016	76.589
+Bhagwanpura	29.510	76.120
+Bhagwanpura	30.736	76.832
+Bhagwi	28.608	76.384
+Bhaiar	30.025	77.035
+Bhaikhera	27.852	77.025
+Bhaini	29.245	76.160
+Bhaini	29.411	75.872
+Bhaini	30.051	77.005
+Bhaini Badali	29.014	76.286
+Bhaini Chelawali	28.966	76.245
+Bhaini Jattan	29.028	76.103
+Bhaini Kalan	29.750	76.934
+Bhaini Khurd	29.754	76.953
+Bhaini Maharajpur	28.990	76.251
+Bhaini Majra	29.801	76.446
+Bhaini Mato	29.008	76.264
+Bhaini Rangharan	29.030	76.105
+Bhainsa Tiba	30.723	76.854
+Bhainsaoli	28.365	77.421
+Bhainse Majra	29.933	76.697
+Bhainsru Kalan	28.812	76.822
+Bhainsru Khurd	28.814	76.810
+Bhainswal	29.432	77.013
+Bhainswal Kalan Baola	29.034	76.793
+Bhainswan Kalan	29.088	76.684
+Bhainswan Khurd	29.092	76.675
+Bhairawi	28.594	76.227
+Bhairi	30.305	76.708
+Bhajawas	28.234	76.299
+Bhajlaka	28.183	76.955
+Bhakarpur	29.181	77.048
+Bhaklana	29.151	76.240
+Bhakra	28.675	76.002
+Bhakran	28.618	75.560
+Bhakrauji	27.697	76.961
+Bhalag	30.725	77.022
+Bhalang	29.580	76.269
+Bhalari	30.021	77.028
+Bhalaur	29.313	77.102
+Bhalaut	28.904	76.706
+Bhaliyon	30.677	77.114
+Bhalon	30.730	77.100
+Bhalsi	29.388	76.815
+Bhamari	28.147	76.600
+Bhambaul	30.182	77.215
+Bhambaul ka Majra	30.175	77.224
+Bhambaul ka Majra	30.181	77.231
+Bhambauli	30.196	77.214
+Bhambauli Janak ka Majra	30.187	77.229
+Bhambauli Prithwi ka Mazra	30.199	77.229
+Bhambewa	28.823	76.650
+Bhamewa	29.234	76.549
+Bhamnaul	30.650	77.091
+Bhamnduli	30.335	77.359
+Bhana	29.364	75.512
+Bhana	29.667	76.520
+Bhana Brahmanan	29.661	76.181
+Bhanakpur	28.290	77.264
+Bhanbarheri	29.576	76.794
+Bhandauli	27.945	77.474
+Bhandaur	28.166	76.525
+Bhandaur ki Dhani	28.168	76.515
+Bhandwa	28.502	75.913
+Bhangarh	28.682	75.978
+Bhangera	30.319	77.468
+Bhangeri	30.314	77.481
+Bhangraula	28.394	76.911
+Bhanguri Palwal	28.087	77.265
+Bhankhari Kalan	28.089	76.009
+Bhankhari Khurd	28.091	76.014
+Bhankri	28.394	77.261
+Bhanpura	29.782	76.328
+Bhanu Kheri	30.281	76.749
+Bhanun	30.631	76.920
+Bhanwar	29.143	76.940
+Bhaoji	29.923	77.116
+Bhaoli	30.526	77.044
+Bhaopur	29.320	76.814
+Bhaprauda	28.738	76.736
+Bhapura	29.254	77.007
+Bharaili	30.539	76.925
+Bharal	30.734	76.990
+Bharan	28.968	76.387
+Bharangi	28.418	76.378
+Bharangpur	28.195	76.930
+Bharaoli	30.633	77.045
+Bharapur	30.450	77.049
+Bharatpur	29.563	77.071
+Bharawas	28.147	76.570
+Bhareth	30.740	77.057
+Bhariwas	28.594	75.967
+Bharog	30.417	76.933
+Bharolanwali	29.627	75.344
+Bharpur	29.657	75.538
+Bharu Khera	29.767	74.569
+Bharun Khera	29.218	76.476
+Bhaskola	28.433	77.409
+Bhatana Jafarabad	29.061	76.941
+Bhataul Jattan	29.100	76.110
+Bhataul Rangharan	29.100	76.105
+Bhatauli	30.184	77.277
+Bhatgaon	28.997	76.901
+Bhathera	28.239	76.509
+Bhatian	30.058	76.244
+Bhatla	29.174	75.929
+Bhatola	28.392	77.362
+Bhatpura	28.280	77.366
+Bhatsana	28.175	76.755
+Bhattu Khurd	29.601	75.316
+Bhattu Kolan	29.381	75.341
+Bhattuwala	30.422	77.370
+Bhatu	29.580	75.767
+Bhaurak	30.043	76.607
+Bhawana	28.043	77.456
+Bhawana	30.805	76.945
+Bhawani Khera	29.993	76.826
+Bhawanikhera	29.724	75.650
+Bhawanipur	30.341	77.311
+Bhawar	29.194	76.513
+Bhebalpur	28.282	77.379
+Bher Thal	30.239	77.294
+Bhera	28.824	75.690
+Bheri	29.492	75.871
+Bherian	29.048	75.628
+Bherian	29.952	76.570
+Bheron	30.486	77.038
+Bhial	30.623	77.118
+Bhikanpur	30.240	77.149
+Bhikhewala	29.572	76.019
+Bhilchhappar	30.310	77.290
+Bhilpura	30.201	77.471
+Bhilpura	30.248	77.432
+Bhimanwala	29.582	75.948
+Bhimnagar	28.158	76.753
+Bhindari	29.342	76.793
+Bhindawas	28.554	76.554
+Bhirarana	29.549	75.551
+Bhirtana	29.277	76.489
+Bhiruki	27.918	77.452
+Bhiwani Rohillan	29.072	75.541
+Bhiyur	30.676	77.121
+Bhoapur	28.373	77.405
+Bhobwal Majri	29.197	77.016
+Bhoda Hoshnak	29.349	75.601
+Bhodi	29.657	75.799
+Bhodiakhera	29.371	75.489
+Bhodiakhera	29.489	75.424
+Bhogipur	28.174	76.916
+Bhogipur	29.095	76.999
+Bhogpur	30.131	77.096
+Bhogpur	30.134	77.391
+Bhogpur	30.145	77.385
+Bhogpur	30.342	77.222
+Bhogpur	30.640	77.084
+Bhogpur	30.783	76.931
+Bhogriwala	30.283	77.550
+Bhojpur	29.722	76.785
+Bhojpur	30.146	77.332
+Bhojraj	29.028	75.787
+Bhola Kheri	30.619	77.054
+Bholabas	27.824	76.958
+Bholabas	27.941	77.141
+Bhole ka Majra	30.186	77.263
+Bholiwala	30.447	77.303
+Bholra	28.169	77.513
+Bhond	27.784	76.928
+Bhongra	29.435	76.153
+Bhopali	28.558	75.879
+Bhopani	28.426	77.388
+Bhor	29.960	76.700
+Bhora Rasulpur	29.181	76.984
+Bhorangpur	30.271	76.637
+Bhori	30.714	77.043
+Bhotabas	27.857	76.937
+Bhuapur	28.928	77.019
+Bhud	30.569	77.101
+Bhud	30.581	77.109
+Bhud	30.655	77.027
+Bhud	30.662	77.030
+Bhud Kalan	30.266	77.498
+Bhud Majra	30.255	77.489
+Bhudiakhera	29.665	75.840
+Bhudiun	30.249	77.053
+Bhudka	28.260	76.857
+Bhudla	28.162	76.680
+Bhudpur	27.992	77.210
+Bhugtipur	29.915	76.938
+Bhuh	30.735	77.066
+Bhukar Majra	30.212	76.813
+Bhukhri	30.190	77.349
+Bhukri	30.077	77.032
+Bhukri	30.369	77.125
+Bhul Kheri	30.233	77.429
+Bhulwana	27.883	77.387
+Bhuna	29.534	75.707
+Bhuna	29.975	76.316
+Bhund	30.724	77.014
+Bhundarwas	29.736	75.605
+Bhunderi	29.102	76.617
+Bhunkarka	28.274	76.790
+Bhunsla	29.430	76.284
+Bhunslan	30.098	76.450
+Bhupawali	27.988	77.126
+Bhur Majra	30.225	76.819
+Bhurawas	28.473	76.490
+Bhure ka Majra	30.143	77.086
+Bhurewala	30.533	77.100
+Bhurh	28.229	77.506
+Bhurhi	30.732	77.076
+Bhurian	30.779	76.941
+Bhurtala	29.415	74.783
+Bhurthal Thethar	28.263	76.649
+Bhurthala	28.372	76.476
+Bhuryaki	27.883	77.168
+Bhuslana	29.454	76.747
+Bhusli	29.614	76.954
+Bhustala	30.076	76.723
+Bhut Majra	29.959	77.074
+Bhut Majra	30.121	77.224
+Bhutan Kalan	29.551	75.596
+Bhutan Khurd	29.568	75.601
+Biana	29.840	77.117
+Bibipur	29.244	76.281
+Bibipur	29.849	77.151
+Bibipur	30.119	76.797
+Bibipur	30.127	77.391
+Bibipur	30.434	77.055
+Bibipur Jatan	29.826	77.043
+Bibipur Kalan	29.989	76.669
+Bichganwan	30.014	76.778
+Bichhlan	30.006	76.426
+Bichhor	27.846	77.308
+Bichki	30.036	76.688
+Bichli	30.396	77.012
+Bichpari	29.203	76.664
+Bichpari	29.324	75.828
+Bichpari	30.211	77.452
+Bichpari	30.490	77.032
+Bichpuri	30.239	76.776
+Bidauli	29.583	77.117
+Bidawas	28.035	76.632
+Bidhal	29.069	76.816
+Bidhanga	30.293	76.667
+Bidhawan	28.760	75.604
+Bidhlan	28.949	76.865
+Bidhna	30.709	77.055
+Bidhnauli	28.918	77.012
+Bidhuwas	28.230	76.994
+Bidian	28.684	76.491
+Bidnoi	28.650	75.722
+Biganpura ki Dhani	28.738	75.923
+Bigghar	29.453	75.457
+Bighan	29.072	77.052
+Bighana	28.105	76.491
+Bihag Khera	29.293	76.550
+Biharipur	27.856	77.018
+Biharipur	28.279	76.530
+Biholi	29.287	77.043
+Bihta	30.276	76.955
+Bihta	30.365	77.339
+Bijarpur	30.165	76.764
+Bijauli	30.423	77.297
+Bijhara Khera	28.055	77.302
+Bijlana Bas	28.654	75.859
+Bijna	29.598	76.933
+Bijuwali	29.733	74.733
+Bikaner	28.256	76.610
+Bikti	27.788	77.238
+Bila	30.638	76.930
+Bilakpur	27.769	76.953
+Bilaspur	28.281	76.858
+Bilaspur	29.244	77.122
+Bilaspur	30.460	77.049
+Bilaspur Khurd	28.288	76.872
+Bilauna	29.586	76.562
+Bilawal	28.574	76.079
+Bilbilan	29.000	76.779
+Bilkara	28.531	76.261
+Bilochpur	28.545	76.546
+Bilochpura	29.983	76.619
+Bilonda	27.753	76.926
+Bilpura	30.346	76.943
+Binat	30.063	76.966
+Binaula	28.301	76.872
+Bindraban	28.556	76.062
+Bindrala	29.491	76.579
+Binjhalpur	30.307	77.134
+Binjhaul	29.360	76.944
+Bir Amin	29.892	76.852
+Bir Babupur	30.590	76.931
+Bir Badalwa	29.828	76.748
+Bir Balsua	30.150	77.089
+Bir Bangaran	29.547	76.499
+Bir Bhadson	29.907	76.972
+Bir Dadri	28.520	76.758
+Bir Firozri	30.609	76.934
+Bir Kalwa	30.107	76.972
+Bir Khanda Kheri	29.564	76.632
+Bir Majra	29.630	76.896
+Bir Majra	29.755	76.867
+Bir Majra	29.831	77.109
+Bir Majra	29.906	76.971
+Bir Mathana	29.991	76.926
+Bir Mongauli Rangharan	30.145	77.025
+Bir Pipli	29.982	76.889
+Bir Rai Tikhana	29.937	77.015
+Bir Seonti	29.986	76.981
+Bir Shamspur	28.594	76.334
+Bir Sujra	30.096	76.947
+Bir Sunarwala Kalan	28.623	76.702
+Bir Sunarwala Khurd	28.604	76.703
+Birabadhi	29.688	75.363
+Biran	28.831	76.008
+Birasari	29.340	75.018
+Birchpur	29.614	76.919
+Birdalawas	28.545	75.928
+Birhera	28.436	76.735
+Birhi Kalan	28.599	76.153
+Birhi Khurd	28.601	76.161
+Biripur	28.321	76.667
+Birohar	28.584	76.380
+Biror	28.493	76.471
+Bisahan	28.725	76.562
+Bisalwas	28.458	75.884
+Bisalwas ki Dhani	28.469	75.857
+Bisationwala	30.287	77.345
+Bishangarh	29.992	76.833
+Bishangarh	30.223	76.701
+Bishanpur	28.063	76.640
+Bishnaiyan ki Dhani	29.328	75.481
+Bishnunagar Colony	30.134	77.255
+Bisla	29.516	75.512
+Bisoha	28.397	76.348
+Bisru	27.905	77.209
+Biswar Akbarpur	28.304	76.950
+Biswari Khrera	28.040	77.312
+Bithala	28.462	76.523
+Bithan	28.618	75.740
+Bithmara	29.543	75.929
+Biwan	27.754	77.051
+Biwan	28.132	76.983
+Biyana Khera	29.316	76.025
+Bkuniwali	29.326	74.986
+Blani	29.822	77.122
+Boana	29.205	76.314
+Bobakpur	30.046	76.284
+Bobua	29.441	75.957
+Bochadiya	28.143	76.287
+Bodewali	29.474	75.299
+Bodha	30.060	76.579
+Bodhi	29.938	76.943
+Bodhni	30.049	76.567
+Bodla	30.017	76.941
+Bohar	28.897	76.654
+Bohatwala	29.376	76.379
+Bohawa	30.156	76.978
+Bohawi	30.154	76.991
+Bohela	29.081	76.857
+Bohka	28.219	76.338
+Bojawas	28.300	76.218
+Bolni	28.108	76.686
+Bora	29.736	75.498
+Boria Kamalpur	28.260	76.556
+Boripur	30.203	76.843
+Borjan	29.419	76.124
+Borsham	29.302	76.948
+Bosti	29.575	75.803
+Bowanalakhu	29.224	76.839
+Brachh	30.720	77.045
+Brahamanan ki Dhani	28.674	75.988
+Brahman Maira	30.310	76.873
+Brahman Majra	29.318	76.867
+Brahman Majra	29.846	76.824
+Brahman Majra	29.950	77.047
+Brahman Majra	30.288	77.016
+Brahman Majra	30.447	77.122
+Brahmanon ki Dhani	28.393	75.935
+Bring Khera	29.927	74.645
+Bubalheri	27.852	77.083
+Bubka	30.044	77.125
+Bubshahr	29.860	74.618
+Buchi	29.751	76.654
+Budana	28.226	76.689
+Budana	29.260	76.133
+Budani	28.224	76.679
+Buddha Khera	30.361	77.066
+Buddi	30.421	77.310
+Budha	29.983	77.075
+Budha Ka Bas	27.842	77.034
+Budha Khera	29.710	77.028
+Budha Khera	29.829	76.257
+Budha Khera Kalwa	29.383	76.549
+Budha Khera Lathar	29.118	76.438
+Budhakhera	29.499	75.889
+Budhana ki Dhani	28.740	75.954
+Budhanpur	29.172	77.116
+Budhanpur	29.696	76.820
+Budhanpur	29.715	75.811
+Budhanpur	29.723	76.930
+Budhanpur	30.690	76.831
+Budhanpurabad	29.594	76.907
+Budhera	28.477	76.913
+Budheri	28.568	75.706
+Budhi Mari	29.487	74.715
+Budhseli	28.811	75.580
+Budpur	28.231	76.575
+Bugana	29.257	75.835
+Bukana	30.061	77.156
+Bukhapuri	29.863	76.792
+Bukharaka	27.942	77.038
+Bukharpur	28.323	77.386
+Buktuha	30.400	77.068
+Bulandpur	29.169	76.953
+Bunga	30.670	76.971
+Bupania	28.635	76.826
+Bura Dehar	29.201	76.339
+Burak	29.079	75.421
+Buraka	27.881	77.330
+Buraka	28.188	76.968
+Buranwala	29.468	74.981
+Burha Ka Bas	27.804	77.098
+Burha Khera	28.076	77.275
+Burhanpur Khalsa	29.924	77.105
+Burhanpur Sikri	29.890	77.018
+Burhena	28.399	77.344
+Burhera	28.618	75.777
+Buria	28.594	76.725
+Buriawas	28.349	76.543
+Burj	30.738	76.914
+Burj Shahid	30.428	77.061
+Burj Tanda	30.739	76.913
+Buroli	28.249	76.448
+Bursham	29.872	76.797
+Burthal Jat	28.266	76.643
+Busana	29.237	76.734
+Butan Kheri	29.893	76.999
+Butana	29.189	76.626
+Butana	29.858	76.935
+Butani	29.343	76.585
+Butgarh	30.345	77.260
+Canal Colony	29.367	75.015
+Chaba	30.109	76.270
+Chabutaron	30.369	77.381
+Chadiana	30.690	77.129
+Chagnauli	30.271	77.303
+Chahar Kalan	28.603	75.722
+Chahar Khurd	28.605	75.695
+Chaharon	30.211	77.304
+Chaharwala	29.286	75.215
+Chaharwala	30.311	77.209
+Chahbari	29.276	76.458
+Chahil Majra	30.224	77.000
+Chaila	30.655	77.110
+Chainpura	28.308	76.841
+Chainpura	28.671	76.067
+Chajjunagar	28.107	77.372
+Chak Chainpur	30.091	77.051
+Chak Jagatian	30.019	76.720
+Chak Munanwali	29.755	74.753
+Chakali	30.733	77.071
+Chakda	29.771	76.711
+Chakkar	30.444	77.023
+Chakli	30.683	77.096
+Chakli	30.706	77.110
+Chakoh	30.735	77.086
+Chalaur	30.384	77.333
+Chamanpur	28.697	76.635
+Chamar Majra	30.152	77.267
+Chamar Majra	30.169	77.273
+Chamar Majra	30.385	76.764
+Chamari	28.965	76.601
+Chamarkhera	29.512	75.811
+Chamba Bas	29.426	74.737
+Chamel Majra	30.391	77.185
+Chamkha	30.675	77.098
+Chammo	30.136	76.665
+Chamrara	29.222	76.897
+Chamrori	30.062	77.133
+Chan Chak	30.032	76.255
+Chanalheri	30.022	76.665
+Chanana	28.894	75.740
+Chanani ki Dhani	28.572	75.625
+Chanarthal	29.948	76.829
+Chanarthal	30.069	76.868
+Chanaut	29.212	75.920
+Chanchak	30.446	77.289
+Chanda Bas	28.658	75.887
+Chanda Bas Chak	28.659	75.897
+Chanda Bas Chak	28.672	75.899
+Chanda Kheri	30.292	77.292
+Chandana	29.749	76.380
+Chandanki	27.875	77.176
+Chandanwas	28.340	76.631
+Chandar Kalan	29.650	75.818
+Chandar Khurd	29.651	75.830
+Chandaul	28.492	76.545
+Chandauli	29.122	77.122
+Chandauli	29.447	77.003
+Chandawali	28.320	77.352
+Chandawas	28.211	76.591
+Chandeni	28.476	76.122
+Chander Bhanpur	29.932	76.878
+Chandhat	28.123	77.448
+Chandi	29.031	76.503
+Chandigarh	30.728	76.778
+Chandikotla	30.748	76.902
+Chandlana	29.863	76.635
+Chandmal Ka Bas	27.901	77.056
+Chandnagar Dhani	28.423	76.843
+Chandnibagh	29.389	76.991
+Chandnod	28.968	75.719
+Chandoh Kalan	29.643	75.625
+Chandoh Khurd	29.651	75.629
+Chandon	30.691	77.137
+Chandpur	28.326	77.466
+Chandpur	28.489	76.652
+Chandpur	30.130	77.269
+Chandpur	30.302	77.528
+Chandpur	30.319	77.377
+Chandpura	28.132	76.325
+Chandpura	30.353	76.890
+Chandraka	27.841	77.081
+Chandraon	29.912	77.179
+Chandrawal	29.521	75.621
+Chandsamand	29.819	77.108
+Chandsauli	30.369	77.083
+Chandu	28.471	76.923
+Chanduwas	28.052	76.527
+Chandwala	29.397	76.419
+Chandwas	28.490	75.977
+Chaneti	30.168	77.340
+Chang	28.884	76.254
+Chaniana	30.687	77.125
+Chankoti	29.621	75.450
+Chanpur	30.079	76.945
+Chaowala	30.257	77.289
+Chaplana	30.725	77.061
+Chapoli	30.720	77.088
+Charahra	28.098	76.580
+Charami	29.165	77.050
+Charkhi	28.614	76.220
+Charnian	30.852	76.868
+Charpura	29.807	77.119
+Chasiala	29.660	76.319
+Chatana	29.048	76.937
+Chatarbhuj Majra	30.085	76.785
+Chatia Aulia	29.069	76.979
+Chatrauli	28.378	76.268
+Chaubara	29.480	75.670
+Chauburja	29.455	74.997
+Chaud Mastpur	30.285	76.694
+Chaudhriwali	29.150	75.400
+Chaudhriwas	29.010	75.603
+Chauganwa	29.545	76.571
+Chaugawan	29.935	77.183
+Chauki	28.283	76.496
+Chauki	28.349	76.657
+Chauki	30.710	76.887
+Chauki Nadah	30.708	76.911
+Chaumuha	28.516	77.039
+Chaundipur	29.655	77.106
+Chaundipur	29.660	77.088
+Chaunra	29.791	77.115
+Chaura	29.557	77.039
+Chaurahi	30.311	77.330
+Chautan	30.473	77.031
+Chechi Majra	30.519	77.164
+Chejal Majra	30.459	77.084
+Chelawas	28.318	76.289
+Chhabianu	30.341	76.864
+Chhachrana	29.304	76.720
+Chhadwana	28.534	76.538
+Chhajja Nagla	30.215	77.247
+Chhajju Majra	30.424	76.925
+Chhajpur Kalan	29.372	77.054
+Chhajpur Khurd	29.380	77.053
+Chhajupur	30.015	76.640
+Chhalaundi	29.984	77.098
+Chhamla	30.694	77.099
+Chhan	29.426	76.057
+Chhan	30.718	77.091
+Chhanauli	28.875	76.879
+Chhani	29.353	76.324
+Chhansa	28.259	77.466
+Chhapar	28.443	76.598
+Chhapar	28.635	76.124
+Chhapar	29.938	77.074
+Chhappar	29.403	76.585
+Chhappar Mansurpur	30.217	77.170
+Chhapra	29.126	76.543
+Chhapra	29.683	77.045
+Chhapra	30.086	77.067
+Chhapra	30.135	76.899
+Chhapra	30.273	76.975
+Chhapraula	28.246	77.254
+Chhapri	29.936	77.086
+Chhapri	30.130	76.896
+Chhara	28.696	76.717
+Chharaura	28.172	76.962
+Chhari	30.092	77.146
+Chharpura	30.003	76.931
+Chhat ka Mandir	27.973	77.272
+Chhatar	29.513	76.315
+Chhatera Bahadurpur	28.909	77.045
+Chhaterah	29.236	76.710
+Chhawah	28.423	76.501
+Chhawan	28.318	76.755
+Chhichrana	29.075	76.636
+Chhidia Yusufpur	29.197	76.986
+Chhijana	28.975	76.154
+Chhikara Colony	28.705	76.932
+Chhilarki	28.342	76.675
+Chhinpawali Dhani	29.336	75.483
+Chhoi	30.678	77.102
+Chholi	30.377	77.371
+Chholli	30.275	77.340
+Chhorpur	30.247	76.824
+Chhot	29.790	76.307
+Chhota Barona	30.577	77.010
+Chhota Chaundipur	29.639	77.075
+Chhota Damupura	30.174	77.409
+Chhota Duahla	30.329	76.833
+Chhota Ferozepur	30.701	76.861
+Chhota Garh	30.468	77.072
+Chhota Khanda	28.943	76.925
+Chhota Khudda	30.326	76.890
+Chhota Korwa	30.396	76.968
+Chhota Kot Kachhua	30.281	76.837
+Chhota Rajana	29.377	76.527
+Chhotabas	30.036	77.149
+Chhoti Barheri	30.384	77.067
+Chhoti Basi	30.463	77.087
+Chhoti Kohri	30.508	77.088
+Chhoti Padni	30.257	77.250
+Chhoti Panjeori	30.445	77.082
+Chhuchhi	28.726	76.676
+Chhudani	28.656	76.753
+Chhuriawas	28.145	76.623
+Chibharwal	29.353	75.432
+Chikan	30.370	77.480
+Chikan	30.384	77.489
+Chikan	30.762	76.943
+Chikanwas	29.280	75.657
+Chila ki Dhani	28.179	76.970
+Chilaoli	28.171	76.946
+Chilchahan	29.937	76.688
+Chilhar	28.284	76.663
+Chilkana	29.207	76.987
+Chillewal	29.728	75.801
+Chimnawas	28.217	76.496
+Chimni	28.727	76.483
+Chimun	29.673	75.660
+Chindhar	29.378	75.545
+Chiranah	29.210	76.792
+Chirao	29.675	76.921
+Chiraota	28.107	77.316
+Chiri	29.060	76.535
+Chironi	30.099	76.855
+Chirsi	28.385	77.449
+Chirwari	28.159	77.410
+Chirya	28.462	76.262
+Chitan	29.559	75.914
+Chitarsen Dhani	28.329	76.855
+Chitaura	27.830	77.019
+Chitia Diwa	29.098	76.891
+Chochra	29.632	76.631
+Chohiowal	30.858	76.869
+Chopri	29.769	76.920
+Chor Karsa	29.629	76.676
+Chormar Khera	29.803	74.858
+Chotala	29.783	74.524
+Chuchakwas	28.602	76.512
+Chudiala	30.261	76.895
+Chudiali	30.269	76.898
+Chugnan	30.230	76.659
+Chuhar Majra	29.854	76.609
+Chuharpur	29.474	76.392
+Chuharpur	30.348	77.442
+Chuharpur	30.435	77.323
+Chuharpur	30.611	77.128
+Chuharpur Kalan	30.276	77.469
+Chuharpur Khurd	30.249	77.387
+Chukeriyan	29.794	74.932
+Chuli Bagarian	29.295	75.381
+Chuli Kalan	29.261	75.365
+Chuli Khurd	29.261	75.358
+Chuliana	28.802	76.691
+Chuna ki Dhani	28.133	76.690
+Chundhika	28.204	76.908
+Churaud	29.006	75.661
+Churhi	30.740	77.078
+Churni	29.806	77.026
+Dab Khera	30.005	77.001
+Dab Kheri	29.989	76.778
+Daba	30.099	76.281
+Dabarpur	29.099	76.922
+Dabarthala	29.841	76.847
+Dabarwali Dhani	29.526	75.296
+Dabauda Kalan	28.681	76.843
+Dabauda Khurd	28.665	76.825
+Dabkauli Kalan	29.809	77.137
+Dabkauri	30.645	76.965
+Dablain	29.583	76.070
+Daboda	28.422	76.789
+Dabra	29.097	75.759
+Dabri	28.247	76.653
+Dabri	29.704	76.938
+Dabro	30.659	77.080
+Dabsu	30.639	77.149
+Dabsu	30.729	77.033
+Dabwa	28.385	77.270
+Dabwala	29.455	74.762
+Dachar	29.643	76.712
+Dadanpur	28.505	76.662
+Dadawas	28.316	76.705
+Dadhi Bana	28.507	76.201
+Dadhi Chhilar	28.507	76.227
+Dadhka	27.892	77.318
+Dadhog	30.743	77.042
+Dadia	27.991	76.539
+Dadlana	29.493	76.895
+Dadlu	30.192	76.952
+Dadota	28.182	77.426
+Dadri	28.508	76.751
+Dadsia	28.465	77.370
+Dadu	28.285	76.963
+Dadu	29.838	75.052
+Dadupur	29.671	76.896
+Dadupur	29.679	75.476
+Dadupur	29.766	76.972
+Dadupur	30.207	77.389
+Dadupur	30.220	77.007
+Dadupur Jatan	30.311	77.398
+Dadupur Malian	30.289	77.398
+Dadwana	29.891	76.635
+Dadwara	29.470	76.722
+Dafarpur	30.644	76.883
+Dago	30.697	77.133
+Dagroli	28.478	76.041
+Dagroli	30.182	76.644
+Daha	29.003	75.745
+Daha	29.634	76.973
+Dahaman	29.453	75.727
+Dahar	30.425	77.157
+Dahari	30.721	77.109
+Dahaula	29.491	76.353
+Dahima	29.040	75.798
+Dahina	28.298	76.385
+Dahisra	28.863	77.180
+Dakhaura	28.352	76.416
+Dakora	27.948	77.370
+Dakra	30.604	77.044
+Dakwala	30.672	77.064
+Dalamwala	29.387	76.383
+Dalawas	28.244	76.991
+Dalawas	28.536	75.970
+Daliaki	28.173	76.570
+Dalipgarh	30.362	76.873
+Dalipsingh ki Dhani	28.336	75.975
+Dalla Majra	30.175	76.723
+Dalluwala	29.798	76.268
+Dalota	28.037	75.989
+Damara	29.728	76.365
+Damdama	27.974	76.925
+Damdama	30.794	76.932
+Damkaur	29.721	75.869
+Damkora	28.503	75.716
+Damla	30.092	77.221
+Damli	30.196	76.915
+Danalampur	28.170	76.550
+Danauda Khurd	29.523	76.001
+Danauli	29.486	76.628
+Danaura	30.512	77.125
+Dandaurpur	30.100	77.080
+Dandipur	30.252	77.474
+Dandma	28.574	75.898
+Dandoli	30.702	77.115
+Dang Khurd	28.863	76.001
+Dangdahra	30.433	76.764
+Dangerian	30.292	76.665
+Dangra	29.681	75.893
+Dangrana	30.734	77.017
+Danialpur	29.733	77.027
+Danibas	27.983	77.072
+Danokari	28.257	76.858
+Dao Majra	30.211	76.875
+Daola	28.569	76.620
+Dapana	30.714	77.023
+Darala	30.275	76.923
+Darana	27.957	77.463
+Darapur	28.258	76.773
+Darauli	28.334	76.441
+Darauli	29.277	75.397
+Darauli Khera	29.491	76.108
+Darazpur Kalan	30.165	77.196
+Darba	29.408	75.122
+Darbi	29.578	75.152
+Dariawala	29.355	76.239
+Daror	29.763	77.010
+Darpur	30.370	77.455
+Darra Kharauni	30.741	76.886
+Darsi	30.045	76.770
+Darulman Tatarpur	29.574	77.070
+Darwa	30.128	77.323
+Darwa	30.223	77.461
+Darwa	30.374	76.719
+Daryapur	28.560	76.828
+Daryapur	29.380	76.730
+Daryapur	29.526	75.354
+Daryapur	30.287	77.330
+Dasani	30.097	77.321
+Dasaura	30.269	77.428
+Dashmeshnagar	29.626	75.814
+Data	29.267	75.996
+Data Singhwala	29.777	76.129
+Datau	28.813	76.763
+Datauli	29.161	77.081
+Dathogran	30.790	76.954
+Daudpur	30.268	76.634
+Daul	30.880	76.908
+Daulagarh	28.117	77.327
+Daulat Nasirabad	28.507	77.046
+Daulatabad	28.277	76.723
+Daulatabad	28.418	77.313
+Daulatabad	28.497	76.994
+Daulatawas	28.215	76.630
+Daulatpur	29.444	75.865
+Daulatpur	29.552	75.411
+Daulatpur	29.959	76.942
+Daulatpur	30.092	77.112
+Daulatpur	30.094	77.301
+Daulatpur	30.332	77.438
+Daulatpur Malian	30.190	77.118
+Daulatpur Rangharan	30.115	77.190
+Dawal	29.760	76.319
+Dawana	28.150	76.642
+Dawla	28.284	76.985
+Daya Bihar	28.468	76.937
+Dayalgarh	30.149	77.360
+Dayalnagar	30.082	77.072
+Dayalpur	28.303	77.390
+Dayanandbagh	28.861	77.139
+Debar	30.580	77.072
+Dehra	29.208	77.072
+Dehra	29.998	77.054
+Dehri	30.428	76.945
+Dekriwala	30.279	77.518
+Deoban	29.687	76.414
+Deod Kheri	29.775	76.442
+Deodhar	30.236	77.465
+Deohra	29.873	76.443
+Deola Nagli	27.981	77.112
+Deolawas	28.158	76.618
+Deolawas	28.260	76.519
+Deolawas	28.325	76.752
+Deoli	28.230	77.324
+Deora	30.679	77.067
+Deorala	28.511	76.894
+Deorar	29.089	76.383
+Deoru	29.025	77.040
+Depal	29.077	75.902
+Dera	30.175	77.092
+Dera	30.503	77.193
+Dera	30.750	76.946
+Dera Maliyanwala	29.891	76.880
+Dera Sikligaran	29.465	77.071
+Deru	29.826	76.647
+Des Khera	29.119	76.365
+Desalpur	28.654	76.856
+Desu Judha	29.955	74.838
+Desu Khurd	29.756	75.123
+Desu Malkana	29.871	74.960
+Dev	29.070	75.675
+Devi ka Than	27.731	76.884
+Devidaspur	29.967	76.886
+Devigarh	29.787	76.417
+Devinagar	30.400	76.748
+Devinagar	30.692	76.873
+Devipur	29.486	77.089
+Devnagar	28.681	76.914
+Devrala	28.687	75.810
+Devri	30.700	77.132
+Devsar	28.763	76.087
+Devsar	28.888	75.547
+Dewarkhana	28.530	76.836
+Dewawas	28.778	75.684
+Dhab Dhani	28.643	75.876
+Dhabi Kalan	29.329	75.325
+Dhabi Khurd	29.321	75.280
+Dhabian Tek Singhwala	29.752	76.064
+Dhad	29.322	75.986
+Dhadar	28.446	77.390
+Dhadaula	27.915	77.087
+Dhadauli Kalan	27.922	77.088
+Dhadhouli Khurd	27.761	76.926
+Dhadola	29.340	77.030
+Dhadoli	29.344	77.031
+Dhadwali	30.682	77.007
+Dhagapur	29.673	75.488
+Dhaikola	28.380	77.426
+Dhaiyar	29.268	75.261
+Dhakal	29.588	76.161
+Dhakala	30.129	76.814
+Dhakalpur	27.987	77.158
+Dhakaura	28.772	76.822
+Dhakhla	28.483	76.557
+Dhakla	28.243	76.747
+Dhakwala	29.638	77.102
+Dhakwala	29.650	77.103
+Dhakwala	30.330	77.429
+Dhal	30.714	77.119
+Dhaliawas	28.177	76.620
+Dhalur	30.323	77.188
+Dhamala	27.814	76.954
+Dhamala	30.808	76.881
+Dhaman	30.731	77.057
+Dhamar	28.964	76.676
+Dhamauli	30.282	77.413
+Dhamauli	30.396	77.014
+Dhamiyan	29.009	75.821
+Dhamlaka	28.157	76.623
+Dhamlawas	28.185	76.537
+Dhammanheri	29.867	77.032
+Dhamog	30.713	77.100
+Dhamtan	29.697	76.020
+Dhan	30.715	77.097
+Dhana	27.860	77.086
+Dhana	28.373	76.888
+Dhana Jogi	28.549	75.697
+Dhana Kalan	29.088	76.021
+Dhana Khurd	29.067	76.016
+Dhana Narsan	28.739	76.152
+Dhanah	28.466	76.466
+Dhanana	28.937	76.164
+Dhanana	30.446	76.981
+Dhananah	29.102	76.515
+Dhananda	28.111	76.265
+Dhanani	30.121	76.999
+Dhanasari	28.454	75.977
+Dhanaura	28.291	76.657
+Dhanaura	29.976	77.126
+Dhanaura	30.026	77.043
+Dhanaura	30.261	76.821
+Dhanaura	30.293	77.113
+Dhanaura	30.432	77.385
+Dhanauri	29.777	76.175
+Dhanauri	30.251	76.812
+Dhanauri	30.293	77.131
+Dhanauthi	28.868	75.491
+Dhanawas	28.423	76.888
+Dhand	29.388	75.458
+Dhandar	29.213	76.939
+Dhandaru	30.588	76.993
+Dhandauli	29.813	76.148
+Dhanderi	29.064	75.886
+Dhandh	29.880	76.614
+Dhandhalwar	30.566	77.062
+Dhandhaota	30.084	76.379
+Dhandhlan	28.754	76.619
+Dhandiyon	30.606	77.145
+Dhandla	30.040	77.052
+Dhangali	30.154	76.933
+Dhangar	28.665	75.924
+Dhangar	29.467	75.520
+Dhani	28.275	76.372
+Dhani	28.309	76.540
+Dhani	28.508	75.694
+Dhani	28.538	75.728
+Dhani	28.578	76.311
+Dhani	29.071	75.906
+Dhani	29.114	75.984
+Dhani	29.285	76.275
+Dhani	29.355	75.574
+Dhani Ahiran	28.416	76.705
+Dhani Asiya	28.416	75.905
+Dhani Ayalki	29.592	75.488
+Dhani Bas Bitori	28.214	76.781
+Dhani Bhakran	28.766	75.564
+Dhani Bhejha Dhaka	29.580	75.432
+Dhani Bhojraj	29.555	75.782
+Dhani Brahmanan	29.171	76.059
+Dhani Chanahariwas	28.988	75.586
+Dhani Chandu	28.424	75.883
+Dhani Chuharki	29.567	75.435
+Dhani Daryapur	28.873	75.739
+Dhani Dhanu	29.159	75.745
+Dhani Dulat	29.581	75.738
+Dhani Dunga	28.281	76.322
+Dhani Faizabad	28.114	76.114
+Dhani Gahar	28.867	76.270
+Dhani Gahlakhera	29.512	75.295
+Dhani Garan	29.332	75.879
+Dhani Gujaranwali	28.395	76.061
+Dhani Gujrani	28.855	76.177
+Dhani Gujranwali	29.055	75.942
+Dhani Harnamsingh	28.236	77.515
+Dhani Harsukh	28.839	76.218
+Dhani Haud	28.281	76.661
+Dhani Hiran	28.479	76.713
+Dhani Isarki	29.577	75.419
+Dhani Islamgarh	28.612	76.533
+Dhani Kainduwali	29.108	76.002
+Dhani Kanwariyabas	28.032	76.050
+Dhani Kashmirsingh	28.246	77.512
+Dhani Katwar	28.777	75.747
+Dhani Khan Bahadur	29.325	75.896
+Dhani Khushhal	29.069	75.983
+Dhani Kulana	28.417	76.656
+Dhani Kumharan	29.216	76.061
+Dhani Kumharwali	29.076	75.996
+Dhani Majra	29.493	75.540
+Dhani Majra	29.503	75.261
+Dhani Malian	28.451	76.684
+Dhani Malian	28.781	76.141
+Dhani Maliyan	28.802	76.239
+Dhani Maliyan	29.209	75.504
+Dhani Mansukh	28.465	75.790
+Dhani Mian Khanwali	29.444	75.493
+Dhani Miran	28.872	75.700
+Dhani Mirdad	29.308	75.910
+Dhani Nangal Ogra	28.016	76.555
+Dhani Nathusingh	28.845	76.270
+Dhani Partal	28.258	76.312
+Dhani Pir Qalandar Bakhsh	29.151	76.002
+Dhani Pirwali	29.083	75.992
+Dhani Pranwa	29.084	75.998
+Dhani Premnagar	29.411	75.920
+Dhani Purbi	29.513	75.260
+Dhani Radha	28.206	76.369
+Dhani Raepur	29.151	75.813
+Dhani Raepur	29.612	75.600
+Dhani Rajawali	28.295	76.900
+Dhani Rajuwali	29.071	75.956
+Dhani Ramnagar	28.445	76.929
+Dhani Rampur	28.384	76.963
+Dhani Rampura	29.996	76.614
+Dhani Runhat	28.898	75.673
+Dhani Rupa	29.631	75.343
+Dhani Sahalenwali	28.866	75.512
+Dhani Samsawas	28.414	75.898
+Dhani Sanchla	29.557	75.776
+Dhani Sangri	29.044	75.958
+Dhani Sanjanpur	28.994	76.018
+Dhani Santo	28.194	76.517
+Dhani Sardaronwali	29.412	75.900
+Dhani Shahamad Khan	29.154	76.063
+Dhani Shaikhpura	28.070	76.124
+Dhani Shama	28.415	75.776
+Dhani Shama	28.424	75.782
+Dhani Shankarsingh	28.232	77.518
+Dhani Shyamlal	29.161	75.738
+Dhani Sobha	28.193	76.357
+Dhani Sobha	29.111	75.995
+Dhani Sothani	28.118	76.587
+Dhani Sukkhan	28.853	76.190
+Dhani Sunderpur	28.460	76.734
+Dhani Surat	28.865	76.283
+Dhani Thakaria	29.062	75.943
+Dhani Thoba	29.559	75.456
+Dhani Uncha	28.194	76.311
+Dhaniah	28.435	76.461
+Dhanigarh	28.293	76.697
+Dhanimali	28.228	76.954
+Dhaniram	30.722	76.981
+Dhanirwas	28.467	76.462
+Dhankau	30.380	76.812
+Dhankhari	29.428	76.328
+Dhankot	28.474	76.959
+Dhano Kheri	29.950	77.127
+Dhanondah	28.355	76.258
+Dhansauli	29.413	77.081
+Dhansu	29.218	75.796
+Dhantori	30.077	76.881
+Dhanupura	30.063	77.106
+Dhanuta	28.003	75.998
+Dhanwanpur	28.478	76.990
+Dhar	29.552	75.484
+Dhar	30.695	77.095
+Dhar ka Khet	30.648	77.081
+Dharamgarh	29.466	76.819
+Dharampur	28.513	76.978
+Dharampur Bera	30.605	77.080
+Dharampura	29.853	76.286
+Dharampura	29.861	75.061
+Dharamsala	28.074	76.575
+Dharamsala	28.332	76.900
+Dharan	28.098	76.515
+Dharara	30.657	77.070
+Dharara	30.724	77.079
+Dharari	30.670	77.128
+Dharaudi	29.638	76.067
+Dharauli	28.427	76.519
+Dharchana	28.022	76.577
+Dhareru	28.736	76.229
+Dharla	30.648	77.135
+Dharm Kot	30.295	77.330
+Dharmgarh	29.447	76.670
+Dharmgarh	30.046	76.581
+Dharmgarh	30.050	76.680
+Dharmgarh	30.141	76.866
+Dharmkund	28.985	76.143
+Dharmpur	30.810	76.925
+Dharmsala	28.501	77.014
+Dharmsala	28.596	76.274
+Dharmsala	28.916	76.024
+Dharmshala	28.589	76.737
+Dharni	29.406	75.509
+Dharoli	29.316	76.492
+Dharson	28.117	76.083
+Dharsu	28.112	76.076
+Dharsul Kalan	29.679	75.725
+Dharsul Khurd	29.682	75.725
+Dharwala	30.634	77.081
+Dharwan Bas	28.710	75.819
+Dhatrat	29.384	76.451
+Dhaturi	29.077	77.076
+Dhauj	28.341	77.194
+Dhaukia	28.288	76.549
+Dhaulakuan	28.423	75.806
+Dhaulpalia	29.438	74.572
+Dhaulu	29.599	75.675
+Dhauni	30.037	76.834
+Dhaur	28.656	76.609
+Dhaurang	30.062	77.194
+Dhaurang	30.069	77.190
+Dhawana	28.241	76.394
+Dher	29.706	75.764
+Dheru Majra	29.945	76.917
+Dheya	28.430	77.381
+Dhigana	29.224	76.443
+Dhigawa Jatan	28.578	75.816
+Dhigawa Shamiyan	28.575	75.824
+Dhigsar	28.891	76.134
+Dhilanwas	28.536	76.341
+Dhilowal	29.416	76.418
+Dhin	30.245	77.104
+Dhindhari	29.775	76.835
+Dhingar Majra	29.524	76.999
+Dhingsara	29.443	75.367
+Dhingtana	29.267	75.811
+Dhingtania	29.456	75.019
+Dhirana Kalan	28.737	76.107
+Dhiranwas	29.090	75.599
+Dhirpur	30.048	76.846
+Dhoa	30.187	77.038
+Dhobi	29.642	75.964
+Dhodpur	29.248	76.959
+Dhoi	30.191	77.019
+Dhol Majra	30.115	76.858
+Dhola ki Dhani	28.432	75.882
+Dholgarh	29.737	76.953
+Dholi	30.078	77.126
+Dholra	30.007	77.129
+Dhond Kalan	27.798	76.949
+Dhond Khurd	27.793	76.948
+Dhorka	28.406	76.906
+Dhorkara	30.335	76.748
+Dhos	29.812	76.531
+Dhukra	29.365	74.998
+Dhulgarh	29.952	76.512
+Dhulkot	28.920	75.668
+Dhulkot	30.372	76.805
+Dhumsa	29.948	77.027
+Dhumsi	29.945	77.040
+Dhunda Kheri	30.007	76.843
+Dhundal	30.627	77.111
+Dhundarheri	29.758	76.298
+Dhundwa	29.704	76.188
+Dhupsari	30.035	76.513
+Dhupsari	30.042	76.706
+Dhurala	30.033	76.809
+Dhurala	30.325	76.759
+Dhurali	30.048	76.810
+Dhurali	30.296	76.783
+Dhurana	28.733	76.510
+Dhuranah	29.234	76.787
+Dia Majra	30.199	77.023
+Dialpur	29.792	76.887
+Dialpur	29.940	76.813
+Dibarki	29.662	77.110
+Dibarki	29.682	77.090
+Didauli	28.300	76.442
+Didhara	28.209	76.932
+Didwari	29.288	76.931
+Dig	28.260	77.347
+Dig	29.658	76.626
+Dig	30.136	76.911
+Dighal	28.767	76.634
+Dighaut	28.038	77.378
+Digo	29.620	75.673
+Dikadla	29.232	77.071
+Dilam	28.153	76.956
+Dilawara	29.625	77.101
+Dinarpur	30.212	76.901
+Dinaud	28.794	76.050
+Dindan	30.638	77.079
+Ding	29.460	75.265
+Dingalheri	28.245	76.955
+Dipalpur	28.988	77.118
+Diwana	28.786	76.684
+Diwana	29.314	76.972
+Diwana	29.695	75.743
+Diwana	30.061	76.466
+Diwanwala	30.747	76.976
+Diwanwala	30.748	76.947
+Dobh	28.875	76.530
+Dobheta	29.126	76.865
+Dobhi	29.131	75.504
+Dochana	28.073	75.998
+Dodhi	28.131	76.622
+Dodhpur	30.090	76.554
+Dodwa	29.093	76.837
+Dogranwali	29.797	75.053
+Dohar	29.326	76.934
+Dohar	29.886	76.413
+Dohar Kalan	28.120	76.018
+Dohar Khurd	28.115	76.018
+Dohka	28.614	76.077
+Dohki	28.238	76.644
+Dohki	28.664	76.164
+Dolaba	30.183	76.392
+Domra	29.880	77.031
+Doparwali	28.288	76.981
+Dopedi	29.509	76.659
+Dora	30.885	76.902
+Dorakhi	27.733	77.059
+Dorana	29.528	76.474
+Dosain	29.784	76.651
+Dosi	28.062	76.023
+Dostpur	28.161	77.492
+Dubal	29.745	76.223
+Dubaldhan	28.683	76.488
+Dubli	30.244	76.880
+Dudaula	28.208	77.270
+Dudauli	27.840	77.216
+Dudha	29.970	76.998
+Dudhgarh	30.694	77.003
+Dudhi	29.970	76.992
+Dudhla	30.055	76.900
+Dudhla	30.105	77.214
+Dudhla	30.322	76.813
+Dudhla	30.625	77.149
+Dudhla Majri	30.109	77.213
+Dudhli	30.514	77.138
+Dudiana	30.421	76.747
+Dudiwala Kishanpura	28.630	76.033
+Dudiwala Nandkaran	28.627	76.047
+Dudwa	29.801	76.940
+Dugahri	30.055	77.058
+Dugri	27.822	77.004
+Duh	30.637	77.129
+Dujana	28.681	76.622
+Dukheri	30.278	76.881
+Dulani	29.793	76.606
+Dulat	29.567	75.736
+Dulehra Kalan	28.027	76.611
+Dulehra Khurd	28.037	76.609
+Dulhera	28.646	76.787
+Duliana	30.280	77.096
+Duliani	30.264	77.085
+Dulupur	30.675	77.009
+Dumarkha Kalan	29.559	76.154
+Dumarkha Khurd	29.558	76.162
+Dumonwala	30.428	77.180
+Dumyana	29.332	76.715
+Dundaheri	28.514	77.079
+Dundal	27.791	77.111
+Dundsa	28.254	77.298
+Dunga	30.589	77.115
+Dungarpur	28.419	77.422
+Dungarwas	28.195	76.721
+Dunggeja	27.840	77.095
+Dunggeja	27.846	77.099
+Dungi Bheski	30.684	77.098
+Duniya Majra	30.095	76.730
+Dunman	28.462	76.771
+Durana	30.231	76.798
+Durganwala Khera	29.138	76.087
+Durgapur	28.106	77.277
+Durinah	28.553	76.707
+Durjanpur	29.039	76.005
+Durjanpur	29.237	75.646
+Durjanpur	29.453	76.028
+Duserpur	30.030	76.264
+Dwarka	28.590	75.891
+Dyalgarh	30.413	77.374
+Esupur	30.106	77.246
+Etaola	29.332	76.742
+Faizabad	28.121	76.120
+Faizpur	29.559	76.711
+Faizpur Khadar	28.311	77.460
+Faizupur	28.371	77.365
+Fakharpur	28.324	76.888
+Fakharpur Khori	27.918	76.958
+Fakir Majra	30.338	77.278
+Fakir Majra	30.346	77.425
+Faransi	29.303	75.601
+Faranswala	29.787	76.355
+Fardari	27.922	77.217
+Fariabad	29.603	76.509
+Faridabad New Town	28.374	77.328
+Faridke	29.792	75.445
+Faridpur	28.383	77.378
+Faridpur	28.387	76.733
+Faridpur	29.431	75.837
+Faridpur	29.435	76.954
+Faridpur	29.481	77.048
+Faridpur	30.195	77.105
+Farmana	28.984	76.812
+Farmana Khas	29.049	76.349
+Farsh Majra	29.853	76.315
+Fartaskungar	27.990	77.508
+Fatehgarh	29.168	76.452
+Fatehgarh	29.613	76.695
+Fatehgarh	29.996	77.173
+Fatehgarh	30.096	76.476
+Fatehgarh	30.145	76.673
+Fatehgarh	30.177	77.386
+Fatehgarh	30.470	76.945
+Fatehgarh Jharauli	30.168	76.800
+Fatehgrah	28.656	76.227
+Fatehpur	28.255	76.910
+Fatehpur	28.501	76.811
+Fatehpur	28.925	76.981
+Fatehpur	29.776	76.566
+Fatehpur	30.124	77.341
+Fatehpur	30.223	77.115
+Fatehpur	30.547	77.107
+Fatehpur	30.752	76.967
+Fatehpur Biloch	28.257	77.372
+Fatehpur Chandila	28.417	77.305
+Fatehpur Jutawali	29.925	74.532
+Fatehpur Tunbi	30.336	77.252
+Fatehpuri	28.526	76.584
+Fatehpuri	29.646	75.843
+Fatehpuri Pipa	28.183	76.682
+Fatehpuri Pipa	28.330	76.434
+Fattehpur	30.362	77.116
+Fattupura	28.383	77.399
+Fatupur	29.916	76.847
+Fazalpur	28.163	77.353
+Fazalpur	30.242	76.797
+Fazilpur	28.408	76.827
+Fazilpur	29.845	77.081
+Fazilpur	30.389	77.255
+Fazilpur Mazra	29.566	77.037
+Ferozabad	29.480	74.857
+Firoz Dahar	27.910	77.026
+Firozpur	28.179	77.331
+Firozpur	29.891	76.381
+Firozpur	30.525	77.161
+Firozpur	30.554	77.054
+Firozpur	30.687	77.007
+Firozpur	30.801	76.906
+Firozpur Kathka	30.376	77.106
+Firozpur Punahana	27.925	77.140
+Firozpur Rainan	30.420	77.199
+Fortpura	28.609	76.539
+Fraserabad Misa	28.112	77.424
+Gabanspur	27.895	77.189
+Gadaipur	28.302	76.724
+Gadauli	30.369	77.178
+Gadauli	30.383	77.165
+Gaddi Ballab	28.804	76.473
+Gaddi Kheri	28.892	76.522
+Gadelawas	27.838	77.063
+Gaderan	30.649	77.151
+Gadhaula	30.217	77.195
+Gadhauli	30.133	77.314
+Gadhauli	30.212	77.185
+Gadhi	28.413	76.340
+Gadhi	28.416	76.116
+Gadhi Birbal	29.910	77.155
+Gadla	28.408	76.629
+Gadli	29.296	75.340
+Gadli	29.433	75.229
+Gadli	29.806	76.371
+Gadli	29.961	76.973
+Gadrana	29.800	74.985
+Gadwali	30.393	77.362
+Gaganheri	30.307	77.093
+Gagarbas	27.914	77.168
+Gagarpur	30.130	76.410
+Gagarwas	28.454	75.875
+Gagsina	29.557	76.884
+Gahlab	28.035	77.280
+Gahlakhera	29.504	75.306
+Gahli	28.099	76.058
+Gahra	28.365	76.315
+Gailpur	28.128	77.281
+Gaindawas	28.855	75.605
+Gajjiwas	28.160	76.610
+Gajlana	30.114	77.077
+Gajuwala	29.573	75.888
+Gala Sanga	29.676	76.175
+Galapur	30.435	77.274
+Galauli	30.151	77.213
+Galauri	30.470	77.193
+Galedwa	29.974	76.561
+Galib Kheri	29.812	76.893
+Galog	30.704	77.109
+Galog	30.712	77.084
+Galpura	28.645	76.020
+Gamra	29.287	76.094
+Gamri	28.686	75.804
+Gamri	30.006	76.772
+Ganaula	30.266	77.345
+Ganauli	30.260	77.353
+Ganbri	29.757	76.568
+Gand Bas	28.078	76.974
+Gandha	29.699	75.380
+Gandhinagar	29.069	75.741
+Gandhinagar	30.161	77.321
+Gandhra	28.830	76.729
+Gandshora	27.746	77.038
+Ganduri	27.983	77.024
+Ganeshpur	30.381	76.996
+Ganeshpur	30.660	77.006
+Ganeshpur	30.786	76.949
+Ganga	29.785	74.673
+Gangaicha Ahir	28.258	76.609
+Gangaicha Jat	28.273	76.619
+Gangana	29.238	76.615
+Ganganagar	28.970	76.330
+Gangani	28.308	76.981
+Ganganpur	30.224	77.081
+Gangar	29.801	76.963
+Gangaram ki Dhani	29.418	75.485
+Gangarwah	28.623	76.863
+Gangat Kheri	29.470	76.496
+Gangaur	30.104	77.078
+Gangavishan ki Dhani	28.399	75.862
+Gangesar	29.199	76.676
+Gangheri	30.062	76.647
+Gangoli	29.301	76.528
+Gangtian	28.765	76.640
+Gangwani	27.852	77.122
+Ganjbar	29.477	76.967
+Ganjia Rupana	29.349	75.249
+Ganjogarhi	29.627	77.044
+Ganoli	30.574	77.078
+Ganwari	29.149	76.762
+Gaonri	28.381	76.413
+Garakhpur	28.249	76.950
+Garanpura	28.549	75.647
+Garaula	30.015	77.024
+Garauli Kalan	28.446	76.977
+Garauli Khurd	28.441	76.980
+Garawa	28.665	75.572
+Garh Sanrai	29.455	77.027
+Garh Shahjahanpur	28.997	77.058
+Garhi	28.109	76.680
+Garhi	28.990	76.008
+Garhi	29.069	76.068
+Garhi	29.105	76.761
+Garhi	29.138	76.714
+Garhi	29.143	76.640
+Garhi	29.193	77.025
+Garhi	29.202	77.044
+Garhi	29.236	77.052
+Garhi	29.762	76.126
+Garhi	30.098	76.732
+Garhi	30.114	77.271
+Garhi	30.135	77.104
+Garhi	30.176	77.340
+Garhi Alawalpur	28.220	76.812
+Garhi Azmu	29.246	76.076
+Garhi Bahadur	29.158	77.027
+Garhi Baisak	29.450	77.110
+Garhi Banjara	29.142	77.126
+Garhi Bhalal	29.480	77.088
+Garhi Bhalaur	29.301	77.086
+Garhi Bohar	28.881	76.649
+Garhi Brahmanan	28.996	76.995
+Garhi Chamar	27.991	76.561
+Garhi Chhaju	29.263	77.046
+Garhi Gosaian	30.202	77.178
+Garhi Gujrah	29.837	77.018
+Garhi Gulamj	29.174	77.030
+Garhi Haqiqat	29.023	76.904
+Garhi Jat	29.166	77.127
+Garhi Jatan	29.921	77.036
+Garhi Jehjara	29.166	77.008
+Garhi Jharunwali	29.083	77.015
+Garhi Kala	29.169	77.035
+Garhi Kesri	29.134	77.030
+Garhi Khajur	29.536	77.049
+Garhi Kotaha	30.573	77.048
+Garhi Lala	29.124	77.031
+Garhi Langri	30.042	76.487
+Garhi Mehndiur	29.049	77.120
+Garhi Mimarpur	29.089	77.126
+Garhi Mundo	30.154	77.298
+Garhi Nathe Khun	28.433	76.773
+Garhi Nawab	29.305	77.077
+Garhi Nawab	29.314	77.078
+Garhi Nazir	30.129	76.205
+Garhi Padla	29.799	76.323
+Garhi Patti	27.866	77.362
+Garhi Roran	29.963	76.731
+Garhi Sadan	29.909	77.034
+Garhi Sampla	28.761	76.772
+Garhi Singhawali	29.949	76.680
+Garhi Sisana	28.889	76.827
+Garhi Ujale Khan	29.142	76.714
+Garhi ki Dhani	28.112	76.673
+Garhkhera	28.289	77.409
+Garhpur Khalsa	29.857	77.094
+Garhpur Tapu	29.895	77.163
+Garhwal	29.182	76.541
+Gariran	30.839	76.876
+Garnala	30.393	76.830
+Garni	30.359	77.582
+Gaunchhr	28.344	77.287
+Gaurauta	27.928	77.402
+Gaushala	28.814	76.155
+Gaushala	29.179	75.769
+Gaushala	29.221	76.020
+Gawar	28.982	75.555
+Gazipur	28.373	77.268
+Geong	29.813	76.470
+Gewana	28.979	76.745
+Ghad ka Bagra	30.674	77.118
+Ghadhawa	28.846	75.649
+Ghadwali Khera	29.168	76.344
+Ghagaut	28.205	77.407
+Ghaghas	27.948	76.942
+Ghagru	30.267	76.658
+Ghaibipur	29.429	75.928
+Ghalaur	30.085	77.085
+Ghalaur Majri	30.076	77.089
+Ghamana	29.264	76.301
+Ghamur Kheri	30.005	76.798
+Ghanauli	30.409	77.144
+Ghanauli	30.417	77.145
+Ghanghala	28.798	75.591
+Ghaniyar	28.114	76.330
+Ghararsi	29.906	76.704
+Gharauli	30.408	77.000
+Ghari Multan	29.512	76.987
+Gharia Majra	30.125	77.235
+Ghariana	30.704	77.090
+Gharnaoti	28.818	76.566
+Gharon	30.661	77.135
+Gharonda	29.271	76.328
+Gharora	28.354	77.459
+Ghasaira	27.988	77.431
+Ghasauli	29.134	77.105
+Ghasera	28.133	77.068
+Ghasitpur	30.259	76.951
+Ghasitpur	30.310	76.859
+Ghaso Kalan	29.522	76.152
+Ghaso Khurd	29.528	76.160
+Ghasola	28.554	76.261
+Ghaswa	29.685	75.678
+Ghata Shamsabad	27.756	77.008
+Ghatai	28.234	76.836
+Ghati	30.709	77.089
+Ghatiwala	30.813	76.927
+Ghatoli	28.467	76.704
+Ghatoli	29.189	76.382
+Ghatwasan	27.842	77.058
+Ghausgarh	28.353	76.841
+Ghazipur	30.482	76.925
+Ghel	30.388	76.732
+Ghelri	30.243	76.998
+Ghespur	30.014	77.143
+Ghiar	29.781	77.108
+Ghikara	28.630	76.252
+Ghikian	28.684	76.482
+Ghilaur Kalan	29.035	76.659
+Ghilaur Khera	29.032	76.649
+Ghimawas	28.267	76.681
+Ghira	27.877	77.233
+Ghirae	29.239	75.890
+Ghisarpari	29.854	77.047
+Ghisarpari	30.092	77.007
+Ghisarpari	30.317	77.417
+Ghog	29.898	76.278
+Ghogrian	29.462	76.261
+Ghogripur	29.648	76.945
+Gholanpur	30.135	77.219
+Gholni	30.146	77.168
+Gholpura	29.825	76.789
+Ghorasan	28.346	77.473
+Ghorkawas	28.253	76.629
+Ghotru	29.597	75.642
+Ghurawali	27.972	77.161
+Ghursal	29.173	75.421
+Ghusinga	27.799	77.172
+Ghuskani	28.875	76.158
+Ghuskanl	29.003	76.570
+Gianawala	30.284	77.249
+Gianbura	29.551	77.004
+Gidar Khera	29.820	74.668
+Gidranwali	29.465	74.867
+Gignau	28.491	75.797
+Gigorani	29.304	75.146
+Gijaraudh	28.540	76.655
+Gijhi	28.811	76.775
+Gindokhar	28.246	76.579
+Girdharpur	28.449	76.558
+Girdharpura	30.009	76.982
+Girnun	29.742	75.813
+Gitalpur	29.873	76.814
+Giyanpura	29.351	76.025
+Gobind Majra	30.049	76.823
+Gobindgarh	29.619	76.731
+Gobindgarh	29.882	74.695
+Gobindgarh	29.954	76.840
+Gobindgarh	29.959	77.030
+Gobindgarh	30.155	77.320
+Gobindgarh	30.270	76.734
+Gobindnagar	29.547	75.454
+Gobindpur	28.113	76.508
+Gobindpur	30.450	76.986
+Gobindpur	30.601	77.068
+Gobindpura	30.150	77.286
+Gobindpuri	30.143	77.289
+Gochhi	28.732	76.597
+God	28.108	75.986
+Goda	28.310	76.255
+Godhaula	27.855	77.176
+Godhauli	27.851	77.173
+Godhpuri	28.252	77.280
+Godhri	28.607	76.490
+Goela	28.240	76.963
+Goela Kalan	28.620	76.789
+Goela Kalan	29.315	77.116
+Goela Kalan	29.319	77.123
+Goela Khurd	29.303	77.129
+Gogjaka	28.232	76.968
+Gogpur	30.091	76.748
+Gohan	30.056	76.997
+Gohana	27.999	77.023
+Gohida	29.763	76.695
+Gohna	29.007	76.828
+Gohrabani	30.384	77.395
+Gokal	28.495	76.111
+Gokalgarh	30.312	77.046
+Gokalpur	27.805	77.115
+Gokalpur	28.243	76.681
+Gokalpur Ka Bas	27.810	77.119
+Gokalpura	28.659	75.661
+Gokulgarh	28.228	76.615
+Gokulpur	28.122	76.285
+Gola	30.333	77.015
+Golagarh	28.648	75.972
+Goli	29.484	76.760
+Goli	30.324	77.013
+Goliaka	28.152	76.540
+Golpura	30.210	76.798
+Golpura	30.506	76.988
+Gomla	28.216	76.310
+Gomli	28.226	76.307
+Gondar	29.655	76.746
+Gondhana	30.158	77.111
+Gondhni	30.168	77.112
+Gopal Mochan	30.325	77.318
+Gopalbas	28.393	76.021
+Gopalpur	28.849	76.919
+Gopalpur Ghazi	28.342	76.543
+Gopalwali Dhani	29.523	75.773
+Gopalwas	28.703	75.708
+Gopalwas ki Dhani	28.925	75.569
+Gopi Khera	28.201	77.410
+Gorchhi	29.032	75.562
+Gorgarh	29.847	77.008
+Goria	28.455	76.380
+Gorian	29.891	76.289
+Goriawas	28.286	76.738
+Goripur	28.687	76.196
+Goripur	30.208	76.844
+Gorkha	30.144	76.718
+Gorkha ki Dhani	28.540	75.740
+Gorri	28.151	77.451
+Gorsian	30.214	76.685
+Gothan Kalan	28.763	75.520
+Gothan Khurd	28.723	75.536
+Gothara	28.480	75.776
+Gothara	28.519	76.313
+Gothra Tappa Dahina	28.326	76.395
+Gothra Tappa Khori	28.188	76.447
+Gous Ali Sahib	29.378	76.976
+Govindgarh	29.507	77.071
+Govindpura	28.752	76.129
+Govindpura Kalan	28.507	75.844
+Govindpura Khurd	28.508	75.865
+Govindpuri	28.189	76.479
+Greater Kailash	28.543	77.242
+Guarka	28.197	76.955
+Gubhana	28.602	76.843
+Gubrari	27.935	77.203
+Gudah	29.498	76.952
+Gudana	28.521	76.110
+Gudda	29.877	77.052
+Gudha	28.248	76.937
+Gudha	28.641	76.640
+Gudha	28.801	75.631
+Gudhan	28.803	76.400
+Gudhana	28.346	76.693
+Gudhi Nihalpur	28.248	76.941
+Gudhrana	27.996	77.353
+Guga Pir	29.758	77.063
+Gugaheri	29.049	76.402
+Gugana	28.425	76.726
+Gugera	28.165	77.282
+Gugha	28.754	76.380
+Guglon	30.162	77.214
+Gugodh	28.389	76.517
+Guhna	29.767	76.261
+Guiyan	29.435	76.441
+Gujar Majri	28.071	76.638
+Gujar Nagla	27.860	77.036
+Gujarwas	28.389	76.383
+Gujrani	28.850	76.172
+Gujriwas	28.133	76.619
+Gula	30.038	76.299
+Gulab Majra	30.409	77.338
+Gulabgarh	30.273	77.467
+Gulabnagar	30.182	77.296
+Gulabpura	28.258	76.520
+Gulalta	27.918	77.176
+Gularpur	29.637	76.778
+Gularwala	29.697	75.774
+Gulawad	28.014	77.454
+Guldehra	29.954	76.516
+Guliana	29.586	76.382
+Gumar	29.131	76.987
+Gumat Bihari	27.925	76.963
+Gumina	28.178	76.514
+Gumthala	29.958	77.205
+Gumthala Gadhu	29.935	76.553
+Gumti	30.163	76.848
+Gumton	29.869	77.021
+Gunana	29.714	76.712
+Gundapra	30.185	77.164
+Gunkali	29.283	76.209
+Gunthala	30.731	76.905
+Gunti	28.129	75.994
+Gurana	29.301	75.958
+Guraora	28.383	76.643
+Guraothl	29.015	76.544
+Gurar	28.938	76.807
+Gurawar	28.652	76.691
+Gurawar	28.988	76.455
+Gurera	28.920	75.512
+Gurha	29.123	76.687
+Gurhya Khera	29.394	74.990
+Guri	30.079	77.045
+Guriani	28.357	76.536
+Gurnawat	28.194	76.916
+Gurthuri	29.635	76.164
+Gurudwara	29.380	76.978
+Gurudwara	29.389	76.975
+Gurudwara	29.488	76.833
+Gurudwara	29.965	77.094
+Gurudwara	30.015	76.546
+Gurudwara	30.644	76.890
+Gurudwara	30.684	76.845
+Gurudwara	30.694	76.881
+Gurudwara	30.719	76.849
+Gurukul	28.577	76.654
+Gurukul	28.652	76.918
+Gurukul Ashram Matindu	28.864	76.852
+Gurusar	29.616	75.588
+Gurwari	28.136	77.484
+Guryawala	29.784	74.750
+Gusain Khera	29.214	76.366
+Gushaiyana	29.252	75.087
+Guwala Mandi	30.324	76.830
+Guzar	29.020	75.806
+Gwahi	30.659	77.151
+Gwalera	29.243	76.933
+Gwalesan	28.602	76.569
+Gyani Farm	30.031	76.541
+Habibpur	30.114	77.278
+Habri	29.706	76.630
+Hadwa	29.305	76.560
+Hafizi	30.291	77.431
+Hafizpur	30.112	77.190
+Hafizpur	30.300	77.435
+Haibatka	27.895	77.050
+Haibatpur	29.300	76.077
+Haibatpur	29.336	76.349
+Haibatpur	29.851	76.775
+Haibatpur	29.942	76.997
+Haibatpur	30.290	77.225
+Haibuwana	29.916	74.833
+Haidarpur	30.365	77.402
+Haidarwala	29.713	75.802
+Hajampur	29.003	75.975
+Hajipur	27.850	77.232
+Hajipur	28.119	76.091
+Hajwana	29.688	76.595
+Hakdarpur	28.325	76.687
+Halahar	30.033	77.212
+Halaheri	29.027	76.951
+Halalpur	28.865	77.009
+Halalpur	30.022	77.016
+Haldaheri	30.225	76.826
+Haldana	29.187	77.044
+Haldari Gujar	30.187	77.419
+Haldri	30.255	76.931
+Haliaki	28.351	76.662
+Haluhera	28.292	76.532
+Haluwala	30.203	77.305
+Halwana	29.846	77.160
+Halwas	28.765	76.121
+Hamidpur	28.091	76.038
+Hamidpur	30.079	76.963
+Hamidpur	30.279	77.007
+Hamidpur	30.481	77.183
+Hamirgarh	29.670	76.085
+Hamiri Farm	30.010	76.556
+Hamirpur	28.436	76.900
+Hamzapur	27.830	77.002
+Hamzapur	29.631	75.557
+Hanauri	29.947	77.101
+Handalwala	29.716	75.794
+Handi Khera	30.379	77.027
+Handon	30.720	77.112
+Hangola	30.532	77.031
+Hangoli	30.529	77.013
+Hansaka	28.207	76.683
+Hansala	30.021	76.788
+Hansawala	29.547	75.889
+Hansawas	28.390	76.614
+Hansawas Kalan	28.473	75.955
+Hansawas Khurd	28.501	75.943
+Hansdher	29.797	76.145
+Hanspur	29.656	75.342
+Hansu Majra	29.936	77.175
+Hansu Majra	30.001	76.225
+Haranan	30.251	76.549
+Harauli	30.283	77.388
+Harbon	30.419	77.106
+Harchandpur	28.087	76.559
+Harewa	30.225	77.404
+Hargarh	30.118	77.216
+Hari Singh ka Majra	30.087	76.974
+Hariabas	30.072	77.279
+Harigarh	29.316	76.611
+Harigarh	30.045	76.612
+Harigarh Kinnan	30.059	76.376
+Harikot	29.055	75.727
+Harinagar	28.195	76.574
+Harinagar	28.195	76.786
+Harioli	30.246	76.963
+Haripur	28.651	76.007
+Haripur	28.799	76.164
+Haripur	29.551	75.362
+Haripur	29.786	76.220
+Haripur	30.006	76.973
+Haripur	30.075	76.835
+Haripur	30.093	77.249
+Haripur	30.193	77.267
+Haripur	30.305	76.864
+Haripur	30.510	76.926
+Haripur	30.559	76.991
+Haripur	30.750	76.958
+Haripur Chopher	30.769	76.951
+Haripur Majri	30.227	77.100
+Hariyawas	28.701	75.721
+Harjipur	28.170	76.496
+Harnam Singhwala	29.656	76.033
+Harnaul	30.133	77.206
+Harnaula	29.931	76.321
+Haroda Kalan	28.564	76.038
+Haroda Khurd	28.564	76.032
+Harodi	28.574	76.036
+Haroli	29.653	75.466
+Haroli	30.551	77.010
+Harphala	28.276	77.266
+Harphali	28.263	77.267
+Harra	30.256	76.981
+Harrapur	30.001	76.853
+Harri	30.262	76.976
+Harsana Kalan	28.948	77.011
+Harsana Khurd	28.943	77.022
+Harsangpur	29.473	77.014
+Harsaru	28.429	76.959
+Harsola	29.731	76.442
+Hartan	30.112	77.107
+Hartari	29.315	76.947
+Haryana	29.616	76.981
+Hasamabad	28.974	77.081
+Hasampur	30.103	76.339
+Hasan	28.721	75.766
+Hasanga	29.598	75.620
+Hasangarh	28.838	76.848
+Hasangarh	29.151	76.673
+Hasangarh	29.455	75.974
+Hasangarh	30.432	77.246
+Hasankhan Ka Bas	27.846	77.028
+Hasanpur	27.747	76.924
+Hasanpur	28.035	76.020
+Hasanpur	28.140	76.287
+Hasanpur	28.195	77.475
+Hasanpur	28.523	75.759
+Hasanpur	28.539	76.612
+Hasanpur	28.696	76.943
+Hasanpur	29.452	76.402
+Hasanpur	29.575	76.960
+Hasanpur	30.031	76.757
+Hasanpur	30.154	77.201
+Hasanpur	30.199	76.898
+Hasanpur	30.206	77.435
+Hasanpur	30.238	76.708
+Hasanpur	30.374	77.128
+Hasanpur Baraha	27.827	77.220
+Hasanpur Gomli	28.071	76.571
+Hasanpur Khera	28.199	77.313
+Hasanpur Nuh	27.971	77.033
+Hasanpur Taoru	28.277	76.943
+Hasanyarpur Tihara Kalan	28.983	76.924
+Hashtangabad	28.099	77.387
+Hasnapur	28.298	77.461
+Hassu	29.899	74.940
+Hathangaon	27.809	77.252
+Hathangaon Ka Bas	27.811	77.242
+Hathia	30.680	77.137
+Hathlana	29.680	76.847
+Hatho	29.623	76.180
+Hathwala	29.097	76.457
+Hathwala	29.227	77.118
+Hatira	29.887	76.752
+Haveli	30.428	77.215
+Hayatpur	28.416	76.937
+Hazariwas	28.205	76.596
+Hazira	29.325	75.086
+Helwa	29.976	76.495
+Hemun Majra	30.046	76.271
+Hemun Majra	30.263	77.005
+Heraheri	28.304	76.765
+Heriyan ki Dhani	28.696	75.890
+Hetampura	28.700	75.988
+Hibana	30.126	76.851
+Hidayatpur	28.069	77.392
+Hijraon Kalan	29.562	75.401
+Hijraon Khurd	29.569	75.379
+Himmatpura	29.940	76.374
+Hindol	28.709	76.270
+Hindwan	29.119	75.615
+Hinga Kheri	30.064	76.790
+Hinganpur	27.910	77.159
+Hingauli	30.178	77.155
+Hingna	29.688	75.335
+Hiran Chhappar	30.102	77.095
+Hirapur	28.242	77.430
+Hirasinghwali Dhani	28.475	76.884
+Hiron ki Dhani	28.457	75.814
+Hirwari	27.784	76.989
+Holi	30.236	77.074
+Hoshiarpura	29.363	76.568
+Hudia	30.141	77.072
+Huhuka	27.966	77.078
+Hukmanwali	29.688	75.446
+Humayun Khera	29.481	74.769
+Humayunpur	28.483	76.466
+Humayunpur	28.899	76.817
+Humayunpur	30.286	76.727
+Hundewala	30.161	77.276
+Huripur	30.689	76.860
+Husainganj	28.650	76.567
+Husaini	30.500	77.130
+Husainka	28.342	76.691
+Husainpur	28.188	76.572
+Husainpur	29.056	77.074
+Iatwala	29.283	75.000
+Ibrahimbas	27.683	76.966
+Ibrahimpur	28.082	76.633
+Idyana	29.357	76.756
+Igra	29.228	76.249
+Iharwa	30.508	77.010
+Ikas	29.298	76.270
+Ikhtiyarpura	28.635	76.187
+Ilahabad	27.986	77.440
+Imamnagar	27.925	77.032
+Imamuddinpur	28.324	77.463
+Imlota	28.620	76.448
+Imratpur	27.850	77.252
+Imratpur Kalar	29.594	77.050
+Imratpur Khurd	29.603	77.068
+Inayat	29.122	76.781
+Inayatpur	28.020	77.448
+Inayatpur	28.507	77.057
+Inchhapuri	28.312	76.720
+Indana	27.879	77.293
+Indaraj ki Dhani	28.105	76.635
+Indaraj ki Dhani	28.602	75.665
+Indargarh	29.863	77.063
+Indarpura	28.048	76.595
+Inderbari	29.963	76.743
+Indiwali	28.674	75.829
+Indragarh	29.023	76.508
+Indraprast	28.483	77.300
+Intal Kalan	29.313	76.245
+Intal Khurd	29.319	76.226
+Inundbas	27.953	77.510
+Iqbalpur	28.491	76.886
+Isailpur	30.401	77.247
+Isapur Kheri	29.212	76.588
+Iserheri ki Dhani	29.405	75.855
+Ishaq	30.021	76.491
+Ishaqpur	29.913	76.829
+Ishargarh	30.019	76.905
+Isharheri	30.117	76.957
+Isharpur	30.094	77.336
+Isharwal	28.761	75.706
+Islamnagar	29.872	77.119
+Islamnagar	30.420	77.270
+Islamnagar	30.772	76.923
+Ismail	30.303	76.973
+Ismaila	28.794	76.738
+Ismailpur	28.496	77.340
+Ismailpur	28.508	76.821
+Ismailpur	30.125	77.180
+Ismailpur	30.133	76.647
+Ismailpur	30.224	77.438
+Ismailpur	30.284	76.662
+Ismallpur	29.606	76.080
+Israna	28.283	76.298
+Israna	29.279	76.852
+Jabal	30.646	77.144
+Jabal	30.723	77.089
+Jabbu Majra	30.350	76.740
+Jabial	30.688	77.093
+Jabrot	30.788	76.986
+Jadra	28.237	76.541
+Jadupur	28.071	76.007
+Jafarpur Jafari	30.444	77.265
+Jagadhri Workshop Colony	30.139	77.251
+Jagam Bas	28.550	75.983
+Jagan	29.277	75.617
+Jagauli	30.217	76.625
+Jagdhauli	30.294	77.186
+Jagdishpur	28.935	77.047
+Jagdishpur	28.936	77.189
+Jagdishpura	29.832	76.439
+Jagmalwali	29.844	74.912
+Jagsi	29.251	76.661
+Jahangirpur	28.577	76.739
+Jahangirpur	30.263	77.129
+Jahazgarh	28.639	76.559
+Jaheri	29.869	76.936
+Jai Jai Wanti	29.170	76.377
+Jai Singhpur Khera	28.047	76.514
+Jaidhar	30.229	77.407
+Jaidhri	30.238	77.423
+Jaimal Ka Bas	27.903	77.076
+Jaimalpura	28.895	76.007
+Jainawas	28.799	75.699
+Jaintipur	30.622	77.029
+Jainu Ka Bas	27.902	77.069
+Jaipur	29.393	76.583
+Jaipur	30.056	77.213
+Jairampur	30.182	77.414
+Jaisinghpura	28.241	76.359
+Jaisinghpura	29.540	76.631
+Jaisinghpura	30.653	76.886
+Jaitaka	27.964	76.973
+Jaital	30.814	76.949
+Jaitalka	27.831	77.097
+Jaitpur	28.012	76.576
+Jaitpur	30.379	77.407
+Jaitpur	30.388	77.416
+Jaitpur	30.388	77.422
+Jaitpur Shekhpur	28.304	76.681
+Jaitpura	30.101	76.633
+Jaitrawas	28.133	76.568
+Jaitsari	28.660	76.302
+Jajal	28.977	77.162
+Jajanpur	29.900	76.606
+Jajanwala	29.502	75.949
+Jaji	29.025	76.893
+Jajru	28.293	77.312
+Jajuka	27.999	77.077
+Jajwan	29.344	76.197
+Jakh	27.841	77.125
+Jakhala	28.385	76.535
+Jakhaud	29.214	75.571
+Jakhauda	28.726	76.872
+Jakhauli	28.933	77.155
+Jakhauli	29.655	76.439
+Jakhni	28.117	76.039
+Jakhokhar	27.802	77.219
+Jakhwala	30.080	76.564
+Jal Kheri	30.074	76.922
+Jala	30.736	76.963
+Jalala	29.740	76.819
+Jalalana	29.810	74.898
+Jalalpur	27.901	77.025
+Jalalpur	27.980	76.993
+Jalalpur	28.108	76.589
+Jalalpur	29.370	77.099
+Jalalpur	29.445	77.112
+Jalalpur	30.202	76.751
+Jalalpur Khalsa	28.098	77.251
+Jalalpur Muafi	27.945	77.388
+Jalalpura Kalan	29.318	76.271
+Jalalpura Khurd	29.316	76.285
+Jalaluddin Majra	30.029	76.995
+Jalauli	30.583	76.942
+Jalbehra	30.081	76.671
+Jalbera	30.313	76.775
+Jalera	29.665	75.988
+Jalhaka	28.210	77.439
+Jaliawas	28.103	76.597
+Jalika	27.931	77.157
+Jallopur	29.689	75.498
+Jalmana	29.335	77.102
+Jalmana	29.590	76.710
+Jalpahar	29.364	77.041
+Jalubi	30.176	76.954
+Jamal	29.330	74.981
+Jamal Majra	30.270	77.106
+Jamalgarh	27.807	77.145
+Jamalpur	28.372	76.839
+Jamalpur	28.474	76.474
+Jamalpur	28.963	75.957
+Jamalpur	29.528	77.031
+Jamalpur	30.147	77.081
+Jamalpur Khurd	28.980	76.990
+Jamalpur Shaikhan	29.697	75.835
+Jamaori	29.118	76.044
+Jamba	29.765	76.604
+Jambala	29.550	76.664
+Jamiana	30.709	77.124
+Jamiana	30.727	77.087
+Jamiatgarh	30.363	76.739
+Jamla	30.634	77.156
+Jamni	29.377	76.492
+Jamni Khera	29.199	76.258
+Jampur	30.121	77.235
+Janaula	28.339	76.803
+Janauli	28.186	77.350
+Janbha	29.859	76.813
+Jandaula	29.900	76.582
+Jandaula	30.086	77.024
+Jandhera	29.996	77.110
+Jandhera	30.168	77.209
+Jandheri	30.151	76.911
+Jandli Kalan	29.494	75.634
+Jandli Khurd	29.512	75.647
+Jandwala	29.310	75.265
+Jandwala	29.599	75.478
+Jandwala	29.786	74.609
+Jandwali	29.796	74.827
+Janedpur	29.922	76.294
+Janesra	29.861	77.031
+Janetpur	30.398	76.840
+Jangu Majra	30.517	77.144
+Jangu Majru	30.500	77.069
+Jani	29.620	76.900
+Janjar	30.709	77.111
+Janoli	30.797	76.977
+Jansu	30.722	76.995
+Jansua	30.209	76.665
+Jansui	30.207	76.686
+Jant Sayarwas	28.257	76.678
+Janti	28.252	76.683
+Janti Kalan	28.862	77.165
+Japti Chhapra	29.864	77.178
+Jarari	27.984	77.211
+Jarauda	30.193	77.302
+Jaraudi	30.190	77.291
+Jarauli	27.893	77.171
+Jarauli	29.742	77.113
+Jaraun	28.457	76.731
+Jargali	27.869	77.021
+Jarpuri	27.851	77.106
+Jarthal	28.145	76.720
+Jarwa	28.402	75.958
+Jarwa ki Dhani	28.429	75.955
+Jasana	28.402	77.426
+Jasania	29.287	75.140
+Jasat	28.326	76.671
+Jasaur	28.780	76.867
+Jasia	29.011	76.644
+Jaspur	30.480	76.953
+Jasrana	28.959	76.776
+Jaswantgarh	30.636	76.938
+Jaswanti	29.904	76.457
+Jatai	28.966	76.184
+Jatana	27.946	77.165
+Jatanwala	30.361	77.449
+Jataul	29.368	76.911
+Jataula	28.238	77.315
+Jataula	28.383	76.799
+Jataula	28.851	76.982
+Jatauli	27.988	77.486
+Jatauli	28.350	76.754
+Jateri	28.922	77.082
+Jatheri	29.743	76.549
+Jatheri	30.251	77.319
+Jatipur	29.298	77.007
+Jatka	27.881	76.993
+Jatlana	30.020	77.250
+Jatmalpur	29.008	76.881
+Jatpura	29.749	76.908
+Jatusana	28.331	76.538
+Jatuwas	28.173	76.593
+Jatwar	30.446	76.933
+Jatwarah	28.447	76.543
+Jauli	29.096	76.805
+Jauli	30.593	77.118
+Jaundhi	28.632	76.665
+Jauniawas	28.238	76.802
+Jauniawas	28.394	76.810
+Jaur Majra Kalan	29.845	77.064
+Jaur Majra Khurd	29.850	77.054
+Jaurasi	28.236	76.911
+Jaurasi Khalsa	29.252	77.047
+Jauri	28.362	76.801
+Jauri	28.362	76.808
+Jaurian	30.118	77.249
+Jawahargarh	30.291	76.959
+Jawaharnagar	28.391	75.933
+Jawaharnagar	28.574	76.587
+Jawaharnagar	29.141	75.722
+Jawahra	29.260	76.790
+Jawarat ki Dhani	28.201	76.310
+Jeoli	28.515	75.975
+Jeora	29.324	75.811
+Jetpur	28.431	76.570
+Jewant	27.797	77.180
+Jhabwa	28.016	76.621
+Jhagawan	28.226	76.254
+Jhaguri	30.108	77.170
+Jhakron	30.695	77.088
+Jhal	28.406	76.436
+Jhalania	29.513	75.560
+Jhamba	29.389	77.108
+Jhamola	29.139	76.340
+Jhamrawat	27.885	77.076
+Jhamrawat Ka Bas	27.887	77.090
+Jhamri	28.503	76.346
+Jhamwas	28.236	76.930
+Jhanda	30.462	77.215
+Jhanj Kalan	29.375	76.275
+Jhanj Khurd	29.370	76.278
+Jhanjari	29.753	76.973
+Jhanjauli	28.847	77.006
+Jhanjra Nayawas	28.503	75.771
+Jhanjra Soran	28.505	75.755
+Jhanjra Toda	28.500	75.756
+Jhansa	30.116	76.741
+Jhansa Colony	30.114	76.738
+Jhanswah	28.484	76.417
+Jhar Chandna	30.168	77.148
+Jhar Sentli	28.309	77.304
+Jharauli Khurd	30.148	76.785
+Jharaut	28.917	76.940
+Jharauti	28.933	76.939
+Jharli	28.377	76.258
+Jharli	28.497	76.385
+Jharoda	28.367	76.405
+Jharokhari	27.845	77.279
+Jharsaila	30.365	77.140
+Jharu Majra	30.298	77.068
+Jharu Majra	30.306	76.673
+Jharwai	28.688	76.115
+Jhatikra	28.520	76.964
+Jheor Majra	30.401	77.204
+Jherawali Dhani	28.313	76.836
+Jhijron	30.120	77.206
+Jhil	29.536	76.118
+Jhimani	28.984	76.149
+Jhinjar	28.666	76.335
+Jhinjarpur	29.892	76.717
+Jhinwar Heri	29.592	76.964
+Jhinwar Khera	29.444	76.497
+Jhinwarheri	29.917	76.950
+Jhinwarheri	29.990	76.547
+Jhinwarheri	30.052	76.749
+Jhinwarheri	30.124	77.082
+Jhinwarheri	30.201	77.283
+Jhojhu Kalan	28.522	76.152
+Jhojhu Khurd	28.517	76.142
+Jholri	28.450	76.350
+Jhonjraula	28.488	76.862
+Jhonpari Jaimal	27.866	76.995
+Jhoti Khera	29.803	74.765
+Jhumpa	28.773	75.529
+Jhumpa Kalan	28.495	75.823
+Jhumpa Kalan	28.771	75.531
+Jhumpa Khurd	28.488	75.830
+Jhumpa Khurd	28.774	75.527
+Jhundpur	28.934	77.194
+Jhundpur	28.954	77.169
+Jhundsarai	28.397	76.876
+Jhungian	30.336	76.762
+Jhunreri	30.120	77.367
+Jia	30.612	77.115
+Jind Jn	29.328	76.289
+Jinda Baba	28.245	76.290
+Jindran	28.827	76.424
+Jindran	28.997	76.575
+Jirbiri	29.931	76.902
+Jita Kheri	29.012	75.997
+Jitgarh	29.366	76.712
+Jitgarh	29.396	76.319
+Jitgarh	29.431	76.906
+Jitgarh	29.829	76.556
+Jitpur Istamrar	28.219	76.724
+Jitpura	28.601	75.984
+Jitwana Bas	28.706	75.951
+Jiwanpur	29.400	76.383
+Jiwara	28.354	76.640
+Jobal	30.055	77.183
+Jodhka	29.497	75.222
+Jodhkawali Dhani	29.509	75.252
+Jodhpur	28.112	77.304
+Jodhpur	30.765	76.952
+Jodhwa	30.153	76.420
+Jofarabad	28.262	76.973
+Jogewala	29.958	74.767
+Jogi Majra	30.064	77.074
+Jogi Majra	30.159	76.920
+Jogipur	29.556	77.074
+Jogiwala	29.246	75.222
+Jogiwala	30.341	77.380
+Jogna Khera	29.984	76.796
+Jondhan Kalan	29.302	76.852
+Jondhan Khurd	29.296	76.868
+Jook	28.316	76.180
+Jorasi Kalan	30.027	76.578
+Jorasi Khurd	30.011	76.582
+Jorian	29.304	75.056
+Joriwala	30.748	76.985
+Josar	29.962	76.772
+Joshi	29.419	76.757
+Joshi Chauhan	28.975	77.102
+Joshi Jat	28.966	77.076
+Jowarhi	29.028	77.005
+Juan	28.233	77.397
+Juan	29.066	76.901
+Judha Jatan	30.265	77.257
+Judha Shekhan	30.270	77.272
+Judi	28.429	76.435
+Jugtan	29.263	75.768
+Jui	28.650	75.950
+Jui Kalan	28.634	75.942
+Jui Khurd	28.631	75.943
+Julahon Majra	30.251	77.448
+Julani	29.344	76.272
+Julani Khera	29.645	76.333
+Julu	30.645	77.143
+Junawas	28.203	76.708
+Jundla	29.650	76.872
+Junera	28.316	77.409
+Juraula	28.401	76.849
+Jyoli	30.350	77.085
+Kabilbagh	29.395	76.995
+Kabilpur	30.156	77.148
+Kabirpur	28.984	77.037
+Kablana	28.620	76.744
+Kablana	28.631	76.751
+Kabrer	29.183	75.516
+Kabulpur	29.548	76.709
+Kabulpur Kalan	28.394	77.439
+Kabulpur Khadar	28.387	77.446
+Kachemda	29.855	76.902
+Kachhana	29.618	76.434
+Kachhana Kalan	29.492	76.301
+Kachhana Khurd	29.480	76.282
+Kachhrauli	28.578	76.352
+Kachhua	30.279	76.819
+Kachhwa	29.728	76.889
+Kadana	30.625	77.128
+Kadarabad	29.890	77.033
+Kadhu	28.218	76.489
+Kadma	28.453	76.024
+Kadyani	30.711	77.002
+Kaganwala	30.226	77.268
+Kagawali	30.042	76.525
+Kagdana	29.292	75.160
+Kagsar	29.232	76.221
+Kahalpa	29.108	76.584
+Kahangarh	30.124	76.947
+Kahbarchha	29.550	76.214
+Kahnan	30.733	77.050
+Kahnan	30.738	77.052
+Kahnaur	28.761	76.489
+Kahnguwala	30.819	76.942
+Kahni	29.015	76.676
+Kahri	28.302	76.460
+Kahri	28.461	76.678
+Kahri ki Dhani	28.458	76.696
+Kahroba	29.919	77.073
+Kail	30.188	77.248
+Kailana	29.130	76.916
+Kailana Khas	29.172	76.765
+Kailash	29.728	77.012
+Kailgaon	28.297	77.299
+Kaimbalgarh	28.620	76.687
+Kaimla	29.506	76.999
+Kaimri	29.081	75.719
+Kair Kheri	29.358	76.310
+Kairaka	28.130	77.252
+Kairu	28.696	75.881
+Kairwali	29.589	77.033
+Kajalherl	29.432	75.600
+Kajar	30.660	77.116
+Kajiana	30.795	76.970
+Kajla	29.240	75.614
+Kakarkunda	30.312	77.108
+Kakauria	28.260	76.648
+Kakaut	29.758	76.496
+Kakhana	28.514	76.674
+Kakhana	29.133	76.805
+Kakheri	29.976	76.375
+Kakoda	29.196	76.877
+Kakral	28.912	75.563
+Kakrala	28.295	76.313
+Kakrala Gujran	30.037	76.440
+Kakrala Inait	29.944	76.398
+Kakrali	28.158	77.283
+Kakrali	30.493	76.966
+Kakrali	30.638	76.877
+Kakrana	28.803	76.549
+Kakripur	28.227	77.373
+Kakrod	29.455	76.088
+Kakroi	28.961	76.959
+Kakroli Hatti	28.575	75.979
+Kakroli Hukmi	28.569	75.957
+Kakroli Sardara	28.579	75.976
+Kakru	30.405	76.786
+Kakyaur	29.958	76.433
+Kala Am	29.396	77.021
+Kalaka	28.185	76.650
+Kalal Majra	30.070	76.929
+Kalal Majri	30.477	77.040
+Kalalhatti	30.333	77.059
+Kalali	28.522	76.182
+Kalali	28.755	75.638
+Kalampura	29.707	76.910
+Kalanaur	30.082	77.337
+Kalanaur Kalan	28.834	76.408
+Kalandargarh	29.664	75.656
+Kalani	30.265	77.089
+Kalanpur	30.163	77.185
+Kalar Majra	30.064	76.353
+Kalarpuri	28.217	76.930
+Kalasar	29.591	76.287
+Kalaud	28.798	75.641
+Kalaudha Kalan	29.582	75.979
+Kalaudha Khurd	29.588	75.980
+Kalauni	29.992	77.001
+Kalawati	29.340	76.560
+Kaleran	30.202	76.723
+Kalesra	30.088	77.121
+Kalgarh ka Majra	30.179	77.198
+Kalhatha	29.440	76.279
+Kalheri	29.513	77.026
+Kaliabas	27.846	76.976
+Kaliaka	28.243	76.977
+Kaliana	28.553	76.199
+Kaliana	30.210	76.845
+Kaliana	30.349	77.060
+Kalianpur Atari	30.420	77.257
+Kaliawas	28.487	76.891
+Kaliawas	28.599	76.359
+Kaliraona	30.049	77.024
+Kalirawan	29.293	75.571
+Kalka	29.204	77.102
+Kalka	29.332	76.848
+Kallarbhaini	29.467	75.933
+Kaloni	30.313	77.014
+Kalotha	29.737	75.453
+Kalpi	30.294	76.998
+Kalra	29.963	77.136
+Kalraun	29.569	77.019
+Kalrawas	28.092	76.560
+Kalri	29.955	77.149
+Kalri Khalsa	29.877	77.093
+Kalsa	30.056	76.522
+Kalsada	28.071	77.277
+Kalsana	30.156	76.819
+Kalsani	30.178	76.825
+Kalsaura	29.865	77.145
+Kalsi	29.874	76.957
+Kalujhanda	30.880	76.875
+Kalupur	28.977	77.010
+Kaluwala	28.604	76.054
+Kaluwas	28.221	76.597
+Kaluwas	28.823	76.176
+Kaluwas	29.040	75.660
+Kalwa	29.345	76.516
+Kalwa	30.112	76.982
+Kalwaheri	29.704	77.045
+Kalwan	29.705	75.971
+Kalwari	28.178	76.222
+Kalwari	28.269	76.919
+Kamal	29.813	75.085
+Kamalpur	28.087	76.645
+Kamalpur	28.151	76.610
+Kamalpur	29.600	76.327
+Kamalpur	29.821	77.158
+Kamalpur	29.853	76.852
+Kamalpur	29.889	77.009
+Kamalpur Randan	29.809	77.051
+Kamalwala	29.695	75.930
+Kamana	29.704	75.596
+Kamas	30.164	77.019
+Kamasi	30.174	77.013
+Kambala	30.645	77.032
+Kambo Majra	30.163	77.006
+Kambohpura	29.637	76.984
+Kami	29.054	77.028
+Kami	30.580	76.927
+Kamoda	29.936	76.732
+Kamodh	28.646	76.300
+Kamrahi	30.687	77.129
+Kamraoli	28.073	77.419
+Kamrauda	28.290	76.481
+Kanahli	28.868	76.609
+Kanakhera	29.712	75.777
+Kanala	29.461	75.813
+Kanalsi	30.147	77.391
+Kanauli	30.095	76.971
+Kanauli	30.631	76.966
+Kanaunda	28.760	76.934
+Kandauli	30.065	77.008
+Kandela	29.385	76.341
+Kandhauli	28.303	77.288
+Kandiala	30.856	76.923
+Kandiawala	30.442	77.276
+Kandiwala	30.637	77.020
+Kandol	29.452	75.787
+Kandrauli	29.971	77.190
+Kanepla	30.047	76.867
+Kanepla Majri	30.038	76.856
+Kaneti	28.619	76.402
+Kangar	30.718	77.100
+Kangthali	29.953	76.348
+Kangwal	30.139	76.634
+Kanha Khera	29.637	76.022
+Kanhara	28.477	76.018
+Kanharwas	28.393	76.498
+Kanhaura	28.408	76.617
+Kanhauri	28.413	76.614
+Kanhawas	28.176	76.694
+Kanhri	29.674	75.933
+Kanhri Kalan	30.178	77.180
+Kanhri Khurd	30.201	77.199
+Kani Khera	29.183	76.262
+Kanianwala	30.216	77.482
+Kanikheri	29.620	75.717
+Kanipla	30.361	77.199
+Kanjaron ka Nagla	27.930	77.305
+Kanjnu	30.039	77.174
+Kankarka	28.181	76.927
+Kankraula	28.389	76.920
+Kanmaida	27.774	76.967
+Kanoh	29.383	75.761
+Kanpur	28.003	77.465
+Kansal Ki Khol	30.795	76.846
+Kansala	28.893	76.782
+Kansali	27.970	76.941
+Kansapur	30.241	77.136
+Kansli	30.356	77.478
+Kanthal Kalan	29.939	76.790
+Kanthal Khurd	29.935	76.784
+Kanthala	30.042	76.663
+Kanti Khas	28.048	76.310
+Kanuka	28.123	76.492
+Kanwah	28.524	76.567
+Kanwal	30.672	77.100
+Kanwalgarh	29.698	75.632
+Kanwali	28.312	76.411
+Kanwariyabas	28.031	76.041
+Kanwarka	28.005	77.418
+Kanwarpura	29.485	75.165
+Kanwra	28.417	77.413
+Kapriwas	28.243	76.810
+Kapro	29.381	76.108
+Kapuri	28.287	76.346
+Kapuri	28.570	76.280
+Kapuri	30.347	76.933
+Kapuri Chhoti	30.318	77.246
+Kapuri Kalan	30.319	77.251
+Kara	30.051	76.495
+Karad	29.302	76.820
+Karag	30.713	77.106
+Karaira	27.941	76.965
+Karal Majra	30.368	76.986
+Karamgarh	29.278	76.299
+Karamgarh	29.632	76.040
+Karandi	29.608	75.286
+Karandi	29.713	75.691
+Karanpur	30.864	76.866
+Karaora Manakpur	28.303	76.644
+Karar Majra	29.949	76.888
+Karaudha	28.574	76.575
+Karaula	28.408	76.727
+Karaundaowala	30.845	76.802
+Karauntha	28.800	76.622
+Karaur	28.828	76.661
+Karawali	28.454	77.393
+Karela	29.136	76.326
+Kareori	29.048	76.913
+Karera	28.336	76.338
+Karhans	29.275	77.010
+Karhera	29.995	77.238
+Karhera Khurd	30.082	77.285
+Karheri	27.944	77.000
+Karidas	28.541	75.878
+Karidharni	28.527	75.883
+Karimod	28.534	75.904
+Karirupa	28.543	75.871
+Karitokha	28.555	75.850
+Kariya	28.147	76.276
+Karkauli	30.287	77.444
+Karkhana	29.366	76.628
+Karman	27.860	77.410
+Karmsana	29.340	74.633
+Karna	28.145	77.277
+Karnal ka Dera	29.475	77.098
+Karnauli	29.541	75.315
+Karnawas	28.128	76.605
+Karnera	28.316	77.268
+Karni Majra	30.102	77.293
+Karoli	28.385	76.340
+Karora	29.653	76.547
+Karsa	29.843	76.708
+Karsindhu	29.400	76.726
+Karsindhu	29.501	76.225
+Karsola	29.156	76.414
+Kartarpur	29.686	76.859
+Kartarpur	29.892	77.146
+Kartarpur	30.025	77.211
+Kartarpur	30.141	76.390
+Kasan	28.357	76.903
+Kasan	29.652	76.407
+Kasan Basti	29.846	76.929
+Kasar	28.701	76.886
+Kasaula	28.127	76.651
+Kasauli	28.111	76.647
+Kasauli	30.118	76.418
+Kasaur	29.968	76.220
+Kasendah	29.138	76.833
+Kasendhi	29.140	76.837
+Kaserla	30.028	76.866
+Kaserla Kalan	30.167	76.960
+Kaserla Khurd	30.165	76.965
+Kaserwa Khera	28.001	77.294
+Kashipur	28.008	77.505
+Kashipur	28.117	77.320
+Kashmirgarh	30.183	77.369
+Kasithal	30.056	76.945
+Kasni	28.505	76.589
+Kasni	28.680	76.250
+Kasni Kalan	28.681	75.691
+Kasni Khurd	28.662	75.678
+Kasohan	29.436	76.268
+Kasumbhi	28.729	76.036
+Kasunbhi	29.480	75.183
+Kat	30.103	77.359
+Katal	30.666	77.105
+Katal	30.699	77.091
+Katani	28.482	76.744
+Katankheri	29.554	75.509
+Katarwali	30.358	77.368
+Katesra	28.185	77.413
+Katesrah	28.769	76.411
+Katgorh	30.436	77.343
+Kath Mandi	28.884	76.584
+Kathana	29.552	76.385
+Kathe Majra	30.520	77.146
+Kathgarh	30.662	76.844
+Kathurah	29.085	76.582
+Kathuwas	28.141	76.657
+Kathwahar	29.822	76.495
+Kathwala	30.205	77.255
+Katkar	28.877	77.168
+Katlaheri	29.647	76.822
+Katlaheri	30.100	76.834
+Katli	30.681	77.052
+Katwa	30.134	76.796
+Katwal	29.040	76.758
+Katwal	29.504	76.454
+Katwara	29.035	76.578
+Kaul	29.453	76.523
+Kaul	29.845	76.661
+Kaulana	28.200	76.353
+Kaulapur	30.032	76.912
+Kaunchpura	29.685	76.805
+Kaundal	28.016	77.272
+Kaunr Majra	30.462	77.170
+Kaunsiwas	28.175	76.648
+Kaunt	28.778	76.177
+Kayala	28.756	76.264
+Kayath	29.233	76.811
+Kazimpur	30.613	77.024
+Kehar ki Dhani	28.621	75.675
+Keharpura	28.722	76.011
+Kelangah	28.871	76.328
+Kelram	29.701	76.366
+Kemaspur	29.002	77.093
+Kemla	28.335	76.253
+Keolwali	29.362	74.999
+Keorak	29.868	76.477
+Keshopura	29.442	77.118
+Keshopura	29.448	74.857
+Kesri	30.233	76.906
+Kesupur	30.305	76.905
+Kewal	29.866	75.045
+Khabra Kalan	29.331	75.367
+Khabra Khurd	29.327	75.367
+Khadari	30.184	77.401
+Khadi Ashram	29.369	76.975
+Khai	29.753	75.456
+Khaika	27.882	77.272
+Khaintawas	28.438	76.878
+Khaira	30.029	76.966
+Khaira	30.256	76.689
+Khairampur	29.317	75.526
+Khairatikhera	29.500	75.362
+Khairi	30.013	76.964
+Khairi	30.692	77.025
+Khairpur	28.766	76.941
+Khairpur	29.735	75.474
+Khairpura	28.631	75.975
+Khajpur	28.581	76.634
+Khajuri	28.025	76.649
+Khajuri	28.186	76.706
+Khajuri	29.477	75.611
+Khajuri	30.052	77.256
+Khajuri	30.080	77.166
+Khakri	29.354	76.361
+Khaleta	28.230	76.419
+Khaliawas	28.209	76.744
+Khalila Majra Nayan	29.295	76.773
+Khalilpur	28.275	76.681
+Khalilpuri	28.198	76.666
+Khamawati	29.427	76.657
+Khambahera	30.103	76.307
+Khan Ahmadpur	30.242	77.124
+Khan Muhammad	29.542	75.440
+Khan Muhammadpur	27.970	77.074
+Khana Majra	30.238	76.644
+Khanauda	29.838	76.538
+Khanaura	29.692	75.838
+Khanbi	27.968	77.415
+Khanda	28.920	76.899
+Khanda	29.453	76.460
+Khanda Kheri	29.555	76.623
+Khandd Kheri	29.189	76.224
+Khandeola	28.383	76.771
+Khandora	28.049	76.470
+Khandra	29.429	76.845
+Khandrai	29.164	76.680
+Khandsa	28.435	77.003
+Khandwa	30.083	77.257
+Khangesra	30.618	76.957
+Khanjarpur	30.108	76.733
+Khanpur	28.291	76.761
+Khanpur	28.428	77.383
+Khanpur	29.270	75.930
+Khanpur	29.624	76.037
+Khanpur	29.853	76.375
+Khanpur	29.934	77.056
+Khanpur	29.936	76.764
+Khanpur	30.038	76.882
+Khanpur	30.127	76.859
+Khanpur	30.194	77.187
+Khanpur	30.252	76.875
+Khanpur	30.282	77.384
+Khanpur	30.427	77.127
+Khanpur	30.477	76.975
+Khanpur Kalan	28.471	76.337
+Khanpur Kalan	29.161	76.792
+Khanpur Khurd	28.470	76.353
+Khanpur Khurd	29.148	76.641
+Khanpur Majri	30.037	76.886
+Khanpur Nuh	27.987	76.994
+Khanpur Rajputan	30.536	77.118
+Khanpura	30.203	76.946
+Khanpura	30.276	77.150
+Khanpurhati	27.908	77.083
+Khanpuri	30.269	77.385
+Khanuwala	30.308	77.377
+Khapar Bas	28.695	75.827
+Khaparwas	28.569	76.502
+Khapran	29.422	76.172
+Khara Barwala	29.299	75.452
+Khara Kara	29.378	76.654
+Kharag	30.706	77.083
+Kharai	30.090	76.357
+Kharak	29.350	76.000
+Kharak	29.901	76.215
+Kharak Bhura	29.510	76.192
+Kharak Gadiyan	29.408	76.473
+Kharak Gagar	29.326	76.540
+Kharak Jatan	29.041	76.415
+Kharak Kalan	28.829	76.305
+Kharak Khurd	28.828	76.313
+Kharak Magaul	30.717	76.879
+Kharak Pandwan	29.686	76.277
+Kharak Ramji	29.303	76.435
+Kharak Taoru	28.261	76.958
+Kharakheri	29.381	75.575
+Kharakwali	29.604	76.973
+Kharal	29.705	76.064
+Kharana	28.209	76.265
+Kharani	28.200	76.283
+Kharanti	29.025	76.468
+Kharanti	29.169	76.317
+Kharar	29.136	75.881
+Khararwal	29.614	75.963
+Kharawar	28.834	76.686
+Kharbala	29.069	76.159
+Kharguwas	28.217	76.571
+Kharhar	28.718	76.774
+Khari	27.883	77.153
+Kharia	29.135	75.520
+Kharindwa	30.111	76.936
+Khariwara	28.161	76.264
+Khariya Bas	28.735	75.845
+Khariyan	29.619	74.859
+Kharkali	30.044	77.090
+Kharkari	28.840	75.648
+Kharkhara	28.196	76.767
+Kharkhara	28.935	76.365
+Kharkhara	29.101	76.095
+Kharkhara	29.414	75.954
+Kharkhara	29.965	76.287
+Kharkhari	28.115	76.555
+Kharkhari	28.211	76.991
+Kharkhari	28.353	76.872
+Kharkhari	28.383	76.009
+Kharkhari	28.555	75.788
+Kharkhari	29.208	75.877
+Kharkhari Bhima	28.147	76.566
+Kharkua	30.754	76.951
+Kharl	27.823	77.105
+Kharodi	30.007	76.305
+Kharodi	30.011	76.318
+Kharog	30.679	77.085
+Kharsangi	28.159	76.579
+Kharta	30.710	77.063
+Kharu Khera	30.323	76.932
+Kharun	30.688	77.053
+Kharuni	30.717	77.057
+Kharwali	29.009	76.580
+Kharwan	30.186	77.359
+Kharwan	30.202	77.364
+Khasa Mahajanan	29.322	75.593
+Khasa Pathanan	29.532	75.764
+Khat Karan	29.404	76.246
+Khataila	27.993	77.335
+Khataoli	28.228	76.745
+Khatauli	30.407	76.826
+Khatauli	30.591	76.973
+Khati	30.724	77.087
+Khation ki Dhani	28.138	76.649
+Khatiwas	28.082	76.605
+Khatiwas	28.221	76.966
+Khatiwas	28.626	76.316
+Khatiwas	28.628	76.601
+Khatla	29.444	76.738
+Khatoti Khurd	28.096	76.019
+Khatoti Sultanpur	28.104	76.033
+Khatrawan	29.795	75.033
+Khawaspur	28.386	76.844
+Khawaspur	29.922	76.884
+Khedar	29.359	75.855
+Khel Albeta	30.849	76.822
+Kheora	28.964	77.127
+Kher Jattan	30.430	77.123
+Kher Taprian	30.480	77.211
+Khera	28.320	77.396
+Khera	28.391	76.689
+Khera	28.445	76.789
+Khera	28.903	75.655
+Khera	29.076	76.168
+Khera	29.208	76.183
+Khera	29.276	76.264
+Khera	29.680	77.038
+Khera	29.889	77.083
+Khera	29.916	76.939
+Khera	30.105	76.822
+Khera	30.172	77.259
+Khera	30.294	77.044
+Khera	30.435	76.911
+Khera	30.441	76.908
+Khera	30.476	76.943
+Khera	30.824	76.875
+Khera Alampur	28.337	76.623
+Khera Baghola	28.164	77.411
+Khera Bahu	28.441	76.305
+Khera Bakhta	29.158	76.346
+Khera Bhamrola	28.156	77.407
+Khera Bhimraula	28.126	77.399
+Khera Brahman	30.290	77.282
+Khera Gaindewala	29.513	76.242
+Khera Kalan	27.706	76.971
+Khera Kalan	30.240	77.174
+Khera Khurd	30.238	77.174
+Khera Manka	28.352	76.296
+Khera Murar	28.074	76.614
+Khera Rangharan	29.154	76.267
+Kherapur	30.295	77.237
+Kherari	28.811	76.344
+Kherari	28.827	76.352
+Kheri	27.905	77.125
+Kheri	28.042	76.539
+Kheri	28.049	76.342
+Kheri	28.344	76.400
+Kheri	28.359	77.254
+Kheri	29.248	75.102
+Kheri	29.360	76.473
+Kheri	29.483	75.776
+Kheri	29.944	76.838
+Kheri	30.150	77.251
+Kheri	30.256	77.189
+Kheri	30.565	76.999
+Kheri Asra	28.659	76.725
+Kheri Bulawali	29.542	76.431
+Kheri Daban	30.024	76.232
+Kheri Dabdalan	30.019	77.084
+Kheri Damkan	29.107	76.765
+Kheri Daulatpur	28.994	76.067
+Kheri Dehia	28.961	76.916
+Kheri Dharchana	28.037	76.553
+Kheri Gadian	29.943	76.955
+Kheri Gangan	29.142	76.034
+Kheri Ghulam Ali	29.872	76.307
+Kheri Gujar	29.165	76.973
+Kheri Hosdarpur	28.588	76.572
+Kheri Jajwan	29.348	76.216
+Kheri Jalab	29.326	76.087
+Kheri Jasaur	28.783	76.865
+Kheri Jat	28.597	76.784
+Kheri Jatan	29.930	76.973
+Kheri Kalan	28.402	77.377
+Kheri Kalan	29.302	75.784
+Kheri Khumar	28.618	76.627
+Kheri Khurd	28.394	77.371
+Kheri Lakha Singh	30.117	77.136
+Kheri Lamba	29.708	76.227
+Kheri Lochap	29.331	76.093
+Kheri Madanpur	28.516	76.473
+Kheri Maham	28.977	76.306
+Kheri Man Singh	29.823	76.997
+Kheri Manajat	28.888	77.054
+Kheri Markanda	29.982	76.867
+Kheri Motarwa	29.819	76.604
+Kheri Musanian	29.494	76.164
+Kheri Naru	29.645	76.910
+Kheri Patauda	28.427	76.700
+Kheri Raiwali	29.873	76.548
+Kheri Ramnagar	29.938	76.858
+Kheri Raowali	29.587	76.433
+Kheri Rayan	29.626	75.716
+Kheri Sadh	28.860	76.669
+Kheri Safa	29.517	76.177
+Kheri Sakra	29.813	76.676
+Kheri Sanwal	28.555	76.315
+Kheri Shahidan	30.131	76.693
+Kheri Sharaf Ali	29.551	76.542
+Kheri Sher Khan	29.565	76.284
+Kheri Sheru	29.699	76.431
+Kheri Shishagaran	29.943	76.530
+Kheri Sikandar	29.745	76.596
+Kheri Simbhalwali	29.581	76.420
+Kheri Taga	29.136	77.086
+Kheri Taprian	30.471	77.214
+Kherianwali	30.858	76.892
+Kheribatar	28.583	76.184
+Kheribura	28.589	76.197
+Kheriwala	29.584	75.608
+Kherka Gujar	28.635	76.786
+Kherki	28.309	76.936
+Kherki	30.063	77.090
+Kherki	30.488	77.070
+Kherki Daula	28.403	76.985
+Kherki Majra Dhankot	28.489	76.964
+Kherla Fraserpur	28.119	77.397
+Kherla Khurd	27.827	77.007
+Kherli Kalan	27.864	77.042
+Kherli Khurd	27.869	76.981
+Kherli Nanu	27.789	77.166
+Kherli Nuh	27.976	77.006
+Kherwali	30.638	77.014
+Kherwan	29.295	75.752
+Khetawas	28.548	76.518
+Khetiyawas	28.286	76.693
+Khetpurali	30.677	77.004
+Khetri	30.682	77.060
+Kheuwali	29.763	74.944
+Khijurka	28.163	77.369
+Khilanwala	30.337	77.482
+Khilluka	27.995	77.229
+Khimach Khera	29.094	76.356
+Khiman Kheri	29.228	76.390
+Khimawali Dhani	28.334	76.851
+Khirajpur	29.718	77.108
+Khirbi	27.899	77.427
+Khirki	30.046	77.000
+Khirman	28.675	76.779
+Khizarpur Ahir	29.146	76.978
+Khizarpur Jat	29.030	76.926
+Khizarpura	29.944	76.716
+Khizrabad	29.563	76.586
+Khizrabad	30.294	77.495
+Khizri	30.318	77.504
+Khobar	29.624	75.428
+Khoh	28.357	76.924
+Khojgipur Kalan	29.265	77.114
+Khojgipur Khurd	29.264	77.120
+Khojkipur	30.328	76.872
+Khokar	29.905	74.892
+Khokara	30.906	76.799
+Khokha	29.188	75.887
+Khol	28.196	76.397
+Khol	30.804	76.984
+Khol Tande	30.757	76.874
+Khopar	30.690	77.018
+Khor	28.295	76.744
+Khora Kheri	29.530	76.908
+Khorak	29.914	77.160
+Khorara	28.520	75.842
+Khori	27.737	76.938
+Khori	28.201	76.487
+Khori Khurd	28.225	76.883
+Khori Nuh	28.060	76.974
+Khorra	28.482	76.304
+Khosra	28.876	76.107
+Khot	29.383	76.167
+Khot Kalan	29.392	76.170
+Khot Khurd	29.373	76.173
+Khotpura	29.452	77.007
+Khubi ki Dhani	28.479	76.066
+Khubru	29.155	76.931
+Khudali	29.086	76.431
+Khudan	28.463	76.616
+Khudana	28.407	76.118
+Khuddi	30.321	76.916
+Khuiyan	29.863	74.780
+Khuknni	29.956	77.179
+Khukrana	29.395	76.895
+Khundan	29.644	75.379
+Khundan ki Dhani	29.634	75.374
+Khundewala	30.214	77.235
+Khundrali	28.504	76.528
+Khunga	29.379	76.420
+Khungai	28.603	76.752
+Khunta Patti	27.920	77.162
+Khupinagar	28.426	75.828
+Khurana	29.860	76.404
+Khurchanpur	30.261	76.597
+Khurd	30.420	77.002
+Khurda	29.537	76.518
+Khurdban	29.984	77.141
+Khurdi	30.074	77.236
+Khurrampur	28.007	76.581
+Khurrampur	28.440	76.794
+Khurrampur	28.825	76.877
+Khurrampur	28.895	77.196
+Khurrampur Gandas	29.362	76.128
+Khushal Majra	30.068	76.311
+Khushpura	28.332	76.458
+Khushpuri	27.953	77.057
+Khusropur	28.109	77.336
+Khusropur	28.502	77.009
+Khwaja Ali Kalan	27.951	77.118
+Khwaspur	30.259	76.733
+Kiar	30.679	77.120
+Kiar	30.689	77.146
+Kiar	30.747	77.037
+Kiar ki Khil	30.711	77.093
+Kidara	28.652	76.427
+Kikra Dhani	28.893	75.695
+Kiloi	28.550	76.732
+Kiloi	28.947	76.717
+Kilorad	29.033	76.967
+Kilraudh	28.518	76.642
+Kinana	29.240	76.339
+Kinar	29.338	76.133
+Kingran	29.823	74.825
+Kirara	29.318	75.772
+Kirarod	28.091	76.101
+Kirarod ki Dhani	28.087	76.094
+Kirarod ki Dhani	28.092	76.096
+Kiratpur	30.845	76.869
+Kirauli	28.810	76.905
+Kirhan	29.402	75.400
+Kirmach	29.903	76.786
+Kirmara	29.380	75.703
+Kirmjan	28.681	76.493
+Kirori	29.345	75.777
+Kirtan	29.139	75.557
+Kisarhanti	28.862	76.763
+Kishangarh	28.267	76.576
+Kishangarh	28.956	76.296
+Kishangarh	29.300	75.447
+Kishangarh	29.950	76.942
+Kishangarh	30.142	76.881
+Kishangarh	30.191	77.387
+Kishangarh	30.663	76.893
+Kishangarh	30.734	76.828
+Kishanpur	28.304	77.457
+Kishanpur	29.970	76.899
+Kishanpur	30.090	77.221
+Kishanpur	30.291	77.479
+Kishanpura	28.518	75.834
+Kishanpura	29.417	74.654
+Kishanpura	30.676	77.095
+Kishenpura	29.285	76.339
+Kishora	28.997	77.096
+Kiskanda	28.473	75.974
+Kithwari	28.142	77.369
+Kitlana	28.678	76.176
+Kiwana	29.225	76.982
+Koali	28.916	76.965
+Koel	29.752	76.182
+Kohand	29.492	76.963
+Kohar	28.762	76.007
+Koharar	28.423	76.393
+Kohla	29.182	76.564
+Kohli	29.280	75.522
+Kohra	30.535	77.089
+Koka	28.267	76.266
+Koka	28.433	76.637
+Kokariya	29.391	76.876
+Kolar ki Dhani	28.678	75.823
+Kolawas	28.681	76.303
+Kolekha	29.683	76.208
+Kolgaon	27.672	76.956
+Koliwala	30.258	77.505
+Kolon	30.713	77.073
+Kolpuri	28.543	76.518
+Kolu Majra	30.372	76.736
+Koludera	27.876	77.011
+Kona	30.884	76.824
+Kongta	30.667	77.108
+Konkpur	30.220	76.777
+Kor	29.808	76.740
+Kora Ka Bas	27.891	77.059
+Korali	28.324	77.425
+Korali	29.761	76.990
+Korali Mirpur	28.001	77.441
+Korar	29.405	77.083
+Korar	29.730	76.208
+Korar Ibrahimpur	29.053	77.060
+Korlana	29.554	76.744
+Kosli	28.398	76.485
+Kot	27.959	77.228
+Kot	30.625	76.946
+Kot Basawarsingh	30.332	77.411
+Kot Kalal	28.580	76.701
+Kot Mushtarka	30.330	77.418
+Kot Sarkari	30.323	77.419
+Kota Khandeola	28.321	76.969
+Kotar Khana	30.227	77.217
+Kothi	30.709	77.112
+Kothi Lotni	30.060	76.660
+Kotia	28.348	76.339
+Kotia	30.754	76.900
+Kotian	30.740	76.926
+Kotipur	30.280	77.502
+Kotla	27.999	76.945
+Kotla	30.431	77.291
+Kotli	29.451	74.844
+Kotra	29.636	76.477
+Kotra Kahansingh	30.308	77.417
+Kotra Khas	30.334	77.335
+Krishanpura	29.374	76.975
+Kuartan	29.918	76.426
+Kubja ki Dhani	28.515	76.062
+Kubjanagar	28.517	76.058
+Kuchpar	28.952	76.211
+Kudal	30.710	77.095
+Kudli	30.678	77.107
+Kudni Head	29.740	75.851
+Kuhar	28.763	76.006
+Kuiwali	30.661	76.917
+Kukarkanda	29.623	76.538
+Kukarthana	29.478	75.235
+Kukranwali	29.492	75.337
+Kukranwali Dhani	29.519	75.332
+Kukrola	28.532	76.758
+Kulana	28.425	76.659
+Kulana	29.152	75.909
+Kularpur	30.494	77.143
+Kulasi	28.773	76.912
+Kulawar	30.272	77.171
+Kulchandu	30.277	77.207
+Kuldipnagar	30.318	76.838
+Kuleri	29.366	75.664
+Kulina	28.201	77.453
+Kullan	29.662	75.728
+Kulpur	30.206	77.079
+Kultajpar	28.052	76.027
+Kultajpur	27.878	77.025
+Kultajpur	27.953	76.924
+Kultana	28.753	76.702
+Kultaran	29.834	76.421
+Kumbha	29.132	76.074
+Kumbha	29.431	76.008
+Kumbhasar	29.415	74.595
+Kumbhawas	28.329	76.841
+Kumhar Majra	30.144	76.642
+Kumharia	29.406	75.618
+Kumhariya	29.258	75.149
+Kumrera	27.952	77.160
+Kumthal	29.451	74.795
+Kunal	29.628	75.663
+Kunbhawas	28.249	76.663
+Kund	28.151	76.400
+Kunda Kalan	29.702	77.125
+Kundal	28.146	76.492
+Kundal	28.833	76.960
+Kundanpur	29.545	75.859
+Kundanpura	29.102	75.997
+Kundli	28.883	77.135
+Kungar	29.006	76.094
+Kunjala	30.393	77.100
+Kunjel Jattan	30.097	77.181
+Kunjel Kambohan	30.095	77.181
+Kunjiah	28.543	76.581
+Kunjpura	29.716	77.081
+Kunwar Kheri	29.893	76.811
+Kupian	30.067	76.489
+Kurak	29.760	76.911
+Kural	28.619	75.855
+Kurali	30.349	77.229
+Kurali	30.413	77.081
+Kuralwas	28.603	75.848
+Kurana	29.276	76.719
+Kurangawali	29.777	75.070
+Kuranwala	30.768	76.873
+Kurar	29.358	76.644
+Kurara Shahpur	28.176	77.409
+Kurari	29.116	75.641
+Kurari	30.150	76.733
+Kurasan	30.379	77.011
+Kurbanpur	28.312	76.326
+Kurbanpur	30.298	76.674
+Kurewala	30.306	77.343
+Kurhami	29.955	76.962
+Kurukshetra	29.966	76.837
+Kushak	28.040	77.483
+Kushalpura	28.473	75.760
+Kutabpuri Bazurg	28.340	76.571
+Kutail	29.599	77.018
+Kutana	29.504	76.878
+Kutani	29.419	77.011
+Kutiakheri	29.147	75.438
+Kutyana	29.319	74.999
+Kuwawala	29.396	74.989
+Labkarl	29.903	77.151
+Lachhman ki Dhani	28.593	75.799
+Lad	28.467	75.910
+Ladain	28.483	76.473
+Ladana	30.307	76.759
+Ladana Chakku	29.927	76.261
+Ladanpur Dhana	28.757	76.162
+Ladawas	28.585	75.932
+Ladawas	28.640	75.737
+Ladhaud	28.938	76.667
+Ladhauli	28.267	77.373
+Ladhuwas Ahir	28.206	76.559
+Ladhuwas Gujar	28.162	76.691
+Ladiaka	28.059	77.399
+Ladiyanwali	28.660	75.832
+Ladpur	28.555	76.782
+Ladpur	28.915	77.039
+Ladpur Khera	28.244	77.337
+Ladwa	29.069	75.802
+Ladwi	29.231	75.554
+Lae	30.719	77.103
+Lagarpur	28.549	76.830
+Lagnasu	30.699	77.041
+Laha	30.517	77.112
+Lahandola	28.353	77.431
+Laharpur	30.439	77.192
+Laharsa	30.371	76.727
+Laharwari	27.838	77.187
+Lahasabad	30.300	77.460
+Lahli	28.853	76.455
+Lahoriwala	30.210	77.431
+Lahriyan	29.625	75.729
+Lahroda	28.103	76.109
+Lajwana Kalan	29.148	76.467
+Lajwana Khurd	29.173	76.451
+Lakariya	28.746	76.627
+Lakarpur	28.488	77.294
+Lakarwali	29.769	74.990
+Lakhan Majra	29.044	76.478
+Lakhibas	30.039	77.229
+Lakhmari	30.150	77.006
+Lakhnaula	28.379	76.952
+Lakhnaur	28.232	76.571
+Lakhnaur	30.276	76.769
+Lakhnaura	30.413	77.116
+Lakhuwali Dhani	29.728	75.774
+Lakhuwana	29.862	74.697
+Lakur	30.196	77.465
+Lal Khera	29.716	76.773
+Lal Pahari	28.029	76.114
+Lala	28.313	76.564
+Lalain	29.593	76.603
+Lalat Khera	29.259	76.478
+Lalauda	29.638	75.876
+Lalawas	28.637	75.897
+Lalchhapar	29.996	77.226
+Lalgarh	28.072	77.440
+Lalhairi	29.096	77.026
+Lalhana	28.679	76.002
+Lalhari	30.324	77.382
+Lali	29.704	75.516
+Laliana	30.236	76.769
+Laliani	29.783	76.923
+Lalluwal	29.713	75.784
+Lalpur	28.140	76.630
+Lalpur	28.451	77.404
+Lalpur	30.047	76.276
+Lalpur	30.383	77.110
+Lalpur Qadim	28.165	77.382
+Lalpur ki Dhani	28.530	75.671
+Lalpura	29.129	75.918
+Lalsinghwali Dhani	28.300	76.862
+Lalupura	29.571	77.091
+Lalwa	28.144	77.290
+Lambha	29.714	75.663
+Lambi	29.819	74.715
+Lanba	28.683	76.296
+Landaheri	30.161	76.407
+Landana Baba	29.829	76.286
+Landar Kiman	29.874	76.250
+Landar Pirzada	29.883	76.267
+Landaura	29.783	77.072
+Landha	30.224	76.882
+Landhaura	30.214	77.213
+Landheri	29.304	75.661
+Landhi	30.214	76.874
+Landiyali	30.263	76.700
+Langa Chhanni	30.252	76.918
+Langra	28.283	76.901
+Laotan	30.469	77.138
+Laphuri	27.884	77.241
+Lapra	30.091	77.352
+Larsauli	29.088	77.056
+Lasawa	30.666	77.066
+Lashkariwala	30.632	77.020
+Latani	29.478	75.988
+Lath	29.074	76.781
+Lathi Dhanaura	29.966	77.046
+Lathron	29.875	76.966
+Laukri	28.245	76.765
+Lautan	30.261	76.593
+Lawah Kalan	28.639	76.914
+Lawan	28.938	77.074
+Lawan	29.677	76.046
+Lawana	30.253	77.141
+Lawani	30.268	77.140
+Lawanspur	28.959	77.086
+Leda Khadir	30.303	77.410
+Leda Khas	30.248	77.331
+Ledi	30.301	77.394
+Leghaban	28.698	75.932
+Leghabhanan	28.702	75.963
+Lehrara	28.970	77.012
+Likhi	27.968	77.465
+Lilas	28.850	75.536
+Lilodh	28.454	76.401
+Lisan	28.357	76.374
+Lisana	28.243	76.609
+Lochap	29.636	75.988
+Loco Colony	28.425	75.803
+Lodas	29.156	75.647
+Lodhana	28.127	76.679
+Lodhar	29.567	76.258
+Lodhuwas	29.789	75.469
+Logadhri Railway Colony	30.137	77.246
+Lohagarh	28.124	77.352
+Lohakhera	29.672	75.908
+Lohana	28.264	76.410
+Lohani	28.706	76.044
+Lohar Majra	29.494	76.542
+Lohara	30.018	76.987
+Loharheri	28.785	76.836
+Lohari	29.359	76.839
+Lohari Jatu	28.907	76.081
+Lohari Ragho	29.261	76.056
+Loharwala	28.632	76.341
+Lohat	28.541	76.856
+Lohchap	28.257	76.748
+Lohchap	29.361	76.435
+Lohgarh	29.677	75.349
+Lohgarh	29.901	74.572
+Lohgarh	30.806	76.892
+Lohina	27.947	77.312
+Lokra	28.269	76.772
+Lopion	30.298	77.381
+Lotni	30.065	76.666
+Lowah Khurd	28.664	76.874
+Ludesar	29.368	75.099
+Ludhana	29.239	76.509
+Lufand Majra	30.269	77.116
+Luhar Majra	29.953	76.727
+Luhareri	28.686	76.100
+Luhari	28.373	76.715
+Luharon	30.632	77.102
+Luhinga Kalan	27.832	77.134
+Luhinga Khurd	27.822	77.076
+Lukhi	28.387	76.371
+Lukhi	30.032	76.729
+Lulah	28.368	76.431
+Lulah	28.376	76.451
+Lulwari	28.075	77.410
+Machhaunda	30.306	76.836
+Machhgar	28.312	77.372
+Machhipura	27.987	77.464
+Machhohar	29.762	75.401
+Machhraula	29.038	77.133
+Machhrauli	28.475	76.652
+Machhrauli	29.285	77.010
+Machhrauli	30.344	77.293
+Machhrehri	29.983	76.423
+Machrauli	30.092	76.909
+Machuri	29.613	76.764
+Machuri	29.889	76.930
+Mad Kalian	30.027	76.288
+Madal Shahpur	28.536	76.471
+Madalpur	28.325	77.258
+Madalpur	30.686	76.845
+Madana Kalan	28.716	76.643
+Madana Khurd	28.715	76.646
+Madanheri	29.034	76.224
+Madanpur	29.531	75.887
+Madanpur	30.149	76.845
+Madanpur	30.664	76.890
+Madari Ka Bas	27.863	77.004
+Madarka	28.170	76.931
+Madh	29.714	75.401
+Madha	29.196	76.081
+Madhewala	30.263	77.516
+Madhmadhwi	28.694	76.219
+Madho Singhana	29.424	74.929
+Madhobas	30.004	77.200
+Madhowala	30.612	77.091
+Madhuban	29.605	76.982
+Madina	28.942	76.436
+Madina	29.098	76.635
+Madlauda	29.401	76.007
+Madlauda	29.402	76.804
+Madola	28.227	76.368
+Madopura	28.766	75.526
+Maduwala	29.680	75.881
+Magarpura	30.179	76.965
+Magarpura	30.206	77.132
+Magarpura	30.368	77.000
+Maghera	29.637	75.702
+Magho Majri	29.812	76.355
+Mahabir Colony	29.148	75.742
+Mahadea	30.762	76.852
+Mahadeo	30.753	76.845
+Mahadeo	30.768	76.851
+Mahadeo	30.777	76.852
+Mahadev Ka Mandir	27.822	76.927
+Mahakharia	28.202	76.523
+Mahal Kheri	29.806	76.248
+Mahalsara	29.260	75.549
+Mahamra	29.732	75.645
+Mahaniyawas	28.268	76.692
+Mahaoti	29.194	77.066
+Mahasar	28.159	76.277
+Mahauli	27.758	76.947
+Mahauli	27.938	77.512
+Mahbatpur	30.787	76.905
+Mahchana	28.392	76.747
+Mahdudan	30.179	76.801
+Maheshpur	30.681	76.865
+Mahesri	28.214	76.823
+Mahesri	30.272	77.216
+Mahi Kalan	28.455	76.106
+Mahi Khurd	28.455	76.109
+Mahipur	28.988	76.848
+Mahiuddinpur	28.298	76.586
+Mahlan	30.162	76.648
+Mahlana	28.981	76.958
+Mahmudpur	29.178	76.711
+Mahmudpur	30.090	77.350
+Mahmudpur	30.131	76.230
+Mahmudpur	30.236	76.690
+Mahmudpur	30.344	76.980
+Mahmudpur Majra	28.575	76.796
+Mahna	29.417	74.818
+Mahola	29.123	76.277
+Mahra	29.077	76.938
+Mahra	29.095	76.689
+Mahrampur	28.114	76.054
+Mahrana	28.684	76.668
+Mahrana	29.341	76.954
+Mahrana	29.348	76.950
+Mahronpur	30.153	77.220
+Mahtabgarh	30.334	76.964
+Mahun	27.833	77.041
+Mahwa Kheri	30.093	77.036
+Maihra	28.567	76.157
+Maimanabad	29.455	76.703
+Maina	28.848	76.605
+Mainmati	29.739	77.055
+Maira	28.350	76.171
+Majesar	28.366	77.309
+Majhar	30.711	77.080
+Majhaud	29.193	75.962
+Majheri	30.102	76.434
+Majika	30.691	77.124
+Majra	28.088	76.538
+Majra	28.668	76.455
+Majra	28.870	76.640
+Majra	29.188	76.117
+Majra	29.218	76.684
+Majra	29.325	77.096
+Majra	29.527	75.522
+Majra	29.953	76.429
+Majra	30.087	77.208
+Majra	30.285	77.415
+Majra	30.330	76.978
+Majra Chandraon Burj	29.922	77.170
+Majra Dhin	30.255	77.090
+Majra Gurdas	28.169	76.660
+Majra Mahtah	30.846	76.910
+Majra Munda Khera	30.253	76.658
+Majra Mutsil Bhalki	28.166	76.416
+Majra Rohera	29.566	76.441
+Majra Roran	29.792	76.717
+Majra Sheoraj	28.196	76.675
+Majri	28.593	76.840
+Majri	29.129	76.892
+Majri	29.982	76.237
+Majri	30.000	77.230
+Majri	30.112	77.113
+Majri	30.152	76.687
+Majri	30.268	76.782
+Majri	30.374	77.190
+Majri	30.393	77.012
+Majri	30.412	77.363
+Majri	30.699	76.872
+Majri Doda	28.164	76.699
+Majri Kalan	30.133	76.727
+Majri Khurd	30.129	76.726
+Majri Satan	30.819	76.879
+Majura	29.690	76.842
+Makha	29.879	74.894
+Makhala	29.937	77.146
+Makhali	29.942	77.157
+Makhand	29.429	76.108
+Makhaur	30.286	77.263
+Makhsuspur	28.080	76.053
+Makhu Majra	29.783	77.055
+Makhu Sharan	29.378	75.170
+Makrana	28.495	76.271
+Makrani	28.514	76.276
+Makrauli Kalan	28.950	76.644
+Makrauli Khurd	28.935	76.640
+Makula Ka Bas	27.834	77.103
+Malab	28.037	77.012
+Malak	30.785	76.912
+Malakpur	29.039	75.988
+Malakpur	29.079	77.108
+Malakpur	29.274	76.159
+Malakpur	29.473	76.665
+Malakpur	29.523	76.949
+Malakpur	29.541	77.044
+Malakpur	29.888	76.399
+Malakpur	30.013	76.812
+Malakpur	30.043	76.635
+Malakpur	30.160	76.840
+Malakpur	30.315	77.351
+Malakpur	30.346	76.987
+Malakpura	29.822	74.798
+Malapur	29.226	75.588
+Malar	29.369	76.579
+Malaur	30.281	76.654
+Malcha	28.949	77.008
+Malehra	28.251	76.727
+Malerna	28.301	77.324
+Malesiawas	28.403	76.519
+Malha Majra	28.897	77.034
+Malhaka	28.200	76.986
+Malhasingh ka Farm	28.213	77.512
+Mali Majra	30.138	77.376
+Mali Majra	30.195	77.129
+Mali Majra	30.250	77.460
+Mali ka Bagh	28.227	76.966
+Maliaki	28.362	76.655
+Maliawas	28.547	76.395
+Malibas	27.813	76.990
+Malikpur	28.638	76.480
+Malikpur	30.159	77.058
+Malikpur Khadir	30.271	77.451
+Maliyon ki Dhani	28.462	75.814
+Maliyon ki Dhani	28.464	75.875
+Malkarh	30.400	77.331
+Malkos	28.792	76.308
+Malkpur	30.294	77.220
+Malla	30.771	76.992
+Mallahka	27.838	77.115
+Mallehka	29.435	74.881
+Mallhar	29.579	75.449
+Malothi	30.695	77.140
+Malpura	28.226	76.800
+Malsari	29.256	76.545
+Malu ki Dhani	28.339	77.284
+Maluka	27.959	77.187
+Malwa	30.201	76.761
+Malwala	29.732	75.410
+Malwas	28.733	76.062
+Malwas Kohar	28.740	76.030
+Malwi	29.099	76.339
+Mamal	30.734	77.093
+Mamduwas	30.374	77.588
+Mamera	29.466	74.710
+Mamlika	27.866	77.131
+Mamun Majra	30.170	76.827
+Mamunpur	29.746	75.829
+Manak Diwan	29.401	75.114
+Manak Majra	29.865	76.927
+Manak Majra	29.883	77.006
+Manak Mazra	29.196	76.961
+Manak Tabra	30.608	77.003
+Manakpur	29.607	75.384
+Manakpur	30.195	77.325
+Manakpur	30.330	77.386
+Manakpur	30.332	77.202
+Manakpur	30.421	76.758
+Manakpur	30.466	77.155
+Manakpur	30.497	77.068
+Manakpur	30.789	76.867
+Manakpur Devilat	30.796	76.903
+Manakpur Khas	30.795	76.902
+Manakpur Thakur Das	30.798	76.892
+Manana	29.264	76.992
+Manas	29.821	76.336
+Manauli	28.908	77.181
+Manawali	29.481	75.392
+Manbharwala	30.223	77.450
+Mand Kheri	30.228	77.337
+Manda Kheri	29.346	76.378
+Mandahran	30.086	76.626
+Mandapur	27.791	76.985
+Mandauli	30.086	77.324
+Mandaura	28.887	76.997
+Mandauri	28.879	76.995
+Mandauthi	28.708	76.819
+Mandawali Gujar	30.165	77.414
+Mandebar	30.122	77.235
+Mandebri	30.142	77.232
+Mandhan	28.794	75.729
+Mandhana	28.913	76.114
+Mandhaoli	28.349	77.421
+Mandhar	29.992	77.197
+Mandhar	30.252	77.261
+Mandhaur	30.403	76.809
+Mandheri	30.175	76.741
+Mandhia Kalan	28.191	76.659
+Mandhia Khurd	28.263	76.541
+Mandhna	30.721	76.985
+Mandholi Lakhlan	28.722	75.631
+Mandi	28.044	76.117
+Mandi	28.597	76.282
+Mandi	28.781	76.774
+Mandi	28.894	76.580
+Mandi	29.246	76.896
+Mandi	29.369	75.892
+Mandi	29.926	76.385
+Mandi	30.050	76.702
+Mandi	30.100	77.351
+Mandi	30.665	77.117
+Mandi Bhattu Kalan	29.386	75.345
+Mandi Harya	28.540	76.026
+Mandi Kalan	29.576	76.304
+Mandi Kehar	28.541	76.019
+Mandi Khurd	29.421	76.432
+Mandi Piranu	28.526	76.014
+Mandi Siwani	28.909	75.604
+Mandikhera	27.896	76.992
+Mandkaul	28.216	77.356
+Mandkaula	28.138	77.180
+Mandlana	28.096	76.089
+Mandokhra	30.083	76.947
+Mandola	28.231	76.373
+Mandola	28.522	76.211
+Mandoli	28.536	76.224
+Mandton	30.611	77.064
+Mandwal	29.585	76.536
+Mandya	28.971	77.187
+Maneharu	28.707	76.221
+Manfara	28.586	75.772
+Mangal ka Bara	29.485	77.078
+Mangali	29.042	75.737
+Mangalpur	29.511	76.073
+Mangalpur	29.719	77.021
+Mangat Majra	30.378	77.180
+Mangauli Rangharan	30.136	77.015
+Mangawas	28.672	76.545
+Mangiyana	29.923	74.797
+Manglai	30.308	76.910
+Manglaur	30.385	77.303
+Manglaur	30.482	77.066
+Manglaura Qadim	29.614	77.090
+Mangleshar	28.074	76.634
+Mangna	29.958	76.495
+Mangniwala	30.744	76.969
+Mangouli Jattan	30.129	77.034
+Mangwaki	28.359	76.679
+Manipur	30.316	77.389
+Manirpur	29.969	76.971
+Manjhaoli	28.371	77.473
+Manjhauli	30.660	77.113
+Manjhla	29.867	76.269
+Manka	30.228	77.146
+Mankan	30.635	76.902
+Mankawas	28.574	76.343
+Mankawas	28.619	76.180
+Manki	30.233	77.145
+Mankraula	28.504	76.901
+Manmaria Ahir	28.206	76.467
+Manmaria Ashpur	28.211	76.473
+Manmaria Thethar	28.200	76.465
+Manoharpur	29.348	76.401
+Manoharpur	29.831	77.071
+Manoli	30.651	77.083
+Manpur	27.986	77.281
+Manpur	28.252	76.341
+Mansapur	30.141	77.210
+Mansar Bas	28.730	75.896
+Mansurpur	30.082	77.135
+Mansurpur	30.205	77.174
+Mansurpur	30.238	76.819
+Manu Majra	30.150	77.050
+Manuata	27.799	77.127
+Maraudhi Jatan	28.836	76.525
+Maraudhi Rangharan	28.834	76.523
+Marauli	27.965	77.377
+Marchheri	30.046	76.931
+Mardanheri	29.528	76.573
+Mardaun	30.249	76.776
+Marhi	27.959	77.013
+Markanda Majra	30.063	76.607
+Marog	30.723	77.043
+Maroli	28.009	76.013
+Marora	27.910	77.057
+Marot	28.591	76.543
+Maru Haldari	30.204	77.419
+Marupur	30.032	77.258
+Marwa Khurd	30.294	77.262
+Maryaka	27.863	77.286
+Masana	30.058	76.888
+Masana Jattan	30.132	77.127
+Masana Rangharan	30.131	77.140
+Masani	28.205	76.733
+Masaudpur	29.228	75.976
+Masimal	30.228	77.242
+Masit	28.293	76.439
+Masitan	29.886	74.720
+Masiyun	30.658	77.078
+Masol	30.832	76.845
+Mastgarh	29.961	76.251
+Masudpur	28.202	77.464
+Masudpur	28.752	76.514
+Masumpur	30.598	77.078
+Masyungri	30.663	77.136
+Matak Majra	30.010	76.971
+Matan	28.691	76.780
+Matana	29.480	75.480
+Matanhel	28.579	76.470
+Matani	28.731	75.564
+Matarsham	29.176	75.596
+Mataur	29.621	76.269
+Mataur	30.737	77.002
+Math Daduka	29.816	74.765
+Mathana	29.976	76.956
+Mathana	30.632	77.115
+Mathanwali	30.663	76.909
+Matheri	30.278	76.725
+Matheri	30.335	76.774
+Mathind	29.257	76.695
+Matilewala	29.461	74.976
+Matnauli	29.266	77.103
+Mau	27.977	76.992
+Mau	28.242	76.771
+Mau	30.630	77.133
+Mauhala	28.847	75.623
+Mauhliwala	30.586	77.113
+Mauja Khera	29.481	74.738
+Maujgarh	29.859	74.726
+Maujgarh	30.222	77.026
+Maujpur	28.288	77.437
+Maukalwaswali Dhani	28.320	76.865
+Mauli	30.529	76.977
+Mauli	30.692	76.827
+Mauzamabad	28.301	76.691
+Mauzamabad	28.374	77.484
+Mawai	28.435	77.332
+Mawai	29.127	76.886
+Mawai Drain	28.422	77.400
+Mawas	30.691	76.963
+Mawwai	29.041	76.720
+Mayan	28.216	76.418
+Mazra Khan Ahmadpur	30.183	77.202
+Medpur	28.118	76.515
+Megha Majra	30.090	76.713
+Megha Mazra	29.930	76.246
+Meghowala	30.337	77.462
+Mehandipur	28.679	76.841
+Meharwala	30.613	77.127
+Mehgran	30.106	76.413
+Mehlanwali	30.205	77.276
+Mehmudpur	28.379	77.434
+Mehnda	29.047	76.061
+Mehnda Dhani	29.039	76.069
+Mehndipur	29.045	77.118
+Mehr Majra	30.158	77.397
+Mehra	30.035	77.073
+Mehrana	28.557	76.324
+Mehrar	30.642	77.111
+Mehrara	29.165	76.482
+Mehunwala	29.410	75.319
+Mehwa Kheri	30.333	77.098
+Melawas	28.181	76.522
+Meoka	28.409	76.917
+Meola Maharajpur	28.442	77.303
+Meoli	29.816	76.568
+Meoli Kalan	28.040	76.970
+Meoli Khurd	28.032	76.963
+Metlan	30.232	76.648
+Mian Majra	30.239	76.662
+Mianpur	30.367	77.279
+Mianpur	30.509	77.159
+Milak Dhankutan	30.238	77.159
+Milak Khas	30.331	77.321
+Milak Majra	30.208	77.199
+Milak Shekhan	30.199	77.074
+Milak Sukhi	30.240	77.264
+Milakpur	28.321	76.738
+Milk	30.490	77.118
+Milk Jhabalian	30.452	77.226
+Milk Raipur	30.330	77.269
+Milkgani	28.149	77.390
+Mimarpur	29.083	77.132
+Mingnikhera	29.184	75.567
+Mirakpur	28.988	77.168
+Miran	28.844	75.734
+Miranpur	28.212	77.300
+Miranpur Bakhskiwale	30.771	76.933
+Mirapur	30.163	76.673
+Mirch	28.648	76.262
+Mirchiwali Dhani	28.473	76.883
+Mirchpur	29.311	76.180
+Mirka	29.078	75.760
+Mirpur	28.090	76.267
+Mirpur	28.246	76.693
+Mirpur	29.337	75.638
+Mirpur	30.231	77.327
+Mirpur	30.492	77.096
+Mirpur	30.615	77.057
+Mirzapur	28.326	76.743
+Mirzapur	28.360	77.358
+Mirzapur	29.194	75.815
+Mirzapur	29.324	77.133
+Mirzapur	29.954	76.795
+Mirzapur	30.278	76.779
+Mirzapur	30.404	77.132
+Mirzapur	30.418	77.278
+Mirzapur Kheri	29.065	76.626
+Misri	28.670	76.281
+Mitathal	28.882	76.182
+Miter ki Dhani	28.248	76.797
+Mithaka	27.983	77.224
+Mithanpur	29.408	74.654
+Mithapur	30.314	76.938
+Mithi	28.708	75.589
+Mithi ki Dhani	28.935	75.594
+Mithri	29.847	74.826
+Mitnaul	28.028	77.337
+Moana	29.438	76.570
+Mochiwali	29.476	75.255
+Mochiwali	29.488	75.676
+Modakhera	29.213	75.425
+Model Town	28.892	76.612
+Model Town	28.983	77.026
+Model Town	29.134	75.744
+Model Town	29.388	76.959
+Model Town	30.007	77.227
+Model Town	30.149	76.686
+Modhli	30.123	77.192
+Modhuwala	30.197	77.316
+Modi	29.780	74.705
+Modia Khera	29.437	74.965
+Moghal Mazra	29.747	77.097
+Moginand	30.673	76.890
+Mogra	30.087	77.076
+Mohal Khera	29.624	76.136
+Mohali	29.408	77.043
+Mohalra	28.195	76.297
+Mohan Bari	28.479	76.395
+Mohana	29.034	76.862
+Mohangarh	29.419	76.295
+Mohanpur	28.056	76.506
+Mohanpur	30.044	76.509
+Mohanpur	30.118	76.430
+Mohanpur	30.144	76.836
+Moharsingh ki Haveli	27.995	77.374
+Mohayuddinpur Thirana	29.413	76.834
+Mohena	28.224	77.447
+Mohiuddinpur	29.648	77.079
+Mohiuddinpur	30.207	76.832
+Mohiyapur	28.238	77.467
+Mohna	29.775	76.595
+Mohra	30.268	76.851
+Mohri	30.016	77.221
+Mohri	30.248	76.851
+Mohri	30.265	76.754
+Mohri	30.330	77.305
+Mokalwas	28.331	76.883
+Mokhra Khas	28.888	76.429
+Molhaka	27.876	77.038
+Molhawas	28.180	76.685
+Mone Majra	30.443	77.102
+Mor Majra	29.479	76.787
+Mor Tikri	30.634	76.888
+Mori	28.235	76.331
+Mori	28.537	76.277
+Mori	30.654	77.146
+Morka	28.706	75.557
+Morkheri	28.857	76.799
+Morkhi	29.277	76.535
+Morni	30.687	77.089
+Morthala	30.050	76.917
+Morthali	29.994	76.573
+Morwala	28.638	76.404
+Mota Majra	30.333	76.763
+Moth Colonel Sahib	29.231	76.075
+Moth Rangharan	29.229	76.075
+Mothsara	29.262	75.569
+Mothuka	28.290	77.460
+Mothuwali Dhani	28.313	76.829
+Motia	29.757	76.826
+Motipura	28.805	75.554
+Motisingh ki Dhani	28.406	76.749
+Motla Kalan	28.302	76.468
+Motla Khurd	28.289	76.471
+Mozmabad	28.433	77.413
+Muazzamnagar	28.969	76.816
+Mubarakpur	28.480	76.831
+Mubarikabad	29.582	77.010
+Mubarikpur	27.885	77.202
+Mubarikpur	28.403	76.544
+Mudhi	29.789	76.772
+Mugalwali	30.394	77.327
+Mughal Majra	30.141	76.801
+Mughal Majra	30.513	77.151
+Mughalpura	29.511	75.868
+Mugimpura	29.968	76.691
+Muhabaliwala	30.313	77.432
+Muhabbatpur	29.218	75.446
+Muhabbatpur ki Dhani	29.226	75.449
+Muhaiuddinpur	30.400	77.437
+Muhammad Khera	29.418	76.462
+Muhammadabad	28.918	76.998
+Muhammadbas	27.868	76.973
+Muhammadheri	28.501	76.990
+Muhammadki	29.762	75.437
+Muhammadnagar	27.916	77.040
+Muhammadpur	28.011	77.451
+Muhammadpur	28.029	76.957
+Muhammadpur	28.099	76.549
+Muhammadpur	28.288	76.281
+Muhammadpur	28.417	76.989
+Muhammadpur	29.454	76.941
+Muhammadpur	29.460	75.566
+Muhammadpur	29.495	74.989
+Muhammadpur	29.719	77.096
+Muhammadpur	30.160	77.074
+Muhammadpur	30.243	77.298
+Muhammadpur	30.441	77.236
+Muhammadpur Ahir	28.275	76.969
+Muhammadpur Majra	28.632	76.567
+Muhammadpur Majra	29.140	76.908
+Muhammadpur Nuh	27.930	77.124
+Muhammadpur Sotar	29.629	75.645
+Muhammadwas	27.842	77.066
+Muhiuddinpur	29.760	77.109
+Muhummadpur	28.445	76.849
+Muizzuddin	29.457	74.888
+Mujafat Kalan	30.303	77.473
+Mujafat Khurd	30.316	77.467
+Mujahidwala	30.233	77.475
+Mujeri	28.338	77.359
+Mukam	30.190	76.995
+Mukand Majra	30.275	77.120
+Mukandpur	28.741	76.945
+Mukandpur	30.460	76.995
+Mukandpur Basi	28.121	76.698
+Mukandpura	28.047	76.004
+Mukarpur	30.001	76.926
+Mukarrampur	30.123	77.383
+Mukhtyaryingh ka Plot	30.063	76.541
+Muklan	29.068	75.661
+Mulana	30.276	77.048
+Mullahera	28.505	77.067
+Mullapur	30.108	76.439
+Multhan	27.965	76.952
+Multhan Ka Bas	27.975	76.968
+Mumida	30.113	77.284
+Mumidi	30.115	77.253
+Muminpur	30.416	77.092
+Mumtazpur	28.288	76.785
+Mumtazpura	28.423	76.366
+Munak	29.519	76.850
+Munarheri	29.742	76.638
+Munda Khera	29.975	76.753
+Munda Khera	30.212	77.328
+Munda Majra	30.131	77.302
+Mundahal Kalan	29.014	76.170
+Mundahal Khurd	29.021	76.176
+Mundahra	28.513	76.508
+Mundakhera	28.518	76.845
+Mundakhera	30.330	77.284
+Mundh	29.517	76.548
+Mundhalia	28.249	76.651
+Mundheta	27.898	77.139
+Mundhra	28.379	76.555
+Mundi	28.246	76.487
+Mundiakhera	28.191	76.691
+Mundlana	29.204	76.765
+Mundri	29.779	76.506
+Mundsa	28.546	76.478
+Mungan	28.928	76.769
+Munimpur	28.534	76.751
+Munir Gadhi	28.094	77.381
+Munshiwali	29.660	75.596
+Muqaribpur	30.207	77.322
+Muqaribpur	30.339	77.439
+Muqimpur	28.999	77.124
+Murad Bas	28.068	76.988
+Murad Ka Bas	27.853	76.935
+Muradgarh	29.861	77.078
+Muradnagar	29.954	77.091
+Muradnagar	30.627	77.034
+Muradpur	30.273	77.146
+Muradpur Tekna	28.878	76.455
+Muradpuri	28.181	76.682
+Muriazabad	27.978	77.513
+Murlipur	28.368	76.504
+Murtazapur	29.982	76.667
+Murthal	29.040	77.093
+Musakhera	29.734	75.708
+Musapur	28.306	76.514
+Musapur	29.885	77.152
+Musepurwali Dhani	28.312	76.859
+Mushaidpur	28.451	76.753
+Mustafaabad	28.066	77.469
+Mustafabad	29.644	77.109
+Mustafapur	28.292	76.607
+Muzadpur	28.978	75.872
+Muzafat Bhagsingh	30.356	77.350
+Muzaffara	30.295	76.709
+Muzaffra	28.335	76.717
+Nabh	30.171	77.353
+Nabipur	29.728	77.111
+Nabipur	30.481	77.146
+Nachar Khera	29.463	76.046
+Nachauli	28.414	77.398
+Nachraun	30.015	77.184
+Nadah	30.693	76.890
+Nadhauri	29.568	75.656
+Naga	28.090	76.260
+Nagal	29.828	77.161
+Nagal	29.888	76.278
+Nagal	30.065	77.269
+Nagal	30.072	77.129
+Nagal	30.238	76.707
+Nagal	30.322	76.869
+Nagal	30.360	77.289
+Nagal	30.410	77.003
+Nagal	30.593	76.951
+Nagal	30.670	76.904
+Nagal	30.679	76.907
+Nagal Majra	30.339	76.972
+Nagal Patti Milak	30.309	77.523
+Nagalia	28.236	77.525
+Nagar	29.127	76.726
+Nagauli	30.515	77.095
+Nagawan	30.121	76.390
+Nagla	27.882	77.282
+Nagla	28.282	77.460
+Nagla	28.493	76.739
+Nagla	29.423	77.056
+Nagla	29.432	77.074
+Nagla	30.183	76.826
+Nagla	30.251	76.952
+Nagla	30.289	77.167
+Nagla	30.376	77.142
+Nagla	30.392	76.951
+Nagla	30.396	77.425
+Nagla Ahsanpur	27.997	77.321
+Nagla Bhikhu	28.226	77.264
+Nagla Farm	29.642	77.055
+Nagla Gujran	28.361	77.267
+Nagla Jagir	30.261	77.222
+Nagla Jat	28.025	77.470
+Nagla Joglan	28.281	77.280
+Nagla Kashipur	28.009	77.487
+Nagla Majra	30.286	77.153
+Nagla Megha	29.623	77.066
+Nagla Rozan	29.813	77.079
+Nagla Sadhan	30.108	77.155
+Nagla Singar	27.845	77.251
+Naglah	28.108	76.974
+Nagli	28.059	77.462
+Nagli	30.370	77.312
+Nagoki	29.655	75.117
+Nagpur	29.656	75.421
+Nagtihari	28.088	76.114
+Naguwala	30.213	77.440
+Nahakheri	28.520	76.984
+Nahan Kothi	30.675	76.857
+Nahar	28.410	76.398
+Nahar Majra	30.208	76.816
+Naharika	27.821	77.019
+Naharpur	27.887	77.182
+Naharpur	28.183	76.916
+Naharpur	30.056	77.282
+Naharpur Kasan	28.377	76.934
+Nahartaharpur	30.262	77.384
+Nahla	29.441	75.740
+Nahra	28.879	77.014
+Nahra	30.188	77.083
+Nai	27.829	77.276
+Nai Basti	28.700	76.924
+Nai Nagla	27.889	77.026
+Nai Nagla	28.033	77.461
+Naihada	27.813	77.229
+Nainan	29.797	76.537
+Nainan Tatarpur	29.059	76.874
+Nainawala	30.276	77.518
+Nainsukhpura	28.298	76.564
+Nainwal	28.336	76.949
+Naisi	30.078	76.641
+Naiwala	30.427	77.307
+Nakanpur	27.866	77.205
+Nakatpur	30.256	76.625
+Nakhrauli	30.343	77.103
+Nakhrola	27.998	77.423
+Nakhrujpur	30.101	77.042
+Nakkipur	28.572	75.736
+Nakloi	28.964	76.880
+Nakta	29.624	75.383
+Nala Balog	30.783	76.978
+Nalagarh ka Majra	30.174	77.284
+Naloi	28.944	75.535
+Nalvi	30.177	76.779
+Nalvi Chhoti	30.195	76.784
+Nalvi Kalan	29.699	77.090
+Nalvi Khurd	29.706	77.098
+Nalvipar	29.681	77.115
+Nalvipar	29.685	77.097
+Namdarpur	30.188	77.139
+Nami Barauli	30.493	77.105
+Namonda	29.242	76.945
+Nan Chauk	30.043	76.838
+Nanakpura	29.944	76.628
+Nanaksar	29.521	75.330
+Nand Karan Majra	29.656	76.475
+Nand Singhwala	29.819	76.227
+Nandal	29.066	76.498
+Nandgaon	28.677	76.112
+Nandgarh	30.052	76.299
+Nandgarh	30.207	77.416
+Nandha	28.192	76.414
+Nandha	28.450	75.941
+Nandha ki Dhani	28.444	75.929
+Nandi	29.921	77.121
+Nandnora	29.032	77.135
+Nandrampur Bas	28.154	76.782
+Nanduwali	30.352	77.111
+Naneola	30.255	76.573
+Nangal	27.801	76.988
+Nangal	28.075	77.382
+Nangal	28.266	76.815
+Nangal	28.283	76.279
+Nangal	28.338	76.408
+Nangal	28.552	75.663
+Nangal	28.729	76.203
+Nangal	29.017	77.088
+Nangal Jat	27.943	77.282
+Nangal Kalan	28.900	77.135
+Nangal Mubarikpur	27.887	76.961
+Nangal Ogra	28.019	76.569
+Nangal Pathani	28.360	76.498
+Nangal Plot Fourteen	30.054	76.531
+Nangal Sabha	27.897	77.254
+Nangal Shahpur	27.977	77.047
+Nangal Teju	28.018	76.563
+Nangalia Ranmokh	28.320	76.630
+Nanganwan	28.538	76.425
+Nanghawali Dhani	28.317	76.830
+Nangla	28.208	76.452
+Nangla	28.377	75.907
+Nangla	28.629	75.996
+Nangla	29.614	75.889
+Nangli	28.043	76.615
+Nangli	29.603	75.905
+Nangli Godha	28.167	76.551
+Nangthala	29.326	75.709
+Nanhari	30.452	77.281
+Nanhera	29.875	77.089
+Nanhera	30.439	77.157
+Nanheri	29.667	75.689
+Nanopur	30.757	76.989
+Nanu Kalan	28.271	76.741
+Nanu Khurd	28.285	76.719
+Nanuka	28.159	76.934
+Nanwan	28.378	76.012
+Naodi	28.066	76.335
+Naoli	27.860	76.948
+Nara	29.341	76.155
+Naraena	29.269	76.950
+Narah	29.393	76.760
+Narail Kalan	29.539	75.263
+Naraingarh	29.769	76.064
+Narainpur	28.185	76.562
+Narana	29.252	76.451
+Narani	29.259	76.418
+Narani	29.353	76.509
+Narar	29.776	76.460
+Narawala	30.739	76.989
+Narayangarh	30.091	77.213
+Narayangarh	30.108	76.950
+Narayangarh	30.239	76.933
+Narayankhera	29.414	75.213
+Narayanpur	30.601	77.037
+Narhali	28.266	77.421
+Narhera	28.328	76.803
+Narkatari	29.966	76.800
+Narsinghpur	28.413	76.994
+Narsinghpurgarhi	28.093	76.506
+Narsinghwas	28.653	76.118
+Narwal	29.596	76.465
+Narwar	30.680	77.062
+Naryala	27.808	76.994
+Naryala	28.252	77.418
+Naryana	29.766	76.887
+Nasan	29.624	76.254
+Nasarpur	28.487	77.359
+Nasdoli	30.406	76.946
+Nasharpur	28.943	76.591
+Nasibpur	28.081	76.106
+Nasirbas	27.843	76.959
+Nasirpur	29.687	77.115
+Nasirpur	30.356	76.761
+Nasirpur Bangar	28.936	77.022
+Nasirpur Cholka	28.910	76.892
+Nasirpur Khadar	29.068	77.109
+Nasirpuri	27.888	77.138
+Nat ki Dhani	28.197	76.937
+Nathan	30.675	77.091
+Nathanpur	30.207	77.444
+Nathanpur	30.422	77.315
+Nathera	28.398	76.466
+Nathori	29.932	77.132
+Nathupur	28.897	77.098
+Nathusari Chopta	29.371	75.126
+Nathusiri Kalan	29.351	75.127
+Nathuwal	29.743	75.803
+Nathuwas	28.817	76.183
+Nathwan	29.674	75.611
+Nathwana	29.117	75.602
+Natwal	30.507	76.955
+Nauganwa	30.404	77.024
+Nauganwa	30.434	77.098
+Naugawan	30.170	77.363
+Naugawan Chak Phala	30.171	77.360
+Naultha	29.308	76.901
+Naurah	29.418	76.918
+Naurang	29.929	74.923
+Naurangabad	28.803	76.230
+Naurangawas	28.440	76.096
+Naurangpur	28.355	76.970
+Naurta	29.854	77.035
+Naushahra	30.382	77.243
+Nautki	27.931	76.947
+Nawa Bas	29.448	74.714
+Nawach	29.932	76.453
+Nawada	28.392	77.272
+Nawada	28.520	76.551
+Nawada	29.407	77.112
+Nawada	29.437	77.118
+Nawada Fatehpur	28.394	76.941
+Nawada Tigaon	28.343	77.378
+Nawagaon	29.431	75.888
+Nawalgarh	27.857	77.318
+Nawan Shahr	30.302	77.200
+Nawangaon	30.446	77.294
+Nawannagar	30.902	76.803
+Nawi Gadhauli	30.201	77.190
+Naya Bans	29.166	76.942
+Naya Dinwana	30.054	76.474
+Naya Khanda	28.942	76.908
+Naya Salempur	30.168	76.936
+Naya Segti	30.210	76.713
+Naya Tahna	28.303	76.610
+Nayabas	28.796	76.793
+Nayagaon	28.247	76.623
+Nayagaon	28.421	76.310
+Nayagaon	28.580	76.650
+Nayagaon	28.666	76.907
+Nayagaon	29.397	76.772
+Nayagaon	30.123	77.352
+Nayagaon	30.229	76.639
+Nayagaon	30.521	76.941
+Nayan	29.316	76.787
+Nehchana	28.108	76.564
+Nehra	29.609	75.993
+Neknanwan	30.389	77.088
+Neolah	28.426	76.587
+Nepewala	29.754	76.147
+Nethla	29.006	77.205
+Netram ki Dhani	28.558	75.631
+Nevla	30.002	76.373
+New Colony	28.188	76.618
+Newal	29.726	77.056
+Nezakhera	29.464	75.082
+Niamatpur	30.230	76.621
+Nibwa	30.602	76.912
+Nidana	29.009	76.376
+Niganah	28.778	76.436
+Niganiawas	28.169	76.724
+Nigdhu	29.838	76.738
+Nigrana	29.492	74.783
+Nihalgarh	28.508	76.072
+Nihaoni	30.306	77.016
+Niharsa	30.228	76.658
+Niharsi	30.215	76.649
+Nikhatia	29.590	75.343
+Nikhri	28.186	76.730
+Nikka Siana	30.027	76.536
+Nikuran	29.437	76.374
+Nikuwana	29.740	75.628
+Nilaheri	28.490	76.516
+Nilanwali	29.896	74.798
+Nilothi	28.810	76.875
+Nimana	28.524	76.784
+Nimari	28.795	76.321
+Nimaut	28.271	76.367
+Nimbri	29.382	77.031
+Nimbri	29.669	75.478
+Nimer	28.488	75.988
+Nimka	27.876	77.312
+Nimka	28.358	77.373
+Nimkhera	27.801	77.106
+Nimli	28.575	76.415
+Nimriwali	28.716	76.141
+Nimwala	29.605	76.446
+Nimwala	30.008	76.467
+Ninan	28.798	76.180
+Nindgaon	28.076	77.420
+Niranah	28.960	76.488
+Nirhan	29.398	75.047
+Nirjan	29.336	76.372
+Nirthan	28.955	76.889
+Nishnash	30.729	77.038
+Nitar	29.496	75.003
+Niwana	27.858	77.159
+Niwarsi	30.003	77.020
+Niwazpur	28.112	76.092
+Niyana	29.167	75.849
+Nizampur	28.210	76.920
+Nizampur	29.230	76.506
+Nizampur	29.446	76.984
+Nizampur	30.389	76.730
+Nizampur	30.459	77.193
+Nizampur Khurd	28.829	76.965
+Nizampur Majra	28.983	76.807
+Nohrana	29.385	75.206
+Nonond	28.849	76.719
+Nosowa	28.442	76.279
+Nova	28.925	76.490
+Nunamajra	28.672	76.872
+Nuni Avval	28.074	76.114
+Nunsar	28.675	75.739
+Nuran Khera	29.203	76.584
+Nurgarh	28.360	76.674
+Nurhad	30.331	77.128
+Nurpur	28.145	76.959
+Nurpur	28.289	76.640
+Nurpur	30.226	76.781
+Nurpur Bahora	28.296	76.822
+Nurpur Buchi	30.115	76.696
+Nurpur Gujran	29.325	77.022
+Nurpur Mughlan	29.323	77.023
+Nurwala	29.417	76.988
+Nyoli Kalan	29.186	75.625
+Nyoli Khurd	29.217	75.614
+Obra	28.673	75.765
+Odhan	29.763	74.899
+Odhi	28.061	76.529
+Ogara	30.308	76.803
+Omaidgarh	29.114	77.111
+Omnagar	28.473	76.919
+Othani	28.330	76.288
+Otu	29.499	74.892
+Paban Hasonpur	29.542	76.813
+Pabla	29.872	76.681
+Pabnawa	29.890	76.666
+Pabnera	29.117	77.124
+Pabra	29.415	75.790
+Pabsara	28.927	77.176
+Pachgaon	28.147	76.721
+Pachgaowan	28.183	76.986
+Padainyawas	28.170	76.639
+Padha	29.575	76.780
+Padhaini	28.229	76.988
+Padhana	29.499	76.679
+Padhana	29.816	76.957
+Padla	29.802	76.289
+Padla Shahpur	27.816	76.987
+Padla Shahpur	27.825	76.987
+Padlu	30.192	76.936
+Pahari	27.973	77.252
+Pahari	28.305	76.710
+Pahari	28.563	75.732
+Paharipur	28.627	76.502
+Paharipur	30.396	77.191
+Pahaurka	29.422	74.742
+Pahladgarh	28.736	76.130
+Pahladpur	28.140	77.481
+Pahladpur	28.150	76.564
+Pahladpur	28.247	77.350
+Pahladpur	28.327	77.410
+Pahladpur	28.385	77.346
+Pahladpur	28.810	76.908
+Pahladpur	30.040	77.014
+Pahladpur Khalila	29.290	76.973
+Pahlwan	29.481	76.194
+Pahrajwas	28.361	76.601
+Pahrawar	28.847	76.632
+Pai	28.821	76.900
+Pai	29.704	76.528
+Paimakhera	27.883	77.218
+Paingalthu	27.935	77.416
+Paintawas Kalan	28.637	76.200
+Paintawas Khurd	28.665	76.191
+Paju	28.568	75.675
+Paju Kalan	29.437	76.640
+Paju Khurd	29.438	76.627
+Pakasma	28.873	76.741
+Pakhana	29.794	76.896
+Pakka	29.830	75.080
+Pakka Khera	29.602	76.786
+Palakha	30.077	77.150
+Palasra	30.692	77.042
+Palawala	30.017	77.209
+Paleri	29.455	77.045
+Palhawas	28.357	76.620
+Palhori	30.401	77.452
+Palhuwas	28.807	76.166
+Pali	28.164	76.458
+Pali	29.171	76.080
+Palra	28.997	77.159
+Palri	27.979	77.390
+Palri	28.107	76.983
+Palri	28.431	76.745
+Palri	29.264	76.899
+Palri Kalan	28.980	77.156
+Palri Khurd	28.982	77.154
+Palsar	29.598	75.589
+Paltan	30.781	76.938
+Paltra	28.649	76.532
+Palwal	29.950	76.872
+Palwali	28.433	77.359
+Pamala	28.693	76.944
+Pamuwala	30.445	77.272
+Panauri	29.538	77.019
+Panchaur	28.148	76.708
+Panchgaon	28.316	76.902
+Panchgaon	28.542	75.943
+Panchhi Jatan	29.085	76.981
+Panchtirthi	30.140	77.202
+Pandala	28.342	76.994
+Pandwan	28.606	76.172
+Pane ka Plot	30.066	76.528
+Pangiana	30.749	77.040
+Panhera Kalan	28.257	77.394
+Panhera Khurd	28.268	77.403
+Panhiari	29.352	76.045
+Panihar Chak	29.040	75.605
+Panihari	29.644	75.145
+Paniwali	30.445	77.329
+Paniyana	29.873	74.859
+Panjalasa	30.460	77.121
+Panjatton ka Majra	30.144	77.239
+Panjeton	30.223	77.344
+Panjeton	30.394	77.041
+Panjgirain	29.481	74.978
+Panjhel	30.222	76.927
+Panjokhra	29.905	77.015
+Panjokhra	30.406	76.845
+Panjupura	30.089	77.270
+Panniwali	29.980	74.810
+Panniwali Ruldu	29.883	74.834
+Pansal	30.318	77.218
+Pansra	30.106	77.306
+Panwala Khusropur	28.505	77.002
+Panwan	30.036	76.753
+Panwar	27.993	76.575
+Paoli	29.079	76.450
+Paonta	30.673	77.039
+Paonti	27.981	76.541
+Paonti	30.260	77.114
+Paosar	27.944	77.243
+Paoti	29.232	77.029
+Paplautha	30.294	77.031
+Paploha	30.849	76.905
+Paplu	30.692	77.145
+Papoli	30.461	77.037
+Papra	27.875	77.128
+Papri	27.865	77.118
+Papsar	29.965	76.395
+Para	28.284	76.922
+Parail	30.367	77.031
+Parana	29.248	76.417
+Parasauli	28.261	76.801
+Parasrampur	28.286	77.484
+Paraudiyan Ka Bas	27.867	77.055
+Parbhauli	30.362	77.265
+Parbhauli Malian	30.379	77.273
+Parbhawat	29.898	76.297
+Parbhuwala	29.489	75.904
+Pardhana	29.290	76.796
+Parkhotampur	28.326	76.515
+Parla	28.150	76.381
+Paroli	30.698	77.097
+Parsa ka Nagla	27.960	77.510
+Parta	29.569	75.848
+Partal	28.261	76.296
+Partapgarh	29.990	76.875
+Partapgarh	30.192	76.400
+Partha	29.993	76.209
+Parwala	29.793	76.849
+Parwala	30.636	77.013
+Parwalon	30.138	77.331
+Pasawal	29.886	76.240
+Pasina Kalan	29.311	77.016
+Pasina Khurd	29.316	77.021
+Pastana	29.863	76.740
+Patakhpur	30.054	77.040
+Patakpur	27.879	77.012
+Patakpur	27.948	77.084
+Patakpur Punahana	27.866	77.189
+Patan	27.694	76.899
+Patan	29.099	75.648
+Patanpuri	29.847	76.756
+Patasgarh	30.099	77.246
+Patasni	28.503	76.685
+Patauda	28.404	76.677
+Patehera	29.908	77.100
+Patelnagar	28.881	76.040
+Patelnagar	29.135	75.725
+Pathan Majra	30.281	76.717
+Pathana	28.148	75.995
+Patharheri	28.264	76.895
+Patharheri	30.390	77.032
+Patharheri	30.414	77.030
+Patharwa	28.389	75.939
+Patharwali	28.640	75.991
+Pathrali	27.717	76.973
+Pathri	29.294	76.658
+Pathri	29.328	76.390
+Pathriwali Mai	29.288	76.666
+Patkhori	27.739	76.919
+Patla	28.920	77.139
+Patli	28.416	76.860
+Patli Dabar	29.520	75.280
+Patli Khurd	28.171	77.297
+Patpadwas	27.857	77.195
+Patroti	30.713	77.116
+Patta	30.707	77.082
+Patthargarh	29.442	77.128
+Patti	29.832	74.845
+Patti Brahmanan	29.172	77.069
+Patti Kalvana	29.208	77.028
+Patti Kirpalka	29.483	74.749
+Patuhera	28.098	76.622
+Patuwas	28.563	76.331
+Patwan	28.648	75.591
+Patwapur	28.818	76.500
+Patwapur	28.823	76.480
+Patwi	30.436	76.954
+Pau	30.693	77.097
+Paunti	30.233	77.269
+Payal	28.973	75.699
+Pegan	29.509	76.408
+Pelak	28.141	77.404
+Pelpa	28.535	76.800
+Penjawala	30.618	77.034
+Peoda	29.745	76.419
+Petwar	29.172	76.165
+Pewant	29.631	76.800
+Phadni	28.220	76.701
+Phaggu	29.776	75.125
+Phalel Majra	30.308	76.925
+Phalnari	27.879	77.149
+Phalsanda Jottan	30.120	77.016
+Phalsanda Rangharan	30.104	77.006
+Phaphrala	30.136	76.431
+Phaphunda	28.294	77.390
+Phaprana	29.525	76.679
+Pharain Kalan	29.597	76.033
+Pharain Khurd	29.591	76.021
+Pharal	29.835	76.587
+Pharauli	30.261	76.867
+Pharthol	30.303	77.331
+Phartiya Bhima	28.433	75.852
+Phartiya Kehar	28.434	75.846
+Phartiyatal	28.428	75.833
+Phatia	30.728	77.079
+Pheruwala	30.256	77.311
+Phideri	28.213	76.672
+Phiwari Khera	28.047	77.332
+Phogat	28.731	76.314
+Phoksa	30.141	77.052
+Phul	29.628	75.509
+Phula Singh Tek	29.514	76.641
+Phula ki Dhani	28.520	75.714
+Phulgarhi	28.388	77.262
+Phulia Kalan	29.643	75.998
+Phulia Khurd	29.638	76.009
+Phulka	29.497	75.129
+Phullu	29.949	74.868
+Phulpura	28.808	76.251
+Phulwari	28.071	77.326
+Phurlak	29.558	76.929
+Phusgarh	29.681	77.025
+Phusgarh	29.892	77.052
+Phusgarh	30.147	77.224
+Phusrawala	29.497	74.978
+Piarewala	30.551	77.067
+Picholia	29.599	76.868
+Pichopa Kalan	28.532	76.076
+Pichopa Khurd	28.532	76.058
+Pidhal	30.004	76.350
+Pilanah	28.710	76.392
+Pilchian	29.763	75.419
+Pilimadauri	29.387	75.252
+Pilkhani	30.367	76.952
+Pilkhanwala	30.385	77.288
+Pilni	29.730	76.506
+Pilu Khera	29.335	76.488
+Pinana	29.063	76.827
+Pindari	29.309	76.367
+Pindarsi	29.922	76.695
+Pingala	29.615	76.613
+Pinghal	29.312	75.886
+Pingli	29.663	76.929
+Pingor	28.006	77.397
+Pinjaura	30.262	77.210
+Pinjauri	30.268	77.199
+Pinjola	30.263	76.614
+Pinjupura	29.655	76.232
+Pipalghati	30.880	76.899
+Pipaliwala	30.426	77.318
+Pipaliwala Town	30.721	76.838
+Pipaltheh	29.760	76.097
+Pipalwali	29.615	77.036
+Pipli	28.861	76.938
+Pipli	29.857	74.892
+Pipli	29.978	76.893
+Pipli Khera	29.096	77.067
+Pipli Majra	30.061	76.716
+Pipli Majra	30.260	77.441
+Piproli	27.833	77.159
+Pir Bidauli	29.567	77.101
+Pir Garhi	28.026	77.490
+Pir Machhela	30.663	76.864
+Pir Majra	30.140	77.227
+Pir Majra	30.528	77.074
+Piragpura	28.135	76.525
+Piranpur	27.993	76.558
+Piranwali	29.179	75.662
+Pirthala	28.233	77.292
+Pirthala	29.599	75.854
+Pirthipur	30.356	77.382
+Pirthipura	28.399	76.629
+Piruwala	30.276	77.294
+Pirwala	30.439	77.279
+Pitampura	28.908	77.101
+Pithanwas	28.128	76.686
+Pithaurpuri	27.909	77.000
+Pithrawas	28.181	76.518
+Plani	30.717	77.110
+Plot Five	30.001	76.534
+Plot Four	30.001	76.521
+Plot One	30.042	76.472
+Plot Six	30.035	76.528
+Plot Three	30.002	76.515
+Plot Three	30.033	76.501
+Plot Two	30.004	76.504
+Plot Two	30.038	76.468
+Pobala	29.907	76.560
+Pohakarwas	28.622	75.895
+Pohkar Kheri	29.255	76.234
+Pol	27.836	76.954
+Polangi	28.949	76.759
+Polar	29.934	76.356
+Pondusar	29.315	74.976
+Popra	29.460	76.494
+Potli	29.990	77.146
+Prabhuwala	29.066	76.200
+Pranpura	28.230	76.492
+Pratapbas	27.990	77.062
+Pratapgarh	28.338	77.291
+Pratapgarh	28.683	75.953
+Pratappur	28.032	76.576
+Premnagar	28.371	76.869
+Premnagar	28.486	77.308
+Premnagar	28.875	76.105
+Premnagar	29.693	76.965
+Premnagar	30.088	76.475
+Premnagar	30.187	76.973
+Premnagar	30.368	76.787
+Prempura	30.808	76.850
+Prithipur	28.079	76.264
+Pritnagar	30.156	77.186
+Pritnagar	30.753	77.033
+Ptr Makhdum	29.813	76.359
+Pudarath Khera	29.800	76.104
+Pugthala	29.186	76.878
+Pujam	29.853	76.915
+Pundrak	29.718	76.940
+Pundri	29.479	77.027
+Punnusa	29.462	74.801
+Punsika	28.148	76.518
+Pur	28.952	76.090
+Pur Khas	29.109	76.946
+Purangarh	30.053	77.095
+Purani Mandi	28.034	76.103
+Puranpura	28.759	76.177
+Purawali	29.410	74.961
+Purbaya Majra	29.487	76.792
+Purbayakhera	29.468	76.805
+Purewali	29.055	75.963
+Purvpatti Purwian	29.996	77.147
+Pushiala	30.231	76.946
+Puthar	29.219	76.869
+Puthi	29.062	76.699
+Puthi Mangal Khan	29.033	75.941
+Puthi Seman	29.077	76.263
+Puthli	27.907	77.046
+Pyau Maniyari	28.883	77.119
+Pyog	30.692	77.109
+Qadirpur	30.751	76.997
+Qatlupur	28.842	77.032
+Qawi	29.435	76.781
+Qazibas	30.165	77.143
+Qubulpur	28.760	76.576
+Qureshipur	28.343	77.251
+Qutabpur	29.765	76.344
+Qutabpur Maula	28.196	76.605
+Qutbpur	29.122	75.908
+Rabna	28.154	76.991
+Rabrah	29.081	76.721
+Radauri	30.044	77.142
+Radhana	29.282	76.381
+Raepur	29.148	75.823
+Raepur	29.624	75.610
+Raghar Majra	30.235	77.438
+Raghunathpura	28.015	76.561
+Raghunathpura	28.074	76.070
+Rahawar	30.565	76.966
+Raheri	28.209	76.980
+Rahimpur	28.096	77.463
+Rahmana	29.101	76.899
+Rahna	30.587	77.069
+Rahpwa	27.914	77.106
+Rahrana	28.104	77.320
+Rai	28.942	77.097
+Rai Tikhana	29.945	77.010
+Raianwala	30.323	77.340
+Raianwala	30.330	77.342
+Raidaska	28.036	77.408
+Raila	30.677	76.860
+Raili	30.678	76.854
+Railway Colony	30.703	76.830
+Raimal	29.274	77.108
+Rain Majra	30.198	76.777
+Rainanwala	30.364	77.174
+Rainpura	29.548	77.017
+Rainpura	29.871	75.089
+Raipur	27.906	77.173
+Raipur	28.054	76.622
+Raipur	28.128	77.297
+Raipur	28.530	76.663
+Raipur	29.362	75.046
+Raipur	29.548	76.913
+Raipur	29.874	76.923
+Raipur	30.100	77.292
+Raipur	30.183	76.793
+Raipur	30.278	77.411
+Raipur	30.755	76.934
+Raipur Kalan	28.360	77.451
+Raipur Kalan	30.685	76.826
+Raisan	29.872	76.706
+Raiwali	30.481	76.915
+Raiya	28.557	76.613
+Rajaka	27.954	76.998
+Rajakheri	29.406	77.013
+Rajana	29.383	76.518
+Rajaoli	30.374	77.037
+Rajapur	29.906	77.112
+Rajaulaka	28.126	77.260
+Rajauli	27.803	76.970
+Rajauli	30.232	77.015
+Rajaund	29.578	76.487
+Rajawas	28.286	76.627
+Rajgarh	28.091	76.472
+Rajgarh	28.691	76.085
+Rajgarh	28.716	76.093
+Rajgarh	29.143	76.367
+Rajgarh	29.854	76.975
+Rajgarh	30.417	76.732
+Rajheri	29.989	77.184
+Raji	30.688	77.138
+Rajiaka	28.154	76.527
+Rajipur Jhajra	30.775	76.893
+Rajli	29.287	75.871
+Rajlu	29.097	77.010
+Rajpur	27.930	77.170
+Rajpur	28.074	76.256
+Rajpur	28.348	76.714
+Rajpur	28.991	77.073
+Rajpur	29.079	77.025
+Rajpur	30.211	77.224
+Rajpur	30.380	77.391
+Rajpur Kalan	28.417	77.427
+Rajpura	28.097	77.289
+Rajpura	28.196	76.512
+Rajpura	28.224	76.771
+Rajpura	29.185	76.072
+Rajpura	29.292	76.227
+Rajpura	30.361	77.003
+Rajpura	30.366	77.220
+Rajpura	30.464	77.191
+Rajpura Kairanwali	29.402	75.186
+Rajpura Khalsa	28.261	76.570
+Rajpura Kharkhari	28.830	76.107
+Rajpura Sani	29.270	75.101
+Rajthal	29.257	76.193
+Raju Kheri	30.211	77.017
+Raju Majra	30.439	77.142
+Rajupur	28.171	77.488
+Rajupur	28.417	76.737
+Rakhi Khas	29.290	76.118
+Rakhi Shahpur	29.288	76.112
+Rakhsera	29.187	77.108
+Raliawas	28.159	76.718
+Raman	29.072	75.881
+Ramana Ramani	29.653	76.581
+Ramana Ramani	29.799	76.821
+Rambas	28.025	75.982
+Rambas	28.271	76.317
+Rambas	28.498	76.095
+Rambha	29.794	76.984
+Ramda	29.682	76.907
+Ramdasnagar	30.369	76.763
+Ramgarh	27.951	77.480
+Ramgarh	28.228	76.670
+Ramgarh	29.173	76.746
+Ramgarh	29.269	76.283
+Ramgarh	29.448	74.633
+Ramgarh	29.663	76.289
+Ramgarh	29.894	77.026
+Ramgarh	29.995	76.459
+Ramgarh	30.009	76.896
+Ramgarh	30.038	76.944
+Ramgarh	30.095	77.256
+Ramgarh	30.125	77.116
+Ramgarh	30.304	77.075
+Ramgarh	30.379	77.358
+Ramgarh	30.451	77.093
+Ramgarh Colony	29.986	76.451
+Ramgarh Majra	30.330	77.240
+Ramjas ki Dhani	28.929	75.586
+Ramkali	29.197	76.412
+Ramkheri	30.260	77.288
+Ramnagar	28.128	76.508
+Ramnagar	28.368	76.672
+Ramnagar	29.102	77.098
+Ramnagar	29.323	76.592
+Ramnagar	29.405	76.974
+Ramnagar	29.431	76.921
+Ramnagar	30.018	76.752
+Ramnagar	30.057	77.028
+Ramnagar	30.071	76.937
+Ramnagar	30.082	76.866
+Ramnagar	30.187	76.878
+Ramnagar	30.195	76.968
+Rampur	28.352	76.783
+Rampur	28.381	76.963
+Rampur	28.833	76.957
+Rampur	29.587	75.550
+Rampur	29.924	76.999
+Rampur	30.051	76.939
+Rampur	30.104	77.339
+Rampur	30.193	77.059
+Rampur	30.278	76.982
+Rampur	30.340	76.879
+Rampur	30.413	77.186
+Rampur	30.471	77.013
+Rampur	30.506	77.140
+Rampur	30.608	77.133
+Rampur	30.621	77.046
+Rampur Gainda	30.436	77.361
+Rampur Herian	30.373	77.322
+Rampur Jat	30.376	77.381
+Rampur Khadir	30.199	77.431
+Rampur Khor	28.171	77.442
+Rampur Kombohan	30.372	77.335
+Rampur Sainlan	30.578	76.913
+Rampur Seori	30.770	76.908
+Rampura	28.075	76.324
+Rampura	28.632	76.063
+Rampura	28.632	76.673
+Rampura	29.088	76.042
+Rampura	29.257	76.857
+Rampura	29.405	74.555
+Rampura	29.407	76.641
+Rampura	29.661	77.015
+Rampura	29.768	74.787
+Rampura	29.959	76.895
+Rampura Bas	28.914	75.614
+Rampura Dhillanwala	29.295	75.082
+Rampuri	28.308	76.447
+Rampuriya	29.287	75.186
+Ramrae	29.280	76.234
+Ramrang ka Dera	29.469	77.093
+Ramsar	30.685	77.099
+Ramsara	29.283	75.300
+Ramsaran Majra	30.078	77.002
+Ramsinghpur	28.067	76.531
+Ramthali	29.921	76.227
+Ramwas	27.675	76.907
+Rana	30.623	77.052
+Rana Kheri	29.274	76.613
+Ranauli	27.993	76.554
+Ranauta	27.801	77.121
+Randauli	29.834	77.137
+Ranekpura	28.913	76.576
+Rangala	28.229	76.883
+Rangalo	27.827	76.945
+Ranghrikhera	29.481	75.026
+Rangiya Mandi	30.322	76.845
+Ranhera	28.334	77.307
+Raniaki	28.186	76.908
+Ranika	27.882	77.002
+Ranika	28.069	77.296
+Ranila	28.711	76.359
+Ranipur	30.417	77.331
+Raniyali	27.818	77.003
+Ranjitkakar ki Dhani	28.963	75.645
+Ranjitpur	30.427	77.347
+Rankhanda	28.581	76.600
+Rankoli	28.771	76.334
+Ransi Majri	28.010	76.553
+Ransika	28.307	76.737
+Ranwar	29.645	77.022
+Ranyala	27.935	77.092
+Ranyala Khurd	27.953	77.201
+Rao	29.949	77.196
+Rao Majra	30.217	76.965
+Rao Majra	30.482	77.152
+Raogarh	29.957	76.779
+Raoli	27.704	76.934
+Rapri	29.998	77.163
+Raru	30.884	76.889
+Rasauli	28.274	76.549
+Rasgan	28.199	76.719
+Rashidan	29.726	76.033
+Rashidpur	30.470	76.991
+Rasin	29.576	76.947
+Rasina	29.755	76.680
+Rasiwala Jhohar	28.680	76.138
+Rasiwas	28.639	76.140
+Raslapur	29.359	77.059
+Rasoi	28.902	77.115
+Rasulpur	27.936	77.163
+Rasulpur	28.088	77.402
+Rasulpur	28.285	76.255
+Rasulpur	28.337	76.603
+Rasulpur	29.095	77.125
+Rasulpur	29.635	75.688
+Rasulpur	29.862	77.052
+Rasulpur	29.885	76.535
+Rasulpur	29.923	76.406
+Rasulpur	30.233	76.634
+Rasulpur	30.293	77.248
+Rasulpur	30.445	77.216
+Rasulpur Kalan	29.671	77.067
+Rasulpur Khurd	29.674	77.044
+Rasun	30.673	77.080
+Rasyawas	28.052	76.559
+Rata	28.188	76.292
+Ratan Dera	30.006	76.863
+Ratangarh	29.018	76.920
+Ratangarh	29.721	75.564
+Ratangarh	30.020	76.440
+Ratangarh	30.077	77.195
+Ratangarh	30.143	76.867
+Ratangarh	30.361	76.771
+Ratangrah	30.022	77.167
+Ratanheri	30.086	76.236
+Ratanpura	29.760	74.476
+Ratanpura	30.107	77.332
+Ratanwala	28.888	76.203
+Ratauli	30.160	77.267
+Ratauli	30.408	77.269
+Rataur	30.531	77.054
+Ratewali	30.638	76.986
+Ratgal	29.969	76.871
+Rathali	30.456	77.186
+Rathanthal	28.392	76.593
+Rathdhana	28.951	77.060
+Rathiwas	28.240	76.870
+Rathiwas	28.262	76.852
+Ratipur	28.120	77.290
+Ratiwas	28.535	75.779
+Ratneri	30.360	76.927
+Ratpur	30.804	76.909
+Ratpur	30.808	76.913
+Ratta Khera	29.387	76.636
+Ratta Khera	29.472	74.794
+Ratta Khera Kurham	30.120	76.442
+Ratta Khera Luqman	30.081	76.264
+Ratta Theh	29.716	75.715
+Rattak	29.582	76.626
+Rattakhera	29.660	75.877
+Rattakhera	29.664	75.525
+Rattatibba	30.601	77.060
+Rattuwala	30.392	77.273
+Rauhral	28.318	76.597
+Rauka	30.729	77.081
+Raula	30.350	76.900
+Raulaheri	30.288	77.083
+Rauliawas	28.236	76.514
+Raunija	28.120	77.363
+Rawa	27.802	77.007
+Rawa	30.176	76.920
+Rawal Kheri	30.053	76.857
+Rawaldhi	28.618	76.286
+Rawalwas Kalan	29.077	75.578
+Rawalwas Khurd	29.104	75.588
+Rawanhar	29.821	76.556
+Rawatkhera	28.984	75.682
+Rayanwala	29.725	75.830
+Rayanwala	30.301	77.548
+Razabad	29.572	75.527
+Razapur	29.470	76.921
+Razapur	29.474	76.922
+Redhuwas	28.525	76.542
+Reoli	29.011	77.063
+Rer Kalan	29.488	76.832
+Retgarh	30.112	77.195
+Rewar	29.782	76.097
+Rewarah	29.021	76.742
+Rewari	28.847	76.251
+Rewarikhera	28.681	76.736
+Richhpura	29.097	76.004
+Ridhao	28.978	76.826
+Righar	27.749	76.975
+Rihara	29.602	76.572
+Rindal	29.794	77.074
+Rindana	29.128	76.506
+Rindhawa	29.419	75.071
+Rindka	28.053	77.254
+Risaliya Khera	29.713	74.764
+Risalu	29.363	77.009
+Risalwa	29.482	76.707
+Rishpur	29.377	77.113
+Ritauli	28.766	76.575
+Ritauli	29.413	76.511
+Rithai	29.009	76.714
+Rithal Narwal	28.990	76.718
+Rithal Phogat	28.994	76.718
+Rithath	27.964	77.105
+Riwajpur	28.432	77.374
+Riwar	30.002	76.394
+Rodh	29.466	76.615
+Rodha	28.751	75.736
+Rohad	28.744	76.806
+Rohan	29.755	75.140
+Rohat	28.934	76.975
+Rohera	29.563	76.425
+Roherian	29.754	76.350
+Rohna	28.854	76.879
+Rohti	30.117	76.714
+Roj Khera	29.458	76.246
+Roja	30.394	77.219
+Rojhala	29.364	76.605
+Rojhpur	28.226	76.714
+Rolad Latifpur	29.101	76.857
+Rolad Latifpur Khera	29.101	76.862
+Ror Chhappar	30.109	77.228
+Rori	29.744	75.203
+Roshanpur	30.127	76.640
+Rualiyon	30.309	76.766
+Rudh	28.087	76.577
+Rudrol	28.474	76.096
+Rugsana	29.656	76.666
+Ruhala Kheri	30.178	77.239
+Ruhera	27.903	77.186
+Rukali	30.299	77.357
+Rukanpur	29.736	76.946
+Rukhi	29.050	76.679
+Rukri	30.243	77.088
+Rulla Heri	30.408	77.327
+Rundhi	28.050	77.388
+Runhat	29.011	75.917
+Runja	30.699	77.109
+Runja	30.729	77.073
+Rupana	28.939	75.645
+Rupana	29.397	75.095
+Rupana Bishnoiyan	29.367	75.242
+Rupanwali	29.705	75.703
+Rupauli	30.158	77.138
+Rupawas	29.364	75.054
+Rupgarh	28.699	76.110
+Rupgarh	29.388	76.308
+Rupnaga Natoli	27.861	77.206
+Rupraka	27.997	77.201
+Rupu Majra	30.344	76.749
+Ruriawas	28.561	76.441
+Rurki	28.934	76.740
+Rurki	30.035	77.002
+Rurki	30.618	77.009
+Ruthal Garhi	28.160	76.264
+Ruwan	29.932	76.643
+Ruwo	28.083	75.933
+Ry Quarters	30.338	76.819
+Sa-adat Nagar	28.399	76.443
+Sabalpur	30.221	77.178
+Sabalpur Toprian	30.230	77.164
+Saban	28.080	76.547
+Sabapur	30.355	77.010
+Sabarwas	29.400	75.631
+Sabga	30.224	76.947
+Sabhapur	30.080	77.238
+Sabhapur	30.357	77.244
+Sabhri	30.354	77.243
+Sabila	30.352	77.162
+Sabili	28.515	76.679
+Sabilpur	30.680	76.989
+Sabilpur Jattan	30.231	77.202
+Sabipur	30.112	77.366
+Sabras	28.261	76.942
+Sabu Khera	29.830	74.625
+Sadalpur	29.319	75.450
+Sadanpur	30.454	76.943
+Sadarpur	28.209	77.394
+Sadarpur	29.553	77.087
+Sadhrana Bamripur	28.459	76.906
+Sadhu	28.449	77.044
+Sadhura	30.041	77.101
+Sadiapur	30.418	77.230
+Sadidpur	30.433	77.069
+Sadipurkhera	28.977	77.036
+Sadiqpur	29.819	76.899
+Sadiqpur	30.405	77.227
+Sadpur	30.076	76.519
+Sadpura	28.371	77.387
+Sadr Ahli	29.567	75.334
+Sadreri	30.073	76.333
+Safaidi	27.870	77.095
+Safilpur	30.407	77.290
+Saga	29.764	76.844
+Sagarpur	28.276	77.332
+Sagaund	30.531	76.912
+Sagri	30.120	77.149
+Sahajmalpur	28.601	75.640
+Sahanpur	29.435	76.695
+Sahapura	30.271	77.377
+Saharan	29.712	75.379
+Saharanwas	28.205	76.564
+Saharwa	28.922	75.742
+Saharyarpur	28.693	75.765
+Sahdeoka Nagla	28.017	77.480
+Sahn	30.711	77.122
+Sahu	29.494	75.833
+Sahupura	28.302	77.337
+Sahwas	28.641	76.231
+Saidpur	28.093	76.269
+Saidpur	28.354	76.592
+Saidpur	28.845	76.965
+Saidpur	29.843	76.899
+Saidpur Barwalian	30.214	76.823
+Saidpur Shahidan	30.132	76.697
+Saidpuro	29.700	76.952
+Saidupur	30.388	77.194
+Sailan	29.991	76.712
+Saini Majra	30.288	76.661
+Sainion ki Dhani	28.498	76.752
+Sainiwas	28.827	75.539
+Sainoli	27.964	77.494
+Sainpal	28.853	76.362
+Sainsa	29.999	76.646
+Sainthli	29.498	75.994
+Sair	29.936	76.295
+Sairawan	28.347	76.919
+Sairawan ki Dhani	28.335	76.909
+Sajan Majri	30.222	77.012
+Sajuma Sadhan	29.734	76.273
+Saketri	30.747	76.848
+Sakho Maira	30.814	76.883
+Sakra	29.811	76.686
+Sakras	27.849	76.994
+Sakta Khera	29.895	74.638
+Salaheri	28.103	77.032
+Salahwas	28.456	76.470
+Salaiehri	30.322	76.888
+Salaka	28.195	76.986
+Salam Khera	29.769	74.877
+Salamatpur	28.138	77.311
+Salamkhera	29.427	75.504
+Salarpur	28.099	76.095
+Salarpur	28.487	77.356
+Salarpur	29.919	76.834
+Salarpur Majra	29.063	76.849
+Salarpur Panjgirain	29.490	74.983
+Salarpura	29.787	77.089
+Salaru	29.746	76.996
+Salawala	30.416	77.058
+Salehpur	30.264	77.106
+Salehpur	30.458	77.237
+Salemgarh	29.184	75.542
+Salempur	29.957	76.995
+Salempur	30.043	76.311
+Salempur	30.236	77.318
+Salempur	30.393	77.392
+Salempur	30.402	77.252
+Salempur Jattan	30.197	76.418
+Salempur Madud	29.907	76.642
+Salempur Turali	29.082	76.880
+Salempuri	29.689	75.759
+Salemsar Majra	28.998	76.868
+Salharawak	28.409	77.435
+Salhawas	28.145	76.674
+Salimpur	28.128	76.278
+Salimpur	28.711	75.762
+Salimpur	30.283	77.375
+Salmirbas	27.678	76.963
+Salta	30.717	77.089
+Saludah	28.545	76.633
+Salwan	29.506	76.719
+Salyon	30.689	77.114
+Samadan	29.822	76.291
+Samaipur	28.320	77.282
+Samalheri	30.559	77.018
+Samalka	30.009	77.071
+Samalki	30.233	76.834
+Saman	29.621	75.934
+Samana	29.904	76.911
+Samani	29.413	75.684
+Samani	29.923	76.914
+Samanwa	30.517	77.021
+Samar Gopalpur Khurd	28.951	76.528
+Samaura	29.823	77.010
+Sambhalka	29.612	76.935
+Sambholkha	30.293	76.909
+Samchana	28.838	76.808
+Samlehri	30.327	76.948
+Samleri	30.352	76.901
+Samlotha	30.633	77.127
+Sampan Kheri	29.795	76.491
+Sampka	28.365	76.809
+Samru	30.462	76.914
+Sanauli Kalan	29.408	77.093
+Sanaulil Khurd	29.387	77.115
+Sanbhi	29.820	76.833
+Sanbhli	29.762	76.801
+Sanch	29.728	76.668
+Sancha Khera	29.555	76.048
+Sandal Kalan	29.059	76.983
+Sandal Kalan	29.062	76.981
+Sandal Khurd	29.050	76.981
+Sandhai	30.348	77.337
+Sandhala	29.977	77.218
+Sandhali	29.982	77.216
+Sandhaula	29.957	76.625
+Sandhauli	29.959	76.628
+Sandhir	29.842	76.974
+Sandil	29.568	76.337
+Sandlana	29.418	76.073
+Sandol	29.351	75.731
+Sanga	28.777	76.231
+Sangahera	28.737	76.434
+Sangal	29.678	76.469
+Sangan	29.805	76.233
+Sangatpura	29.016	76.069
+Sangatpura	29.336	76.241
+Sangatpura	29.845	76.227
+Sangatpura	30.188	76.995
+Sanghi	29.029	76.615
+Sangipur	30.002	77.125
+Sangrana	30.542	76.900
+Sangrani	30.494	77.161
+Sangrauli	29.810	76.643
+Sangri	29.588	76.378
+Sangwari	28.165	76.683
+Sanipur Tanda	30.215	76.615
+Sanjarpur	28.074	76.532
+Sanjarpur	30.389	76.710
+Sanjarwas	28.728	76.320
+Sanjoli	29.295	77.111
+Sankhaul	28.704	76.913
+Sankhera	30.270	77.321
+Sankror	28.757	76.283
+Sanoi	30.647	77.112
+Sanpera	29.109	77.083
+Sanpli	28.142	76.699
+Santhawari	27.903	76.967
+Santhri	29.907	77.062
+Santokh Majra	29.604	76.490
+Santokhpura	28.512	76.302
+Santokhpura	30.023	76.736
+Santoki	30.392	76.997
+Santor	28.604	76.412
+Santpura	30.016	76.712
+Sanwalabas	27.848	76.963
+Sanwar	28.710	76.292
+Sanwat	29.843	76.802
+Sanwat Khera	29.909	74.772
+Saoli	30.915	76.806
+Saonla	30.002	76.885
+Sapedarnagar	28.302	76.781
+Sapera	30.342	76.929
+Sapoli	30.285	77.525
+Saprah	29.776	76.643
+Saprayon ka Majra	30.041	76.977
+Saragthal	29.119	76.836
+Sarai	27.985	77.333
+Sarai	28.296	76.979
+Sarai Aurangabad	28.686	76.900
+Sarai Sukhi	30.060	76.840
+Saraimand	28.944	76.592
+Saraj Khaja	28.475	77.311
+Saral	27.933	77.034
+Saral	29.369	76.496
+Saran	28.371	77.288
+Saran	29.699	76.402
+Saran	30.210	77.105
+Sarangpur	28.660	76.070
+Sarangpur	29.341	75.537
+Sarangpur	30.340	76.738
+Sarangpur	30.411	76.916
+Saranwan	30.348	77.193
+Saraswati Nagar	30.201	77.146
+Saraula	28.461	76.596
+Saraula	30.098	76.297
+Sarauli	27.936	77.188
+Saravi	30.338	77.221
+Sarbadh	29.462	74.821
+Sarda Kadim	28.591	75.629
+Sardaheri	30.313	77.166
+Sardariwala	29.770	75.493
+Sardhana	29.184	76.910
+Sarera	29.385	75.968
+Sarhada	29.629	76.499
+Sarkpur	30.550	76.983
+Sarni	29.648	74.574
+Saron	30.682	77.125
+Sarsa	29.933	76.665
+Sarsa Ghogra	28.825	76.266
+Sarsadh	29.195	76.732
+Sarsana	29.054	75.537
+Sarsana	29.361	76.022
+Sarsaud	29.322	75.836
+Sarseri	30.346	76.882
+Sarsi	28.594	75.671
+Sarupgarh	28.611	76.415
+Sarurpur	28.343	77.269
+Sarusti Khera	30.004	76.596
+Sarwan Majra	29.923	76.972
+Sarwarpur	29.480	75.322
+Sasi Brahmana	30.117	76.346
+Sasroli	28.526	76.396
+Sasroli	28.965	76.577
+Satahari	30.277	77.190
+Satakpuri	27.938	77.109
+Satgauli	30.138	77.149
+Sati	28.903	75.653
+Sati	28.949	75.528
+Sati	29.070	75.489
+Sati	30.506	76.954
+Sati	30.531	76.974
+Sati ka Nagla	27.966	77.513
+Satianwala	29.773	76.400
+Satinan	30.816	76.938
+Satnali	28.376	75.964
+Saulda	28.647	76.880
+Saundha	30.349	76.768
+Saundhad	27.919	77.322
+Saunkra	29.796	76.871
+Saunta	30.175	76.668
+Saunti	30.166	76.653
+Sauntli	30.432	77.010
+Sayanpur	28.587	76.233
+Seah Khera	29.133	76.930
+Sedhamajra	29.488	76.139
+Sega	29.753	76.471
+Segta	30.221	76.691
+Segti	30.221	76.711
+Sehat	30.656	77.127
+Sehatpur	28.478	77.328
+Sehi	30.076	76.388
+Sehri	28.938	76.886
+Sehun Majra	30.045	76.247
+Seiling	28.333	76.167
+Sejatpur ki Dhani	28.562	75.631
+Seli Kalan	30.070	77.112
+Seli Khurd	30.082	77.102
+Seman	29.041	76.282
+Semla	30.239	77.049
+Semu	30.707	77.070
+Senipura	29.175	76.734
+Senkri	29.864	76.992
+Seoka	28.185	76.894
+Seoli	27.974	77.311
+Seoli	28.931	77.129
+Seoli	30.498	76.919
+Seonsar	29.993	76.483
+Seonsar Colony	29.988	76.492
+Seonti	29.992	76.988
+Ser	30.652	77.059
+Ser Jawanki	30.611	77.132
+Ser Jawanki	30.615	77.135
+Seria	28.717	76.610
+Serla	28.636	75.690
+Serohi Nangal	28.190	76.131
+Sersa	28.868	77.145
+Serta	29.848	76.345
+Serta	30.632	77.158
+Sethla	29.576	75.700
+Sewana	28.705	76.441
+Shadipur	27.932	77.025
+Shadipur	28.295	76.631
+Shadipur	28.369	76.552
+Shadipur	29.283	76.318
+Shadipur	29.900	76.828
+Shadipur	29.955	76.917
+Shadipur	30.100	77.280
+Shadipur	30.113	76.242
+Shadipur Shahidan	30.022	76.848
+Shafiabad	28.884	77.077
+Shafipur	28.627	76.471
+Shaghalpur	30.110	76.401
+Shahabad	28.381	77.413
+Shahabpur	27.710	76.971
+Shahabpur	29.408	76.354
+Shahabpura	30.131	77.116
+Shahabpura	30.238	76.811
+Shahabuddinpur Kalan	30.348	77.433
+Shahabuddinpur Khurd	30.346	77.430
+Shahar Malpur	29.277	77.055
+Shahbazpur	28.048	76.621
+Shahbazpur Istmarar	28.197	76.523
+Shahbazpur Khalsa	28.164	76.643
+Shahidanwali	29.473	74.984
+Shahidanwali	29.510	75.356
+Shahjahanpur	28.315	77.465
+Shahjahanpur	28.542	76.557
+Shahjahanpur	29.541	76.907
+Shahjahanpur	30.246	77.429
+Shahjahanpur	30.252	77.420
+Shahjahanpur	30.551	77.026
+Shahnal	29.633	75.584
+Shahpur	27.937	76.947
+Shahpur	28.032	76.565
+Shahpur	28.262	76.739
+Shahpur	28.641	76.834
+Shahpur	29.161	75.616
+Shahpur	29.245	76.815
+Shahpur	29.695	76.902
+Shahpur	29.824	77.090
+Shahpur	30.036	76.550
+Shahpur	30.215	77.285
+Shahpur	30.292	77.317
+Shahpur	30.299	76.843
+Shahpur	30.342	77.122
+Shahpur	30.470	77.167
+Shahpur	30.592	77.027
+Shahpur Avval	28.008	76.116
+Shahpur Begu	29.490	75.052
+Shahpur Jat	28.326	76.720
+Shahpur Kalan	28.280	77.358
+Shahpur Khurd	28.279	77.302
+Shahpur Taga	29.135	77.071
+Shahpur Turk	29.004	77.070
+Shahpuriya	29.332	75.189
+Shahuwala	29.883	74.765
+Shahzadpur	27.944	77.097
+Shahzadpur	29.041	76.984
+Shahzadpur	29.654	75.640
+Shahzadpur	30.054	77.082
+Shahzadpur	30.165	77.379
+Shahzadpur	30.176	76.402
+Shahzadpur	30.446	77.034
+Shahzadwala	30.343	77.454
+Shai	28.889	76.280
+Shaikhpura	28.072	76.114
+Shaikhpura	29.119	76.001
+Shaikhpura	29.134	76.962
+Shaikhu Khera	29.482	74.759
+Shaikhupur Jat	28.602	76.717
+Shaikhupur Machuri	29.595	76.751
+Shaikpura	29.643	74.721
+Shajipura	28.520	76.734
+Shakarpura	29.731	75.750
+Shakarpura	30.365	77.104
+Shaktinagar	28.682	76.921
+Shamaspur	29.881	77.148
+Shamaspur	29.977	76.730
+Shamaspur Majra	28.482	76.599
+Shamdu	29.491	76.397
+Shamgarh	29.775	76.957
+Shami Kalyan	28.587	75.866
+Shamla Khurd	29.252	76.381
+Shamlu Kalan	29.209	76.399
+Shampur	30.372	77.243
+Shampur	30.620	77.016
+Shamri	29.197	76.827
+Shamsabad	27.815	77.264
+Shamshabad	27.876	77.191
+Shamspur	28.612	76.320
+Shamspur	29.155	76.946
+Shamspur	29.930	76.803
+Shamsukh	29.323	75.748
+Shankarpura	29.520	75.854
+Shankarwali Dhani	28.310	76.867
+Shapura	30.369	76.924
+Sharfabad	29.287	76.628
+Sharfabad	29.689	77.068
+Sharifgarh	30.099	76.875
+Sharkpur	30.237	77.031
+Shastrinagar	28.685	76.933
+Shehar	28.540	75.696
+Sheikhanwali Dhani	29.533	75.341
+Sheikhpur Titri	28.976	76.354
+Shekhanpur	29.780	76.914
+Shekhpur	27.858	77.032
+Shekhpur	28.044	76.993
+Shekhpur	28.240	77.506
+Shekhpur	28.258	76.932
+Shekhpur	29.516	76.952
+Shekhpur	29.990	76.925
+Shekhpur Shikarpur	28.269	76.598
+Shekhpura	28.025	76.583
+Shekhpura	29.656	77.036
+Shekhpura	29.966	77.112
+Shekhpura Jagir	30.237	76.611
+Shekhpura Sikri	29.874	77.007
+Shekhupur	30.222	76.632
+Shekhupur Darauli	29.362	75.407
+Shekhupur Majri	28.445	76.723
+Shekhupur Sotar	29.590	75.567
+Shekhupur ki Dhani	29.374	75.422
+Shekhupura	30.231	77.386
+Shekhupura	30.285	77.240
+Shekhupura Majra	30.244	77.438
+Shekhuwali Dhani	29.613	75.770
+Sherah	29.441	76.820
+Shergarh	29.777	76.422
+Shergarh	29.926	74.677
+Shergarh	29.932	77.130
+Shergarh	30.094	76.642
+Shergarh	30.259	76.961
+Shergarh	30.391	76.741
+Shergarh	30.408	77.368
+Sherla	30.672	77.117
+Sherpur	28.325	76.696
+Sherpur	30.244	77.389
+Sherpur	30.360	77.024
+Sherpur Khador	28.451	77.384
+Sherpur Solakhni	30.329	77.168
+Sherpura	28.825	75.637
+Sherpura	29.458	75.199
+Shihali	30.127	76.438
+Shikarpur	28.210	76.971
+Shikarpur	29.160	75.822
+Shikohpur	28.366	76.986
+Shimla	29.637	76.223
+Shimla Gujran	29.319	77.057
+Shimlipur	30.648	76.925
+Shiwala	30.321	76.822
+Shohdapur	29.395	76.924
+Sholaka	27.973	77.380
+Shoru ka Nagla	27.995	77.507
+Shudkain Kalan	29.562	76.202
+Shudkain Khurd	29.581	76.237
+Shyampura	28.427	75.941
+Sialba	30.163	77.167
+Siana Saidan	30.022	76.546
+Sianika	28.238	76.953
+Siba	30.041	76.789
+Sidhan	28.820	75.706
+Sidhanawa	28.700	75.727
+Sidharawali	28.265	76.835
+Sidhaula	28.399	77.435
+Sidhaula	28.404	77.441
+Sidhrawat	27.773	76.931
+Siha	27.987	77.371
+Siha	28.275	76.419
+Sihariya Ka Bas	27.819	77.070
+Sihaul	28.131	77.426
+Sihi	28.360	77.336
+Sihi	28.411	76.972
+Sihore	28.376	76.289
+Sihoti	28.806	76.940
+Sikandarpur	28.219	77.253
+Sikandarpur	28.584	76.694
+Sikandarpur	29.057	75.978
+Sikandarpur	29.839	77.148
+Sikandarpur Badha	28.402	76.957
+Sikandarpur Majra	29.097	76.736
+Sikandra	30.116	77.107
+Sikandrabad	27.993	77.013
+Sikhawala	28.446	76.935
+Sikrawa	27.954	77.143
+Sikrawa Ka Nagla	27.956	77.134
+Sikri	28.275	77.288
+Sikrona	28.304	77.256
+Sila Kheri	29.390	76.621
+Silana	28.547	76.682
+Silana	28.936	76.846
+Silanga	28.554	76.350
+Silani Pana Kesho	28.564	76.675
+Silani Pana Zalim	28.567	76.671
+Silauthi	28.079	77.367
+Sili	30.628	77.154
+Silkhoh	28.155	76.957
+Silla Niera	29.785	76.368
+Silon	30.697	77.058
+Silothi	28.679	76.811
+Silpani Kalan	30.073	76.756
+Silpani Khurd	30.071	76.774
+Simbalwal	30.127	77.012
+Simbhawala	29.744	75.877
+Simla Maulana	29.454	76.984
+Simli	28.827	76.613
+Simli Bas	28.717	75.921
+Simrar	30.708	77.061
+Sin Majra	30.407	77.211
+Sinad	29.761	76.217
+Sindhar	29.264	75.932
+Sindhawi Khera	29.285	76.410
+Singalheri	27.825	77.177
+Singar	27.868	77.252
+Singhana	29.415	76.605
+Singhani	28.527	75.796
+Singhauli	30.451	77.288
+Singhaur	30.104	77.028
+Singhoa	29.789	77.035
+Singhol	29.784	77.031
+Singhpui	30.444	76.896
+Singhpur	30.009	76.817
+Singhpura	28.923	76.548
+Singhpura	29.390	76.660
+Singhpura	29.449	76.912
+Singhpura	29.806	76.625
+Singhpura	29.945	76.701
+Singhpura	30.122	76.377
+Singhpura	30.238	77.382
+Singhpura	30.358	77.252
+Singhpura Khurd	28.919	76.532
+Singhra	29.707	76.798
+Singhran	29.042	75.690
+Singhwa	29.021	76.225
+Singhwa Ragho	29.236	75.931
+Singhwal	29.603	76.230
+Singhwald	30.366	76.757
+Sink	29.313	76.656
+Sinsar	29.601	76.203
+Sipianwala	30.355	77.437
+Siras Bas	27.830	77.068
+Siraswala	29.496	74.985
+Sirhan	29.430	75.404
+Siri	27.825	77.167
+Sirirag	29.386	76.361
+Sirjewala	29.654	76.151
+Sirmara	30.725	77.030
+Sirsa Kheri	29.181	76.469
+Sirsa Kheri	29.246	76.249
+Sirsal	29.689	76.672
+Sirsari	30.670	77.069
+Sirsgarh	30.259	77.069
+Sirsi	29.682	76.890
+Sirsilla	30.021	76.862
+Sirsma	29.970	76.917
+Sisai	29.179	76.011
+Sisana	28.903	76.851
+Sisar	29.063	76.156
+Sisar Khas	28.922	76.267
+Sisla	29.713	76.471
+Sismor	29.718	76.487
+Sisram	30.717	76.994
+Siswal	29.213	75.508
+Siswala	28.564	76.113
+Siswala	29.102	75.553
+Siswana Jatka	27.876	76.994
+Sitamad	29.785	76.754
+Sitaoli	29.098	76.912
+Sitaundi	29.577	76.907
+Sitaura	29.981	76.541
+Sithana	29.447	76.902
+Siun Majra	30.199	77.058
+Siwach	28.726	75.617
+Siwah	29.335	76.979
+Siwan	29.887	76.355
+Siwana	29.006	76.060
+Siwana Mal	29.257	76.584
+Siwanka	29.212	76.708
+Siwara	28.972	76.101
+Siwari	28.467	76.725
+Sodhi	29.931	76.934
+Softa	28.263	77.284
+Sohalpur	27.745	76.945
+Sohana	29.661	77.041
+Sohana	30.254	77.027
+Sohanpura	29.743	76.869
+Sohansra	28.409	75.865
+Sohari	28.416	75.996
+Sohata	30.201	76.958
+Sohlan	29.827	76.860
+Sohuwala	29.439	75.171
+Sohuwala Chak Rohi	29.650	74.967
+Solangheri	28.271	76.986
+Solhra	28.186	77.514
+Solu Majra	29.865	76.578
+Sondhapur	29.378	76.935
+Sondhi	28.514	76.795
+Sonf	28.683	76.253
+Song	30.730	77.084
+Sonkh	28.126	76.985
+Sorda Jadid	28.576	75.630
+Sorkhi	29.052	76.119
+Sotai	28.292	77.361
+Sotha	29.380	76.071
+Sotha	29.930	76.337
+Sothana	28.105	76.595
+Sothani	28.113	76.602
+Srinagar	28.988	77.042
+Srinagar	30.079	76.716
+Srinagor	28.230	76.350
+Suabri	30.414	77.360
+Suahya	29.333	76.459
+Suakheri	29.394	77.010
+Subana	28.467	76.570
+Subasheri	28.012	76.596
+Subasheri	28.179	76.907
+Subhash Colony	30.334	76.851
+Subhri	29.692	77.056
+Subhri	30.204	76.999
+Sudhal	30.161	77.231
+Sudhel	30.166	77.232
+Sudhiwas	28.617	75.568
+Sudhpur	30.095	76.820
+Sudhrana	28.453	76.429
+Sug	30.743	77.064
+Sugarpur	27.891	77.037
+Sugh	30.143	77.356
+Suhlara	29.670	75.968
+Sui	28.861	76.061
+Sujapur	28.131	76.316
+Sujra	30.092	76.955
+Sujri	30.087	76.935
+Sujwari	28.155	77.420
+Sukar	29.343	75.218
+Sukar Rao	30.391	77.227
+Sukhapur	30.086	77.246
+Sukhchain	29.780	75.025
+Sukhdaspur	30.197	77.168
+Sukhdevsingh ka Bas	28.416	75.793
+Sukhdorshanpur	30.602	76.982
+Sukhmanpur	29.636	75.600
+Sukhpura	28.911	76.594
+Sukhpura	28.982	76.216
+Sukhpuri	27.954	77.080
+Sukraon	30.260	76.721
+Sukrara	28.845	76.543
+Sulakhni	29.245	75.848
+Sulakhni	30.195	76.805
+Sulchani	29.213	76.182
+Sulela	27.809	76.983
+Sulhar	30.317	76.703
+Sulikhera	29.361	75.365
+Sulkha	28.127	76.553
+Sultanian	30.000	76.286
+Sultanian	30.003	76.265
+Sultanpur	28.072	77.470
+Sultanpur	28.462	76.871
+Sultanpur	29.035	75.869
+Sultanpur	29.748	76.925
+Sultanpur	30.050	77.037
+Sultanpur	30.222	77.135
+Sultanpur	30.401	76.787
+Sultanpur	30.403	77.234
+Sultanpur	30.420	77.345
+Sultanpur	30.577	77.053
+Sultanpur	30.579	76.939
+Sultanpur Nuh	27.957	77.037
+Sultanpur Punahana	27.910	77.142
+Sumakhera	28.335	76.566
+Sumrakhera	28.917	76.044
+Sunahra	27.817	77.215
+Sunari	28.220	76.906
+Sunari Khurd	28.858	76.568
+Sunaria	28.244	76.717
+Sunarian	30.103	76.988
+Sunda Bas	28.647	75.878
+Sundana	28.783	76.529
+Sundar Bahadurpur	30.388	77.385
+Sundar Bahadurpur	30.404	77.381
+Sundarpur	28.941	76.561
+Sundarpur	29.318	76.422
+Sundarpur	29.960	76.861
+Sundarpur	30.575	76.924
+Sundarpura	29.564	76.090
+Sundawas	29.104	75.523
+Sundh	28.261	76.990
+Sundra	28.247	76.264
+Sundrathi	28.517	76.417
+Sundraud	28.193	76.531
+Sunehra Khera	28.065	77.335
+Sunehri	29.924	76.824
+Sungarpur	28.752	75.867
+Sunper	28.286	77.341
+Sunthaka	28.266	76.951
+Sunyana	29.530	75.828
+Sura	28.561	76.735
+Sura	30.028	77.099
+Surahti	28.385	76.433
+Surahti	28.511	76.617
+Suraiwali Dhani	29.665	75.399
+Surajgarh	28.487	75.886
+Surajgarh	30.058	76.684
+Surajpur	28.241	76.723
+Surajpur	30.726	76.882
+Surajpur	30.788	76.900
+Surbra	29.492	76.074
+Surera Kalan	29.423	74.698
+Surera Khurd	29.402	74.690
+Suretijhakar	28.342	75.976
+Suretimawarena	28.340	75.953
+Suretipalaniya	28.335	75.958
+Surewala	29.509	75.919
+Surgal	30.361	77.132
+Surijgarh	28.569	76.533
+Surjaram ki Dhani	28.455	75.814
+Surkhpur	30.135	76.831
+Surkhpur Tapa Kosli	28.369	76.572
+Surkhpur Tappa Haweli	28.647	76.702
+Surmi	30.013	76.697
+Surpura Kalan	28.673	75.623
+Surpura Khurd	28.669	75.617
+Surtiya	29.805	75.188
+Surupabas	27.920	76.953
+Suruwali	30.661	76.927
+Sutana	29.368	76.881
+Syamtu	30.624	76.981
+Syan Majra	30.467	77.101
+Tabar	30.552	76.979
+Tabra	30.089	76.655
+Tagra Hakimpur	30.827	76.921
+Tagra Harisingh	30.836	76.924
+Tagra Hasua	30.833	76.922
+Tagra Kangan	30.839	76.915
+Tagra Sahu	30.834	76.920
+Taharpur	29.663	76.923
+Taharpur Kalan	30.369	77.420
+Taharpur Khurd	30.365	77.410
+Tahirpur	30.357	77.272
+Tahna Dipalpur	28.296	76.611
+Tahsil	28.596	76.277
+Tajiakhera	29.458	75.171
+Tajikpur	30.114	77.317
+Tajnagar	28.391	76.828
+Tajpur	28.404	77.435
+Tajpur	29.077	77.115
+Tajpur	29.295	77.064
+Tajpur Tihara Khurd	28.982	76.934
+Tajupur	28.389	77.406
+Takhana	29.811	76.942
+Takhtmal	29.854	75.009
+Takiya	27.853	77.000
+Takola	30.295	76.971
+Tala Kaur	30.245	77.201
+Talakaur Taprian	30.254	77.199
+Talao	28.607	76.620
+Talheri	30.026	76.646
+Talheri	30.160	77.039
+Talheri Gujran	30.314	77.082
+Talu	28.977	76.144
+Taluri	30.694	77.145
+Talwandi Badshahpur	28.937	75.696
+Talwandi Rana	29.221	75.758
+Talwandi Rukka	28.946	75.711
+Talwani	28.760	75.684
+Talwara Khurd	29.497	74.635
+Tamaspura	28.615	76.542
+Tamiun	30.292	77.458
+Tamnauli	30.315	77.026
+Tamsabad	29.405	77.127
+Tanda	30.742	76.909
+Tanda	30.810	76.844
+Tanda Bhagwanpur	30.861	76.809
+Tanda Kalan	28.942	77.183
+Tanda Khurd	28.946	77.190
+Tanda Magauli	30.720	76.887
+Tandaheri	28.691	76.856
+Tandwal	30.234	76.983
+Tandwal	30.446	77.052
+Tandwali	30.222	76.979
+Tangail	30.281	77.073
+Tangaur	30.137	76.770
+Tangauri	30.162	76.765
+Tangipur	30.115	76.647
+Tanka Majra	30.403	77.051
+Tankri	28.083	76.487
+Tapar	30.711	77.115
+Tapkan	28.146	76.988
+Taprana	29.744	77.021
+Taprapar	30.683	77.107
+Taprian	29.924	77.086
+Taprian	30.311	77.191
+Taprian	30.329	77.110
+Taprian	30.374	77.098
+Taprian	30.506	77.175
+Taprian	30.646	77.021
+Tapu Kamalpur	30.065	77.324
+Tapu Majra	30.210	77.408
+Taragarh	29.621	76.400
+Taraka	28.129	77.385
+Taran Taran Society	30.053	76.444
+Taranagar	29.391	75.808
+Taranwala	30.252	77.284
+Tarela Ka Bas	27.902	77.060
+Tarkanwala	30.598	77.049
+Tarkha	29.538	76.187
+Tarkho Tirat	29.302	76.658
+Tarkiawas	28.235	76.695
+Tarlokpur	30.670	77.025
+Taruwala	30.269	77.402
+Taruwana	29.824	75.012
+Tasalpur	30.271	76.623
+Tasraula	30.467	76.965
+Tasrauli	30.458	76.966
+Tatarpur	28.173	76.773
+Tatarpur	28.231	77.317
+Tatarpur	28.342	76.864
+Tatarpur	28.655	76.693
+Tatarpur Istamrar	28.246	76.709
+Tatauli	28.972	76.561
+Tatha	30.662	77.153
+Tatiana	30.090	76.332
+Tatka	30.041	76.957
+Tatki	30.031	76.953
+Tazipur	28.002	76.103
+Tea	30.272	77.277
+Teha	29.139	77.041
+Tehar	29.039	76.830
+Tehi Chamaran	30.149	77.199
+Tehi Malian	30.145	77.197
+Tehla	28.001	76.074
+Tei Jatan	30.280	77.279
+Tejan	30.270	76.742
+Tejli	30.141	77.315
+Tekri	30.705	77.066
+Tekwana	30.783	76.904
+Telanwali	29.152	75.439
+Teli Khera	29.417	76.480
+Teli Majra	30.169	77.285
+Telipura	30.189	77.312
+Telipura	30.190	77.423
+Teliwara	29.694	75.646
+Telon	30.679	77.115
+Telpuri	28.264	76.726
+Tendka	30.746	77.060
+Tent	28.179	76.489
+Teontha	29.774	76.618
+Teora	30.121	76.882
+Teori	29.070	77.022
+Teori	29.161	76.890
+Teori	30.124	76.884
+Tepla	30.305	76.948
+Tepra Khurd	30.135	77.195
+Ter	27.920	77.126
+Tewar	30.430	77.284
+Thadion	30.628	77.047
+Thakunu ki Dhani	28.546	75.895
+Thakurdwara	30.660	77.077
+Thakurpur	29.911	76.997
+Thal	29.526	76.520
+Thalipur	30.037	76.970
+Thalpur	30.664	77.084
+Thambar	30.177	77.060
+Thana	28.059	76.040
+Thana	29.918	76.498
+Thana	30.668	77.134
+Thana	30.717	77.026
+Thana Alampur	28.166	76.948
+Thana Kalan	28.886	76.951
+Thana Khurd	28.898	76.959
+Thandok	30.673	77.142
+Thandot	30.686	77.149
+Thandran	30.104	76.651
+Thantari	28.177	77.470
+Thapal	30.909	76.788
+Thapli Balku	30.742	77.012
+Thapli Sikh	30.740	77.005
+Thappal	30.605	77.133
+Thar	30.697	77.136
+Tharauli	30.190	76.726
+Thari	29.565	76.694
+Tharota	29.720	76.690
+Tharwa	29.615	75.835
+Tharwa	30.275	76.788
+Tharwa	30.354	77.134
+Tharwi	29.599	75.835
+Thaska	29.103	76.676
+Thaska	29.272	75.695
+Thaska	30.448	77.249
+Thaska	30.448	77.251
+Thaska Ali	30.187	76.747
+Thaska Khadar	29.975	77.163
+Thaska Miranji Sahib	30.108	76.695
+Thathar	30.622	77.102
+Thathwari	28.048	76.011
+Thattar	30.725	76.976
+Theh Banhera	30.028	76.416
+Theh Barasuan	29.981	76.522
+Theh Butana	29.979	76.260
+Theh Kharak	29.905	76.256
+Theh Mukerian	29.978	76.339
+Theh Nawal	29.995	76.366
+Theh Taranwali	29.954	76.238
+Thehbahari	29.527	76.498
+Thek	27.839	77.202
+Thekri	27.811	76.955
+Theri	29.613	75.328
+Theru	29.029	76.991
+Thikri	30.025	76.614
+Thiria	29.052	76.999
+Thirwa Majra	29.579	76.733
+Thol	30.166	76.711
+Thol Jugian	30.192	76.705
+Thomaspura	29.632	75.489
+Thothwalka	28.172	76.551
+Thuiyan	29.340	75.285
+Thurana	29.148	76.118
+Thuwa	29.534	76.344
+Tibbi	29.598	75.706
+Tibbi	30.322	77.447
+Tibbi	30.665	76.982
+Tibbi Majra	30.574	77.008
+Tibri	29.119	77.046
+Tibri	30.392	77.203
+Tibriyan	30.317	77.534
+Tigaon	27.835	77.055
+Tigaon	28.352	77.397
+Tighra	30.070	77.299
+Tighri	30.080	77.308
+Tigrana	28.863	76.140
+Tigri	28.864	76.143
+Tigri	29.888	76.832
+Tigri	29.933	74.897
+Tigri	30.124	76.827
+Tihanon	30.289	77.374
+Tihara	28.047	76.581
+Tija Khera	29.843	74.555
+Tik	29.847	76.518
+Tikan Kilan	28.573	76.306
+Tikaoli	28.433	77.370
+Tikar	30.648	77.088
+Tikar	30.664	77.074
+Tikar	30.716	77.109
+Tikla	28.003	76.574
+Tikola	29.071	77.128
+Tikoran	29.986	76.691
+Tikri	27.984	77.404
+Tikri	29.735	77.009
+Tikri	30.691	77.141
+Tikri Brahman	28.087	77.307
+Tikri Gujar	28.061	77.441
+Tilauri Khadar	28.417	77.437
+Tilodha	29.360	76.451
+Tiloka	29.826	75.028
+Tilori ki Dhani	28.410	76.080
+Tin ka Majra	30.218	77.261
+Tipra Bali Ram	30.746	77.049
+Tipra Jawala	30.744	77.053
+Tirpari	28.395	76.781
+Tirthwala	28.938	76.167
+Tirwara	27.835	77.249
+Tisang	29.884	77.127
+Titani	28.704	76.015
+Titarpur	28.207	76.734
+Tito Kheri	29.395	76.714
+Titram	29.718	76.404
+Tiwala	28.568	76.136
+Tiwana	30.283	76.627
+Toba	30.351	76.968
+Toda	30.501	76.950
+Toda ki Dhani	28.469	75.802
+Todarpur	30.072	77.274
+Todarpur	30.438	77.311
+Todi	28.512	76.083
+Todi Kheri	29.419	76.696
+Tohana Khera	29.523	76.092
+Tohana Mandi	29.724	75.898
+Tohsil	29.406	76.972
+Toka	30.525	77.185
+Toka	30.616	76.972
+Tokas	29.097	75.652
+Toki Manauli	28.910	77.213
+Tolanwali	30.179	77.022
+Tonka	27.965	77.154
+Topra Kalan	30.127	77.164
+Toran	30.797	76.963
+Tugalpur	30.293	77.404
+Tughlakpur	28.456	76.941
+Tuhun	30.651	77.140
+Tukra	29.365	74.999
+Tula ki Dhani	28.238	76.793
+Tumasra	28.009	77.343
+Tumbaheri	28.414	76.540
+Tumnah	28.352	76.455
+Tunde ki Taprian	30.398	77.286
+Tundlaka	27.843	77.164
+Tundli	30.385	76.841
+Turatgarh	30.089	76.925
+Turkanpur	28.282	76.806
+Turkanwali	29.339	75.155
+Turkpur	28.887	76.977
+Tuseni	27.860	77.169
+Tyukar	30.069	76.557
+Uchana	29.739	76.970
+Uchana Khurd	29.467	76.123
+Uchani	29.733	76.983
+Udaipur	28.270	76.912
+Udaipur	30.234	76.626
+Udala	29.251	76.636
+Udamgarh	30.183	77.326
+Udamgarh	30.341	77.346
+Udamgarh	30.370	77.266
+Udana	29.942	76.986
+Udesepur	29.094	76.977
+Udeypur	29.448	76.032
+Udhamgarh	30.298	77.206
+Udhri	30.089	77.364
+Udhri	30.099	77.369
+Udran	29.233	75.394
+Udyamgarh	30.452	77.204
+Udyamgarh	30.460	77.205
+Ugala	30.192	76.980
+Ugalan	29.163	76.258
+Ujah	29.365	77.019
+Ujan Majri	30.011	76.222
+Ujana	29.853	76.440
+Ujhana	29.718	76.135
+Ujina	28.044	77.083
+Ujjal Majri	30.534	77.156
+Ukhal	30.413	77.130
+Ukhalchana	28.583	76.707
+Uklaha Mandi	29.502	75.885
+Uleta	27.952	76.972
+Umarpur	29.906	77.123
+Umedpur	29.919	76.303
+Ummaidpur	29.423	74.834
+Umra	27.971	77.059
+Umra	29.021	75.888
+Umri	27.961	77.086
+Umri	29.946	76.909
+Umri	30.722	77.031
+Un	28.755	76.391
+Unaspur	29.880	76.946
+Uncha	28.191	76.313
+Uncha Chandna	30.182	77.126
+Uncha Majra	28.310	76.811
+Unchagoon	28.325	77.333
+Unheri	30.027	77.268
+Untala	29.393	76.852
+Untheri	29.997	76.958
+Untka	28.074	76.996
+Untlodah	28.513	76.696
+Untsal	30.029	76.923
+Untwan	28.254	76.880
+Uparli	30.398	77.020
+Uplana	29.586	76.665
+Uplana	30.341	77.077
+Uplani	29.620	76.672
+Upli	29.560	76.956
+Uran	30.698	77.075
+Urdanah	29.476	76.555
+Urjani	30.249	77.396
+Urlana	29.350	76.683
+Urlana	29.937	76.193
+Urlana Kalan	29.345	76.692
+Urlana Khurd	29.362	76.703
+Urnai	30.004	76.631
+Urnalcha	29.941	76.594
+Usmanpur	28.418	76.598
+Usmanpur	29.964	76.593
+Utawar	27.978	77.191
+Utron	30.686	77.111
+Uttamwala	30.444	77.330
+Waisar	29.370	76.805
+Waisari	29.377	76.830
+Wali Muhammadpur	27.985	77.511
+Wananwali	29.604	75.396
+Wasilpur	30.509	77.077
+Wazir Khera	29.674	76.352
+Wazirpur	28.423	76.914
+Wazirpur	28.434	77.347
+Wazirpur	28.684	76.571
+Wazirpur Tittana	29.266	76.926
+Wazirpura	29.144	76.671
+Wii Ka Bas	27.894	77.062
+Yahianagar	28.065	77.432
+Yaqubpur	28.486	76.783
+Yaqubpur	30.265	77.420
+Yara	30.141	76.952
+Yarah	30.357	77.434
+Yari	30.141	76.928
+Zabtewala	29.663	75.700
+Zafarpur	29.166	77.003
+Zafarpur	30.318	77.143
+Zahidpur	28.505	76.709
+Zahidpur Tapp Kosli	28.369	76.476
+Zainabad	28.288	76.382
+Zainpur	29.068	77.129
+Zainpur	29.974	77.024
+Zainpur	30.196	76.851
+Zainpur Sadan	29.922	77.074
+Zardakpur	28.634	76.862
+Zarifa	29.719	76.958
+Zarifabad	29.692	76.868
+Zhaidabad Kherli	28.227	77.501
+Zulmat	30.053	76.548
+chadiwal	29.438	75.128

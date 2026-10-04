@@ -1,0 +1,195 @@
+Aibawk	23.561	92.705
+Ainak	22.376	93.158
+Alampaiyam	11.457	77.167
+Amaravila	8.393	77.107
+Attiuttu	8.878	77.456
+Baktawng	23.537	92.847
+Bazar Veng	22.892	92.746
+Biale	23.243	93.127
+Bualpui	24.096	92.683
+Buangpui	23.236	92.746
+Buarpui	24.100	92.600
+Bukhmai Tuak	24.153	92.689
+Bukpui	23.358	92.845
+Bungtlang	22.340	92.759
+Bungtlang	23.183	92.900
+Chaltlang	23.749	92.725
+Chawngte C	22.619	92.636
+Chhimluang	24.389	92.720
+Chhumkhum	22.824	92.605
+Chiahpui	24.022	93.189
+Chinna-Sittulotti	9.649	77.781
+Chittarkottal	9.428	78.902
+Chungtlang	23.690	92.571
+Darlung	23.460	92.601
+Darzo	22.831	92.957
+Demagiri	22.907	92.466
+Duduksora	22.005	92.618
+Durtlang	23.781	92.727
+East Lungdar	23.201	93.085
+Falkawn	23.625	92.727
+Farkawn	23.079	93.295
+Futsora	22.142	92.619
+Gerasury	22.125	92.575
+Gobabsuri	22.048	92.602
+Haulawng	23.060	92.774
+Hhmen	24.230	92.810
+Hmawngzawl	23.719	93.185
+Hmuifang	23.450	92.759
+Hmundo	23.126	92.407
+Hmunpui	23.862	92.580
+Hmunsam	24.082	92.794
+Hmuntha	23.493	92.942
+Hnahlan	23.697	93.381
+Holongchari	23.039	92.486
+Hruizam	23.014	92.548
+Hualngohmun	23.657	92.728
+Hualtu	23.528	92.916
+I.T.I Veng	23.721	92.735
+Kaisi	22.257	92.953
+Kajaichari	22.791	92.501
+Kaladan	22.445	92.935
+Kanghmun	23.554	92.575
+Kawihruilian	24.260	92.809
+Kawlkulh	23.616	93.083
+Keitum	23.232	92.911
+Keitumkawn	23.235	92.911
+Kelkang	23.388	93.309
+Kelsih	23.634	92.721
+Khawbung	23.172	93.220
+Khawdungsei	23.976	93.214
+Khawlek	23.370	92.634
+Khawlek	24.071	93.025
+Khawlian	24.005	93.129
+Khawruhlian	23.869	92.877
+Khawthlir	23.633	93.000
+Khuangleng	23.307	93.289
+Kidappurinattam	9.784	78.471
+Kilasevvalpatti	10.156	78.727
+Kongtal	23.967	92.817
+Kulikawn	23.710	92.727
+Laisawrai	23.263	92.475
+Laitlang	22.091	92.654
+Laki	22.147	93.015
+Lallen	23.619	92.459
+Lamzawl	23.817	93.220
+Lawnamosu	22.106	92.851
+Leite	22.907	92.910
+Lobo	22.483	93.117
+Lung Chhuan	24.024	92.773
+Lungchem	23.137	92.614
+Lungdar	23.638	92.594
+Lungpho	23.380	93.001
+Lungphunlian	23.758	93.305
+Lungsen	22.878	92.587
+Lungtian	22.718	92.972
+Marikovil	9.367	78.947
+Matticher	9.546	77.862
+Mausen	23.018	92.738
+Melriat	23.647	92.725
+Mission Vengthlang	23.713	92.712
+Mualbu Kawnpui	22.330	92.711
+Muallungthu	23.610	92.721
+Mualthuam	23.115	92.741
+Mualvum	24.022	92.665
+Mullianpui	22.678	92.566
+Mumbarakkapatti	9.915	78.383
+Murlen	23.659	93.284
+Nalaitinputtur	9.133	77.820
+Neihbawi	23.837	92.744
+Neihdawn	23.506	93.241
+New Dawn	22.902	92.829
+Ngopa	23.883	93.211
+Ngunlingkhua	22.176	92.640
+Nisapui	23.939	92.769
+North Lungsai	23.502	92.701
+North Mualthuam	23.123	92.741
+Paikhai	23.649	92.760
+Pangzawl	23.095	92.894
+Parva II	22.086	92.651
+Parva III	22.081	92.654
+Perapatti	9.406	77.837
+Periya Pattanam	9.264	78.906
+Phaileng	23.700	92.492
+Phaileng	23.912	92.927
+Phairuangkai	22.824	92.639
+Phuaibuang	23.926	93.122
+Phuldungsei	23.468	92.419
+Phullen	23.841	93.055
+Pukzing	23.344	92.427
+Ralvawng	22.950	92.861
+Ramlaitui	23.183	92.738
+Ramthar	22.880	92.749
+Ratu	24.099	92.914
+Reiek	23.699	92.605
+Rodappanayakkanpatti	9.051	78.146
+Ruallalung	22.658	92.675
+Sabual	23.442	92.594
+Saichal	23.719	93.068
+Sairep	22.823	92.821
+Saizawh ?E?	22.363	92.839
+Salem Veng	23.707	92.737
+Samugarangapuram	8.377	77.612
+Sangau	22.738	93.060
+Sangau ?W?	22.736	93.047
+Sateek	23.546	92.703
+Saza	22.977	92.727
+Sekhum	23.139	92.750
+Seling	23.726	92.857
+Sentlang	23.896	92.736
+Senvon	24.142	93.048
+Serhmun	23.754	92.357
+Serkawn	22.908	92.758
+Serkawr	22.362	92.980
+Sesawng	23.746	92.855
+Sethawn	24.119	92.697
+Shermun	22.334	92.612
+Sialsuk	23.395	92.755
+Sibutalung	23.583	92.700
+Sihphir	23.820	92.741
+Simeinasora	22.016	92.606
+Siruttondamadavi	11.661	79.572
+South Kanghmun	23.214	92.740
+Suangpuilawn	23.949	93.040
+Tachhip	23.583	92.721
+Talamalai	11.618	77.006
+Tawipui	22.698	92.850
+Tawitaw	23.967	92.717
+Tawkzawl	23.880	92.852
+Tawngkalawng	22.179	92.883
+Teidukhan	24.355	92.851
+Thegamukh	22.879	92.446
+Thenhlum	23.224	92.563
+Thiak	23.469	92.711
+Thingfal	22.616	92.873
+Thingsai	22.928	93.099
+Thingsat	24.199	92.939
+Thingsulthliah	23.687	92.858
+Thudmpui	22.976	92.710
+Tlangnuam	23.704	92.714
+Tualbung	23.762	92.940
+Tuichong	22.918	92.523
+Tuidam	23.927	92.369
+Tuidang	22.254	92.829
+Tuilutkawn	23.715	92.447
+Tuipang	22.314	93.027
+Tuisen	23.529	93.174
+Uiphum	22.496	92.609
+Vanbawng	24.041	93.060
+Vancheng	23.437	93.046
+Vandal	9.461	78.791
+Vapar	23.627	93.337
+Vawmbuk	22.595	93.077
+Vawngawn	24.061	92.515
+Vikramaningapuram	8.715	77.330
+Villiseri	9.048	77.803
+Zawlpui	24.120	92.341
+Zawngin	23.903	93.018
+Zawngling	22.251	93.045
+Zemabawk	23.739	92.745
+Zobawk	22.862	92.826
+Zobawk	23.558	92.830
+Zochachhuah	22.133	92.773
+Zokhawthar	23.366	93.384
+Zotlang	23.829	92.484
+Zuchhip	23.477	93.153

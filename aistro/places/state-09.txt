@@ -1,0 +1,4120 @@
+Abdasan	23.860	73.121
+Abhapura	24.139	72.729
+Abhlod	22.747	74.237
+Abrama	20.597	72.943
+Abuvel	23.140	73.087
+Achad	20.219	72.885
+Achedi	24.246	72.533
+Achedi	24.274	72.382
+Adajan	21.198	72.794
+Adepur	23.541	73.600
+Adepur	23.931	73.239
+Aderan	24.093	72.851
+Aderan	24.132	72.747
+Adesar	23.560	70.983
+Adheli Muwara	23.132	73.464
+Adhodhia	23.522	73.629
+Adhoi	23.396	70.512
+Adipur	23.072	70.090
+Adityana	21.717	69.690
+Adriana	23.429	71.706
+Adwal	22.442	72.000
+Adwana	21.914	69.594
+Agar	22.031	73.662
+Agarvada	23.282	73.822
+Agarvada	23.284	73.784
+Agarwara	23.059	73.470
+Agas	22.517	72.883
+Agaswani	22.734	74.060
+Agatrai	21.366	70.254
+Agawara	22.756	74.384
+Agdol	24.400	72.256
+Aghat Muwara	23.069	73.018
+Aghatia	23.429	73.544
+Agia	24.099	73.008
+Agol	23.143	72.273
+Agraji Muwara	23.016	73.113
+Ahmadpur	24.093	72.584
+Ajab	21.264	70.355
+Ajabpura Muwara	23.191	73.306
+Aju Muwara	23.066	73.357
+Akadia	21.648	71.104
+Akadia	22.098	71.454
+Akaria Muwara	23.150	73.195
+Akesan	24.172	72.391
+Aklia	23.321	73.555
+Akolda	21.420	71.484
+Akoli	24.496	72.383
+Akoti	21.172	73.187
+Akri	23.393	68.618
+Akrund	23.286	73.130
+Alampur	21.948	71.721
+Alampur	23.045	73.143
+Alana	23.241	73.121
+Alarsa	22.382	72.957
+Alela	23.122	73.343
+Alidar	20.890	70.849
+Alina	22.810	73.047
+Alindra	22.537	74.155
+Alkapuri	22.313	73.177
+Altalai Para	22.918	74.339
+Alu	23.053	73.812
+Aluwa	23.082	73.091
+Amadpur	23.218	73.318
+Amalpada	21.250	73.683
+Amalsad	20.816	72.956
+Amalwat	22.087	74.022
+Amarghad	23.214	73.130
+Amba	20.588	73.235
+Amba	21.092	73.575
+Amba	23.091	73.891
+Amba	24.033	73.200
+Amba Mhauri	24.353	73.026
+Ambach	23.151	73.120
+Ambagam	23.224	73.269
+Ambajharan	23.178	74.219
+Ambakach	22.638	74.233
+Ambaldi	21.177	71.345
+Ambaldi	21.392	71.056
+Ambaliya	21.580	70.354
+Ambareli	22.649	72.412
+Ambasota	22.119	74.104
+Ambasota	22.132	74.116
+Ambela Mota	23.138	73.972
+Ambela Nana	23.145	73.974
+Ambetha	24.169	72.481
+Ambheti	20.381	73.020
+Ambli	22.657	74.115
+Ambli	22.726	74.193
+Ambli Mota	23.097	73.597
+Ambli Para	22.736	74.225
+Amblia Mota	23.006	73.947
+Ambliala	24.197	72.528
+Ambliat	23.080	73.715
+Amblipani	22.900	74.425
+Amiadra	23.904	73.094
+Amiapura	23.182	73.053
+Amirgadh	24.407	72.641
+Amirpur	22.084	74.065
+Amjibariya Muwara	23.070	73.378
+Amkhuta	21.406	73.218
+Amlari	23.094	74.121
+Amleshwar	21.736	72.816
+Amlikhera	23.203	74.013
+Amliyara	23.217	73.037
+Amloja	23.343	73.820
+Amoda	21.521	74.066
+Amodra	20.818	71.094
+Amodra	23.108	73.271
+Amran	22.825	70.558
+Amrapagi Muwara	23.173	73.453
+Amrapur	21.165	70.427
+Amrapur	21.723	70.051
+Amrapur	23.232	73.197
+Amrava	21.460	74.205
+Amta	21.939	73.933
+Amthani	23.320	73.759
+Anandpur	22.225	71.168
+Anandpur	22.417	70.722
+Anapurgarh	24.574	72.190
+Anawal	20.839	73.262
+Andhari	24.148	72.678
+Andhari Pandoravali	23.312	73.810
+Andhari Vagadiu	23.300	73.840
+Andharkanch	22.230	74.081
+Andharvadi	23.350	73.554
+Anghad	22.386	73.078
+Aniali	22.150	71.183
+Anjani	24.289	73.122
+Anjanwa	23.131	73.807
+Ankala	23.763	73.048
+Ankevalia Mota	22.841	71.454
+Ankhal	24.050	72.827
+Anklachh	20.611	73.269
+Anklia	23.310	73.719
+Ankliara	24.003	72.749
+Anoppur	23.273	73.829
+Antapur	20.947	73.406
+Antarnes	23.698	71.313
+Anthri	24.010	73.173
+Antisar	23.027	73.169
+Antlavada	23.279	73.732
+Antroli	23.004	73.014
+Anturli	21.516	74.203
+Anwarpur	23.125	74.176
+Aramda	22.430	69.035
+Arda	21.474	74.101
+Ardi	22.718	73.037
+Areth	21.305	73.164
+Aria	23.779	72.017
+Arikh	22.253	70.009
+Aritha	23.149	73.646
+Arithi	23.151	73.682
+Arnala	20.417	73.083
+Arnivada	24.332	72.430
+Arod Muwara	23.144	73.906
+Arun Arekar -residence	22.274	73.197
+Asai	23.909	73.002
+Asambia	22.969	69.451
+Asapur	21.517	74.028
+Asar	22.176	74.006
+Asara	24.336	71.390
+Asarsa	21.951	72.592
+Asarwa	23.045	72.608
+Ashiwara	23.182	73.835
+Ashmapur	24.216	72.476
+Ashmapura	24.136	72.532
+Ashrava	21.516	74.190
+Aslali	22.920	72.596
+Asota Mota	22.268	69.378
+Aspur	23.165	73.376
+Aspur	23.172	74.012
+Astgam	20.900	73.039
+Asundria	23.154	73.450
+Asundria	23.161	73.467
+At	20.888	72.863
+Atalvada	23.268	73.707
+Atarsumba	23.052	72.968
+Atarsumba	23.985	73.222
+Atgam	20.651	73.030
+Athamna Bara	22.289	69.501
+Athwa	21.173	72.794
+Atkot	22.009	71.150
+Atkot	22.010	71.149
+Atroli	24.284	72.437
+Avidha	21.767	73.183
+Awal	24.431	72.666
+Babidara Mota	23.238	73.557
+Bablia	23.314	73.565
+Babra	23.205	73.960
+Babri	23.107	73.937
+Babrol	23.198	73.960
+Bachawa Mota	23.245	73.502
+Bachkaria	23.164	74.019
+Bachkaria	23.393	73.742
+Bada	22.903	69.148
+Badar[ar Kalusan	24.099	72.362
+Badarmala	24.220	72.856
+Badarpar Padura	24.201	72.346
+Badarpur	23.005	72.875
+Badarpur	23.236	73.319
+Badhar Bariya Muwara	23.031	73.185
+Badhar Muwara	23.013	73.139
+Badharpur	23.238	73.516
+Badharpura	24.262	72.386
+Badi	21.606	72.216
+Badnu	24.010	73.265
+Badoli	23.825	73.072
+Baet	22.941	69.178
+Bagathala	22.854	70.721
+Bagodara	23.015	72.495
+Bagodra	22.640	72.202
+Bagwadar	21.790	69.593
+Bahadargad	24.086	72.461
+Bahadarpur	22.175	73.561
+Bahadarpur	24.019	72.572
+Bahiel	23.072	72.886
+Bahurupa	21.524	74.228
+Bajana	23.115	71.779
+Bajarwara	23.067	74.138
+Bajiasur	24.035	73.140
+Bajiji Muwara	23.058	73.233
+Bajipura	21.089	73.279
+Bakarpur	23.864	73.024
+Bakharla	21.732	69.635
+Bakor	23.342	73.606
+Bakrol	22.564	72.909
+Bakuri	22.032	69.343
+Bakutra	23.811	71.179
+Balachadi	22.602	70.216
+Baladgaon Borda	22.133	74.011
+Balagam	21.370	70.099
+Balaiya	23.196	74.000
+Balamba	21.541	74.069
+Balamba	22.737	70.425
+Balana	20.847	71.287
+Balasar	23.842	70.668
+Balda	21.520	74.252
+Baldanu	22.570	71.700
+Baldhoi	22.049	71.064
+Balesar	21.108	72.983
+Baliadeo Muwara	23.085	73.269
+Balindian	23.063	74.270
+Balisana	23.818	72.258
+Balol	22.539	72.125
+Baluji Muvada	23.269	73.819
+Balujina Mota	23.075	73.677
+Balupara	22.800	73.783
+Balwa	22.213	74.010
+Balwakhant Muwara	23.182	73.395
+Bamanbore	22.416	71.029
+Bamania	24.112	72.681
+Bamankua	22.444	73.609
+Bamanwad	23.063	73.539
+Bamaswari	22.168	74.092
+Bambela	23.165	74.191
+Bambhanka	23.811	70.336
+Bamna Muwara	23.214	73.832
+Bamni	23.339	73.555
+Bamniawala Muwara	23.118	73.794
+Bamodra	24.206	72.924
+Bampur	23.464	73.456
+Bamroda	23.278	73.657
+Bamroli	21.133	72.818
+Banaji Muwara	23.062	73.223
+Bandar	21.048	71.777
+Bandar	22.716	70.281
+Bandia	23.396	69.012
+Bandibar	22.820	74.401
+Bandiu Muwara	23.083	73.201
+Bandivav	23.324	73.758
+Bantiawala Muwara	23.063	73.881
+Baola Muwara	23.059	73.408
+Baoli	22.928	71.399
+Baori	20.826	73.452
+Bapada	21.608	69.814
+Bar Sulera	23.275	74.067
+Bara	23.184	74.105
+Bara Beri	24.411	73.009
+Bara Dungar	23.030	74.055
+Barada	22.197	69.020
+Baram Para	22.912	74.321
+Baranda	23.556	68.678
+Barbodhan	21.224	72.709
+Bardi Pada	21.479	74.049
+Baria	22.157	74.098
+Baria	22.178	74.120
+Baria Muwara	23.244	73.484
+Bariana Muwara	23.009	73.209
+Bariawala Muwara	23.172	73.796
+Barikora	23.208	73.894
+Barodra	23.302	73.017
+Barora	23.219	73.492
+Barot Mota	23.081	73.636
+Barot Mota	23.157	73.580
+Barpatoli	20.988	71.386
+Barvala	22.154	71.892
+Barvala-Baval	21.719	70.834
+Barwala Para	22.963	74.312
+Basai	24.032	73.378
+Basaul	24.085	73.084
+Basu	24.062	72.330
+Batakwara	23.247	73.982
+Batauara	24.304	72.483
+Bathanakua Muwara	23.043	73.255
+Bativada	23.477	73.529
+Batwa	22.956	72.613
+Bavliari	22.075	72.118
+Bawal	24.196	73.027
+Bawalchuri	24.037	72.446
+Bawalia	24.198	73.075
+Bawawal	23.201	73.993
+Bebar	23.485	69.462
+Bechar Metana Muwara	23.211	73.912
+Bedavli	23.263	73.644
+Bedsama	24.062	72.765
+Bedvali	23.258	73.640
+Begor	24.153	72.958
+Beh	22.275	69.462
+Beheda	24.195	72.903
+Behera	20.950	73.280
+Bej	21.500	74.087
+Bela	22.855	70.531
+Bela	22.898	70.888
+Bela	23.391	73.598
+Bela	23.873	70.804
+Benap	24.153	71.415
+Benda	23.164	73.911
+Ber Mota	23.467	68.599
+Beraja	22.254	69.910
+Beraja	22.396	70.005
+Beraja	22.982	69.607
+Berampur	24.260	72.665
+Beria	23.168	73.753
+Berio	24.109	73.072
+Bet	22.453	69.096
+Betawara	23.086	73.050
+Betawaria Muwara	23.034	73.214
+Betia Chayara Muwara	23.096	73.084
+Bhad	21.509	69.852
+Bhadarwa	22.516	73.127
+Bhadath	24.341	72.224
+Bhadia	22.831	69.485
+Bhadkad	22.617	72.706
+Bhadla	22.187	71.101
+Bhadli	22.021	71.438
+Bhadli	24.375	72.274
+Bhadra	23.443	68.936
+Bhadran	22.359	72.900
+Bhadreswar	22.911	69.898
+Bhadria Mota	23.166	73.646
+Bhadrod	21.136	71.804
+Bhadrod	23.295	73.647
+Bhadthar	22.078	69.575
+Bhadva	22.090	70.909
+Bhaedwa Muwara	23.047	73.331
+Bhaelakui	23.072	73.008
+Bhagal	24.171	72.510
+Bhagat Mota	23.239	73.638
+Bhagat Muwara	23.091	73.198
+Bhaglia	23.300	73.714
+Bhagrodia	24.073	72.445
+Bhagwa	21.355	72.653
+Bhagwaji Muwara	23.223	73.435
+Bhaiji Muwara	23.068	73.217
+Bhajna	24.595	71.875
+Bhakar	24.284	72.290
+Bhakhara	23.936	73.230
+Bhakhiri	24.083	72.663
+Bhakodar	20.894	71.451
+Bhakri	24.012	72.582
+Bhakudar	24.394	72.302
+Bhalala	22.851	71.886
+Bhalara	23.104	73.499
+Bhaldi	24.465	72.344
+Bhalod	21.825	73.191
+Bhalsan Mota	22.319	70.168
+Bhalu Moti	24.042	72.718
+Bhalu Nan	24.047	72.738
+Bhalusna	24.034	72.742
+Bhambhori	22.838	74.341
+Bhambhudi	23.967	73.216
+Bhamera	23.043	74.001
+Bhamra	23.179	73.572
+Bhamri Simal	23.321	73.983
+Bhamsal	21.519	74.284
+Bhana Simal	23.318	73.921
+Bhanadra	21.861	73.635
+Bhanavas	24.060	72.777
+Bhandaria	21.586	72.131
+Bhandoi	23.018	73.907
+Bhandu	23.703	72.387
+Bhanduri	21.107	70.281
+Bhangor	22.098	69.855
+Bhanpur	22.594	74.197
+Bhanpur	23.075	73.607
+Bhanpur	23.247	73.616
+Bhanpur	23.849	73.106
+Bhanpur	24.011	72.914
+Bhanpur	24.202	72.978
+Bhanpura	23.033	74.004
+Bhanpura	23.105	74.172
+Bharapur	23.129	69.630
+Bharatpur	23.188	73.106
+Bharbhut	21.684	72.844
+Bharduva	24.228	71.358
+Bhardwach	23.588	73.575
+Bharetra Muwara	23.175	73.394
+Bhariad	22.280	72.167
+Bharkawara	24.048	72.382
+Bharkha	23.070	73.562
+Bharod	24.133	72.502
+Bharora	23.223	73.494
+Bharu Muwara	23.152	73.199
+Bharwadna Muwara	23.160	73.253
+Bhat	22.415	73.626
+Bhata Muwara	23.080	73.408
+Bhatamal Moti	24.281	72.403
+Bhatamal Nani	24.321	72.406
+Bhatara Muwara	23.150	73.480
+Bhatha	21.186	72.764
+Bhatha	23.073	73.820
+Bhatia Mota	23.205	73.735
+Bhatiwara	22.893	74.294
+Bhatiwara Para	22.905	74.425
+Bhatiya	22.092	69.275
+Bhatmoari	23.194	74.004
+Bhatpura	23.063	73.622
+Bhatva	23.939	73.084
+Bhatvas	24.021	72.721
+Bhatvas	24.080	72.627
+Bhaupura	23.097	74.185
+Bhavda	22.256	69.074
+Bhavisana	24.146	72.357
+Bhawanpara	23.149	73.946
+Bhayala	22.760	72.314
+Bhe	22.680	74.227
+Bhedia Mota	23.278	73.582
+Bhejli Muwara	23.088	73.080
+Bhemlia Muwara	23.102	73.081
+Bhempur	23.571	73.596
+Bhempura Muwara	23.056	73.023
+Bhendara	23.261	73.922
+Bhendra	23.227	73.905
+Bhendul	22.576	74.143
+Bherai	20.975	71.489
+Bherala	20.990	70.475
+Bherandiala	23.659	69.707
+Bhesan	21.552	70.707
+Bhesawara Kakana	23.164	73.580
+Bhesawara Khatana	23.155	73.557
+Bhevada	23.261	73.608
+Bhewara Makansingji	23.235	73.620
+Bhewara Phataji	23.245	73.602
+Bhewara Tak	23.237	73.606
+Bhichor	23.233	74.097
+Bhikha Muwara	23.015	73.382
+Bhikha Muwara	23.023	73.360
+Bhil Bhavali	21.476	74.063
+Bhil Jambholi	21.427	74.047
+Bhil Pada	21.492	74.042
+Bhil Semli	24.446	73.040
+Bhilachal	24.444	72.395
+Bhilari Muwara	23.091	73.311
+Bhilbar	23.328	73.949
+Bhildi	24.186	72.007
+Bhilo Na Dhudha	23.506	73.603
+Bhilot	23.866	71.544
+Bhilpur	22.406	73.951
+Bhilvada	23.254	73.770
+Bhilvada	23.264	73.776
+Bhilwarna Para	22.892	74.341
+Bhimapur	23.496	73.596
+Bhimasar	23.540	70.873
+Bhimkatta	22.799	70.465
+Bhimnath	22.247	71.922
+Bhimora	22.337	71.240
+Bhimpur	21.081	72.729
+Bhimpur	23.067	73.452
+Bhimpuri	23.158	74.261
+Bhimrad	22.079	71.578
+Bhinar	20.822	73.333
+Bhirata	22.070	74.150
+Bhirata	22.081	74.159
+Bhit	23.250	68.650
+Bhitori	23.181	74.079
+Bhogat	21.992	69.242
+Bhoika	22.504	71.890
+Bhoja	23.001	73.486
+Bhoja Muwara	23.143	73.061
+Bhojavadar	21.850	71.717
+Bhojela	23.146	74.013
+Bhojia Kiari Muwara	23.009	73.324
+Bhojraj	23.161	69.259
+Bholawat	21.011	70.462
+Bhondri	23.398	73.532
+Bhongapura	23.234	74.138
+Bhopar	21.548	74.234
+Bhordu	24.437	71.748
+Bhorol	24.528	71.542
+Bhorwa	22.691	74.070
+Bhotwa	23.132	73.963
+Bhotwa	23.171	73.778
+Bhramkhera	22.772	74.288
+Bhugardi Nani	23.110	73.967
+Bhuglia Muwara	23.091	73.085
+Bhujpara	23.887	73.074
+Bhujpur	22.875	69.629
+Bhukakutri	23.421	73.524
+Bhukhel	23.245	73.185
+Bhukhi	23.226	73.851
+Bhul	23.405	73.808
+Bhula Khant Mota	23.226	73.739
+Bhunidra	23.026	73.722
+Bhupatbhai Matholiya	22.108	71.769
+Bhutadi	24.264	72.385
+Bhutia	23.060	73.221
+Bhutia	23.866	73.078
+Bhutkheri	23.032	73.986
+Bhutori	22.770	74.350
+Bhuvabar	23.339	73.674
+Bhuver	23.056	73.791
+Biamari	23.082	74.148
+Biasar	23.084	73.616
+Bibipura	23.205	73.126
+Bid Muwara	23.239	73.755
+Bid Para	22.792	74.305
+Bidada	22.897	69.478
+Bildi	21.869	70.947
+Bilia	22.706	74.166
+Bilodra	23.525	72.652
+Birpur	24.143	73.071
+Birpur	24.245	72.990
+Boali	23.514	73.557
+Bochasan	22.410	72.843
+Boghadwa	22.674	74.000
+Bokan Nada	23.292	73.724
+Bolel	23.130	73.211
+Bomaru	24.007	73.240
+Bor	23.191	73.199
+Bor-No-Math	23.191	73.194
+Boratwada	23.723	71.926
+Borchapra	22.041	74.063
+Bordi	22.864	74.349
+Bordi	23.000	73.454
+Bordi	23.140	73.295
+Bordiala	24.206	72.894
+Boria	22.560	71.734
+Boria	23.043	73.659
+Boria Mota	23.210	73.691
+Boriabhit	23.086	74.018
+Boridebar	24.157	73.107
+Borikuva	21.543	74.027
+Borkhera	22.785	74.317
+Borki	22.923	70.565
+Borpani	23.040	74.079
+Borsad	23.060	74.297
+Borsi	23.548	73.537
+Bortha	21.494	74.082
+Borvai	23.395	73.648
+Borwa Para	22.714	74.229
+Borwantia Muwara	23.118	73.276
+Bothala	23.052	73.307
+Boyaria	23.142	73.722
+Bramhapuri	23.145	73.662
+Bramhapuri	23.793	73.093
+Brancavara	20.715	70.876
+Buchavada	23.308	73.763
+Budhel	21.696	72.152
+Budhia	23.824	73.063
+Budhpur	23.219	73.841
+Budhsagar	23.933	73.078
+Bugadh	23.306	73.871
+Buhari	20.968	73.308
+Bunjar	22.028	74.079
+Bureli	23.300	73.981
+Burla	20.290	73.173
+Butela	23.216	74.044
+Chadrana	24.389	73.037
+Chakaldara	23.021	74.325
+Chakalia	23.037	74.288
+Chakalia	23.052	74.306
+Chakesna	23.073	74.016
+Chaklasi Muwara	23.003	73.214
+Chakra	21.459	73.622
+Chalali	23.076	73.408
+Chaliata	23.205	74.023
+Chalora	22.803	72.447
+Chamardi	21.836	71.907
+Chamaria	23.052	73.949
+Chamaria	23.069	73.613
+Champalpur	24.043	72.953
+Champaner	22.483	73.550
+Champeli	23.110	73.540
+Champlawat Muwara	23.165	73.356
+Chamu	23.924	73.100
+Chanasar	23.050	74.185
+Chandap	23.924	72.845
+Chandawada	22.746	74.209
+Chandawari	21.221	70.450
+Chandeli Muwara	23.178	73.765
+Chandisar	24.217	72.311
+Chandkheda	23.112	72.572
+Chandli	22.146	70.589
+Chandli	23.179	74.027
+Chandnani	23.667	73.133
+Chandod	21.985	73.455
+Chandpur	23.128	73.558
+Chandrala	23.336	72.787
+Chandrani	23.288	70.066
+Chandrawada	21.873	69.468
+Chandri	23.355	73.887
+Chandrora	23.585	71.979
+Chandsar	23.102	73.654
+Chandsar	23.112	73.643
+Chandwana	22.800	74.345
+Chandwasa	24.038	73.341
+Changa	24.071	72.363
+Changada	22.531	72.545
+Changwara	24.085	72.367
+Chaniana	24.121	72.524
+Chaori Bai Mota	23.166	73.673
+Chaoria	22.170	74.003
+Chaoria	23.133	73.647
+Chapria	22.096	74.031
+Chaptia	23.063	73.095
+Chaptia	23.088	73.193
+Charadva	22.926	71.026
+Charan Mota	23.158	73.577
+Charangam	23.056	73.448
+Charangam	23.125	73.514
+Charara	23.131	73.783
+Charara	23.486	72.656
+Charawalu Muwara	23.076	73.104
+Charel Moti	23.108	73.601
+Charel Nani	23.103	73.607
+Chari	22.601	74.087
+Chari	23.059	73.669
+Charia Mota	23.148	73.521
+Charia Muwara	23.241	73.766
+Charkha	21.442	71.221
+Charkhardi	21.902	70.663
+Charokha	24.193	72.379
+Charoli Moti	23.241	74.113
+Charoli Nani	23.245	74.101
+Charopadi Moti	23.365	68.688
+Chatar	22.127	70.233
+Chatka	23.007	74.320
+Chatka Mota	23.219	73.565
+Chatkabeli	23.165	73.709
+Chatki Mota	23.160	73.533
+Chatrala	24.362	72.257
+Chavad	21.808	71.398
+Chayusa Muwara	23.003	73.223
+Chelapagi Muwara	23.177	73.798
+Chelcna	24.068	72.656
+Chhabhau	23.167	73.169
+Chhadwala	23.277	70.448
+Chhaen	22.902	74.308
+Chhaen	22.993	74.319
+Chhaen	23.164	73.781
+Chhaia	23.295	74.032
+Chhala Baria Mota	23.032	73.594
+Chhalala	22.419	71.807
+Chhalor	23.268	74.065
+Chhani	22.361	73.169
+Chhani	23.427	73.663
+Chhapora Jiwanjina	23.200	73.695
+Chhapora Umedjina	23.195	73.695
+Chhapra	23.756	73.201
+Chhapra	24.021	73.165
+Chhapra Vanjaria	23.760	73.200
+Chhapri	23.263	73.618
+Chhapri Muwara	23.037	73.331
+Chhapri Muwara	23.073	73.440
+Chhapria Muwara	23.208	73.147
+Chhapriwala Mota	23.182	73.542
+Chhara	20.742	70.716
+Chharchhora	22.710	74.181
+Chharodi	23.017	72.272
+Chharvangi	23.253	73.555
+Chhasia Nani	23.164	74.245
+Chhasra	22.956	69.814
+Chhatrang	24.436	73.005
+Chhelaji Muwara	23.022	73.135
+Chhikari	23.599	73.634
+Chhipri	22.964	72.920
+Chhogala	23.011	73.707
+Chhuchhapura	22.216	73.596
+Chibhad M.	23.101	73.095
+Chichani	23.114	73.975
+Chikda	21.517	73.646
+Chikhli	21.467	73.967
+Chikhli	21.532	74.090
+Chikhli	23.172	73.982
+Chikla	24.075	73.039
+Chikli	22.020	74.084
+Chikli	22.053	74.041
+Chikli	22.207	74.109
+Chilakota	22.744	74.124
+Chinchba	22.087	74.119
+Chinchoda	21.510	74.240
+Chiol	20.427	73.114
+Chirai Mota	23.218	70.257
+Chital	21.737	71.201
+Chitoria	23.093	74.201
+Chitrabara Muwara	23.096	73.876
+Chitrasani	24.267	72.485
+Chitrod	23.410	70.678
+Chitroda	23.759	73.081
+Chitroda	24.059	72.596
+Chitva	23.305	73.858
+Chobari	22.261	71.206
+Chobari	23.525	70.340
+Chodongri	24.376	72.317
+Chodwan	21.417	73.833
+Choila	23.219	73.173
+Chok	21.418	71.762
+Chokaria Muwara	23.158	73.166
+Chokhandi	23.572	73.581
+Chokhiamba	21.544	74.012
+Chokri	22.482	71.606
+Chopatdevi Para	22.785	74.277
+Chopra	23.097	73.614
+Chopra Bujrag	23.089	73.828
+Chopra Khurd	23.087	73.847
+Chor Warodra	23.117	72.217
+Choradongri Muwara	23.033	73.265
+Choranda	21.987	73.168
+Chorangla	22.160	73.688
+Chorbariya	22.712	74.010
+Chori	23.151	73.425
+Choridev	21.529	74.002
+Chorimal	23.863	73.308
+Chorivad	23.333	73.537
+Chorivad	23.900	73.126
+Chorsa	23.232	73.411
+Chosala	22.933	74.254
+Chota Pipodra	24.202	72.943
+Chotasan	23.890	73.116
+Chuda	22.482	71.688
+Chudeswar	22.338	69.538
+Chula	23.909	73.071
+Chularia	23.033	73.738
+Chuna	21.205	71.765
+Chunel	22.759	73.033
+Chura	21.597	70.818
+Chuthana Mota	23.143	73.745
+Chuwana Mota	23.150	73.623
+Ciapron	24.256	73.102
+Dabela	24.436	72.637
+Dabha	23.203	73.102
+Dabharan	23.318	73.546
+Dabhel	21.040	72.948
+Dabhoda	23.179	72.748
+Dabhoi	22.134	73.424
+Dabhua	22.616	74.023
+Dabka	22.249	72.956
+Dablara	23.171	74.073
+Dabri Muwara	23.185	73.846
+Dad	23.385	73.869
+Dada Muwara	23.159	73.150
+Dadbiali	21.135	71.255
+Dadhalia	23.264	73.749
+Dadhalia	23.557	73.367
+Dadhar Mota	23.711	69.842
+Dadhela Mota	23.201	74.095
+Dafa	23.780	68.231
+Dagala	23.298	69.963
+Daglon	24.035	73.371
+Dahej	21.712	72.591
+Dahida	21.402	71.128
+Dahikhed	20.245	73.124
+Dahinsara	22.961	70.618
+Daidarda	24.486	71.736
+Daisara	23.092	69.520
+Daji Bariya Muwara	23.117	73.334
+Daji Pagi Muwara	23.154	73.188
+Dajipura Muwara	23.166	73.172
+Dakshaneshwar	23.209	73.243
+Dalelpur	23.360	73.589
+Daliati	23.230	73.921
+Dalkhania	21.241	70.927
+Dalpor	23.263	73.977
+Dalu Kharia Mota	23.145	73.592
+Dalwai Saoli	23.072	73.500
+Dama	24.291	72.084
+Damar Muwara	22.801	74.380
+Damavas	23.984	73.126
+Damka	21.197	72.665
+Damlawari	21.016	72.737
+Damra Para	22.885	74.273
+Damrala	21.551	70.914
+Danadra	23.026	73.220
+Dandgarh	23.052	74.263
+Dandi	21.330	72.625
+Dandiapur	23.116	73.082
+Dangarvada	23.409	73.571
+Dangarwa	23.379	72.459
+Dangia	24.249	72.331
+Dani Muwara	23.128	73.470
+Daniana Mota	23.112	73.539
+Danji Muwara	23.159	73.227
+Danmauri	24.216	73.005
+Danta	24.189	72.766
+Danta	24.360	73.088
+Dantali	23.089	73.139
+Dantia	22.979	74.262
+Dantivada	24.344	72.340
+Dantral	24.317	73.020
+Dared	21.976	71.741
+Dari	20.946	70.323
+Daroi	24.143	73.093
+Dasada	23.324	71.831
+Daskroi	22.909	72.639
+Daslana	23.258	72.056
+Dastan	21.155	73.027
+Datarda Muwara	23.017	73.394
+Datha	21.683	71.950
+Davol	22.414	72.949
+Daxini Society	22.991	72.611
+Dayapur	23.200	73.868
+Debhari	23.256	73.518
+Dedadra	22.771	71.762
+Dedan	21.050	71.280
+Dedarda	21.488	71.718
+Dedavada	23.285	73.769
+Degam	21.701	69.598
+Degam	22.187	72.590
+Degamra	23.213	73.600
+Deheli	21.563	73.216
+Dehemai	23.156	73.215
+Dejar	23.048	73.743
+Dekawara	23.356	72.147
+Dela	23.175	73.747
+Deloch	23.041	73.839
+Delol	22.628	73.504
+Delsar	22.860	74.267
+Delwara	20.980	72.836
+Delwara	24.023	72.969
+Delwara	24.235	72.379
+Demti	24.294	73.087
+Deo	23.041	73.396
+Deo Mota	23.189	73.673
+Deodha	22.760	74.316
+Deogad	21.390	73.337
+Deogam	23.546	73.620
+Deogowalia Para	22.786	74.255
+Deohati	22.396	74.097
+Deojini Sarsaoni	23.090	74.142
+Deokanwala Muwara	23.242	73.939
+Deolia	23.012	70.993
+Deolia Para	22.880	74.404
+Deora	21.739	69.882
+Deori	23.179	73.604
+Derdi	24.462	72.380
+Derdi Janbai	21.817	71.446
+Derdi Paori	23.151	73.017
+Deri	22.247	74.080
+Deria Muwara	23.101	73.266
+Derkan	24.234	73.082
+Derol	23.591	72.834
+Derol	24.028	73.113
+Deroli	23.087	73.249
+Desalpur	23.747	70.685
+Desar	22.716	73.293
+Desotar	23.802	72.875
+Detroj	23.333	72.189
+Detroli	23.838	73.073
+Detvas	23.425	73.759
+Deul Pada	21.495	74.093
+Devani Mori	23.663	73.382
+Devdanti	23.347	73.511
+Devhala	21.488	74.260
+Devjagan	21.916	72.546
+Devli	21.937	74.079
+Devlia	22.789	71.845
+Devtimavada	23.280	73.785
+Dewan	22.276	72.826
+Dewania	23.069	74.133
+Dhaita	21.253	73.880
+Dhalsemal	23.068	74.031
+Dhamarda	22.857	74.315
+Dhamatia Mota	23.213	73.713
+Dhamdi	23.965	73.021
+Dhamlej	20.781	70.613
+Dhamnia	23.006	73.554
+Dhamod	23.130	73.408
+Dhanal	24.091	72.968
+Dhanali	24.096	72.636
+Dhanar	22.642	74.220
+Dhanda	24.184	72.558
+Dhandhalpur	22.393	71.362
+Dhanela	23.098	73.401
+Dhanela	24.012	73.387
+Dhaneri	24.394	72.350
+Dhangdhar	20.876	73.464
+Dhaniana	24.177	72.489
+Dhanivada	23.493	73.567
+Dhank	21.777	70.131
+Dhanpur	22.182	74.023
+Dhanpur	22.636	74.099
+Dhanpuri	22.178	74.044
+Dhansura	23.348	73.209
+Dhanwara	22.107	74.064
+Dhanwari	22.099	74.055
+Dhaoriphalia	23.087	74.009
+Dharabandar	20.815	71.230
+Dharampuri Para	22.765	74.339
+Dharamri	23.236	73.333
+Dharasana	20.685	72.920
+Dhareda	24.270	72.781
+Dharesi	23.691	68.856
+Dharia	23.105	74.143
+Dharmaj	22.412	72.792
+Dharoi	24.001	72.852
+Dharol	23.938	73.109
+Dharola Mota	23.234	73.788
+Dharola Nana	23.235	73.794
+Dharoli	21.617	73.228
+Dhathi	23.028	73.399
+Dhawaria	23.140	74.173
+Dhawaria	23.141	74.162
+Dhebar	22.992	74.360
+Dhechania	23.853	73.186
+Dhegalvada	23.337	73.763
+Dhekua	23.640	73.613
+Dhelana	24.139	72.554
+Dhemda	23.543	73.635
+Dhenkava	23.409	73.610
+Dhera Muwara	23.127	73.467
+Dheri	24.352	72.517
+Dheria	23.066	73.936
+Dheria	23.575	73.552
+Dheria Muwara	23.121	73.122
+Dhesia	23.090	73.481
+Dhima	24.462	71.519
+Dhinoj	23.662	72.278
+Dhirakhat Muvada	23.370	73.522
+Dhirakhat Muvada	23.380	73.524
+Dhirasana	23.944	73.074
+Dhirpura	23.139	73.235
+Dhirpura Muwara	23.147	73.244
+Dhogan	24.130	72.926
+Dholakhakhra	23.019	74.296
+Dholandanti Para	22.731	74.226
+Dholera	22.248	72.196
+Dholi	23.261	73.507
+Dholi Dungri	23.120	73.594
+Dholi Ghanti Muwara	23.239	73.811
+Dholia	24.151	72.865
+Dholiadungri Para	22.876	74.334
+Dholivau	23.994	73.246
+Dholiwao Muwara	23.052	73.104
+Dholovira	23.875	70.217
+Dholvada	23.929	73.181
+Dholvan	23.950	73.185
+Dhomwala Muwara	23.181	73.361
+Dhori	24.147	72.634
+Dhorkua	22.554	74.030
+Dhota	24.084	72.535
+Dhrasanvel	22.289	69.039
+Dhudhalia Muwara	23.047	73.362
+Dhuleta	23.277	73.560
+Dhulia Wasna	23.159	73.101
+Dhulkota	23.538	73.577
+Dhunali	24.101	72.932
+Dhunia	23.201	73.790
+Dhunvav	22.487	70.136
+Dia	23.116	73.550
+Dighas	21.266	73.052
+Digsar	22.726	71.479
+Dihor	21.480	72.039
+Dijio	24.068	73.113
+Dikshal	20.302	73.336
+Dilwara	24.346	73.092
+Dinawad Moti	23.144	73.675
+Dinawad Nani	23.149	73.673
+Dindrol	24.020	72.315
+Dioli	23.853	73.051
+Diori	24.221	72.763
+Dipgar M.	23.092	73.028
+Diva	21.647	72.972
+Divda	23.278	73.839
+Dobarjia	23.188	74.067
+Dobhara	23.973	72.947
+Dodavanta	23.319	73.618
+Dodia	23.253	73.791
+Dodva	21.554	74.120
+Dodvepada	21.515	74.034
+Dogjhar	22.710	74.069
+Dokalia Mota	23.100	73.601
+Dokela	23.086	73.567
+Doki	23.042	74.019
+Dokwa Mota	23.087	73.593
+Dokwa Nana	23.094	73.610
+Dola Khant Muwara	23.218	73.819
+Dola Pagi Muwara	23.175	73.345
+Dolaji Muwara	23.039	73.314
+Dolaria	22.738	74.103
+Dolaria	23.213	73.621
+Dolasa	20.823	70.857
+Dolat Poira	23.092	73.395
+Dolatpara	23.252	73.731
+Dolatpur	21.583	73.283
+Dolatpura	23.245	73.830
+Doli	23.082	73.863
+Dolpura	23.200	73.112
+Dolpura Muwara	23.184	73.329
+Dolwan	20.895	73.333
+Dondawala Mota	23.186	73.734
+Dongar	21.069	71.566
+Dongargaon	22.152	74.025
+Dores	20.717	70.967
+Doria Mota	23.147	73.527
+Doriana Muwara	23.029	73.476
+Dotawara	23.226	73.923
+Dother	24.268	73.044
+Drafa	21.969	70.103
+Drumod	24.066	72.258
+Dudhai	23.319	70.126
+Dudhala	21.160	71.055
+Dudhala	21.682	71.370
+Dudhambli	22.690	74.073
+Dudhathal	23.081	73.172
+Dudheli Muwara	23.160	73.800
+Dudhia	22.882	74.005
+Dudka	24.104	73.116
+Dudkha	23.626	71.678
+Dudwara	23.503	73.542
+Dugawa	24.665	71.946
+Dulana	24.043	72.641
+Dumas	21.101	72.704
+Dumka	22.623	74.106
+Dumkhal	21.737	73.842
+Dumra	23.042	69.043
+Dun	22.524	74.018
+Dungar	23.293	74.011
+Dungarpur	22.607	74.063
+Dungarpur	22.834	74.304
+Dungarpur Bhima	23.028	73.972
+Dungarpur Kala	23.017	73.985
+Dungarpur Vira	23.033	73.969
+Dunglapani	23.211	74.104
+Dungra	23.093	73.968
+Dungra	23.238	74.087
+Dungri	22.962	74.100
+Dungriasan	24.005	72.353
+Duva	24.519	71.905
+Edalwara	22.681	74.068
+Edrana	24.013	72.434
+Egola	24.212	72.376
+Ejawas	24.420	73.051
+Eklara	23.749	72.809
+Elao	21.448	72.799
+Endra	23.215	73.853
+Fakirwari	23.210	69.625
+Faradi	22.942	69.513
+Fararia	22.248	74.050
+Fatehgadh	23.701	70.847
+Fatehgarhi	23.228	74.080
+Fatehpura	23.257	74.039
+Fatepur	23.907	73.022
+Fatepur	24.111	72.466
+Fatepura	23.093	73.160
+Fatepura	23.212	73.112
+Fatia Muwara	23.119	73.214
+Firozpur	24.273	72.462
+Gabat	23.256	73.337
+Gabhlawalu Muwara	23.094	73.429
+Gad Boriad	22.056	73.832
+Gada	23.996	73.020
+Gada	24.120	72.963
+Gadalwara	24.121	72.345
+Gadanpur	23.118	73.576
+Gadara	24.453	72.676
+Gadh	24.122	72.827
+Gadhada	23.868	70.376
+Gadhada	24.060	72.954
+Gadhada	24.142	72.755
+Gadhagra	21.258	71.402
+Gadhali	21.882	71.617
+Gadhechi	22.355	69.044
+Gadheli	23.181	73.528
+Gadhia	21.211	71.136
+Gadhka	22.098	69.418
+Gadhka	22.256	70.956
+Gadhula	21.748	71.722
+Gadia Muwara	23.335	73.593
+Gadid	21.507	74.104
+Gadola	22.544	74.035
+Gadra	23.325	74.007
+Gadu	21.050	70.294
+Gaga	22.141	69.196
+Gaja Pagi Muwara	23.017	73.340
+Gajanvav	22.916	71.403
+Gajhan	23.434	73.518
+Galakheri	23.142	73.960
+Galalia Mota	23.043	73.647
+Galaliawad Para	22.850	74.278
+Galalpura Muwara	23.233	73.942
+Galatalaori	23.179	73.793
+Galesar	22.073	74.013
+Gali	23.139	74.061
+Galiadanti	23.366	73.511
+Galoda	24.009	73.102
+Galodia	24.012	73.080
+Galteshwar	21.280	73.080
+Galteshwar	22.847	73.312
+Galvel	22.577	74.053
+Gamanbaria Mota	23.001	73.622
+Gamanpur	24.062	72.803
+Gamanpura	23.239	73.001
+Gamanpura-No-Math	23.128	73.062
+Gambhirji Muwara	23.061	73.233
+Gambhirpura	23.851	73.016
+Gamdi	21.451	74.033
+Gamdi	22.916	72.629
+Gamij	23.058	72.847
+Gamirpura Muwara	23.178	73.808
+Gamla	22.799	74.323
+Gamph	22.358	72.166
+Gamri	23.102	74.242
+Gamri	23.178	73.782
+Gandeva	20.864	73.078
+Gandhari	23.235	73.541
+Gandwas	24.110	73.358
+Ganer	24.320	73.087
+Ganesh Bamnia Mota	23.244	73.535
+Ganesh Khant Mota	23.249	73.511
+Ganeshpur	23.782	73.011
+Ganeshpura	23.246	73.207
+Ganeshpura	23.922	72.348
+Ganeshpura	24.065	72.785
+Ganeshpura Muwara	23.126	73.204
+Ganeshpura Muwara	23.181	73.304
+Gangad	22.678	72.278
+Gangairiphalia	22.610	74.226
+Gangavada	24.468	72.400
+Gangidra	24.436	72.365
+Gangta	21.508	74.010
+Gangta	23.257	73.594
+Gangtha	21.498	74.016
+Ganguva	24.149	72.732
+Ganiari Para	22.639	74.047
+Ganod	21.671	70.183
+Ganodra	24.430	72.317
+Gansali	24.350	73.036
+Gansera	24.170	72.705
+Gantia	23.211	73.477
+Gantniol	23.799	73.101
+Gara	22.621	74.032
+Gara	23.200	73.936
+Gara	23.223	73.679
+Gara	23.263	74.021
+Garamri	22.144	69.551
+Garan	23.251	74.038
+Garani	23.537	69.048
+Garara	23.162	74.122
+Gararia	23.032	74.017
+Gararia	23.190	73.912
+Gararia	23.225	74.057
+Garbara	22.684	74.312
+Garej	21.470	69.862
+Garia	23.103	73.923
+Garia	23.176	73.532
+Garjuva	23.439	73.692
+Garkhadi	20.811	73.885
+Garmali Nani	21.357	71.173
+Garudeshwar	21.891	73.652
+Garvi	20.839	73.690
+Gathaman	24.148	72.386
+Gavridad	22.396	70.793
+Gawardungra	23.184	73.981
+Gebri	24.466	73.094
+Gedal Barriya Muwara	23.115	73.320
+Gedi	22.619	71.946
+Gedi	23.712	70.738
+Gengaria	23.219	73.720
+Ghad	24.129	72.274
+Ghadwana Gorara	23.191	73.721
+Ghaelwaga	22.633	74.188
+Ghahuwa	23.082	73.215
+Ghalha	21.295	73.037
+Ghamnad	21.947	72.948
+Ghana	20.892	73.739
+Ghanshyampur	22.960	71.205
+Ghantao	23.101	73.628
+Ghantawara	23.218	73.865
+Ghantawaria	23.155	74.100
+Ghanti	23.789	73.207
+Ghantia Muwara	23.155	73.986
+Ghantiara	23.241	73.673
+Ghantila	23.124	71.026
+Ghantodi	24.054	72.913
+Ghantoli	21.297	73.316
+Gharenia	23.295	73.767
+Gharia	23.146	73.139
+Ghasuada	23.330	73.786
+Ghatada	23.268	73.505
+Ghiswa	23.149	74.260
+Ghiumra Muwara	23.143	73.982
+Ghodasar	24.451	71.851
+Ghodbar	21.420	73.305
+Ghodial	23.291	73.829
+Ghodiyal	24.110	72.590
+Ghodnal	23.221	73.103
+Ghodnal Muwara	23.224	73.107
+Ghoghamba	22.571	73.645
+Ghoghavada	23.299	73.663
+Gholav	22.705	73.808
+Ghonpankhri	24.341	73.118
+Ghora Muwara	23.060	73.477
+Ghoradra Muwara	23.136	73.310
+Ghoraria	23.125	73.573
+Ghorasar	22.900	72.838
+Ghorda	22.197	74.114
+Ghori	22.154	74.010
+Ghorian	23.077	74.262
+Ghotu	22.842	70.899
+Ghuar Mota	23.638	68.541
+Ghugashi Para	22.755	74.335
+Ghunada	22.693	70.634
+Ghuntaria Muwara	23.195	73.851
+Ghutia	22.417	73.850
+Ghuwal	23.150	73.574
+Gigasaran	21.287	70.953
+Gijram	21.483	73.117
+Goarsama	22.843	69.761
+Gobar Muwara	23.164	73.234
+God Mota	23.128	73.684
+Godda	24.268	72.939
+Godh	24.347	72.267
+Godh Gadha	24.136	72.890
+Godha	23.569	73.581
+Godhar	23.146	73.763
+Godhar	23.403	73.781
+Godhavi	23.022	72.407
+Godhawara	23.592	73.627
+Godhni	24.145	72.764
+Godhra	20.923	70.919
+Godhra	23.008	73.447
+Godhvada	23.951	73.241
+Godra	22.920	69.265
+Goima	20.439	73.041
+Gojari Muwara	23.047	73.432
+Gojia	22.596	74.023
+Gokalji Muwara	23.032	73.179
+Gokalji Muwara	23.073	73.204
+Gokalpura	23.070	73.112
+Gokalpura	23.223	73.714
+Gokalpura	23.231	73.098
+Gokalpura	23.748	71.954
+Gokalpura Muwara	23.016	73.002
+Gokalpura Muwara	23.232	73.779
+Gokhatar	23.756	71.392
+Gola	24.141	72.529
+Golana	22.460	72.419
+Golanpur	23.267	73.856
+Goli Muwara	23.156	73.234
+Golwara	24.285	73.060
+Gomta	21.870	70.729
+Gomwari	23.208	73.458
+Gop	22.029	69.929
+Gopalpur	23.205	73.527
+Gopalpura	24.166	72.547
+Gopalpura Muwara	23.017	73.077
+Gorad	24.135	72.852
+Goraj	22.334	73.483
+Gorasa	21.536	74.159
+Gorewali	23.785	69.513
+Goria	23.132	71.925
+Goria	23.361	73.560
+Gorol	23.856	73.131
+Gorsar	21.334	69.902
+Gorwa	22.331	73.156
+Gosaivada	23.256	73.797
+Gota	23.994	73.063
+Gotarka	23.743	71.483
+Gothada	24.053	72.789
+Gothib	23.154	73.961
+Gothimbara	23.145	73.809
+Gothva	23.646	72.613
+Gotri	22.315	73.144
+Govindatalai Muwara	23.063	73.984
+Govindpura	23.241	73.728
+Gowalia	23.190	73.753
+Gozaria	23.481	72.564
+Gugas	23.233	74.118
+Gujarat International Finance Tec-City	23.160	72.685
+Gujaria	22.098	74.078
+Gujarpur	21.434	74.023
+Gujarva	23.881	73.019
+Gujeria Muwara	23.043	73.344
+Gultora	22.983	74.294
+Gumandev	21.700	73.117
+Gumli	22.584	74.062
+Gunasvel	20.927	73.184
+Gunda	22.009	69.714
+Gundala	22.901	69.765
+Gundasara	21.961	70.803
+Gundel	24.076	72.988
+Gundela	23.109	73.361
+Gundi	22.552	72.226
+Gundi	22.593	73.836
+Gundi	23.079	74.295
+Gundiali	22.610	71.616
+Gundiali	22.837	69.419
+Gundikhera	22.847	74.410
+Gungalia	22.195	74.096
+Gungelao Para	22.695	74.233
+Gunjeta	23.401	73.562
+Gunra	22.059	69.964
+Gunwa	24.310	73.042
+Gurgat	22.197	69.192
+Guthli	23.027	73.353
+Guwalia	23.027	73.498
+Guwalia	23.169	73.739
+Guwalia Muwara	23.038	73.492
+Hadmat	23.138	74.069
+Hadmat Khunta	23.142	74.227
+Hadmatia	22.433	70.483
+Hadmatia	23.227	73.728
+Hadmatia	24.076	72.587
+Hadmatiya	22.434	70.479
+Hadmatiya	24.421	72.415
+Hadol Juni	23.951	72.799
+Hagara	23.010	73.994
+Hagri Pada	21.493	74.060
+Halenda	22.087	71.052
+Hamirpura	23.060	73.002
+Hamla	23.028	69.307
+Hampar	22.916	71.567
+Handi	23.007	73.984
+Handia	23.197	73.435
+Handiwala Muwara	23.237	73.951
+Hanika	23.100	73.966
+Hanmantia Muwara	23.034	73.156
+Hansol	23.085	72.630
+Hanumanpura	23.556	73.567
+Hap	21.958	74.138
+Hapwa	23.128	74.015
+Harakhpur	22.644	74.191
+Harana Mota	23.237	73.666
+Hardaspur	23.142	73.565
+Hardik shah (Chintu)	22.703	72.862
+Harduli	21.485	74.222
+Harera	23.070	73.764
+Hariana	22.603	70.261
+Harigadh	24.127	72.686
+Harigar Mota	23.138	73.743
+Harina Muwara	23.174	73.819
+Harinagar	21.806	72.614
+Haripura	20.916	73.471
+Harlan Muwara	23.236	73.443
+Harmatia	23.074	73.522
+Harod	23.149	73.544
+Harsol	23.361	73.017
+Hasanpur	23.770	73.027
+Hasanpur	24.248	72.546
+Haselia	23.106	73.486
+Hasnapur	24.103	72.550
+Hathab	21.597	72.270
+Hatharva	23.945	72.986
+Hathi Bariya Muwara	23.220	73.319
+Hathi Pagi Muwara	23.157	73.279
+Hathidara	24.227	72.598
+Hathigadh	21.576	71.429
+Hathipara	23.155	73.937
+Hathipura	23.150	73.350
+Hathod	23.205	73.986
+Hathuran	21.496	72.974
+Hati Pagla	24.206	72.955
+Hatikhan	22.047	74.068
+Hatipura Muwara	23.076	73.035
+Hatnur	21.492	74.053
+Hatoda	21.530	74.207
+Hazira	21.134	72.648
+Hazira	21.342	72.648
+Hebatpur	22.139	72.101
+Helodar	23.299	73.507
+Herola	23.066	74.074
+Herola Muwara	23.100	73.319
+Hibbatpura	24.261	72.469
+Hichelia Muwara	23.135	73.481
+Himala	22.871	74.423
+Himatpur	23.320	73.539
+Himatpur	24.022	72.724
+Himtaji Muwara	23.063	73.138
+Himtaji Muwara	23.098	73.207
+Hindholia	23.126	73.991
+Hindolia	23.256	73.710
+Hingarivada	23.256	73.782
+Hingla	23.119	74.039
+Hingni	21.512	74.281
+Hirad	24.266	72.976
+Hirapur	23.168	73.936
+Hirapur Muwara	23.077	73.087
+Hirapur Nes	23.160	73.941
+Hiratemba	23.447	73.531
+Hodka	23.659	69.603
+Holi Para	22.936	74.321
+Holkadhar	22.663	74.135
+Hothwad	23.014	73.281
+Hubakvad	21.422	72.020
+Iavej	21.399	71.735
+Ibhapan	23.207	74.100
+Ikhar	21.956	73.039
+Ilav	21.450	72.800
+Ilol	23.648	72.892
+Indarpura	23.822	73.237
+Indran	23.128	73.314
+Inta	23.209	74.121
+Ishwaria	21.978	71.015
+Isnav	22.532	72.753
+Isrol	23.456	73.535
+Isrora	23.231	73.559
+Iswar Para	22.820	74.331
+Itaria	21.976	71.416
+Itawa	22.832	74.392
+Itawah	24.115	72.980
+Itwa	23.611	73.513
+Jadao Muwara	23.007	73.383
+Jadeli Muwara	23.226	73.812
+Jadial	24.213	72.544
+Jadiya	24.596	72.034
+Jafarpur	23.105	74.222
+Jagana	24.125	72.421
+Jaganathpura	24.050	73.085
+Jagar Mota	23.156	73.649
+Jagola	23.273	74.088
+Jagrupur	23.056	73.089
+Jagtapur	24.145	72.718
+Jagtu Bariya Muwara	23.005	73.414
+Jagudan	23.519	72.414
+Jainapada	21.970	74.120
+Jakhau	23.219	68.715
+Jala Muwara	23.174	73.844
+Jalai	23.258	74.117
+Jalampura	23.172	73.361
+Jalampura	23.173	74.040
+Jalat	22.806	74.308
+Jalia	21.797	70.276
+Jalia	22.438	70.397
+Jalkukai	23.377	73.659
+Jalodara	23.889	73.067
+Jaloia	23.043	73.014
+Jalotra	24.143	72.583
+Jam Sakhpur	21.751	69.849
+Jamaji Muwara	23.084	73.057
+Jamalpura	23.207	73.461
+Jamana Muwara	23.039	73.466
+Jamanpur	23.717	71.968
+Jambhli Pada	21.456	74.056
+Jambuda	22.521	70.205
+Jambughoda	22.369	73.730
+Jambura	22.533	70.200
+Jamburi	23.167	74.048
+Jamburi	23.178	73.379
+Jamburi	23.184	73.153
+Jambusar	22.639	74.014
+Jambuva	22.217	73.187
+Jamdar	20.626	73.776
+Jamghar	23.642	73.571
+Jamjhar Mata Mota	23.198	73.513
+Jamka	21.484	71.006
+Jamkandorna	21.897	70.500
+Jamkati	21.537	74.008
+Jamli	22.063	74.121
+Jamli	22.076	74.109
+Jamli	22.109	74.035
+Jamlunala	23.350	73.794
+Jamru	24.193	72.949
+Jamuri Muwara	23.246	73.437
+Jamwali	21.914	69.943
+Janan	23.833	70.302
+Jangi	23.221	70.567
+Janod	22.998	73.418
+Janra	22.085	71.693
+Jantral	23.219	73.087
+Janwad	23.126	73.946
+Jaoni Para	22.915	74.335
+Jaora Muwara	23.066	73.409
+Jaorakhant Muwara	23.180	73.412
+Jarana Mota	23.079	73.537
+Jariba	24.335	72.867
+Jariba	24.354	72.863
+Jaslori	24.091	72.436
+Jaspur	24.045	72.656
+Jaspuria	24.255	72.483
+Jasuji Muwara	23.080	73.275
+Jasuni Muwara	23.070	73.914
+Jaswantgad	24.115	72.744
+Jaswapur	24.102	72.812
+Jatan ka Moara	23.232	74.006
+Jatawa	23.038	74.133
+Jatawada	23.834	70.715
+Javangadh	23.798	73.124
+Jawesi	23.098	74.076
+Jegol	24.414	72.343
+Jejuva	23.830	73.135
+Jenthri Bor	23.031	73.691
+Jepur	22.868	70.769
+Jer	23.296	74.005
+Jesar	21.368	71.667
+Jesawara	22.742	74.198
+Jesola	23.035	73.545
+Jeswa Mota	23.176	73.520
+Jetalpur	22.890	72.597
+Jethaji Muwara	23.031	73.370
+Jetholi	23.076	73.353
+Jetpur	23.002	70.892
+Jetpur	23.076	74.125
+Jetpur	23.566	73.591
+Jetpur	23.899	73.035
+Jetua	24.321	72.876
+Jewanpura	23.192	73.027
+Jhab	23.123	74.077
+Jhab	23.178	73.861
+Jhabu	22.665	74.176
+Jhabugam	22.287	73.766
+Jhagadia	21.714	73.151
+Jhajanikua Muwara	23.162	73.403
+Jhajham	23.943	71.334
+Jhakar	22.367	69.817
+Jhalai	23.282	73.544
+Jhalasag	23.372	73.715
+Jhalawat	22.095	73.998
+Jhanda Muwara	23.134	73.103
+Jhanjhmer	21.182	72.061
+Jhanjrat	24.444	73.075
+Jhanjri Moti	23.121	73.680
+Jhanjri Nani	23.120	73.669
+Jhanjwa	24.129	73.059
+Jhankhar	22.361	69.771
+Jhankhria Muwara	23.085	73.277
+Jharakhwara	23.242	73.715
+Jharda	23.564	73.515
+Jhari	22.900	74.455
+Jharivav	24.210	72.824
+Jharnia	23.600	73.614
+Jharola	23.084	74.026
+Jhat	24.477	72.365
+Jhat	24.488	72.355
+Jhejhwa	23.210	73.769
+Jhenjha	23.306	73.606
+Jher	23.349	73.661
+Jher	23.953	73.226
+Jher Para	22.918	74.295
+Jherda	24.378	72.125
+Jhinjhuvada	23.351	71.654
+Jhumsar	23.788	73.173
+Jhunsa	23.042	73.920
+Jhura	23.435	69.616
+Jhuran	23.368	70.001
+Jidasan	24.001	72.491
+Jithi	24.324	72.506
+Jitpur	23.101	73.476
+Jitpur	23.351	73.540
+Jitpur	24.073	72.910
+Jitpura	23.210	73.346
+Jitpura	23.212	73.072
+Jitpura Muwara	23.218	73.366
+Jiwa Kalal Muwara	23.236	73.150
+Jiwanpur	23.558	73.594
+Jiwanpura Muwara	23.039	73.155
+Jobda Para	22.862	74.273
+Jodhpur	23.163	73.407
+Jodhpura	23.192	73.075
+Jodhpura Muwara	23.156	73.926
+Jodhsar	24.191	72.926
+Jodiya	22.695	70.306
+Jogan	23.376	73.754
+Joita	24.121	72.654
+Jokha	21.237	73.023
+Jorapur	24.377	72.289
+Jorapura	23.018	73.373
+Jorapura	24.032	72.878
+Jorapura	24.331	72.291
+Jordiali	24.634	71.396
+Joshina Mota	23.034	73.531
+Jotana	23.470	72.293
+Jotangia	23.088	73.711
+Jotasen	24.348	73.169
+Jufarali	23.119	73.401
+Juna Deesa	24.215	72.157
+Juna Gorara	23.199	73.708
+Juna Raj	21.794	73.613
+Junapani	22.894	74.382
+Junatalao Muwara	23.206	73.879
+Junawara Muwara	23.203	73.289
+Junwara	23.189	73.030
+Junwaria	22.084	74.050
+Jura	24.323	73.069
+Kaavdl	23.414	73.720
+Kabirpur	24.058	72.611
+Kachchigadh	22.328	68.955
+Kachhla Muwara	22.524	74.042
+Kachholi	20.838	72.974
+Kachhotia Mota	23.142	73.619
+Kachla	23.222	74.086
+Kadach	21.354	69.917
+Kadana	23.289	73.839
+Kadgi	21.454	69.979
+Kadiadra	23.888	73.095
+Kadjali	21.009	71.490
+Kadval	22.494	73.763
+Kadvali	21.527	73.437
+Kadvia	23.217	73.297
+Kadwal	23.065	74.106
+Kadwalan	23.598	73.602
+Kadwar	20.853	70.449
+Kagdari	22.479	70.784
+Kahanuwa	22.178	72.908
+Kahipur	23.745	72.665
+Kajawa	24.358	73.033
+Kajia Muwara	23.224	73.464
+Kajli	23.235	73.771
+Kakachia	23.100	73.564
+Kakadkhila	22.591	74.212
+Kakanpur	22.075	74.043
+Kakanpur	22.833	73.485
+Kakarkund	22.550	73.996
+Kaklia	23.000	73.549
+Kakol Muwara	23.094	73.094
+Kakradungra	23.114	74.148
+Kakradungra Para	22.828	74.426
+Kakreji	23.081	70.919
+Kakreli Muwara	23.085	73.968
+Kakria Amba	21.441	73.750
+Kakritimba	23.401	73.507
+Kala Khetar	24.336	73.139
+Kala Muwara	23.190	73.314
+Kalai	20.363	72.823
+Kalaji Muwara	23.014	73.340
+Kalaji Muwara	23.031	73.223
+Kalaji Muwara	23.065	73.079
+Kalaji Muwara	23.186	73.324
+Kalakhetar Muwara	22.842	74.380
+Kalakhunt	22.658	74.232
+Kalana	21.592	70.290
+Kalanpara Muwara	23.050	73.106
+Kalanpur	23.086	73.438
+Kalapana	23.230	73.479
+Kalapimpar Para	22.990	74.342
+Kalaria Mota	23.007	73.700
+Kalatalav	21.846	72.138
+Kalawati Para	22.880	74.342
+Kaldoban Muwara	22.820	74.380
+Kaleda	24.018	72.637
+Kalekhu	24.113	72.969
+Kalesari	23.284	73.645
+Kalesari Mata	23.319	73.569
+Kalia Amba	23.131	73.971
+Kalia Muwara	23.180	73.908
+Kaliakua Muwara	22.759	74.403
+Kaliakuva	23.447	73.622
+Kalian	23.147	74.080
+Kaliana	22.262	70.148
+Kaliana	23.962	72.239
+Kaliani Sarsaoni	23.090	74.139
+Kaliari	23.392	73.718
+Kaliatalao	23.113	74.170
+Kaliawad	22.728	74.121
+Kalikankar	24.465	73.084
+Kalka Muwara	23.010	73.109
+Kalol	24.019	73.142
+Kalri	23.516	72.077
+Kalsabar	24.435	73.087
+Kaluji Mota	23.194	73.684
+Kaluvagadia Muvada	23.263	73.803
+Kalvan	23.914	73.161
+Kalwa	23.128	73.585
+Kalyanpur	22.019	69.402
+Kamadhia	21.848	70.928
+Kamalpur	22.494	72.064
+Kamalpur	23.021	73.548
+Kamalpur	24.116	72.589
+Kamalpur Wagda	24.106	72.441
+Kamboia	23.158	73.142
+Kamboya Muwara	23.080	73.169
+Kamopa	23.088	73.416
+Kamrej	21.285	72.972
+Kamroda	23.445	73.504
+Kanadi	20.247	72.931
+Kanakua	22.684	74.156
+Kanalai Muvada	23.265	73.904
+Kanalus	22.320	69.902
+Kanavada	23.313	73.849
+Kanawara	22.552	72.536
+Kanbiavas	24.197	72.809
+Kandh	21.582	73.076
+Kandibaro	22.084	74.004
+Kandla Port	22.983	70.217
+Kandorna	21.646	69.883
+Kandorna	21.893	70.496
+Kanela	23.123	73.530
+Kanela	23.409	73.511
+Kanesar	23.212	73.639
+Kaniela Muwara	23.088	73.207
+Kanij	22.861	72.705
+Kanisimal	23.239	73.695
+Kanjao	23.131	73.451
+Kanjeta	22.581	74.108
+Kanjhar	22.735	74.082
+Kanjhara	23.235	73.885
+Kanji Muwara	23.064	73.138
+Kankasia	23.214	74.000
+Kankavati	23.071	71.358
+Kankrakuan	23.026	74.280
+Kankrej	24.039	71.941
+Kankrimahudi	23.396	73.626
+Kanod	23.303	73.649
+Kanpar	21.960	71.056
+Kanpur	23.092	74.050
+Kanpur	24.285	72.693
+Kansara Muvada	23.317	73.888
+Kantar	23.040	73.579
+Kantarwa	24.405	73.089
+Kanthagar	23.117	74.018
+Kantharia	22.422	71.863
+Kanthario	24.075	73.356
+Kanthkot	23.481	70.469
+Kantu	22.701	74.139
+Kanu Muwara	23.147	73.190
+Kaothia Muwara	23.103	73.234
+Kaprada	20.343	73.217
+Kapri M.	23.001	73.151
+Kapura	21.070	73.370
+Karachhla	23.081	73.422
+Karaiu Muwara	23.019	73.424
+Karakthal	23.052	72.111
+Karali	22.193	73.845
+Karamba	23.013	74.070
+Karamchandkhera	22.850	74.352
+Karanawadi	24.165	72.620
+Karangar Muwara	23.078	73.034
+Karanj	21.417	72.681
+Karanpur	24.164	72.690
+Karanta	23.258	73.673
+Karath	23.004	74.173
+Karban	24.594	71.653
+Karena Muwara	23.137	73.465
+Kari Muwara	23.121	73.204
+Kariana	21.899	71.353
+Karibel Juni	23.159	73.761
+Karibel Navi	23.164	73.739
+Karino Muwara	23.134	73.350
+Karipani	22.010	74.091
+Karipani	22.010	74.095
+Karja	24.332	72.455
+Karjoda	24.207	72.468
+Karkaria	23.047	73.000
+Karmel	23.241	74.075
+Karmipura	23.139	73.193
+Karnala	24.118	72.606
+Karnali	21.983	73.471
+Karodia	23.350	73.821
+Karolia	23.253	74.029
+Karshangadh	24.067	72.562
+Karuchi	23.127	73.955
+Karvai	23.384	73.804
+Karvai	23.424	73.790
+Karwali Muwara	23.109	73.291
+Kasaia	23.356	73.516
+Kasaia Muwara	23.116	73.336
+Kasalji Muwara	23.071	73.104
+Kasalpur	23.332	73.529
+Kasana	23.577	73.562
+Kasandra	22.892	72.491
+Kasangad	23.819	73.204
+Kasanpur	23.823	73.113
+Kasarwar	22.093	74.120
+Kasarwar	22.106	74.111
+Kasia	23.204	73.842
+Kasiari Muwara	23.105	73.979
+Kasiawat Muwara	23.161	73.363
+Kasipura	23.119	73.173
+Kaslal	23.111	73.508
+Kaslawati	23.198	73.552
+Kasnapur	23.363	73.526
+Kasor	22.550	72.774
+Kasuri	23.216	73.475
+Katara Por Muwara	23.076	73.942
+Kathara	22.417	73.750
+Katharji Muwara	23.052	73.406
+Kathia	24.409	73.074
+Kathiabas	24.267	72.662
+Kathla	22.799	74.383
+Kathroti	23.894	73.172
+Kathvavdi	23.957	73.189
+Kathwa	24.299	73.095
+Kativas	24.076	72.811
+Katkola	21.869	69.876
+Katosan	23.459	72.219
+Katosan Road	23.407	72.243
+Katpur	21.518	72.721
+Katwara	22.779	74.340
+Kau	23.383	73.319
+Kauka	22.609	72.443
+Kavi	22.199	72.636
+Kavitha	21.506	74.128
+Kawat	23.135	73.188
+Kayavarohan	22.078	73.250
+Kedar Mahadeo	23.126	73.020
+Kel	23.035	73.713
+Kelawa	24.090	73.354
+Kelo	24.004	73.185
+Kelowa	24.024	73.192
+Kelwa	24.479	73.087
+Kenpur	23.126	73.852
+Kera	23.079	69.598
+Keramul	23.232	73.864
+Kerwada	21.909	72.865
+Kesar Pada	21.448	74.048
+Kesarpara Muwara	23.148	73.935
+Kesarphaldia	23.057	74.094
+Kesarpur	23.765	73.048
+Keshrol	21.711	72.784
+Kesia	22.668	70.394
+Keswa Muwara	23.142	73.220
+Keswan	21.855	72.715
+Kevdamovhi	21.541	74.052
+Kevdi	21.500	73.450
+Kh	22.866	74.459
+Khadodi	23.382	73.616
+Khagasari	21.757	69.980
+Khaivad	24.166	72.793
+Khajuri	22.651	74.172
+Khajuri Para	22.884	74.352
+Khajuria Muwara	22.721	74.176
+Khakharda	22.102	69.374
+Khakhrakhera Para	22.885	74.436
+Khakhria	23.071	74.264
+Khakhria Muwara	23.218	73.788
+Khakhria Para	22.813	74.316
+Khalaspur	23.054	73.519
+Khalta	22.605	74.152
+Khalvad	23.798	73.189
+Khambalya	21.046	70.188
+Khambha	21.140	71.256
+Khambhodar	21.806	69.590
+Khana Muwara	23.095	73.068
+Khanae	23.345	69.049
+Khanda Muwara	23.162	73.295
+Khandala	21.985	74.049
+Khandalwa	22.196	74.073
+Khandera	22.282	70.312
+Khandhora	24.224	72.938
+Khandikuo	22.092	74.103
+Khandiwao	23.040	73.369
+Khandor	24.366	73.045
+Khangela	22.783	74.418
+Khankhera	23.154	74.013
+Khankotra	22.295	70.250
+Khanpar	22.748	70.641
+Khanpur	23.042	73.076
+Khanpur Mota	23.284	73.681
+Khanpur Nana	23.279	73.674
+Khantawala Muwara	23.196	73.761
+Khantawala Muwara	23.218	73.832
+Khapa	24.378	72.664
+Khapria	22.771	74.383
+Khar	21.552	74.155
+Khara	24.373	72.450
+Kharad	22.310	72.017
+Kharaj Moti	22.794	74.277
+Kharaj Nani	22.796	74.273
+Kharajwat	22.164	74.045
+Kharak Muwara	23.195	73.359
+Kharba	22.188	70.051
+Kharchia	22.852	70.607
+Kharda	21.923	74.005
+Kharda	22.614	74.237
+Khareri	22.072	70.481
+Khareri	22.867	74.285
+Khari Rohar	23.075	70.173
+Kharia	21.427	70.522
+Kharia Para	22.847	74.257
+Khariawala Muwara	23.235	73.976
+Kharkala	21.430	71.340
+Kharnia	24.264	73.059
+Kharod	23.185	73.364
+Kharoda	22.936	74.313
+Kharodia	24.101	72.474
+Kharol	23.015	73.460
+Kharsana	23.133	74.213
+Kharsoli Moti	23.203	73.852
+Kharsoli Nani	23.203	73.840
+Kharvi	21.985	74.035
+Khasa	24.117	72.309
+Khata	23.249	73.481
+Khata Muvada	23.441	73.762
+Khatana Mota	23.037	73.526
+Khataria Muwara	23.164	73.226
+Khatarpur	23.126	74.065
+Khatibari	22.038	74.077
+Khatukpur	23.000	73.690
+Khatumba	22.288	69.136
+Khatupagina Mota	23.009	73.534
+Khatva	23.284	73.741
+Khatwa	23.080	73.793
+Khavadi Mota	22.385	69.866
+Khavda	23.843	69.730
+Khawad	23.197	72.242
+Khedapada	23.343	73.957
+Khedoi	23.063	69.917
+Khedwa	24.113	73.109
+Khempur	23.108	73.393
+Khera	23.053	74.154
+Khera	23.077	74.110
+Khera	23.175	74.209
+Khera	23.231	74.043
+Khera Juna	23.053	73.677
+Khera Mota	23.061	73.676
+Khera Muwara	22.661	74.005
+Khera Para	22.735	74.230
+Kheradi	23.689	73.295
+Kherali	22.691	71.603
+Kherapa	23.350	73.962
+Kheravada	23.277	73.809
+Kherawat	22.171	74.009
+Khergam	20.632	73.094
+Khermal	24.223	72.911
+Kherod	24.231	73.012
+Kheroj	23.496	73.610
+Kheroli	23.193	73.530
+Kherwa	23.145	73.922
+Kheta Muwara	23.243	73.967
+Khetwa	24.200	72.044
+Khijadia	21.894	71.170
+Khijariya	22.286	70.502
+Khimrana	22.471	70.166
+Khinmat	24.489	72.183
+Khirasra	21.721	69.873
+Khirasra	22.238	70.652
+Khoda	24.113	71.934
+Khoda	24.659	71.762
+Khodasgaon	21.469	74.261
+Khodiyarnagar	22.987	72.563
+Khodla	24.183	72.335
+Khodu	22.803	71.484
+Khojachora	23.026	69.435
+Khokharia	23.557	73.583
+Khokhbed	22.655	74.061
+Khokhra Mota	22.634	74.042
+Khokhra Nana	22.647	74.048
+Khokhri	21.836	70.823
+Khokribil	24.359	72.862
+Khombhadi	23.417	69.117
+Khombhadi Mota	23.411	69.112
+Khombhadi Nana	23.420	69.126
+Khora amba	23.084	73.626
+Khorana	22.430	70.844
+Khorda	21.464	74.111
+Khordara	23.141	73.853
+Khorsal	23.009	74.186
+Khotana Muwara	23.036	73.475
+Khuma Muwara	23.093	73.196
+Khumji Muwara	23.054	73.225
+Khundhi	23.219	73.728
+Khunta	23.096	74.033
+Khunta	23.214	74.125
+Khunta	23.225	74.064
+Khunta	23.292	73.986
+Khunta Muwara	23.174	73.905
+Khuntakhera	23.002	74.146
+Khuntaora	21.192	71.651
+Khuntela	23.300	73.615
+Khunti	23.130	74.082
+Khuntkhar	23.059	73.663
+Khuriberi	24.065	73.201
+Khutia Muwara	23.047	73.350
+Khutkhera	22.849	74.378
+Kiar Moti	23.275	73.920
+Kiar Nani	23.291	73.898
+Kiaria	23.304	73.884
+Kidiad	23.334	73.507
+Kidianagaru	23.478	70.778
+Kiklatalai Para	22.810	74.423
+Kileshwar	21.841	69.746
+Kiretar	24.399	72.610
+Kiria	23.122	73.438
+Kirli	20.858	73.809
+Koba	21.427	72.769
+Koba	22.284	73.525
+Koba	23.151	72.640
+Kocher	23.046	74.060
+Kochiana	22.717	72.271
+Kochwara	22.157	74.119
+Kodae	22.897	69.389
+Kodan	23.061	74.124
+Kodaria	24.151	73.027
+Kodh	22.887	71.307
+Kodrali	24.017	72.418
+Kodram	23.959	72.580
+Kodwali	23.627	73.556
+Koidubhan	23.103	74.048
+Koila	23.263	73.559
+Kojan	23.197	73.277
+Kokan Vatera	24.159	72.917
+Kokcha	23.037	74.092
+Kolak	20.469	72.861
+Kolambi	23.287	73.704
+Kolithar	22.026	70.661
+Koliyak	21.610	72.268
+Kolki	21.794	70.222
+Kolwan	23.178	73.558
+Kon Muwara	23.010	73.221
+Kondhrai	21.527	74.144
+Kondwara Muwara	23.085	73.320
+Konpra	23.250	74.004
+Kontna-Khadra	24.242	72.974
+Koral	21.831	73.211
+Korala	21.541	74.115
+Korda	23.880	71.379
+Kordam	23.237	73.456
+Kosa	23.319	68.713
+Kosad	21.254	72.863
+Kosamba	23.148	73.878
+Kosamri	21.583	73.033
+Kosindra	22.373	72.976
+Kota Muwara	23.069	73.966
+Kotada	21.138	71.965
+Kotada	24.380	71.912
+Kotada	24.437	72.345
+Kotadi	23.047	69.183
+Kotambi	22.629	74.124
+Kotara	23.223	73.265
+Kotara	23.531	73.541
+Kotara	23.540	73.551
+Kotari	24.006	72.402
+Kotarna Mota	24.046	72.762
+Kotarna Nana	24.043	72.760
+Kotbi	21.991	74.008
+Kotda Nayani	22.505	70.804
+Kotda Sangani	22.044	70.865
+Kotesar	24.348	72.892
+Koteshvar	23.683	68.534
+Koth	22.635	72.300
+Kotha	24.381	72.264
+Kothali	21.510	74.184
+Kothamba	23.016	73.521
+Kothan	23.916	73.111
+Kothara	22.538	74.034
+Kothara	23.135	68.936
+Kothari	23.100	73.589
+Kotharia	22.677	74.013
+Kothia	24.190	73.015
+Kotho	23.141	73.641
+Kotra	22.869	74.334
+Kotra	22.886	74.426
+Kotra	23.003	74.295
+Kotra	24.250	72.276
+Kotra	24.270	72.478
+Kotra Nes	20.708	70.865
+Kotra Pitha	21.956	71.204
+Kotwad	23.142	73.871
+Kotwal Muwara	23.105	73.091
+Kotwalia Muwara	23.083	73.369
+Koyadharia	22.910	74.376
+Koyalapura	24.090	72.913
+Koyali	22.358	73.114
+Kuba	21.394	70.760
+Kubarda	24.061	72.750
+Kuberwala Muwara	23.248	73.782
+Kubhalmer	24.186	72.307
+Kubharwari	23.218	73.540
+Kubhera	22.545	74.109
+Kuchavada	24.454	72.263
+Kuchhadi	21.679	69.550
+Kuda	23.145	71.218
+Kudalia	24.551	71.351
+Kui Muwara	23.128	73.308
+Kukadsar	22.911	69.938
+Kukadvasa	23.341	73.706
+Kukarmunda	21.514	74.124
+Kukdi	24.151	72.930
+Kukdia	23.794	73.052
+Kukma	23.217	69.778
+Kula Muwara	23.096	73.183
+Kulli	22.641	73.733
+Kuma ka Moara	23.225	74.002
+Kumbaria	24.325	72.862
+Kumbhar Falia	20.910	73.120
+Kumbharan	24.158	72.308
+Kumbharia M.	23.087	73.067
+Kumpara	23.247	73.998
+Kunad	24.379	73.024
+Kunda	23.065	74.046
+Kunda	23.303	74.022
+Kunda	23.330	73.973
+Kundana Mota	23.067	73.519
+Kundawara	22.635	74.069
+Kundel	24.028	73.326
+Kundevi Mota	23.166	73.541
+Kundla	23.116	74.087
+Kundla Muwara	23.020	73.134
+Kundol	24.156	72.768
+Kuni	23.008	74.114
+Kunkavav	21.634	70.983
+Kunol	23.577	73.470
+Kunria	23.403	69.727
+Kunria	23.826	69.888
+Kupaji Muwara	23.051	73.242
+Kupaji Muwari	23.126	73.103
+Kupar Bhatwari	24.193	72.549
+Kupdan	23.642	73.623
+Kural	22.142	72.922
+Kuran	23.970	69.747
+Kuranga	22.044	69.165
+Kureta	23.241	73.877
+Kureta	23.260	73.869
+Kuskal	24.220	72.347
+Kuski	23.846	73.040
+Kutan	23.597	73.614
+Kuvadra	22.359	70.945
+Kuvarsi	24.213	72.859
+Kuvava	23.786	73.129
+Kuvechiu Muwara	23.064	73.362
+Kuwar	23.534	71.616
+Lachharas	21.906	73.545
+Lachheli Moti	22.760	74.348
+Ladiawad	22.623	74.130
+Ladin Muwara	23.341	73.590
+Ladji Para	22.789	74.423
+Ladol	23.622	72.735
+Ladpur	23.226	73.791
+Ladvel	22.916	73.118
+Ladvel	23.059	73.504
+Laeja	22.891	69.221
+Lajpur	21.060	72.900
+Lakadiya	23.346	70.580
+Lakadkhai Para	22.817	74.447
+Lakarkhai Mota	23.013	73.747
+Lakhabawal	22.416	69.991
+Lakhaji Muwara	23.014	73.111
+Lakhankar Para	22.759	74.322
+Lakhanpur	23.135	74.086
+Lakhapadar	21.302	71.181
+Lakhapur	23.467	73.585
+Lakhini	24.309	71.820
+Lakhipur	23.593	73.597
+Lakhmikheda	21.461	74.057
+Lakhna	22.583	74.030
+Lakhnasar	24.436	72.252
+Lakhpat	23.827	68.775
+Lakri Porda	23.097	73.435
+Lal Darwaja	23.026	72.577
+Lalakpur	23.190	73.856
+Lalawara	24.141	72.457
+Laletara Muwara	23.053	73.239
+Lalji Muwara	23.090	73.260
+Laloda	23.822	73.015
+Lalodia	23.374	73.566
+Laloi	22.223	70.240
+Lalpur	22.132	73.891
+Lalpur	23.081	73.118
+Lalpur	23.130	73.078
+Lalpur	23.319	73.530
+Lalpur	23.538	73.555
+Lalpur	23.832	73.053
+Lalpura	23.198	73.093
+Lalsar	23.131	73.430
+Lamba	21.902	69.316
+Lambha	22.940	72.576
+Lambha	23.443	73.634
+Lambra	24.109	73.146
+Lambria	24.273	73.061
+Langhnaj	23.447	72.497
+Lank	23.152	73.245
+Lank	24.047	72.926
+Lapania	23.183	73.813
+Laruji Muwara	23.094	73.119
+Lasundra	22.917	73.147
+Latia	24.333	72.287
+Latipur	22.625	70.527
+Lavana	23.329	73.572
+Lavar Muvada	23.274	73.832
+Lavchali	21.048	73.715
+Lawara Muwara	23.102	73.959
+Lawaria Muwara	23.066	73.346
+Lekurvali	21.488	74.026
+Lelan Para	22.636	74.207
+Lelava	24.633	71.917
+Lelawa	23.243	74.046
+Leliamba	22.640	74.202
+Lembapura	23.089	73.100
+Lembhoi	23.527	73.607
+Lemboi	24.049	72.497
+Lembrapadar	23.579	73.584
+Lembria	23.244	74.017
+Lempur	23.293	73.810
+Letar	23.078	73.142
+Libasi	22.610	72.618
+Lilchha	23.773	73.203
+Lilwa Deva	23.024	74.184
+Lilwa Pokhar	23.028	74.184
+Lilwa Thakur	23.030	74.192
+Lilwasar Muwara	23.093	73.991
+Limarwara	23.188	73.447
+Limb Para	22.826	74.328
+Limbakheri	23.193	74.024
+Limbda	21.796	71.640
+Limbela Mota	23.207	73.527
+Limbhola	23.261	73.845
+Limbji Muwara	23.047	73.402
+Limbodara	23.198	73.592
+Limbodra	23.366	73.554
+Limbodra	23.377	73.542
+Limbodra	23.510	73.616
+Limbri	23.077	73.888
+Limbria	23.235	73.580
+Limbu Para	22.737	74.220
+Limbuda	21.573	70.088
+Limdabara	22.823	74.430
+Limdapadar	23.370	73.564
+Limdi	23.009	74.155
+Limdia	22.590	74.094
+Limghati	23.101	74.058
+Limkhera	22.711	74.055
+Limra Muwari	23.171	73.813
+Limri	23.025	73.379
+Limri Muwara	22.758	74.413
+Limud Muvada	23.359	73.955
+Linga	20.694	73.774
+Lodai	23.392	69.892
+Lodhwa	20.832	70.571
+Lodrani	23.910	70.619
+Lohej	21.167	70.067
+Lotal	24.097	72.899
+Lotia	23.133	73.173
+Lotpur	20.961	71.437
+Luhara	21.673	72.554
+Lukharia	22.651	74.077
+Luna	23.713	69.251
+Lungiya	21.406	70.926
+Luni	22.226	74.019
+Luni	22.871	69.812
+Lunsar	22.663	71.104
+Lunwa	24.224	72.424
+Lus	22.318	69.902
+Luwarsal	22.094	70.131
+Machhia Muwara	23.046	73.461
+Machhiwara	23.236	73.831
+Machhlavada	23.377	73.739
+Machliwar	22.181	70.300
+Machod	23.137	73.752
+Madhari	23.958	73.243
+Madhavpur	21.255	69.966
+Madhepura	23.123	73.182
+Madhi	22.092	69.101
+Madhia	21.858	72.064
+Madhupur	21.030	70.601
+Madhwa	23.213	74.058
+Madhwas	23.200	73.621
+Madka	24.295	71.519
+Maganisar	23.152	74.244
+Magaro	23.218	74.010
+Magarwada	24.059	72.459
+Magdala	21.100	72.750
+Magodi	23.313	73.431
+Magoi	22.596	73.871
+Magra Para	22.905	74.298
+Magrol	23.081	74.130
+Maguna	23.577	72.289
+Magvas	24.176	72.964
+Magwana	23.216	69.366
+Mahad	24.117	73.159
+Mahadeo Muwara	23.186	73.756
+Mahadeopura	23.079	73.198
+Mahadeopura	23.178	73.244
+Mahadeopura Muwara	23.169	73.179
+Mahapur	23.230	73.840
+Mahasar	22.138	72.900
+Mahi	24.037	72.366
+Mahisa	22.848	73.056
+Mahiyari	21.478	69.933
+Mahmadpur	24.055	72.520
+Mahudi Moti	24.426	72.284
+Mahudi Nani	24.437	72.304
+Mahura	23.095	74.264
+Mahuri	23.025	74.292
+Mahuri	23.078	74.291
+Mahuri	23.153	74.220
+Mahuria	23.187	73.139
+Mahuva	21.018	73.140
+Majadar	24.048	72.403
+Majal	23.236	69.406
+Majatpur	24.130	72.540
+Makanki Mota	23.282	73.598
+Makdala	24.271	71.751
+Makhlia	23.025	73.597
+Makni	22.225	73.670
+Maktupur	23.831	72.371
+Mal	22.527	74.034
+Mal	23.059	74.135
+Mal	23.266	73.819
+Mal	23.282	74.101
+Mal	24.216	72.806
+Mal Mota	23.130	73.572
+Mal Muwara	23.028	73.144
+Mal Muwara	23.155	73.153
+Mal Para	22.798	74.287
+Malabaria	23.112	74.037
+Malabel Muwara	23.223	73.818
+Malamahudi	23.274	73.722
+Malan	24.224	72.528
+Malana	24.247	72.435
+Malanpur	23.198	73.913
+Malar	23.288	73.996
+Malasa	23.815	73.186
+Malekpur	23.235	73.735
+Malekpur	23.804	73.226
+Malia	23.136	73.582
+Malia Mota	23.035	73.535
+Malia Mota	23.229	73.565
+Malipara Mota	23.212	73.550
+Malipara Para	22.879	74.349
+Maliya	21.159	70.309
+Malna	24.028	72.856
+Malosan	24.065	72.422
+Malpur	22.045	72.562
+Malpura	24.250	72.510
+Malsaram	20.755	70.781
+Malu Moti	22.616	74.195
+Malu Nanai	22.630	74.200
+Malungi	20.150	73.236
+Malwan	23.223	73.832
+Malwasi	23.014	74.230
+Mama Pi Pli	24.454	72.995
+Mamadpur	23.008	73.053
+Mamuara	23.280	69.873
+Mamwara	24.030	72.336
+Manabhai Muwara	23.097	73.255
+Manada	23.635	73.625
+Manaji Mota	23.238	73.700
+Manak Kotara	23.266	73.939
+Mandala	22.086	73.324
+Mandali	24.209	72.973
+Mandalia	23.030	74.071
+Mandalli	23.034	73.925
+Mandan Muwara	23.137	73.118
+Mandana Dangia	24.237	72.313
+Mandao	22.743	74.099
+Mandao	22.851	74.306
+Mandli Khunta	23.086	74.183
+Mandodra	21.419	70.158
+Mandogari	24.042	72.871
+Mandva	20.360	73.176
+Mandvi	21.583	73.383
+Mandvi	23.783	71.669
+Mandwa	23.144	73.055
+Manekwara	21.472	70.846
+Mangawala Muwara	23.231	73.761
+Mania Para	22.792	74.346
+Manka	24.168	72.553
+Mankdi	24.147	72.918
+Mankoria	23.154	73.718
+Mankroda	23.773	73.241
+Mankui	22.013	74.013
+Mankui	22.033	74.023
+Manli	22.797	73.997
+Manli	23.238	74.030
+Manpar	23.287	73.798
+Manpur	23.542	73.554
+Manpur	24.131	72.838
+Manpur	24.214	72.485
+Manpura	23.164	73.070
+Manpura	23.195	73.110
+Manund	23.732	72.261
+Mar Muwara	23.056	73.417
+Marad	21.682	70.374
+Maranagadh	24.112	72.254
+Margala	23.115	74.057
+Marmat	21.582	70.022
+Maroli	20.299	72.770
+Maroli	21.038	72.865
+Maruria	23.213	73.465
+Marvada	24.365	72.350
+Marvada Nava Vas	24.374	72.357
+Marwada	24.021	72.930
+Masadra	23.354	73.569
+Masadra Mota	23.353	73.577
+Masania Para	22.941	74.325
+Maskura	24.285	72.957
+Masotia Muwara	23.109	73.862
+Mastupur	23.855	73.046
+Matanomadh	23.543	68.949
+Matar	22.008	72.992
+Matar	22.707	72.661
+Math	23.347	73.849
+Math Mota	23.039	73.654
+Math Mota	23.072	73.586
+Math Mota	23.106	73.530
+Mathak	22.842	71.057
+Mathara	24.313	73.163
+Mathasul	23.882	73.033
+Mathasulia	20.992	70.532
+Matora	24.115	73.010
+Matra	22.262	71.373
+Matria	23.598	73.648
+Matwa	22.339	70.219
+Matwad	20.923	72.831
+Maunala	22.752	74.084
+Mayurnagar	23.065	71.089
+Meda	24.397	72.285
+Medh	23.957	73.104
+Medhasan	23.544	73.229
+Medi Para	22.879	74.305
+Meghlia	23.011	73.382
+Meghpur	22.658	70.659
+Megna	22.322	69.941
+Meharwada	23.858	72.462
+Mehdikhera	23.181	74.232
+Mehegam Bangal	21.674	72.759
+Mehelan	23.020	73.758
+Mehetana Chaklia	23.182	73.685
+Mehilia	23.009	74.079
+Mehlav	22.568	72.818
+Mekhari Muwara	23.096	73.421
+Melan Muwara	23.081	73.054
+Melana	23.406	73.546
+Melana	23.552	73.615
+Melania	23.079	74.166
+Memadpura	23.122	73.106
+Memnagar	23.052	72.534
+Memonwas	24.148	72.655
+Mena	23.290	73.675
+Mendhri	22.584	74.086
+Mendpur	21.540	74.060
+Mengni	22.087	70.680
+Meni Mota	23.191	73.541
+Menli Para	22.882	74.253
+Menpur	22.648	74.118
+Mepda	24.011	72.559
+Mer	24.083	73.375
+Meran	24.278	73.114
+Meravas	24.245	72.943
+Merji Mota	23.091	73.627
+Merwadar	21.728	70.109
+Merwara	24.144	72.479
+Mesan	23.777	73.124
+Mesar	24.035	72.224
+Mesaria	22.471	71.096
+Mesia Para	22.821	74.439
+Meswan	21.260	70.282
+Meta	24.044	72.343
+Methan	22.985	71.645
+Methan	23.005	73.921
+Methan	24.033	72.287
+Methavi	24.642	71.445
+Metral	23.069	73.811
+Metral	24.033	72.973
+Mevasa	22.293	71.257
+Mevasi	23.105	73.279
+Mewali	23.617	73.317
+Mewasa	21.874	70.595
+Mhauri	24.256	73.030
+Mhor	24.009	72.889
+Mial	24.618	71.750
+Miapur	23.242	73.621
+Mil Rampura	22.567	72.519
+Mirapara Mota	23.329	73.780
+Mirapur	23.000	73.067
+Mirapur	23.005	73.737
+Mitarwara	24.329	73.107
+Mithapur	22.615	72.125
+Mithapur	23.342	71.936
+Mithibor	22.538	74.014
+Mithoi	22.316	69.767
+Mitivirdi	21.483	72.250
+Miyagam	22.027	73.092
+Miyani	21.840	69.382
+Moara	23.093	74.156
+Moara	23.127	74.053
+Mochiwaria	23.109	73.430
+Mochla	24.252	72.887
+Modhutra	23.756	71.098
+Modla	21.537	74.074
+Modpur	22.265	69.801
+Modwa	22.661	74.045
+Mogari	22.527	72.931
+Mohan Fort	22.071	74.056
+Mohan Para	22.895	74.309
+Mohanpur	23.446	73.078
+Mohari	24.114	72.817
+Moidi	23.535	73.628
+Mojap	22.362	68.979
+Mojita Mota	23.251	73.744
+Mokal	21.608	69.787
+Mokamji Muwara	23.095	73.283
+Molara	23.230	73.981
+Molel	22.726	72.966
+Moli Bhaman	23.064	74.005
+Moliala	24.042	72.900
+Moman Chapra	24.070	72.767
+Momanvas	24.125	72.610
+Mongra	22.005	74.043
+Monvel	21.357	70.904
+Mor	23.081	73.698
+Mora	23.070	73.850
+Morad	23.967	73.012
+Morai	22.541	74.113
+Morai	23.116	73.428
+Moraj	22.476	72.609
+Moramba	21.536	74.036
+Morasar	22.899	72.364
+Morchhuchha	24.124	73.137
+Mordungra	24.152	72.895
+Morel Naka	23.114	73.956
+Mori	23.577	73.607
+Moria	24.106	72.669
+Moria Bhuteri	24.224	72.394
+Moriavada	23.255	73.729
+Morjhari	21.641	73.761
+Morkhakra Mota	23.401	73.699
+Morkhal	20.333	73.100
+Mormahuri	23.184	73.713
+Mormauri	23.233	74.068
+Morpa	23.985	72.115
+Morpur	21.853	69.813
+Morpur	22.900	70.664
+Mortalav	23.312	73.679
+Morwara	21.815	69.524
+Mosat	22.117	74.037
+Mota	21.173	73.068
+Mota	24.209	72.281
+Mota Borida	23.146	74.057
+Mota Kalia	23.035	74.024
+Mota Natwa	23.161	74.030
+Motata	24.125	72.571
+Mothala	23.211	69.133
+Moti Cher	21.252	73.364
+Moti Dadheli	23.160	74.090
+Moti Jeher	23.170	73.122
+Motighora	23.094	73.587
+Motikhavdi	22.386	69.868
+Motipur	23.581	73.623
+Motipur	23.753	73.001
+Motipura	23.138	73.268
+Motipura Murwara	23.037	73.417
+Motipura Muwara	23.064	73.104
+Motipura Muwara	23.134	73.238
+Motipura Muwara	23.240	73.392
+Motpura	23.093	73.162
+Mouana	23.837	70.860
+Movan	22.118	69.488
+Moviya	21.916	70.846
+Movli	21.515	74.056
+Movli	21.519	74.093
+Mowarijhola Para	22.850	74.254
+Mowasa	23.194	73.741
+Moyalajina Muwara	23.150	73.785
+Moyalapad	23.121	73.715
+Mubarakpur	21.490	74.183
+Mudetha	24.150	71.982
+Mudhera	23.582	72.140
+Mudia	23.615	68.677
+Mudsi	23.427	73.554
+Mukheshvar	24.041	72.630
+Mul Dwarka	20.763	70.666
+Muler	21.870	72.693
+Muli	22.637	71.458
+Mulila	22.125	70.396
+Muna Khant Muwara	23.213	73.822
+Munai	23.757	73.155
+Mundahera	23.026	74.223
+Mundahera	23.037	74.219
+Mundeti	23.835	73.167
+Mundra Bandar	22.802	69.726
+Mundwara	24.049	72.261
+Munji Muwara	23.079	73.252
+Munjpur	22.648	71.548
+Munjpur	23.588	71.851
+Munkhosla	23.113	74.178
+Munsiwara	23.544	73.573
+Murangna	22.183	74.019
+Muraverak	23.240	73.653
+Muria Para	22.951	74.317
+Muvada	23.287	73.813
+Muvada	23.318	73.521
+Muvada	23.416	73.538
+Muvada	23.449	73.521
+Muvala	23.296	73.790
+Muwala	22.555	73.431
+Muwara	23.112	74.201
+Muwari	23.056	73.057
+Nachankhadak	20.300	73.395
+Nada	21.952	72.560
+Nadapa	23.313	69.901
+Nadhelao	22.710	74.220
+Nadhra Machhivala	23.278	73.783
+Nadhra Thakorvala	23.271	73.763
+Naga Walaria	22.937	69.987
+Naga-no-Math	23.151	73.267
+Nagasari	20.921	71.343
+Nagel	24.100	72.679
+Nagpur	22.705	74.014
+Nagra	22.359	72.627
+Nagwa	20.717	70.917
+Nahapa	22.477	72.915
+Nahargadh	24.151	72.743
+Naiagaun	24.024	73.341
+Naiagaun	24.054	73.192
+Naika	22.750	72.574
+Nakal	22.018	74.044
+Nakal	22.031	74.035
+Nakhatrana	23.343	69.267
+Nakhtarana	23.337	69.252
+Nakoj	24.008	72.929
+Nakthoer	23.155	74.051
+Nal	21.450	73.729
+Nal	23.072	74.095
+Nal	23.568	73.609
+Nal Mota	23.084	73.553
+Nal Muwara	23.167	73.444
+Nalai	23.262	73.883
+Nalasar	24.190	72.509
+Nalasar Majadar	24.048	72.413
+Naldhara	20.976	73.186
+Nalgavhan	21.557	74.115
+Nalheri	24.035	73.363
+Nalio	24.258	73.083
+Nalu	22.667	74.068
+Namnar	23.038	73.433
+Nana Borida	23.151	74.061
+Nana Kalia	23.044	74.015
+Nanadeo Mota	23.165	73.691
+Nananpur	23.509	72.955
+Nanawara	23.396	73.454
+Nanda	23.559	71.108
+Nandasan	23.379	72.402
+Nandod	21.870	73.503
+Nandol	23.210	72.818
+Nandotra Mota	24.330	72.313
+Nandukan Moti	23.232	73.999
+Nandukan Nan	23.221	73.991
+Nangarecha	23.021	69.213
+Nangor	23.294	69.725
+Nani Chandur	23.578	71.626
+Nani Dadheli	23.161	74.061
+Nani Jeher	23.164	73.128
+Nanika	23.110	73.958
+Nanodra	22.825	72.205
+Nanpara Muwara	23.100	73.242
+Nansalai	22.602	74.063
+Nansalai	23.063	74.160
+Nansalai	23.090	73.705
+Nansalai Muwara	23.245	73.473
+Naogaon	23.498	73.530
+Napad	22.481	72.978
+Napania	23.045	73.517
+Napania	23.178	73.617
+Napania Mota	23.144	73.515
+Nar	22.476	72.706
+Nara	22.952	73.780
+Narayanpur	21.217	73.717
+Nardipur	23.335	72.560
+Naren	21.283	73.182
+Nargol	20.228	72.749
+Narichana	22.867	71.408
+Narmali Muwara	23.044	73.177
+Narmalia Muwara	23.063	73.210
+Narmalia Muwara	23.075	73.166
+Naroda	23.291	73.581
+Narpura	23.198	74.120
+Narsela Muwara	23.140	73.337
+Narseri	23.551	73.576
+Narsingpur	23.180	73.895
+Narsingpur	23.789	73.066
+Narsipur	23.186	73.128
+Nasarpur	21.477	74.002
+Nasikpur	23.143	73.702
+Nasirpur	23.014	73.789
+Nasroli	23.196	73.554
+Natha Baria Muwara	23.014	73.285
+Natha Muwara	23.098	73.289
+Natha Muwara	23.172	73.137
+Nathajina Gorara	23.217	73.709
+Natwa Nana	23.191	73.921
+Nau	24.227	73.036
+Nauagawn	24.034	73.135
+Nava	23.822	73.141
+Nava	23.910	73.026
+Nava Padars	24.145	72.924
+Navadra	21.950	69.258
+Navagam	23.358	73.605
+Navagam	23.383	73.578
+Navagam	23.401	73.674
+Navagam	23.779	73.098
+Navagam Ghed	22.497	70.082
+Navakuva	23.356	73.507
+Navalgadh	22.922	71.519
+Navanagar	24.152	72.827
+Navavas	24.007	72.778
+Navavas	24.026	72.630
+Navavas	24.126	72.745
+Navgam	21.853	73.709
+Navi Dhrewad	22.145	69.071
+Navibandar	21.451	69.787
+Navin  New Sama	22.340	73.192
+Navinal	22.832	69.600
+Navisna	24.031	72.477
+Navlakhi	22.960	70.446
+Nawa Mota	23.097	73.624
+Nawa Muwara	22.871	74.386
+Nawa Muwara	23.213	73.790
+Nawa Para	22.867	74.278
+Nawa Para	22.897	74.297
+Nawabandar	20.740	71.074
+Nawagam	22.798	72.579
+Nawagam	22.887	74.341
+Nawagam	23.031	73.042
+Nawagam	23.191	73.653
+Nawagam Morwa	23.041	73.896
+Nawagam Muwara	23.240	73.967
+Nawagan	22.028	73.830
+Nawagaon	23.282	74.041
+Nawagaon	23.595	73.559
+Nawagaon	23.651	73.479
+Nawalja	22.080	74.099
+Nawanagar	23.244	73.098
+Nawapara Para	22.773	74.410
+Nawatalao	23.260	74.094
+Nawu Muwara	23.074	73.354
+Nawu Muwara	23.086	73.226
+Nawu Muwara	23.120	73.299
+Nedardi	24.086	72.773
+Nedka	23.322	73.778
+Nedra	23.890	72.319
+Nelau	24.027	73.380
+Nelsur	22.740	74.184
+Nenki	23.081	73.929
+Nes Damorwali	23.221	73.978
+Nesda	23.382	73.559
+Nesda	23.413	73.689
+Netra	23.413	69.054
+Netrang	21.638	73.360
+Netroria	23.140	73.279
+Nevala	21.502	74.108
+Nichi Dhanal	24.012	73.009
+Nijamia M.	23.028	73.129
+Nijampur	24.041	72.612
+Nijhar	21.477	74.196
+Nikava	22.192	70.534
+Nikoda Mota	23.508	73.039
+Nikora	21.767	73.117
+Nilpur	24.332	72.331
+Nilvala	21.918	71.296
+Nimbhora	21.530	74.274
+Nimkheri	23.024	74.136
+Nindka	23.188	74.019
+Ningala	22.021	71.705
+Ninkavada	23.290	73.765
+Nirmali	23.120	73.064
+Nirpar	20.633	73.398
+Niruna	23.633	69.517
+Noghanvadar	21.640	71.717
+Nundotra Nana	24.338	72.313
+Nurpur Bor	23.158	73.444
+Odadar	21.579	69.671
+Odha	23.332	73.564
+Odha	23.439	73.526
+Odhaoa	24.418	72.377
+Odhava	24.428	72.374
+Ohond	20.734	73.028
+Okesarpura Muwara	23.229	73.957
+Okhamandal	22.306	69.018
+Ora	23.092	73.718
+Orha	23.212	73.316
+Oru	23.229	71.694
+Orwara	22.806	73.768
+Pachada	24.043	72.582
+Pachham	22.396	72.178
+Pachhegam	21.918	71.851
+Pachher	23.358	73.799
+Pachheria Muwara	23.091	73.359
+Padadra Mota	23.396	73.806
+Padalia Para	22.577	74.161
+Padana	22.331	69.837
+Pade	23.241	73.748
+Padedi	23.306	73.634
+Paderi	23.221	73.692
+Paderi Arod	23.139	73.899
+Paderi Muwara	23.239	73.884
+Paderi Raniji	23.179	73.829
+Padhara	23.309	73.746
+Padharia	23.156	73.779
+Padla	23.515	73.568
+Padpura	24.208	72.401
+Padra	23.993	73.210
+Padri	24.042	73.024
+Padva	24.030	72.635
+Padvani	21.996	74.026
+Pagia Mota	23.055	73.610
+Pagia Muwara	23.186	73.779
+Pagia Muwara	23.223	73.838
+Pagiawad	23.105	73.585
+Pah	21.361	71.635
+Pahata Muwara	23.170	73.769
+Pakhanwa	24.240	72.416
+Pal	23.935	73.373
+Palaiya	23.129	73.035
+Palaj	22.512	72.781
+Palali	22.704	71.970
+Palanswa	23.466	70.927
+Palapata	24.319	72.985
+Palasda	22.239	74.072
+Palaskua	22.062	74.056
+Palasni	22.067	73.796
+Palasvihir	20.933	73.833
+Palchhi	21.717	73.500
+Palia	23.155	74.004
+Palighatpada	21.911	74.015
+Palikhandu Muwara	23.034	73.408
+Palikpur	23.161	74.050
+Paliyad	23.381	72.554
+Palla	23.586	73.583
+Palla Golana	23.199	73.641
+Palla Taktajina	23.201	73.646
+Palli Moti	23.174	73.661
+Palli Nani	23.188	73.658
+Palri	23.175	73.038
+Palsana	21.083	72.986
+Panadra	23.684	68.751
+Panaji Muwara	23.040	73.179
+Panam	22.570	74.165
+Panam Palla	23.089	73.577
+Panar	20.823	72.892
+Panch Mahuria	23.082	73.544
+Panch Maura	24.146	73.015
+Pancha	24.289	72.838
+Pancha Muwara	23.216	73.906
+Panchal	23.583	73.534
+Panchasar	22.797	70.757
+Panchasar	23.424	71.813
+Panchasara Nana	22.235	70.120
+Panchatia	22.863	69.179
+Panchavada	21.687	71.890
+Panchmahura	23.166	74.145
+Panchmuwa	23.107	73.748
+Pandarvada	23.366	73.631
+Pandia Mota	23.236	73.630
+Panditia Muwara	23.235	73.483
+Pandoli	23.591	73.636
+Pandoli	23.619	73.640
+Pandora ni Mordi	23.544	73.615
+Pandwa	23.067	73.397
+Panela	23.138	73.934
+Paneli	21.872	70.156
+Panetha	21.883	73.267
+Pania	23.054	74.230
+Pania	23.254	73.753
+Pania Muwara	23.020	73.476
+Pania Muwara	23.158	73.122
+Paniali	24.145	72.767
+Paniar	23.322	73.899
+Panibara	21.500	74.045
+Paniwer	23.046	74.122
+Pankhan	23.232	73.834
+Pankhi	23.111	73.606
+Panol	23.877	73.043
+Pansina	22.550	71.969
+Pansrora	23.188	73.405
+Panthal	24.138	72.969
+Panudra	24.164	72.784
+Panvi	22.071	71.891
+Panwad	22.208	74.036
+Paori Moti	23.138	73.019
+Paoti	24.150	72.639
+Para	23.762	73.080
+Parabia	23.081	73.369
+Paral	22.872	73.322
+Parampur	23.136	73.557
+Parantij	23.438	72.853
+Paratian	23.070	74.280
+Parbatpura	24.027	72.666
+Paria	23.570	73.546
+Parimauri	23.116	74.163
+Parkhadi	24.120	72.513
+Parlio	24.314	72.776
+Parmar Muwara	22.788	74.384
+Parni	24.169	73.022
+Parodi	21.570	71.630
+Parosam	24.028	73.185
+Partabpura Muwara	23.194	73.905
+Parthampur	23.143	73.944
+Parthipura	23.470	73.503
+Parvatpura	23.255	73.826
+Pasayata Muvada	23.259	73.806
+Passo Covo	20.717	70.900
+Pasuval	24.474	72.323
+Pata	23.036	73.974
+Pataria	23.108	74.071
+Pataria	24.158	72.983
+Patatalai Muwara	23.178	73.964
+Patel Muwara	23.075	73.266
+Patelo na Dhudha	23.511	73.610
+Patelona	24.007	73.368
+Pathanpur	23.020	73.790
+Patharpari	24.343	73.211
+Pathavada	24.493	72.302
+Pathora	23.124	73.151
+Pathrai	21.466	74.221
+Pati	21.518	74.104
+Pati	23.124	74.002
+Pati Pada	21.495	74.007
+Patia	22.631	74.222
+Patia	22.687	74.240
+Patisaran	23.180	74.060
+Patlia	24.192	72.760
+Pato	23.237	73.133
+Patosan	24.101	72.305
+Patri	23.191	71.797
+Patri Mota	23.040	73.619
+Patvel	23.284	74.069
+Pau	22.683	74.103
+Pawapur	23.146	73.581
+Pechdal	24.376	72.048
+Pedagra	24.231	72.551
+Pepal	24.014	72.540
+Pethapur	24.188	72.742
+Petpara	23.044	74.135
+Phacharia	20.984	71.265
+Phala	22.531	70.308
+Phalwa	23.136	73.837
+Phatag	21.680	73.624
+Phataji Gorara	23.185	73.716
+Phataji Mota	23.155	73.568
+Phategadh	24.001	72.420
+Phatepura	23.039	73.480
+Phelasni	23.025	73.328
+Pherkuva	21.930	73.670
+Phophal Mota	23.096	73.734
+Phulaji Muwara	23.028	73.226
+Phulpura	23.129	74.255
+Phulsar	21.281	72.033
+Phulvadi	21.532	74.124
+Picharvan	21.400	73.417
+Pichhora	23.026	73.950
+Pichwa	20.915	70.868
+Pihij	22.671	72.809
+Pilvai	23.535	72.715
+Pimplas	21.525	74.172
+Pimplia Muwara	23.111	73.275
+Pimplod	21.489	74.291
+Pimpri	20.798	73.585
+Pimpripada	21.515	74.015
+Pindara	22.245	69.256
+Pingli	22.658	73.469
+Pintharpura	23.707	72.243
+Pipalda	22.134	74.088
+Pipalda Bara	22.134	74.100
+Pipaldi	22.122	74.079
+Pipali	22.385	72.235
+Pipalseri	24.309	73.110
+Pipalwa	21.124	71.195
+Pipar	23.522	68.525
+Pipargota	22.541	74.131
+Pipartora	22.279	70.086
+Piplara	23.275	74.051
+Pipli	24.160	72.513
+Piplia	22.590	74.066
+Piplia	23.203	74.053
+Piplia	24.372	73.063
+Pipliadara Para	22.568	74.184
+Piplod	22.817	73.909
+Piplod	23.016	74.258
+Pipodara	22.726	74.044
+Pipodra	23.208	73.282
+Pipodra	24.196	72.853
+Piprala	23.644	71.100
+Pipri Pada	21.479	74.013
+Pipria	22.643	74.086
+Pirojpur	23.090	73.114
+Pirojpur	23.135	73.040
+Pirojpur Mahi	24.023	72.355
+Pirpatha	23.161	73.004
+Pisavar	21.541	74.320
+Pisawara	22.643	72.477
+Pitar	22.685	70.563
+Pithapur	23.049	74.236
+Pithapur	23.272	73.877
+Pithapur	23.279	73.864
+Pohagodra	24.415	72.431
+Polapan	24.230	73.060
+Por-Ramangamdi	22.130	73.179
+Posina	23.758	73.115
+Posina	24.373	73.032
+Positra	22.395	69.173
+Pota	23.189	73.515
+Prempur	23.705	72.868
+Proia	24.056	73.082
+Punadra	23.093	72.969
+Punakota	22.635	74.179
+Punapara	23.223	73.957
+Punjaji Muwara	23.021	73.183
+Punjaji Muwara	23.058	73.030
+Punjakhant Muwara	23.194	73.373
+Punjara Mota	23.336	73.517
+Punjela	23.370	73.695
+Punjpur	24.172	72.732
+Punsri	23.394	73.112
+Pura	23.196	73.481
+Pusri	22.811	74.287
+Rabaria	23.037	73.445
+Rabarivas	24.063	72.795
+Rabda	22.129	70.780
+Rabkor	24.248	72.963
+Rabria Para	22.782	74.303
+Rachhera	22.862	74.440
+Rachhwa	22.640	74.115
+Radhiwar	24.062	73.012
+Radhwanaj	22.710	72.729
+Raenia Muwara	23.047	73.353
+Raenwalu M.	23.088	73.069
+Ragaji Muwara	23.156	73.090
+Raghaji Muwara	23.081	73.155
+Raghao Mota	23.027	73.538
+Raghnathpara	23.197	73.072
+Raghnathpura	23.241	73.165
+Rahdungri Para	22.784	74.292
+Rahioli	23.056	73.350
+Raiawan	22.648	74.103
+Raicha	22.210	74.095
+Raicha	22.218	74.115
+Raipur	22.199	74.035
+Raipura	21.833	73.483
+Raipura	23.097	74.255
+Raisingpur	22.054	74.100
+Raivada	23.450	73.578
+Rajada	23.609	69.060
+Rajanpur Mota	23.269	73.796
+Rajaria	23.185	74.203
+Rajawal	22.061	74.045
+Rajayata	23.010	73.868
+Rajcharadi	22.929	71.625
+Rajgad	23.216	73.668
+Rajgarh	22.566	73.665
+Rajher	23.085	74.271
+Rajosana	24.013	72.373
+Rajpara	22.021	69.536
+Rajpara	22.113	70.882
+Rajpipla	21.789	73.569
+Rajpur	21.204	72.084
+Rajpur	21.547	74.090
+Rajpur	22.763	71.671
+Rajpur	22.884	74.265
+Rajpur	23.159	73.076
+Rajpur	23.218	73.455
+Rajpur	24.002	72.773
+Rajpur	24.247	72.408
+Rajpura	23.122	74.136
+Rajpura	24.027	73.341
+Rajpura	24.299	72.494
+Raliata	23.220	73.469
+Raliati Bhura	22.997	74.253
+Raliati Gujar	22.986	74.258
+Raliati Para	22.828	74.280
+Ralol	22.604	71.986
+Ram Patel Mota	23.131	73.689
+Ramas	23.232	73.129
+Ramasari	23.009	73.129
+Ramawata	23.079	73.631
+Rambhem Mota	23.106	73.738
+Ramdungra	22.759	74.271
+Ramgadi	23.434	73.554
+Ramjikhant	22.379	73.514
+Ramol	22.633	72.791
+Rampara	20.939	71.477
+Ramparda	22.650	71.351
+Rampur	22.554	70.299
+Rampur	22.658	74.019
+Rampur	23.191	73.896
+Rampur	23.231	73.694
+Rampur	23.248	73.555
+Rampur	23.331	68.816
+Rampur	24.319	72.439
+Rampura	22.102	73.539
+Rampura	23.012	74.106
+Rampura	23.105	74.270
+Rampura	23.161	73.022
+Rampura	23.244	73.157
+Rampura	24.473	72.319
+Rampura B	22.413	74.260
+Rampura Muwara	23.069	73.093
+Ramsan	24.425	72.046
+Ramsida	24.297	72.364
+Ramsida V	24.325	72.367
+Ramtalaori Muwara	23.104	73.051
+Ramwao	23.545	70.472
+Ran Muwara	23.213	73.798
+Rana Muwara	23.017	73.308
+Ranagadh	22.775	71.990
+Ranaichi	21.523	74.047
+Ranakpur	23.330	73.755
+Ranapur	21.933	73.250
+Ranapur Moti	22.887	74.326
+Ranapur Nani	22.885	74.314
+Ranaria Mota	23.324	73.510
+Ranasan	23.465	73.114
+Ranavas	24.322	72.393
+Ranchhod Muwara	23.163	73.788
+Ranchodpura (Vadavi)	23.190	72.395
+Rander	21.222	72.795
+Randhia	21.706	71.149
+Randhikpur	22.972	73.964
+Raner	24.055	72.061
+Rangeli	23.279	73.648
+Ranghola	21.764	71.676
+Rangpur	22.924	70.903
+Rani Umri	24.183	72.981
+Raniar	23.037	74.177
+Raniar Gujarwali	23.036	74.171
+Ranigam	21.421	71.627
+Raninal Muwara	23.190	73.783
+Ranip	23.080	72.572
+Ranivada	24.175	72.907
+Ranjaji M.	23.097	73.040
+Ranjamba	20.996	73.515
+Ranjitpur	23.379	73.632
+Ranol	24.086	72.837
+Ranol	24.396	72.370
+Ranpar	23.451	73.589
+Ranpur	21.574	70.668
+Ranpur	21.839	69.680
+Ranpur	23.182	73.634
+Ranpur	24.054	72.659
+Ranpur	24.270	72.998
+Ranpur	24.315	72.936
+Ranpur M.	23.166	73.616
+Ranuj	23.760	72.224
+Ranveri	21.017	73.266
+Raolavas	24.356	72.337
+Raphai	23.139	73.728
+Raphu	23.607	71.565
+Rardhu	22.699	72.582
+Rarodra	23.244	73.266
+Rasdungri Para	22.864	74.311
+Rasulpur	23.194	73.504
+Ratadi	21.735	69.496
+Ratadia	22.936	69.761
+Ratanji Muwari	23.138	73.094
+Ratankua	23.168	73.478
+Ratanmal	22.531	74.138
+Ratanpar	22.714	71.629
+Ratanpur	21.652	72.254
+Ratanpur	21.683	73.150
+Ratanpur	22.735	72.710
+Ratanpur	23.068	73.785
+Ratanpur	23.075	73.428
+Ratanpur	23.213	73.990
+Ratanpur	24.152	72.475
+Ratanpur	24.178	72.744
+Ratanpur Kanbiwala	23.136	73.957
+Ratanpur Muwara	23.093	73.128
+Ratara Mota	23.198	73.668
+Rath Moti	23.379	73.857
+Rath Nani	23.364	73.859
+Rathada	23.346	73.876
+Ratia	21.417	69.824
+Ratigar Muwara	22.778	74.378
+Ratnal	23.187	69.902
+Ravel	24.164	71.717
+Rawal	21.919	69.490
+Rawal	22.355	73.348
+Rawalia	22.404	73.518
+Rawaliakhera	22.902	74.374
+Rawana Muwara	23.090	73.298
+Rawapur	23.516	69.041
+Rayan Mota	23.211	73.684
+Rayania	23.136	73.952
+Raygad	21.462	74.015
+Rechho	23.625	73.590
+Reha	23.150	69.750
+Reha Mota	23.141	69.747
+Reha Nana	23.134	69.746
+Reheman	23.299	73.703
+Rel Moti	23.121	73.874
+Rel Moti	23.229	74.036
+Rel Nani	23.108	73.868
+Rel Nani	23.211	74.012
+Relia	23.081	73.188
+Relo	23.514	73.527
+Relva	23.330	73.802
+Rena	22.917	73.494
+Renchhavaj	23.375	73.557
+Renda	22.090	74.158
+Rendi	22.050	74.092
+Rengan Palia Mota	23.066	73.667
+Renlawara	23.618	73.471
+Rethal	22.889	72.188
+Revas	23.820	73.137
+Richhada	24.002	72.710
+Richhvel	22.553	74.015
+Ringania	23.240	73.850
+Risri	24.315	72.859
+Ro	24.456	73.090
+Rohinia Muwara	23.167	73.789
+Rohisa	20.831	71.251
+Roho	24.416	72.647
+Rohoni	22.416	72.472
+Rojawara M.	23.093	73.021
+Rojgata	24.293	73.127
+Rojhao	23.209	73.397
+Roji Para	22.704	74.243
+Rojid	22.195	71.888
+Rojwa	22.403	74.261
+Rol	23.533	73.529
+Ronmala	23.981	73.247
+Ronvel	20.557	73.047
+Rorda	22.153	74.076
+Rothau	24.296	73.114
+Royania	23.359	73.866
+Royania	23.480	73.628
+Rozi Mata	22.548	70.043
+Ruda	24.104	72.811
+Rudarmala	24.035	73.004
+Rudra	24.042	73.096
+Rumrio	22.172	74.064
+Rundi	23.085	74.201
+Rup-pura	24.153	72.551
+Rupakhera	23.004	74.191
+Rupakhera	23.164	73.995
+Rupal	23.314	72.601
+Rupal	23.553	73.123
+Rupal	24.026	72.502
+Rupal Mota	23.242	73.507
+Rupawati	22.875	72.086
+Rupdevli	21.450	73.850
+Sabalpur	23.082	73.600
+Sabalpura	24.112	72.642
+Sabarmati	23.083	72.667
+Sabhrai	23.013	69.112
+Sabli	23.001	74.282
+Sabli	23.726	73.058
+Sabolo	23.136	73.000
+Sabrala Para	22.845	74.285
+Sachana	23.081	72.173
+Sada Mota	24.146	72.688
+Sada Nana	24.141	72.711
+Sadaora Mota	23.208	73.740
+Sadaria Mota	23.121	73.656
+Sadarpur	24.188	72.454
+Sadarval	20.765	73.148
+Sadgavhan	21.540	74.292
+Sadhakpur	23.130	73.421
+Sadlivada Mota	23.355	73.724
+Sadlivada Nana	23.364	73.724
+Sadra	22.589	74.007
+Sadra	23.344	72.729
+Saga Mota	23.158	73.676
+Saganphalia	23.100	73.975
+Sagia Muvada	23.419	73.753
+Sagodi	23.321	73.549
+Sagrapara	23.098	74.058
+Sagrara	23.015	73.685
+Sagrasana	24.136	72.368
+Sagtala	22.570	73.906
+Sagwara	23.013	73.833
+Sagwaria	23.249	73.895
+Sahijon	23.156	74.251
+Saidal	22.279	73.503
+Saijpur	22.361	72.819
+Sajod	21.619	72.904
+Sajoi	22.696	74.095
+Sajwan Para	22.566	74.176
+Sakar	22.103	74.005
+Sakhpur	21.564	71.524
+Sakwara	23.252	74.082
+Sala	24.095	72.274
+Salabatpura	21.167	72.833
+Salamkot	24.027	72.582
+Salampara	24.152	72.319
+Salapara	22.905	74.429
+Salawara	23.127	73.518
+Saldi	23.430	72.528
+Salela	23.153	73.618
+Salera	23.263	74.073
+Salera	24.401	73.043
+Salia	23.219	73.450
+Salia Bawan	23.178	73.749
+Salia Bid	23.244	73.754
+Salia Muvada	23.272	73.824
+Salia Muwara	23.203	73.453
+Salia Muwara	23.223	73.906
+Salra	23.256	74.009
+Samadhiala	21.291	71.893
+Samadhiala	21.923	71.534
+Samadiala	20.925	71.140
+Samakhiali	23.303	70.507
+Samalaji	23.689	73.387
+Samalwat	22.108	74.089
+Samana	24.244	72.459
+Samarda	24.168	72.499
+Samat	21.659	73.862
+Samatwara	23.229	73.857
+Samgar Math	23.069	73.547
+Sami	23.684	71.777
+Samia	24.161	72.889
+Samla	22.638	71.764
+Samlasar	22.372	69.105
+Samna	23.157	73.663
+Samoi	22.624	74.095
+Samou Motawas	24.091	72.099
+Samparda	23.156	69.968
+Sampdia	23.255	73.659
+Sampra	23.967	71.971
+Samrapur	24.060	72.784
+Sanali	24.212	72.957
+Sanbar	23.132	73.917
+Sandairo	23.513	73.633
+Sandhan	23.021	68.993
+Sandheli	22.873	73.210
+Sandhosi	24.165	72.949
+Sandpalia	23.162	73.722
+Sangal	23.183	73.181
+Sangal Muwara	23.191	73.186
+Sangari	23.250	73.790
+Sangasutaria Para	22.812	74.268
+Sangawara	23.217	73.912
+Sangla	24.266	72.412
+Sangpur	23.177	73.136
+Sangra	24.226	72.488
+Sanjeli Ganji	23.044	73.988
+Sankartalao	20.674	72.938
+Sankeshvar	23.509	71.787
+Sankhalpur	23.520	72.031
+Sankra	23.821	71.975
+Sanosra	22.299	71.229
+Sant	23.198	73.882
+Santalpur	23.765	71.168
+Santhal	23.484	72.255
+Santola	24.058	72.808
+Santpur	24.227	72.956
+Sanvau	24.379	72.429
+Saodas Mota	23.166	73.697
+Saogad	23.166	73.764
+Saoli	23.052	73.485
+Saolia Muwara	23.075	73.073
+Saorajpur	23.032	73.621
+Saori	22.600	70.667
+Sapavada	23.812	73.000
+Sapdarpura Muwara	23.234	73.394
+Sapli Muwara	23.172	73.418
+Sapoi	23.050	74.152
+Sara	22.794	71.203
+Sara	23.238	73.679
+Sarad	23.289	73.945
+Saragwa Mahuri	23.175	73.721
+Sarangpur	23.416	73.597
+Sarapdar	22.354	70.617
+Sararia	23.154	73.498
+Sarastalai Para	22.857	74.279
+Saraswa	23.178	74.002
+Sarbhon	21.053	73.084
+Sarda	22.968	74.296
+Sardargarh	21.571	70.201
+Sardarkhat Muvada	23.339	73.527
+Sardarpur	23.689	72.769
+Sardarpur	24.014	72.654
+Sardarpur	24.091	72.629
+Sardarpur Muwara	23.180	73.200
+Sardarpura Mota	23.247	73.517
+Sardarpura Para	22.796	74.418
+Sardhar	22.140	70.985
+Sardoi	23.573	73.261
+Saria	23.191	73.424
+Saripara	24.122	72.329
+Sariyavada	24.422	72.399
+Sarla	22.735	71.371
+Sarmana	22.104	70.163
+Sarmaria	23.026	74.099
+Sarmat	22.456	69.947
+Sarmi Muvada	23.319	73.948
+Sarnaia Kuberwala	23.203	73.971
+Sarnaia Nagawala	23.216	73.971
+Sarod	22.171	72.746
+Saroli	23.126	73.394
+Sarori	23.095	73.954
+Sarotra	24.361	72.546
+Sarotra	24.389	72.580
+Sarsa	22.545	73.069
+Sarsadi	23.357	73.850
+Sarsai	21.342	70.697
+Sarsan	23.150	73.133
+Sarsan Harani	23.159	73.816
+Sarsan Moti	23.161	73.806
+Sarsan Nani	23.153	73.797
+Sarsan Ranani	23.153	73.805
+Sarsau	24.050	73.340
+Sarsawa	23.106	73.845
+Sarsuva	23.419	73.814
+Sartanpur	24.013	72.774
+Sarva	22.226	71.479
+Sarvala	21.477	74.250
+Sarwad	22.980	70.700
+Sasa	21.170	70.598
+Sasakpura	23.018	74.000
+Sasam	24.075	72.285
+Sasan Gir	21.176	70.589
+Sasrol	24.036	72.868
+Sat Talao	23.077	73.648
+Sat Talao Mota	23.085	73.634
+Satalia Muwara	23.209	73.373
+Satam	20.921	73.090
+Satapura	21.453	71.681
+Satej	23.108	72.475
+Satemba Muwara	23.016	73.404
+Sath	22.427	72.615
+Sathrol	23.792	73.092
+Satiara	23.450	73.702
+Satkunda	23.087	73.731
+Satlasna	24.025	72.794
+Satodad	21.985	70.454
+Satola	21.514	74.266
+Satona	21.554	74.072
+Satun	23.805	71.571
+Sauli	22.942	73.110
+Savaida	21.511	74.328
+Savaikot	21.906	72.008
+Savasla	23.907	73.094
+Savgad	23.820	73.023
+Sawarana Mota	23.147	73.612
+Sawela	23.174	73.267
+Sedrasan	24.099	72.423
+Sehesa	24.002	72.337
+Sejakpur	22.457	71.416
+Sejalia	20.770	71.107
+Sekla	24.321	72.415
+Sekla	24.328	72.416
+Selari	23.618	70.731
+Selgarh Muwara	23.052	73.044
+Semalkheri	23.007	74.139
+Semara Mota	23.240	73.691
+Sembalia	24.084	72.675
+Semli	24.360	73.111
+Semlia	24.153	73.012
+Sendhni	24.007	72.612
+Seran Bari	23.239	74.052
+Seran Chhoti	23.243	74.051
+Servo	23.615	69.500
+Sespur	24.034	72.751
+Shahabad	21.833	73.117
+Shajipur	21.520	74.221
+Shamlalji	23.688	73.388
+Shamodra	24.115	72.485
+Shamsherpur	24.115	72.510
+Shankarpura	23.128	74.233
+Shanor	22.013	73.468
+Shapur	21.467	70.375
+Shapur	22.405	69.907
+Shapur	22.981	70.893
+Shedhasan	23.989	73.189
+Shekada	24.101	72.926
+Shekhpur	23.006	73.660
+Shelu	21.508	74.263
+Shenadria Gorara	23.203	73.711
+Sher Mahamadpura	24.165	72.423
+Shera Mota	23.182	73.575
+Shera Mota	23.208	73.581
+Shera Mota	23.216	73.559
+Shera Muwara	23.136	73.487
+Sherav	21.951	73.567
+Sherdi	21.585	70.141
+Shergad	21.237	70.337
+Shergadi	24.410	72.387
+Sherpur	23.785	73.035
+Sherpur Majadar	24.065	72.386
+Sherpur-Shebhar	24.028	72.593
+Shewalia	23.005	73.596
+Shianagar	22.022	71.776
+Shiani	22.685	71.831
+Shikarpur	23.260	70.668
+Shil	21.189	70.046
+Shimar	20.786	71.148
+Shimla Mota	23.131	73.575
+Shimor	24.052	72.734
+Shinaya	23.038	70.058
+Shioni	21.223	73.070
+Siada	22.222	74.051
+Sial	23.205	73.807
+Siavada	24.248	72.782
+Sidsar	21.875	70.106
+Sigam	22.143	72.587
+Sihan	22.279	69.713
+Sihod	22.327	73.806
+Sihora	23.150	73.069
+Sikariya	24.332	72.293
+Siklana	24.076	72.541
+Silol	24.069	73.071
+Silwar	24.016	73.115
+Simalia	22.686	73.711
+Simamoi	22.624	74.088
+Simlak	21.037	72.951
+Simlet	23.029	73.749
+Simlia	23.226	73.663
+Simlia	23.283	73.968
+Simlia Mota	22.761	74.358
+Simlia Para	22.798	74.428
+Simliapara Muwara	23.246	73.934
+Simori Muwara	23.162	73.927
+Sinawara	23.480	73.399
+Singad Para	22.923	74.324
+Singalda	22.077	74.139
+Singalda	22.088	74.130
+Singalgad	23.131	73.867
+Singali	23.021	73.013
+Singalja	22.547	74.013
+Singaoli	22.643	74.102
+Singasar	22.687	74.168
+Singla	22.245	74.016
+Singpur	21.252	73.521
+Singpur	21.598	73.109
+Singvad	22.961	73.958
+Sinkla	24.327	72.883
+Sipai Muwara	23.041	73.177
+Sipor	23.847	72.668
+Sir	23.127	73.892
+Sir Nani Muwara	23.132	73.892
+Siriwasan	22.058	74.019
+Sisagadh	23.101	69.342
+Sisang	22.217	70.484
+Sisasan	23.836	73.194
+Sisodra	20.936	72.979
+Sisodra	23.457	73.512
+Sisodra	23.539	73.590
+Sisor	21.242	73.427
+Sisrana	24.071	72.609
+Sisva	22.330	72.874
+Sitapur	23.454	71.994
+Sitawatli	23.132	74.145
+Sobha	23.077	73.616
+Sodaori	21.094	70.848
+Sodapur	24.400	72.296
+Sodla Mota	23.187	73.547
+Sogam Muvada	23.274	73.856
+Sojol	24.266	72.666
+Sokhda	22.423	73.168
+Solia	24.293	73.075
+Solsanda Mota	24.087	72.905
+Solsanda Nana	24.089	72.899
+Somnath	20.888	70.401
+Somnath	22.067	71.367
+Sona Mota	23.131	73.503
+Sonaria	21.471	71.240
+Sonariu Muwara	23.065	73.215
+Sonela Mota	23.156	73.600
+Sonela Nana	23.150	73.590
+Sonesaria Math	23.172	73.680
+Songad	24.214	72.447
+Songarh	21.714	71.888
+Songarh	24.350	73.002
+Sonia Mota	23.228	73.705
+Sonwari	20.854	72.973
+Sosak	21.274	72.758
+Sree Jaswant Sagar Dam	24.120	72.775
+Subir	20.930	73.775
+Sudamda	22.447	71.487
+Sudasna	24.014	72.684
+Sudol Muwara	22.692	74.009
+Suigam	24.151	71.357
+Sujnipur	23.893	72.113
+Suka Timba Mota	23.019	73.667
+Sukatimba	23.123	73.939
+Sukhimali	23.105	74.139
+Sukhpur	23.283	70.194
+Sukhsar	23.150	74.027
+Suki Muwari	23.129	73.165
+Sukidevi Muwara	23.155	73.853
+Suklatirth	21.750	73.117
+Suliat	23.048	73.868
+Sultanpur	21.305	72.095
+Sultanpur	21.767	70.865
+Sultanpur	23.046	73.055
+Sultanpur	23.086	73.173
+Sultanpur	23.148	73.068
+Sultanpur	23.150	73.011
+Sultanpur	23.176	73.028
+Sulvada	21.517	74.292
+Sumra	22.440	70.443
+Sunao-Kala	21.481	72.831
+Sunav	22.529	72.799
+Sunda	23.071	73.206
+Sundha	24.182	72.254
+Sunokh	23.618	73.286
+Sunsar	23.755	73.166
+Suntal	24.003	73.337
+Supedi	21.762	70.377
+Surajpara	23.836	73.144
+Surbhakar	24.404	72.404
+Sureli	22.662	73.166
+Surpan	21.817	73.803
+Surpar	23.003	73.966
+Surpari	23.036	74.119
+Surpur	23.018	73.957
+Surpur	23.212	73.948
+Sursi	22.383	73.133
+Suser	24.330	73.080
+Sutari	23.196	73.723
+Sutaria	23.058	73.374
+Sutaria Mota	23.070	73.589
+Suthianal	23.064	73.366
+Suthri	23.033	68.914
+Suvali	21.169	72.639
+Suvi	23.612	70.493
+Suwalidungri Para	22.823	74.305
+Tadach	21.408	71.945
+Tadiberi	24.328	73.168
+Tadigoli	23.192	74.038
+Tadkachhla	22.034	73.955
+Tagai Pada	21.449	74.112
+Taiabpur	23.029	73.078
+Tajli Muwara	23.079	73.400
+Tajpura	24.029	72.598
+Tajpuri	23.554	72.907
+Takarwara	24.105	72.331
+Takhatpura	23.195	73.337
+Taladra	23.281	73.878
+Talati	24.229	72.866
+Talau	24.100	73.140
+Talau	24.282	73.092
+Taleygadh	24.052	72.690
+Tallayan Muvada	23.333	73.953
+Talod	23.159	73.279
+Talsana	22.791	71.906
+Talvada	23.321	73.740
+Tanchhia	22.859	74.373
+Tanchhia	23.121	73.581
+Tanda	22.890	74.439
+Tandagola	22.966	74.275
+Tandi	23.021	74.160
+Tandi	23.098	74.009
+Tandi Para	22.929	74.318
+Tankari	21.990	72.667
+Tankaria	21.881	73.010
+Tanochha	23.084	73.508
+Tansa	21.513	72.121
+Tapti Pada	21.499	74.068
+Tarakmaria Mota	23.247	73.568
+Tarala Mota	23.182	73.612
+Tarala Mota	23.223	73.537
+Tarapur	22.488	72.658
+Tarasvu	22.255	73.488
+Tardhara	22.237	71.603
+Tarkeshwar	21.374	73.057
+Tarmi	23.010	74.015
+Tarsai	21.773	69.837
+Tarsang	24.096	72.824
+Tarwaria Bhau	22.819	74.340
+Tarwaria Himat	22.828	74.349
+Tarwaria Waja	22.816	74.347
+Tasia	23.814	73.107
+Tawa	22.188	74.062
+Tebro	24.253	73.050
+Tejakui	23.303	73.554
+Tekria Muwara	23.204	73.478
+Telnal	23.114	73.031
+Temarphalia	23.097	74.028
+Tembachuri	24.053	72.437
+Tembarwa	23.161	73.884
+Tembla	23.253	73.896
+Tenpur	23.208	73.004
+Teparwa Muwara	23.194	73.775
+Tera	23.286	68.939
+Tervada	24.026	71.695
+Tetaria	22.994	74.290
+Thala	23.104	71.566
+Thala Muwara	23.070	73.978
+Thalpora	23.140	73.031
+Thaltej	23.049	72.512
+Thalvada	24.154	72.945
+Thambha	23.151	73.700
+Thamdi	24.041	72.928
+Thana	24.151	72.749
+Thana Galol	21.696	70.688
+Thana Mota	23.061	73.614
+Tharad	24.036	71.421
+Thawad	23.120	73.161
+Therka	23.074	74.199
+Therki	23.075	74.176
+Thol	23.131	72.377
+Thor	24.132	72.603
+Thunchal	23.063	73.039
+Thunthi Kankasia	23.177	74.240
+Thuravas	23.950	73.067
+Tikar	23.140	71.099
+Tikhi	23.217	74.024
+Tilakvada	21.952	73.591
+Timana	21.427	71.994
+Timarda	22.859	74.418
+Timasi	23.117	74.278
+Timba	22.817	73.406
+Timba	23.027	73.606
+Timba Road	22.817	73.383
+Timbi	23.149	74.002
+Timi	23.083	74.287
+Timri	24.237	73.032
+Titarer	24.018	73.344
+Tithal	20.597	72.899
+Titoi	23.612	73.334
+Titora	22.117	74.059
+Titoria	22.128	74.052
+Tochna Gorara	23.187	73.730
+Toda	21.618	71.888
+Tokaria	24.089	72.339
+Tokarwa	22.597	74.035
+Tokarwa Khurd	21.317	73.733
+Tokra	24.036	72.928
+Tokri	22.136	74.016
+Tokri	22.155	74.018
+Tola	23.271	73.804
+Tonda	24.127	72.707
+Tora	22.065	70.390
+Toranda	21.532	74.047
+Tordungri	23.939	73.236
+Torna	22.967	72.989
+Tornia	24.246	72.960
+Totu	23.217	73.304
+Trakdi	23.264	73.542
+Trakuda	21.955	70.650
+Tralsa	21.804	72.962
+Trambakach	22.617	74.055
+Trapaj	21.424	72.107
+Tukda	21.527	69.721
+Tukda Miyani	21.792	69.427
+Tulia	23.030	73.428
+Tulsa	21.544	74.104
+Tumdikhera Para	22.782	74.257
+Tumlia	23.441	73.601
+Tuna	22.987	70.081
+Tundao	22.483	73.197
+Tuver	24.098	72.945
+Ubhad	21.530	74.319
+Ubhapani	23.080	74.039
+Ubrecha	24.026	72.723
+Ucharpi	23.118	73.465
+Uchhal	21.173	73.771
+Uchuan	21.457	73.475
+Uchwania	22.828	74.452
+Udar	22.871	74.454
+Udava	23.406	73.717
+Udel	22.336	72.696
+Udhal Mahura	22.577	74.063
+Udvada	20.485	72.869
+Ugamedi	22.000	71.648
+Ugamna Para	22.882	74.361
+Ugta	20.498	73.264
+Ujaria	23.207	74.079
+Ukardi	22.873	74.256
+Ukardi	23.043	73.005
+Ukardi	23.128	73.658
+Uker	23.400	68.711
+Ukeri	23.569	73.560
+Ukhreli	23.239	73.933
+Ulva	21.950	74.112
+Umaji Muwara	23.083	73.149
+Umari	24.052	72.707
+Umaria	22.760	74.073
+Umaria	23.255	73.859
+Umarkote	24.329	72.502
+Umarpada	21.450	73.500
+Umarsadi	20.512	72.898
+Umber	23.130	73.904
+Umbri	24.089	72.712
+Umbri	24.234	72.925
+Umbria	23.326	73.647
+Umbrio	24.019	73.339
+Umedpura	23.105	73.164
+Umedpura	24.030	72.869
+Umeta	22.333	73.050
+Umia	23.633	68.950
+Umra	20.894	73.256
+Umra	24.103	73.363
+Umrat	21.012	72.735
+Umret	23.008	74.046
+Umri	20.894	70.530
+Umria	23.231	73.493
+Umrimal	23.120	74.099
+Umta	23.781	72.555
+Umti	22.040	74.112
+Unalia Muwara	23.197	73.319
+Unava	23.767	72.362
+Unchisadad	22.617	74.218
+Undar	22.717	74.128
+Undara	23.082	73.691
+Undra	23.141	73.482
+Undwa	22.119	74.022
+Undwa Muwara	23.163	73.975
+Unodra	24.233	72.968
+Untarda	23.237	73.018
+Untari	23.124	73.489
+Untavad	21.539	74.183
+Untiana Muwara	23.043	73.463
+Unurala	22.034	70.308
+Uparia Muwara	23.039	73.322
+Usarwan	22.866	74.251
+Usran	23.106	74.012
+Utachi Muwara	23.066	73.028
+Uwarsad	23.209	72.588
+Vachhu	22.196	69.037
+Vad	20.980	71.443
+Vadadla Mota	23.315	73.635
+Vadagam	23.278	73.591
+Vadagam	23.334	73.136
+Vadal	21.450	71.854
+Vadali	22.195	70.883
+Vadeli	22.354	72.861
+Vadgam	23.366	71.782
+Vadgam	24.079	72.490
+Vadgamda	23.950	73.073
+Vadi	23.270	73.585
+Vadiavir	23.852	73.096
+Vadinar	22.398	69.720
+Vadodra	20.820	70.523
+Vadot	23.978	73.023
+Vadpada	21.535	74.010
+Vadphali	21.740	73.848
+Vadvas	24.337	72.358
+Vadvera	24.185	72.810
+Vagdakari	24.181	72.900
+Vagdara Muvada	23.267	73.953
+Vagdari	24.163	72.682
+Vagesari	23.836	73.235
+Vaghdungri	23.287	73.828
+Vaghod	24.205	72.698
+Vaghodia INA	22.297	73.380
+Vaghva	24.036	72.846
+Vagnavada	23.306	73.834
+Vagra	21.845	72.845
+Vagrol	24.285	72.335
+Vajapur	24.191	71.576
+Vajasan	24.116	72.753
+Vajiria	22.033	73.583
+Vajpur	21.348	73.758
+Vaka	21.513	74.234
+Vakhatpur	23.261	73.532
+Vakhtapur	24.013	72.872
+Vala	21.883	71.900
+Valam	23.717	72.457
+Valasana	23.828	72.783
+Valod	21.049	73.264
+Valukad	21.671	72.106
+Valvod	22.318	72.910
+Vana	22.873	71.708
+Vanala	22.437	71.921
+Vanderda	22.318	73.591
+Vandol	24.013	73.331
+Vanjarpada	21.534	74.142
+Vanjarvadi	23.817	73.032
+Vanjarvadi	23.923	73.028
+Vanjarvadi	23.985	73.060
+Vanji	21.883	73.800
+Vanjipura	24.098	73.071
+Vanka	23.253	73.622
+Vankaner	21.071	73.174
+Vankia	21.975	71.305
+Vanod	23.429	71.925
+Vansdol	23.802	73.055
+Vanshiali	21.340	71.497
+Vansiadungri	22.632	74.209
+Vansol	24.118	72.568
+Vanta Bariavala	23.260	73.821
+Vantavada	23.303	73.746
+Varahi	23.792	71.443
+Vareth Moti	23.315	73.875
+Vareth Nani	23.326	73.861
+Variao	21.259	72.819
+Varnavada	24.089	72.553
+Varnia	24.332	72.379
+Varnu Wandh	23.474	71.038
+Varsada	23.380	73.704
+Varthara	22.205	69.512
+Vartol	24.078	73.063
+Varvadia	24.089	72.518
+Varwala	22.289	68.964
+Vasad	22.458	73.062
+Vasai	22.318	69.001
+Vasai	22.430	69.931
+Vasai	23.499	73.635
+Vasai	23.804	73.146
+Vasai	24.055	72.632
+Vasavad	21.827	71.024
+Vasda	24.058	72.744
+Vasda	24.203	72.495
+Vasda	24.321	72.265
+Vasi	24.237	72.773
+Vasna	23.482	73.503
+Vasna Borsad INA	22.389	72.912
+Vasna Dharol	23.918	73.020
+Vasna Japiani	23.912	73.003
+Vasni	24.182	72.533
+Vasno	24.029	73.024
+Vastral	22.994	72.663
+Vasurna	20.694	73.676
+Vasvada	24.087	72.885
+Vatadra	22.340	72.753
+Vatam	24.220	71.836
+Vav	24.018	72.788
+Vav	24.243	72.803
+Vavania Bandar	23.018	70.550
+Vavaniya	23.006	70.610
+Vavdi	21.852	73.557
+Vavdra	24.434	72.446
+Vaviakuva	23.372	73.671
+Vechata Mota	23.230	73.705
+Ved	22.649	74.032
+Ved	23.104	73.459
+Ved	23.646	71.509
+Veda Pada	21.435	74.011
+Vedcha	24.162	72.340
+Vehelal	23.078	72.759
+Vejalpur	23.000	73.114
+Vejnath Muwara	23.059	73.358
+Vejpur	23.796	73.218
+Vekaria	21.317	70.913
+Velachha	21.433	73.017
+Velan	20.716	70.826
+Velanvada	23.293	73.751
+Velavas	24.402	72.355
+Velawadar	21.381	72.052
+Velda	21.483	74.144
+Velvada	24.169	72.711
+Vena	23.092	73.787
+Vena Nana Muwara	23.100	73.760
+Vengni	21.686	72.714
+Ventala	23.894	73.070
+Vera	24.148	72.902
+Verama	23.084	73.544
+Verania	23.148	73.454
+Verara Mota	23.286	73.604
+Versara	21.645	71.305
+Vesa	24.018	72.475
+Vesma	21.031	72.975
+Vevji	20.148	72.802
+Vias Wasna	23.107	73.103
+Viasji Muwara	23.117	73.046
+Victor	21.000	71.583
+Vihod	21.525	72.707
+Vijayanagar	24.006	73.359
+Vijayganj	23.153	73.304
+Vijlasan	24.034	72.888
+Vinchhavad	21.451	70.738
+Vinjhan	23.103	69.025
+Vira Mota	23.287	73.591
+Virani	23.383	69.267
+Virani Mota	23.382	69.269
+Virani Nana	23.372	69.261
+Virania	23.040	73.824
+Virania Muwara	23.060	73.246
+Vireshvar	23.938	73.174
+Virnia	23.070	73.607
+Virnia	23.262	73.584
+Virochannagar	23.097	72.228
+Virpur	21.847	70.697
+Virpur	24.169	72.470
+Virpura Chaklia	23.188	73.683
+Virpura Mota	23.229	73.652
+Virsad	22.388	72.777
+Virwao	22.560	70.686
+Visavadi	23.341	71.733
+Vithalgadh	22.990	71.975
+Vithalpur	23.365	72.054
+Vithodar	24.423	72.185
+Vitoj	22.405	73.460
+Vivav	23.988	73.046
+Vora Samni	21.790	72.885
+Vyaur	21.458	74.162
+Vyaval	21.519	74.319
+Wadal	21.194	71.551
+Wadala	22.033	70.124
+Wadala	22.917	69.856
+Wadali	21.966	70.298
+Wadapadhar	23.151	68.860
+Wadbara Muwara	23.059	73.899
+Wadbhet	22.616	74.004
+Wadgam	22.324	72.424
+Wadhna	24.239	72.362
+Wadlia Muwara	23.204	73.934
+Wadsar	23.343	68.776
+Wadthali	23.559	73.575
+Wadwa	22.733	74.182
+Wadwa	23.520	73.637
+Wadwali Muwara	23.075	73.067
+Wagatalao	22.483	72.467
+Wagatpura	23.029	74.251
+Wagda	24.126	72.460
+Wagdana	22.062	74.132
+Wagela	23.064	74.228
+Wagela	23.079	74.241
+Wagen	23.132	73.748
+Wagha Muwara	23.168	73.148
+Waghas	23.114	73.132
+Waghas	23.227	73.418
+Waghdhari	23.256	73.974
+Waghnagar	21.103	71.810
+Waghoi	23.047	73.760
+Waghpur	23.601	73.603
+Waghroli	22.884	73.297
+Wagota Muwara	23.089	73.324
+Wagphal	23.113	73.772
+Wagwadli	23.280	74.014
+Wagwalla	23.196	74.069
+Waidi	23.614	73.601
+Wainaj	23.219	72.411
+Wajabhagat Muwara	23.093	73.174
+Wajapur	24.078	72.780
+Wajelao	22.749	74.178
+Wajepura	23.249	73.091
+Wajiakhunt	23.180	73.923
+Wak	23.021	74.123
+Wakal	21.433	73.233
+Wakasia	22.630	74.080
+Wakhatpur	23.121	73.448
+Wakhatpur Muwara	23.190	73.349
+Wakota	22.651	74.200
+Waktapura Muwara	23.073	73.423
+Wala Muwara	23.142	73.199
+Wala Muwara	23.197	73.198
+Wala Muwara	23.230	73.191
+Walakheri	23.129	73.932
+Walan	21.955	73.071
+Walasan	22.551	72.883
+Walia	23.028	73.818
+Walinath	23.043	73.496
+Walji Muwara	23.061	73.028
+Walren	24.078	73.109
+Walunda	23.261	74.044
+Walunda Muwara	23.081	73.913
+Walundi	23.245	74.049
+Wamleshwar	21.499	72.689
+Wanbhori	22.822	74.331
+Wanch	22.943	72.690
+Wandaria	23.120	73.840
+Wandaria	23.259	74.108
+Wandaria Muwara	23.088	73.161
+Wandarvel	23.227	73.624
+Wandhia	23.247	70.615
+Wanera	23.091	73.809
+Wangar	23.218	74.064
+Wanjaria	23.069	74.126
+Wanjariu Muwara	23.061	73.156
+Wank	23.550	73.556
+Wanka	23.007	73.438
+Wankaner	23.133	74.048
+Wankari	23.106	73.820
+Wankia	22.749	74.367
+Wankia Para	22.834	74.433
+Wansia	23.080	74.011
+Wansiakui	23.186	74.053
+Wanta	23.118	73.585
+Wanta	23.129	73.195
+Wanta	23.211	73.834
+Wanta Muwara	23.219	73.146
+Wantara Baad	23.244	73.215
+Wantara Kawat	23.146	73.181
+Wanteli Muwara	23.137	73.497
+Wanthali	22.438	70.327
+Wanto Mota Muwara	23.078	73.311
+Wanto Nana Muwara	23.075	73.318
+Wao Bhemani	23.219	73.752
+Wao Limbani	23.220	73.762
+Wao Muwara	23.048	73.342
+Waola Muwara	23.085	73.351
+Waori	23.247	74.063
+Waotiu Muwara	23.164	73.283
+Warajhampa	23.228	73.831
+Warali	23.075	73.129
+Waratha Muwara	23.160	73.435
+Wardala Mota	23.246	73.688
+Wardala Nana	23.243	73.682
+Wardhara	23.088	73.181
+Wardhari	23.089	73.454
+Wari	21.476	73.344
+Wari	23.183	73.627
+Wari Gorara	23.190	73.708
+Waria	23.207	73.904
+Warna	23.206	73.195
+Warod	23.032	74.147
+Warodar Mota	23.160	73.694
+Warodar Nana	23.159	73.686
+Waroli Muwara	23.100	73.415
+Warsara	23.983	71.663
+Warsara	24.032	72.455
+Waruna Makwanewala	23.142	74.040
+Waruna Rawalwala	23.155	74.034
+Warwara	22.795	74.403
+Warwaria	24.237	72.455
+Warwas	23.265	74.038
+Wasadra	23.073	73.374
+Wasai	23.114	74.010
+Wasan	22.955	72.137
+Waskui	21.184	73.362
+Wasna	22.121	73.749
+Wasna	23.241	73.026
+Wasna Jagana	24.101	72.387
+Wasna Mota	23.171	73.175
+Wasna Rel	23.194	73.160
+Wastawala Muwara	23.201	73.801
+Wata	22.066	74.143
+Wataman	22.527	72.418
+Watawad	24.127	72.642
+Wathwathia Muwara	23.106	73.418
+Watli	23.202	74.042
+Watra	22.177	74.053
+Wavia	23.243	73.636
+Wavia Muwara	23.190	73.843
+Wazirpur	22.074	74.080
+Welpura	23.123	74.115
+Wokora Mota	23.016	73.537
+Wondh	23.299	70.398
+Zainabad	23.286	71.767
+Zankhvav	21.451	73.319
+Zerda	24.326	72.135
+alampur	23.234	73.516
+amlia	23.341	73.542
+amoda	21.551	74.174
+ankalwa	23.162	73.632
+ashta	21.547	74.156
+asundria	23.050	73.674

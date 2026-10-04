@@ -1,0 +1,43 @@
+Atawa	30.727	76.751
+Atawa Choa	30.742	76.765
+Badheri	30.733	76.734
+Bahlana	30.677	76.800
+Bahlolpur	30.759	76.703
+Bajwara	30.733	76.763
+Bijwari Bakhta	30.741	76.750
+Burail	30.691	76.771
+Burail	30.708	76.762
+Buterla	30.733	76.739
+Dadu Majra	30.757	76.733
+Dhanas	30.770	76.757
+Dhanauran	30.783	76.736
+Fatehgarh	30.720	76.766
+Gurudwara	30.731	76.789
+Hala Majra	30.690	76.801
+Jhampur	30.766	76.707
+Kaimbwala	30.759	76.826
+Kanji Maira	30.759	76.765
+Kansil	30.765	76.811
+Kanthara	30.705	76.788
+Khoda Jassu	30.775	76.775
+Kujheri	30.715	76.736
+Kursan	30.691	76.785
+Madanpur	30.720	76.724
+Mahla Majra	30.762	76.797
+Malak	30.785	76.752
+Mariwala Town	30.718	76.831
+Mastgarh	30.785	76.745
+Moloia	30.754	76.718
+Palsaura	30.732	76.726
+Purnapani	19.867	82.631
+Raipur	30.749	76.696
+Raj Bhavan Haryana	30.743	76.811
+Raj Bhavan Punjab	30.739	76.812
+Sadoriaja Goth	24.235	69.187
+Saini Majra	30.755	76.757
+Sangariwala	30.794	76.762
+Sarangpur	30.781	76.759
+Shahpur	30.744	76.747
+Shahpur Cholian	30.743	76.751
+Shahzadpur	30.761	76.781
+Togan	30.770	76.734

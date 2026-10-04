@@ -1,0 +1,46 @@
+Amal	20.268	72.979
+Ambabari	20.167	73.150
+Amboli	20.144	73.030
+Barur	33.839	74.198
+Bedpa	20.096	73.200
+Bildari	20.167	73.200
+Bunxivara	20.717	70.900
+Chikhli	20.184	73.018
+Dagasi	20.724	70.911
+Dangrawari	20.721	70.933
+Dholar	20.383	72.833
+Dolara	20.075	73.039
+Fudam	20.710	70.962
+Galonda	20.286	73.048
+Ghantwar	20.928	70.756
+Gogola	20.726	70.988
+Kantan	33.827	74.210
+Karad	20.222	73.042
+Karchond	20.155	73.160
+Khadoli	20.150	73.032
+Kharadpada	20.250	72.956
+Kherarbari	20.133	73.133
+Kherdi	20.111	73.026
+Kotda	20.707	70.865
+Kothar	20.166	73.121
+Luari	20.188	72.973
+Magarvara	20.387	72.848
+Malala	20.710	70.949
+Mandavni	20.113	73.150
+Mindi	34.017	74.202
+Pariali	20.378	72.837
+Pati	20.183	73.049
+Randha Moti	20.310	73.136
+Randha Nana	20.299	73.149
+Rudana	20.098	73.090
+Saili	20.245	73.031
+Sarkharia	20.742	70.755
+Sigsar	20.808	70.614
+Sili	20.304	73.042
+Sindavni	20.091	73.156
+Sulhani	30.877	74.866
+Tanki Complex	33.813	74.156
+Umbarkoi	20.245	73.060
+Vansda	20.121	73.160
+Vasona	20.206	73.038
+Velugam	20.145	72.982

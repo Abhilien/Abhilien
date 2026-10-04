@@ -1,0 +1,195 @@
+Aihol	23.933	93.983
+Angbrashu	24.393	94.011
+Angem	25.063	94.091
+Atengba	24.923	93.350
+Berabak	24.742	93.115
+Bhalok	24.993	93.524
+Bishenpur	24.628	93.761
+Boljang	24.624	94.398
+Bongba Khulen	24.836	94.484
+Bongbal Khulen	24.720	94.161
+Bukpi	24.213	93.242
+Bungte Chiru	24.644	93.733
+Buri Bazar	24.712	93.839
+Chahong Khuno	24.885	94.635
+Chakpi Karong	24.206	93.902
+Chalong	24.242	94.067
+Chammu	25.061	94.651
+Changmun	24.572	93.253
+Charoi Chakoklong	24.770	93.635
+Chassud	24.798	94.510
+Chaton	25.298	93.728
+Chattrik	24.966	94.619
+Chilivai Phaibung	25.406	94.347
+Chingai	25.314	94.499
+Chingjui	25.404	94.421
+Chingmai Khullen	25.469	94.361
+Gaziphema	25.501	94.388
+Gouthang	24.479	93.570
+Hanggou	24.896	94.404
+Haochong	24.882	93.693
+Hengken	24.285	93.869
+Henglep	24.505	93.504
+Hengtam	24.085	93.605
+Humine	24.717	94.567
+Humpum	25.069	94.353
+Ishok	24.682	93.839
+Jessami	25.622	94.541
+Joipi	25.280	93.437
+Jun	24.179	93.932
+Kadi	25.303	93.773
+Kaiphundai	24.788	93.219
+Kalapahar	25.130	93.956
+Kampang	24.441	94.239
+Kampha	25.087	94.233
+Kandihang	25.030	93.320
+Kang-gum	24.595	94.413
+Kangchup Geljang	24.870	93.806
+Kangchup Khul	24.870	93.771
+Kanglatongbi	24.977	93.888
+Kangpat	24.676	94.492
+Kangreng	24.453	93.108
+Kangvai	24.433	93.718
+Kanjang	25.478	93.915
+Karong	25.303	94.044
+Kasom Khullen	24.679	94.270
+Kasom Khullen	24.963	94.255
+Katang	25.189	93.563
+Kekrima	25.581	94.220
+Khamson	25.196	94.147
+Khangabok	24.616	94.008
+Kharasom	25.467	94.470
+Khebuching	24.930	93.519
+Khengoi	24.034	94.101
+Khoinoi	24.220	93.778
+Khubung Khulen	24.171	94.007
+Khullakpam	24.620	94.007
+Khunpham	24.682	93.856
+Khunthak	24.198	94.108
+Koiri	25.243	94.452
+Kolhen	24.443	93.504
+Lagairong	24.695	93.517
+Laitonjam	24.695	93.877
+Lakhan Khuman	24.827	94.504
+Lamdanmai	24.726	93.658
+Langga	25.032	93.771
+Langkhong	24.870	93.555
+Laphurak	25.029	94.103
+Leimapokam	24.666	93.862
+Leishan	25.134	94.194
+Lhungtin	25.081	94.117
+Long	25.312	93.694
+Longbi Hirei	25.208	94.461
+Longpi	24.619	93.337
+Lourembam	24.687	93.871
+Lukhambi	24.893	93.612
+Lunghan	25.174	94.440
+Machi	24.508	94.143
+Maibi Khunou	24.494	94.130
+Makeng	25.106	94.032
+Mao Songsang	25.513	94.141
+Maohing	25.197	93.904
+Maram	25.416	94.112
+Mawlashin	24.914	94.694
+Meiring	24.746	94.338
+Meiti	24.700	94.485
+Metikumi	25.583	94.583
+Molnom	24.194	93.385
+Molvailup	24.797	94.619
+Mombi	24.106	93.940
+Mongon	24.291	93.369
+Mulam	24.194	93.684
+Munpi	24.320	93.508
+Nalong	25.413	93.798
+Nambashi	24.591	94.355
+Naorem	24.736	93.923
+Ngarikhunaw	25.342	94.329
+Ngawar	25.280	94.256
+Nungba	24.743	93.418
+Nungkuinu	24.044	94.076
+Nungon	25.010	94.410
+Nungtak	24.524	94.165
+Oinamlong	24.747	93.270
+Pabram	24.950	93.366
+Palel	24.449	94.020
+Pangkibot	24.876	93.466
+Paomata	25.452	94.211
+Parbung	24.250	93.107
+Phaibak	24.556	93.152
+Phaiphengmun	24.340	93.457
+Phaiyeng	24.845	93.823
+Phellong	25.097	93.443
+Phering	25.175	94.370
+Phoipi	24.518	93.602
+Phungta	25.087	94.714
+Phungyar	24.808	94.351
+Poi	25.278	94.556
+Pukhrambam	24.677	93.882
+Pulomi	25.581	93.910
+Purul	25.378	94.217
+Purura Khulen	24.404	93.978
+Raipalomei	25.352	94.324
+Ringui	25.053	94.252
+Sagolmang	24.957	94.024
+Saibom	24.425	94.101
+Saichang	24.449	93.407
+Saikul	25.057	94.030
+Saitu	25.034	93.893
+Sakok	24.874	94.313
+Samulamlan	24.358	93.808
+Sanjenbam	24.788	94.016
+Sempang	24.855	93.432
+Shartang	24.074	93.732
+Shelkai	24.018	93.805
+Shelkui Khunou	24.064	93.868
+Shorbung	25.260	94.134
+Sibapurikhal	24.569	93.094
+Sibong	24.325	94.252
+Singhat	24.143	93.587
+Singkap	24.863	94.253
+Sochumei	25.483	94.233
+Sokpao	24.980	94.266
+Somdal	25.168	94.289
+Songchal	24.165	93.371
+Songkong	24.090	93.679
+Songpekmun	24.322	93.286
+Songsang	24.486	93.316
+Songsong	25.498	94.137
+Sonparam	25.020	93.591
+T Vaichong	25.207	93.820
+Tadubi	25.479	94.135
+Tairenpokpi	24.643	93.670
+Tallui	25.190	94.325
+Taloulong	25.114	93.637
+Talphoi	24.318	93.624
+Tamei	25.156	93.680
+Tamma	25.181	93.716
+Teikhang	24.595	93.374
+Thanga	24.533	93.837
+Thilon	24.991	93.407
+Thiyam	24.690	93.864
+Thlanship	24.144	93.208
+Thonglang	25.240	93.924
+Tinsong	24.290	93.197
+Tipaimukh	24.236	93.025
+Toichum	24.163	93.802
+Tolbol	24.267	93.282
+Tolbung	24.384	93.152
+Tonglon	24.242	93.538
+Tousem	25.085	93.366
+Toushen Khund	25.117	93.384
+Tsutuho	25.806	94.614
+Tulihal	24.754	93.885
+Tuphema	25.481	94.136
+Tupul	24.732	93.475
+Tusom	24.792	94.427
+Tusora Khulan	25.401	94.589
+Ukha	24.457	93.645
+Viswema	25.561	94.146
+Wabagai	24.531	93.938
+Waheng Khuman	24.668	93.865
+Wilong	25.469	93.972
+Yaingangpokpi	24.908	94.119
+Yamua Khunov	24.491	93.741
+Youpi	24.097	93.980
+Zhobumai	25.469	94.371

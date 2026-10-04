@@ -1,0 +1,76 @@
+Abdullapur	24.337	92.298
+Ampi Bazar	23.624	91.613
+Bagafa	23.333	91.583
+Bahadurpara	23.950	92.084
+Bampurbari	23.559	91.633
+Bamutia	23.964	91.287
+Belphabari	24.134	91.688
+Brajamahanbari	24.030	91.502
+Chandrasadhubari	23.807	91.510
+Chawmanu	23.852	91.994
+Chebti	24.019	91.625
+Damchara	24.239	92.296
+Dhanyacharanbari	23.891	91.956
+Dudhpur	24.105	92.007
+Dulumabari	23.495	91.707
+Gabaichara	24.210	92.331
+Gorakapa Kachehri	23.150	91.800
+Gunamanipara	23.714	91.946
+Hadraibari	23.850	91.600
+Halhahli	24.104	91.825
+Harirambari	24.015	91.848
+Hirapur	23.517	91.533
+Hriphaw	24.196	92.419
+Jambura	24.063	91.621
+Jampai	23.705	91.460
+Jampuijala	23.715	91.449
+Jirania	23.814	91.437
+Kakraban	23.486	91.399
+Kalyanpur	23.922	91.603
+Kamal Krishnabari	23.344	91.786
+Karbook	23.344	91.755
+Kathalia	23.348	91.320
+Khalyabari	24.163	92.266
+Khopaiyapara	24.008	92.023
+Lalchara	24.074	91.602
+Laogang Bazar	23.275	91.538
+Lungthung	23.216	91.572
+Mainoraipara	24.023	92.097
+Mairuhabari	23.338	91.601
+Maklibari	24.072	91.395
+Manpui	24.048	92.276
+Manu Bazar	23.075	91.657
+Melaghar	23.495	91.330
+Methraipara	23.745	91.794
+Mogiyabari	23.550	91.850
+Mohanpur	23.964	91.371
+Mukhachariduar	23.463	91.847
+Muktasinghpara	23.962	92.158
+Nagraibari	23.599	91.614
+Nakraihapara	23.998	92.101
+Nalkata	24.056	92.002
+Nallaiyanur	11.852	77.829
+Navanchanarabari	23.156	91.712
+Nutan Bazar	23.429	91.754
+Palangphabari	23.300	91.750
+Phuldungsei	23.819	92.261
+Rabiraipara	23.696	92.047
+Radhakishorpur	24.233	92.283
+Rajnagar	24.296	92.188
+Rengdil	24.048	92.384
+Rhadakishorpur	24.242	92.289
+Rupaichhari	23.096	91.700
+Rushyabari	23.450	91.933
+Sabedabari	23.664	91.837
+Sakhan	23.804	92.160
+Santinagar	23.981	91.617
+Serhmun	23.858	92.153
+Serhmun	24.234	92.423
+Sibnagar	23.653	91.237
+Silachari	23.231	91.775
+Sirdukbari	23.769	91.591
+Takarjala	23.706	91.420
+Takirambari	24.227	91.953
+Thakurbari	24.398	92.228
+Tukkalh	23.932	92.372
+Vanghmun	23.987	92.280
