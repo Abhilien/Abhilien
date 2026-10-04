@@ -20,7 +20,7 @@ import {
   type InterestOutcome,
 } from '../domain/rules';
 import type { DiscoveryFilters, Intent, Kind } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 type Result = { id: string; outcome: InterestOutcome };
 

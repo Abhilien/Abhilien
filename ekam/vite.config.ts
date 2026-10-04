@@ -1,11 +1,10 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
-import { viteSingleFile } from 'vite-plugin-singlefile';
 
-// `--mode single` inlines everything into one HTML file for easy sharing.
-export default defineConfig(({ mode }) => ({
+// Relative base + HashRouter means the build works from any static host path,
+// including GitHub Pages project sites.
+export default defineConfig({
   base: './',
-  plugins: [react(), ...(mode === 'single' ? [viteSingleFile()] : [])],
-  build: { outDir: mode === 'single' ? 'dist-single' : 'dist' },
-  test: { environment: 'node' },
-}));
+  plugins: [react()],
+  test: { environment: 'node', include: ['src/**/*.test.ts'] },
+});

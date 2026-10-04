@@ -4,7 +4,7 @@ import { Icon, Logo } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
 import { KindMark, PlanTag } from '../components/ui';
 import { PERSONAS } from '../domain/seed';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 const STEPS = 4;
 

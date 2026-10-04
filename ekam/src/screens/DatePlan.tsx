@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Empty, TopBar } from '../components/ui';
 import { bothReadyToMeet, other, reachStage, setDatePlan } from '../domain/rules';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 const BUDGETS = ['₹', '₹₹', '₹₹₹'];
 const TIMES = ['Weekday evening', 'Saturday afternoon', 'Sunday morning'];

@@ -1,7 +1,7 @@
 import { Icon, type IconName } from '../components/Icon';
 import { TopBar } from '../components/ui';
 import { setPlan } from '../domain/rules';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 const PILLARS: { icon: IconName; title: string; items: string[] }[] = [
   { icon: 'globe', title: 'More reach', items: ['National, international and global discovery', 'Choose the countries you’re open to', 'Advanced filters'] },

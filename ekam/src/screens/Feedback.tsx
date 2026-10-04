@@ -7,7 +7,7 @@ import { TRAIT_PROMPT } from '../domain/labels';
 import { other, submitFeedback } from '../domain/rules';
 import { FEEDBACK_RELEASE_DAYS, TRAITS } from '../domain/trust';
 import type { FeedbackStatus, Trait } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 export function FeedbackScreen() {
   const { id = '' } = useParams();

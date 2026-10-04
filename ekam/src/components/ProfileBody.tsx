@@ -3,7 +3,7 @@ import { compatibility, distance } from '../domain/discovery';
 import { FIELD_LABEL, INTENT_LABEL, SHARE_LABEL } from '../domain/labels';
 import { broadLocation, canSeeField } from '../domain/privacy';
 import type { Kind, SharedField, User } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 import { Icon } from './Icon';
 import { PortraitArt } from './Portrait';
 import { TrustSummary } from './Trust';

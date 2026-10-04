@@ -11,7 +11,7 @@ import { PREMIUM_VERIFICATION, updateSettings, verify } from '../domain/rules';
 import { useState } from 'react';
 import { isFeedbackVisible, maturity, MATURITY_LABEL } from '../domain/trust';
 import type { Intent, Kind, Reach, ShareLevel, SharedField, State, VerificationKey } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 export function YouScreen({ onOpenDemo }: { onOpenDemo: () => void }) {
   const { state, viewer, act } = useStore();

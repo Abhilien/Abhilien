@@ -1,7 +1,8 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { createSeedState, STATE_VERSION } from '../domain/seed';
 import { releaseDueFeedback } from '../domain/rules';
-import type { State, User } from '../domain/types';
+import type { State } from '../domain/types';
+import { StoreContext, type Toast } from './context';
 
 const KEY = 'ekam.state';
 const DAY = 86_400_000;
@@ -26,25 +27,6 @@ function save(s: State) {
     /* ignore */
   }
 }
-
-export interface Toast {
-  id: number;
-  text: string;
-}
-
-interface Store {
-  state: State;
-  viewer: User;
-  /** Apply a pure domain transition. The simulated clock advances first. */
-  act: (fn: (s: State) => State) => void;
-  /** Like act, but runs after a short delay — used to simulate the other person. */
-  later: (ms: number, fn: (s: State) => State, toast?: string) => void;
-  toast: (text: string) => void;
-  toasts: Toast[];
-  reset: () => void;
-}
-
-const Ctx = createContext<Store | null>(null);
 
 const tick = (s: State): State => ({ ...s, now: new Date(Date.now() + s.day * DAY).toISOString() });
 
@@ -96,11 +78,5 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     () => ({ state, viewer, act, later, toast, toasts, reset }),
     [state, viewer, act, later, toast, toasts, reset],
   );
-  return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
-}
-
-export function useStore(): Store {
-  const s = useContext(Ctx);
-  if (!s) throw new Error('useStore outside StoreProvider');
-  return s;
+  return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>;
 }

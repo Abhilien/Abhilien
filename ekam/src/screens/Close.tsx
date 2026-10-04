@@ -5,7 +5,7 @@ import { Empty, TopBar } from '../components/ui';
 import { CLOSURE_REASONS, FRIEND_CLOSURE_REASONS } from '../domain/labels';
 import { closeConnection, moveToFriendship, other, startPrimary } from '../domain/rules';
 import { partnerFeedback } from '../state/simulate';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 /** Respectful closure: a clear reason, an optional kind note, no shame. */
 export function CloseScreen() {

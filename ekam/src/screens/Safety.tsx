@@ -1,7 +1,7 @@
 import { Empty, TopBar } from '../components/ui';
 import { REPORT_LABEL } from '../domain/labels';
 import { moderateFeedback } from '../domain/rules';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 /** Internal Trust & Safety console (demo). Moderators see authors; members never do. */
 export function SafetyScreen() {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Empty, TopBar } from '../components/ui';
 import { markNoticesRead } from '../domain/rules';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 function when(iso: string, now: string) {
   const mins = Math.max(0, Math.round((new Date(now).getTime() - new Date(iso).getTime()) / 60000));

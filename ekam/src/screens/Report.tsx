@@ -4,7 +4,7 @@ import { Empty, TopBar } from '../components/ui';
 import { REPORT_LABEL } from '../domain/labels';
 import { reportFeedback } from '../domain/rules';
 import type { ReportReason } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 export function ReportScreen() {
   const { id = '' } = useParams();

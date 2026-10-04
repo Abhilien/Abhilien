@@ -7,7 +7,7 @@ import { Empty, TopBar } from '../components/ui';
 import { expressInterest, hasInterest, holdsSlot, openConnectionBetween, recordVisit, slotFree, startPrimary } from '../domain/rules';
 import { feedbackAccess } from '../domain/trust';
 import type { Kind } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 export function ProfileScreen() {
   const { id = '' } = useParams();

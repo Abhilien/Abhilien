@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
-import { Empty, KindLabel, KindMark, relDays, Segmented, Sheet, TopBar } from '../components/ui';
+import { Empty, KindLabel, KindMark, Segmented, Sheet, TopBar } from '../components/ui';
+import { relDays } from '../lib/format';
 import { distance } from '../domain/discovery';
 import { STAGE_LABEL } from '../domain/labels';
 import { broadLocation } from '../domain/privacy';
@@ -16,7 +17,7 @@ import {
   waitingOf,
 } from '../domain/rules';
 import type { Connection, Kind } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 export function ConnectionsScreen() {
   const { state, viewer, act, toast } = useStore();

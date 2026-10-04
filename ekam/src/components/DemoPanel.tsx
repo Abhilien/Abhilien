@@ -4,29 +4,10 @@ import { eligible } from '../domain/discovery';
 import { hasInterest, remindWaiting } from '../domain/rules';
 import { PERSONAS } from '../domain/seed';
 import type { State } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 import { Avatar } from './Portrait';
 import { PlanTag } from './ui';
-
-type Theme = 'system' | 'light' | 'dark';
-
-function readTheme(): Theme {
-  try {
-    return (localStorage.getItem('ekam.theme') as Theme) || 'system';
-  } catch {
-    return 'system';
-  }
-}
-
-export function applyTheme(t: Theme) {
-  if (t === 'system') document.documentElement.removeAttribute('data-theme');
-  else document.documentElement.setAttribute('data-theme', t);
-  try {
-    localStorage.setItem('ekam.theme', t);
-  } catch {
-    /* ignore */
-  }
-}
+import { applyTheme, readTheme, type Theme } from '../lib/theme';
 
 /** Prototype-only controls: switch persona, move time, simulate the other side. */
 export function DemoPanel({ onDone }: { onDone?: () => void }) {

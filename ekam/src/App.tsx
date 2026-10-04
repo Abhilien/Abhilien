@@ -3,7 +3,7 @@ import { HashRouter, Navigate, NavLink, Route, Routes, useLocation } from 'react
 import { DemoPanel } from './components/DemoPanel';
 import { Icon, Logo, type IconName } from './components/Icon';
 import { Sheet, Toasts } from './components/ui';
-import { useStore } from './state/store';
+import { useStore } from './state/context';
 import { ChatScreen } from './screens/Chat';
 import { CloseScreen } from './screens/Close';
 import { ConnectionsScreen } from './screens/Connections';

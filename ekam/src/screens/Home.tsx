@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import { Icon, Logo } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
-import { KindLabel, KindMark, PlanTag, relDays } from '../components/ui';
+import { KindLabel, KindMark, PlanTag } from '../components/ui';
+import { relDays } from '../lib/format';
 import { ensureDaily } from '../domain/discovery';
 import { STAGE_LABEL } from '../domain/labels';
 import { hasInterest, hasPassed, other, primaryOf, updateSettings, waitingOf } from '../domain/rules';
 import type { Connection, Kind } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 function greeting(iso: string) {
   const h = new Date(iso).getHours();

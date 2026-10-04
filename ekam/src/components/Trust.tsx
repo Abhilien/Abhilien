@@ -13,9 +13,10 @@ import {
   TRAITS,
 } from '../domain/trust';
 import type { User, VerificationKey } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 import { Icon } from './Icon';
-import { monthYear, Tick } from './ui';
+import { Tick } from './ui';
+import { monthYear } from '../lib/format';
 
 const VKEYS: VerificationKey[] = ['identity', 'photo', 'phone', 'employment', 'education', 'profile'];
 

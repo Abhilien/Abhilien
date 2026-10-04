@@ -1,7 +1,7 @@
 import { useEffect, useRef, type ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { Kind, Plan } from '../domain/types';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 import { Icon } from './Icon';
 
 export function TopBar({
@@ -209,15 +209,4 @@ export function Tick({ on = true }: { on?: boolean }) {
       <Icon name={on ? 'check' : 'x'} size={11} weight={2.4} />
     </span>
   );
-}
-
-export function relDays(fromIso: string, nowIso: string): string {
-  const d = Math.floor((new Date(nowIso).getTime() - new Date(fromIso).getTime()) / 86_400_000);
-  if (d <= 0) return 'today';
-  if (d === 1) return '1 day';
-  return `${d} days`;
-}
-
-export function monthYear(iso: string): string {
-  return new Date(iso).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
 }

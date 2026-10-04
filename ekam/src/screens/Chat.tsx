@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Icon } from '../components/Icon';
 import { Avatar } from '../components/Portrait';
-import { Empty, KindMark, relDays, Sheet } from '../components/ui';
+import { Empty, KindMark, Sheet } from '../components/ui';
+import { relDays } from '../lib/format';
 import { CHECKIN_LABEL, INTENT_LABEL, PAUSE_REASONS, STAGE_LABEL, STAGES_FRIENDSHIP, STAGES_ROMANTIC } from '../domain/labels';
 import {
   bothReadyToMeet,
@@ -18,7 +19,7 @@ import {
 } from '../domain/rules';
 import type { CheckIn, Connection } from '../domain/types';
 import { partnerCheckIn, partnerReadyToMeet, partnerReply } from '../state/simulate';
-import { useStore } from '../state/store';
+import { useStore } from '../state/context';
 
 type Panel = null | 'menu' | 'pause' | 'meet' | 'checkin' | 'call-voice' | 'call-video' | 'friendship';
 
