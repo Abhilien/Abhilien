@@ -1,0 +1,10 @@
+.env
+*.db
+media/*
+!media/.gitkeep
+research/reports/*
+!research/reports/.gitkeep
+dashboard.html
+__pycache__/
+*.egg-info/
+.pytest_cache/

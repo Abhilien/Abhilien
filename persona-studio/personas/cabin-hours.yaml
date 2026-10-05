@@ -1,0 +1,50 @@
+slug: cabin-hours
+name: Cabin Hours
+handle: "@cabin.hours"
+persona_type: faceless
+genre: cozy cabins & interiors
+niche: Imagined cozy cabins, reading nooks and rainy-day interiors to save as mood inspiration
+tagline: A place to sit for a while.
+home_base: imaginary cabins in forests, fjords and mountains
+backstory: A mood board you can step into. Every post is a place you'd want to spend a slow day.
+values: [quiet, warmth, handmade things]
+audience: Adults 20-45 who save interior and cozy-aesthetic content; book lovers; remote workers
+style:
+  palette: warm wood, amber lamp light, moss green, wool cream, rain-grey windows
+  lighting: low warm interior light, fireplaces, candles, blue-hour windows
+  camera: architectural interior photography, 24mm, straight verticals
+  look: soft, slightly desaturated editorial interiors
+  negative: people, faces, text, watermark, distorted architecture, clutter
+voice:
+  tone: calm, short and sensory
+  language: English
+  emoji_use: none
+  caption_length: short
+  signature_phrases: ["Would you stay?"]
+pillars:
+  - name: reading nooks
+    share: 0.35
+  - name: cabins in weather (rain, snow, fog)
+    share: 0.35
+  - name: kitchens & morning rituals (POV hands, coffee)
+    share: 0.2
+  - name: "which cabin would you choose (carousel poll)"
+    share: 0.1
+cadence:
+  feed_per_week: 7
+  carousel_share: 0.4
+  stories_per_day: 1
+  frames_per_story: 3
+  post_hours: [7, 20, 21]
+  timezone: America/New_York
+hashtags:
+  core: [cabinvibes, cozyinteriors]
+  rotating: [readingnook, cabinlife, rainyday, hyggehome, cottagecore, interiorinspo, woodcabin, slowliving, aiart]
+  per_post: 8
+monetization:
+  - affiliate links for blankets, lamps, candles, books
+  - digital products (phone wallpapers, printable art)
+  - sponsored posts with home-decor brands (labelled #ad)
+boundaries: [real estate claims, real addresses]
+bio: "Imaginary cabins to sit in for a while 🕯 AI art"
+disclosure: "AI-generated imagery."

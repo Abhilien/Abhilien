@@ -1,0 +1,170 @@
+# Successful AI / virtual influencers and faceless page models.
+# Figures are approximate, as publicly reported at various times. They change fast:
+# refresh them with `studio research "<name> current followers and brand deals"`.
+
+- name: Lil Miquela
+  handle: "@lilmiquela"
+  type: ai_character
+  genre: fashion, music, pop culture
+  creator: Brud (Los Angeles); Brud was later acquired by Dapper Labs
+  launched: 2016
+  approx_followers: "~2.5M on Instagram at peak"
+  monetization: [luxury and tech brand campaigns (e.g. Prada, Calvin Klein, Samsung), music releases, merch]
+  what_works:
+    - A long-running storyline with drama, relationships and "is she real?" mystery
+    - Opinions on culture and causes, so she reads as a person, not a mannequin
+    - Mixes everyday life (food, friends, bad days) with high-fashion moments
+  lessons: Narrative beats aesthetics. People follow a story, not a render.
+  risks: Story stunts can backfire; staged "real-life" events drew criticism.
+
+- name: Aitana López
+  handle: "@fit_aitana"
+  type: ai_character
+  genre: fitness, lifestyle, gaming
+  creator: The Clueless (agency, Barcelona)
+  launched: 2023
+  approx_followers: "300k+ on Instagram"
+  monetization: [sponsored posts reported in the low thousands of euros per month, subscription-platform content]
+  what_works:
+    - Instantly recognisable signature trait (pink hair) that survives any outfit or scene
+    - Clear niche (fitness + gaming) with a distinct personality
+    - Built by an agency as a repeatable product; it then launched more characters
+  lessons: A small agency can run AI characters as a portfolio, like a talent roster.
+  risks: Platform policy on AI and suggestive content keeps tightening; build on brand-safe content.
+
+- name: Imma
+  handle: "@imma.gram"
+  type: ai_character
+  genre: fashion, art, Japanese street culture
+  creator: Aww Inc. (Tokyo)
+  launched: 2018
+  approx_followers: "~400k on Instagram"
+  monetization: [brand partnerships (e.g. IKEA, Porsche, SK-II), events, art collaborations]
+  what_works:
+    - Signature pink bob; composited into real photographed locations
+    - Strong culture-and-art positioning, so luxury brands feel safe with her
+  lessons: Real backgrounds + virtual person = believable and brand-safe.
+  risks: High production cost per image (3D pipeline); AI image models now cut that cost.
+
+- name: Shudu
+  handle: "@shudu.gram"
+  type: ai_character
+  genre: fashion / beauty (digital supermodel)
+  creator: Cameron-James Wilson, The Diigitals
+  launched: 2017
+  approx_followers: "~240k on Instagram"
+  monetization: [fashion and beauty campaigns, licensing the agency model]
+  what_works:
+    - Editorial, magazine-grade imagery; a "supermodel" positioning rather than a diary
+  lessons: Premium visuals alone can carry a fashion account.
+  risks: Public criticism over representation and who profits from a character's identity. Think this through before choosing a persona's ethnicity and culture.
+
+- name: Noonoouri
+  handle: "@noonoouri"
+  type: ai_character
+  genre: fashion, music, activism
+  creator: Joerg Zuber (Munich)
+  launched: 2018
+  approx_followers: "~400k on Instagram"
+  monetization: [luxury fashion collaborations, a record deal (Warner Music, 2023)]
+  what_works:
+    - Stylised (not photoreal) look, so there is no uncanny valley
+    - Expands into music, making the character an IP, not just an account
+  lessons: Treat the character as intellectual property you can extend into other media.
+  risks: Stylised looks limit some brand categories that want realism.
+
+- name: Rozy
+  handle: "@rozy.gram"
+  type: ai_character
+  genre: lifestyle, travel, K-culture
+  creator: Sidus Studio X (Seoul)
+  launched: 2020
+  approx_followers: "~150k on Instagram"
+  monetization: [advertising (insurance, cars, cosmetics), TV ads, music]
+  what_works:
+    - Brands liked a "scandal-free" ambassador who never ages or gets cancelled
+  lessons: Pitch brand safety and control as the product.
+  risks: Brand safety is only as good as your own operating discipline.
+
+- name: Lu do Magalu
+  handle: "@magazineluiza"
+  type: ai_character
+  genre: retail brand ambassador
+  creator: Magazine Luiza (Brazilian retailer)
+  launched: "2000s; on Instagram for years"
+  approx_followers: "millions across platforms"
+  monetization: [drives the retailer's own sales; product reviews and tutorials]
+  what_works:
+    - A useful, friendly helper, not just a pretty face
+  lessons: A virtual character can be a company's whole marketing voice, so pitch this to brands as a service.
+  risks: Tied to one company's fortunes.
+
+- name: Kenza Layli
+  handle: "@kenza.layli"
+  type: ai_character
+  genre: lifestyle, culture, women's empowerment (Morocco)
+  creator: Myriam Bessa
+  launched: 2023
+  approx_followers: "~200k on Instagram"
+  monetization: [brand deals, awards and press]
+  what_works:
+    - Strong cultural identity and local language serving an underserved market
+    - Won the first "Miss AI" award (2024), which brought global press
+  lessons: Non-English and regional markets are less crowded. Local language + culture is a moat.
+  risks: Media attention brings scrutiny of the messages the character promotes.
+
+- name: Milla Sofia
+  handle: "@millasofiafin"
+  type: ai_character
+  genre: fashion, travel
+  creator: independent creator (Finland)
+  launched: 2023
+  approx_followers: "~100k+ on Instagram"
+  monetization: [brand collaborations, a website with offers]
+  what_works:
+    - Fully AI-image based, with a fast posting rhythm in an aspirational travel niche
+  lessons: A solo operator can launch with AI image tools alone.
+  risks: Generic "pretty AI girl" content is now saturated. Differentiation must come from story and niche.
+
+# --- faceless models (no recurring face) ---
+
+- name: Aesthetic / mood pages
+  handle: "(archetype)"
+  type: faceless
+  genre: interiors, cabins, architecture, dark academia, cozy, luxury
+  creator: many small operators
+  launched: ongoing
+  approx_followers: "10k-2M per page"
+  monetization: [affiliate links (decor, fashion), shoutouts and sponsored posts, digital products (wallpapers, presets), selling pages]
+  what_works:
+    - One tight aesthetic, posted often, with saveable carousels
+    - AI makes original images at scale, avoiding the copyright risk of reposting others' photos
+  lessons: Saves and shares drive reach. Design posts people want to keep.
+  risks: Reposting other people's photos without rights gets accounts removed. Generate originals.
+
+- name: Quote / micro-education pages
+  handle: "(archetype)"
+  type: faceless
+  genre: stoicism, money, productivity, relationships, history facts
+  creator: many small operators
+  launched: ongoing
+  approx_followers: "10k-5M per page"
+  monetization: [ebooks and courses, newsletters, affiliate, sponsored posts]
+  what_works:
+    - Carousels with a strong hook slide; AI background art + clean typography
+    - A funnel from Instagram to an email list you own
+  lessons: The page is the top of a funnel. Own the audience off-platform.
+  risks: Low-effort quote spam gets little reach. Original insight and design win.
+
+- name: Fictional travel / place pages
+  handle: "(archetype)"
+  type: faceless
+  genre: travel, cities, food, nature
+  creator: many small operators
+  launched: ongoing
+  approx_followers: "10k-1M per page"
+  monetization: [hotel and booking affiliate links, travel-gear affiliate, presets, sponsored posts]
+  what_works:
+    - POV shots (hands, back-of-head, feet-in-frame) so it feels like a person without a face
+  lessons: Real places must look real. Label AI images; never pass them off as real trip photos.
+  risks: Misleading travel imagery hurts trust. Disclose and keep it aspirational.

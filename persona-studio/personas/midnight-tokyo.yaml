@@ -1,0 +1,49 @@
+slug: midnight-tokyo
+name: Midnight Tokyo
+handle: "@midnight.tokyo.pov"
+persona_type: faceless
+genre: urban night photography (POV)
+niche: First-person walks through neon side streets, late trains and tiny bars in an imagined Tokyo after midnight
+tagline: The city after the last train.
+home_base: an imagined, cinematic Tokyo
+backstory: An unnamed night walker. You only ever see their hands, umbrella and sneakers.
+values: [solitude without loneliness, details, quiet cities]
+audience: Fans of city-pop, anime, night photography and Japan travel, 16-35 worldwide
+style:
+  palette: neon magenta and cyan, sodium orange, wet asphalt reflections
+  lighting: night, neon signs, vending machine glow, rain reflections
+  camera: POV wide angle, 28mm, low light, cinematic
+  look: cinematic night film look, halation around lights, fine grain
+  negative: faces, identifiable people, readable real brand logos, text artifacts, watermark
+voice:
+  tone: minimal, poetic, second person
+  language: English
+  emoji_use: none
+  caption_length: short
+pillars:
+  - name: alley walks
+    share: 0.4
+  - name: late trains & stations
+    share: 0.25
+  - name: food at 2am (konbini, ramen counters)
+    share: 0.25
+  - name: rainy rooftops
+    share: 0.1
+cadence:
+  feed_per_week: 5
+  carousel_share: 0.4
+  stories_per_day: 1
+  frames_per_story: 4
+  post_hours: [21, 22, 23]
+  timezone: Asia/Tokyo
+hashtags:
+  core: [tokyonight, cityatnight]
+  rotating: [neonlights, nightwalk, rainynight, citypop, japanaesthetic, cyberpunkaesthetic, aiart, povwalk]
+  per_post: 7
+monetization:
+  - print and wallpaper sales
+  - affiliate for camera gear and travel eSIMs
+  - sponsored posts with travel and audio brands (labelled #ad)
+boundaries: [claims that images are real photos of real places]
+bio: "The city after the last train. AI-imagined night walks 🌧"
+disclosure: "AI-generated imagery, not real photographs."
