@@ -161,6 +161,51 @@ Without an app store or internet, tools and models move as **signed bundles**:
 - **Cost:** no per-token bill; the hardware you own is the whole cost.
 - **Durability:** tools you built keep working if a company shuts down a service.
 
+## Product line: task editions
+
+Rather than one general device, Forge can ship as **editions tuned for a kind of work**. The pitch is simple: *you pay once for the device, not every month for tokens.*
+
+### What an edition is
+Every edition runs the same Forge core. What changes is the bundle on top:
+
+**Edition = hardware spec + model pack + tool shelf + interface preset**
+
+| Part | What it means |
+|---|---|
+| Hardware spec | RAM, GPU/NPU and storage sized for that work, and no more |
+| Model pack | Models chosen for the job (a code model for analysts, speech and vision models for creators) |
+| Tool shelf | Tested tools preinstalled, so day one is useful without generating anything |
+| Interface preset | Home screen, shortcuts and templates for that profession |
+
+Because editions share one core, an edition is **a pack, not a lock**. A Business Book owner could add the Creator pack later if the hardware can handle it.
+
+### Proposed editions
+
+| | **Forge Business Book** | **Forge Creator Studio** |
+|---|---|---|
+| For | Analysts, small-business owners, developers, finance and ops people | YouTubers, editors, social-media teams, podcasters |
+| Form | Laptop | Mini-PC / desktop (needs cooling and storage) |
+| Hardware (rough) | 32 GB RAM, NPU or mid GPU, 1 TB SSD | 32–64 GB RAM, strong GPU (12–16 GB+ VRAM), 2–4 TB fast storage |
+| Model pack | Code model (~14B), small router model, document/table understanding | Speech-to-text, captioning and translation, vision models for scene detection and tagging, image generation and upscaling |
+| Tool shelf | Spreadsheet cleaning and merging, SQL over local files, charts and dashboards, report and slide generation, invoice/receipt extraction, Python/JS coding assistant with local test running | Auto-transcribe and subtitle, cut silences and filler words, find the best clips, B-roll search across your own library, thumbnail drafts, audio cleanup, batch export per platform (Shorts, Reels, YouTube) |
+| Wraps | Excel, VS Code, git, Python, databases | ffmpeg, DaVinci Resolve / Premiere (via scripting where available), OBS |
+| Fit with local AI today | **Strong.** Code and data are where small local models are best, and results can be checked (tests pass, numbers reconcile) | **Good for assist, limited for generation.** Transcribing, cutting, tagging and captioning work well locally; generating full-quality video on-device is still slow and lower quality than cloud |
+| Price position | Mid | Premium |
+
+### Further editions to consider
+- **Forge Counsel**: lawyers, doctors and accountants, where privacy is the main reason to buy. Document review, drafting and search over confidential files that legally shouldn't go to a cloud.
+- **Forge Field**: clinics, schools and NGOs in low-connectivity areas. Rugged and low-power, with local-language models and an offline tool shelf curated by the organisation.
+- **Forge Student**: a low-cost Lite tier for learning to code and write, with tutoring that works without internet.
+
+### The economics, honestly
+- **Upfront vs monthly.** An edition costs more upfront than an ordinary laptop (more RAM, a better GPU/NPU). For someone paying for one or more AI subscriptions plus usage-based API costs every month, that premium can pay for itself within a year or two. For a light user it may never pay back.
+- **Cloud keeps getting cheaper.** "No tokens" alone is a weak moat if cloud prices keep falling. The stronger reasons to buy are **privacy, working offline, owning your tools, and a fixed, predictable cost**. Lead with those; savings are a bonus.
+- **Hardware is expensive to start.** Designing and stocking a device ties up a lot of capital. The cheaper path is to **certify off-the-shelf machines** ("Forge Ready" laptops and mini-PCs), or partner with a PC maker, and only design a custom device once one edition has proven demand.
+- **Recurring revenue without tokens.** Optional paid model-pack and tool-shelf updates, business tool shelves for a team, and support contracts for organisations.
+
+### Which edition first
+**Business Book.** It is the best match between what small local models do well (code, data, documents) and what people will pay for. It runs on hardware that is already common, and its output can be verified, which keeps trust high. Creator Studio is the more exciting demo, but it needs heavier hardware and the gap with cloud tools is wider today.
+
 ## Risks and honest limits
 - **Small models write worse code.** Mitigated by tests-before-install, reuse-before-generate, narrow tool scope and repair loops, but complex software is out of reach on Lite hardware.
 - **Generated code is a security surface.** The sandbox and capability broker are not optional; they are the product.
@@ -177,7 +222,8 @@ Without an app store or internet, tools and models move as **signed bundles**:
 | 1 | Command palette app on Windows; wrap CLI apps; tests-before-install; versioning and rollback | It is useful day to day |
 | 2 | WASM runtime; capability broker; export to .exe; pipelines | It is safe and tools escape Forge |
 | 3 | Local memory/index; signed offline bundles; LAN sync | It works for a group with no internet |
-| 4 | Optional bootable Forge image (minimal Linux + Forge shell) for dedicated or donated hardware | "Device-based AI OS" in the full sense |
+| 4 | First edition (Business Book) as a software pack on certified off-the-shelf laptops | People will pay for a task-tuned offline device |
+| 5 | Creator Studio and other editions; optional custom hardware or OEM partnership; bootable Forge image | "Device-based AI OS" in the full sense |
 
 A good first demo: on a laptop in airplane mode, ask for a tool that doesn't exist, watch it get written, tested, permission-checked, installed and exported as an .exe, in under two minutes.
 
@@ -190,6 +236,8 @@ A good first demo: on a laptop in airplane mode, ask for a tool that doesn't exi
 6. **Should tools be able to call the model at run time?** Some tasks (summarise, classify) genuinely need it. Allow it as a declared capability (`llm.call`) with limits?
 7. **Optional online mode?** Strictly offline as a principle, or allow an opt-in cloud model for hard generation tasks, clearly marked?
 8. **Hardware target:** existing PCs only, or a dedicated "Forge box" device?
+9. **Edition boundaries:** split by profession (analyst, creator, lawyer) or by workload (documents, media, code)? Professions sell more clearly; workloads overlap less.
+10. **Sell hardware or software?** Branded devices give control and a clearer story; software packs on certified machines are far cheaper to start.
 
 ---
 *Concept by Abhishek Nimesh. Feedback and disagreement welcome.*
