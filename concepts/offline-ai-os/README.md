@@ -1,6 +1,8 @@
 # Forge: an offline AI operating system (concept)
 
 > Status: **concept, open for discussion.** Nothing here is built yet. "Forge" is a working name.
+>
+> **Phones:** see [Forge Mobile](mobile.md), the same concept as a complete phone OS.
 
 ## The hidden assumption
 
