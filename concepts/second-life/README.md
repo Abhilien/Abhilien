@@ -66,6 +66,43 @@ In floods, cyclones and earthquakes, the network fails first. Nodes switch to **
 ### 6. Skills that spread like seeds
 When a node learns something new (a tool Claude wrote to detect a new crop disease, count a new bird, read a new form), it can share that skill with every other node, offline, over the mesh or by SD card. **Knowledge propagates through the physical world** even where the internet doesn't reach. One village solves a problem; a thousand villages get the solution.
 
+## Earn: paying people for their old phones
+
+People will only convert phones at scale if it's **one download** and the phone **earns something**. The obvious idea is crypto mining. The numbers say otherwise, so Second Life earns by doing useful work instead, and pays out in money or crypto.
+
+### Why phone crypto mining doesn't work
+
+| Coin | Reality on a phone like the V30+ |
+|---|---|
+| **Bitcoin** | Mined by specialised ASIC machines billions of times faster than a phone. A phone's chance of ever finding a block is effectively zero. |
+| **Monero** (designed for ordinary CPUs) | The only realistic option. Rough estimate: a Snapdragon 835 manages a few hundred hashes per second against a network of billions, earning **on the order of a few rupees to a couple of hundred rupees a year**, depending on price. Running flat out 24/7 costs a comparable amount in electricity. |
+| "Mobile mining" apps | Several popular "mine on your phone" apps don't actually mine; they hand out points or tokens for opening the app. |
+
+And the costs:
+- **Battery damage and fire risk.** 100% CPU around the clock, warm and plugged in, is exactly what makes old lithium batteries swell.
+- **Can't be distributed through app stores.** Google Play and Apple's App Store both forbid apps that mine on the device, so it would have to be sideloaded.
+- **Waste of the phone.** Mining uses only the processor and throws away the cameras, microphones, GPS and radio, the parts that make a phone valuable.
+
+Second Life won't hide this. The app includes an honest **earnings check**: it measures the phone, looks up live network and price data, and shows expected earnings against the electricity cost before anything runs. A small, temperature-limited Monero module can exist for people who want to try, but it's never the default.
+
+### What a phone can earn by instead
+**Useful work pays better than hashing**, because a phone's senses are worth more than its processor:
+
+| Work | Who pays | Why a phone is good at it |
+|---|---|---|
+| **Sensing data** (air quality, noise, traffic, flood levels, biodiversity counts) | Cities, researchers, insurers, open-data and DePIN networks. Phone-based networks already reward noise and road-mapping data from phones | Cameras, mics, GPS, always in a fixed place |
+| **Skills done for a community** (expert line, school lab, witness recordings) | NGOs, government programmes, schools, local subscribers | The node replaces a service that otherwise costs much more |
+| **Mesh relay and local storage** | Communities, event organisers, disaster response | Radios and storage that already exist |
+| **Verified ground-truth** (photos and readings signed at capture) | Mapping, agriculture and climate monitoring | Trusted, timestamped, located evidence |
+
+Rewards are paid in **money (UPI) or crypto, the user's choice**. Earnings depend on real demand, so the app shows what each skill is currently paying, never a promise.
+
+### One download, any device, always upgradable
+- **One app**: Android APK first (sideload or store), then a version for old laptops and desktops.
+- **Ten-minute conversion**: install, scan a QR code, pick the skills the device can do (the app checks its sensors), done.
+- **Self-updating**: signed updates over the internet or passed phone-to-phone over the mesh, with automatic rollback.
+- **Device health first**: charge limits, temperature limits and battery checks are built in, and the app refuses work that would damage the device.
+
 ## Why it could change the world
 - **Cost**: the phone is free (it was waste). A solar kit and case cost a few dollars. Claude is called only on events, and cheap fast models handle routine checks.
 - **Scale**: billions of devices already exist and are already distributed to every corner of the planet.
