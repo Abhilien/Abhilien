@@ -72,6 +72,56 @@ The V30+ has no shutter button, so the physical controls get new jobs:
 - 6" OLED (good viewfinder), microSD for storage, wireless charging.
 - RAW capture and manual controls are available to software. That is why third-party camera apps already work well on this phone.
 
+## With Wi-Fi: from camera to eye
+
+Wi-Fi changes what Iris is. Offline, it is a camera. Connected to your own local network, it becomes **an eye**: a sensor that feeds a bigger brain. That brain is a PC with a GPU at home (the **Darkroom**) running models far bigger than the phone could. Nothing has to touch the internet; the network can be just your house.
+
+```mermaid
+flowchart LR
+    I1[Iris phone<br/>capture · live AI · control] <-- local Wi-Fi --> D[Darkroom PC<br/>big models · 3D · editing]
+    I2[More Iris phones<br/>friends' spares] <--> D
+    G[Pan-tilt head<br/>ESP32 + servos] <--> I1
+    D --> PW[The Production World<br/>3D world · virtual cameras]
+    D --> V[Viewers<br/>tablet monitor · OBS · stream]
+```
+
+### 1. Shoot once, direct forever (reality capture → The Production World)
+Walk around a place or a person with Iris. It records video plus gyroscope and lens data and sends it to the Darkroom, which rebuilds the scene as a 3D model (Gaussian splatting, the technique behind apps like Luma and Polycam). That real place then loads into **The Production World**, where you put virtual cameras anywhere and shoot angles you never filmed: a crane shot, a slow orbit, a dolly through a doorway. Production World already makes the world first and treats every shot as a camera observing it. Iris makes that world from reality.
+
+### 2. Robot camera operator
+Mount Iris on a cheap pan-tilt head (an ESP32 board and two servos, a few hundred rupees) controlled over Wi-Fi. Iris tracks the subject and frames shots from a **shot list you describe in plain words**: "wide when I'm at the whiteboard, close-up when I talk to camera, slow push-in on the punchline." A solo creator gets a camera operator who never gets tired.
+
+### 3. Swarm cinema
+Collect two to six old phones from friends and family, put Iris on all of them, and they become **one synchronised multi-camera rig**. Clocks sync over Wi-Fi (fine-tuned with a clap or flash), the Darkroom aligns all angles, and an **AI editor cuts the multi-cam** like a TV director: who's speaking, who's reacting, where the action is. Tight sync allows "bullet-time" style frozen moments across all phones. Old phones stop being e-waste and become a film crew.
+
+### 4. The camera that learns your eye
+Every keep, delete and edit you make teaches a **personal style model** trained on the Darkroom overnight. Iris starts developing photos the way you would, and while you shoot it quietly flags "this looks like the shots you love". Over months, the camera becomes yours in a way no factory camera can.
+
+### 5. What-if, for real footage
+Production World has "what if" branches. Apply them to real captured scenes: with the 3D capture and generative video on the Darkroom, re-render the same street *at night*, *in rain*, *ten years later*, with the geometry and camera moves staying consistent because they come from the real capture.
+
+### 6. A living portrait of a place
+Leave Iris at a window, a garden, a construction site or a shop for months. It shoots a time-lapse and the AI keeps a diary of what happened: "first flower opened", "bird visited 14 times today", "third floor slab poured". Search it later by asking ("show me every time the cat was on the wall"). A camera that remembers instead of just recording.
+
+### 7. Live production studio in your pocket
+Iris streams to OBS or a browser on the local network and acts as a **two-camera crew by itself**: main lens for the close-up, wide lens for the room, AI switching between them, auto-framing, live captions. Add more Iris phones and it becomes a full streaming studio.
+
+### 8. Wireless field monitor and remote
+A director, client or friend watches the live feed on a tablet, taps to set focus, leaves voice notes timestamped on the footage, and approves takes. Footage starts uploading to the Darkroom the moment the take ends, so editing can start before the shoot is over.
+
+### 9. Turn objects into game assets
+Put an object on a turntable (or a cheap motorised one controlled by Iris over Wi-Fi). Iris shoots it from every angle and the Darkroom builds a clean, textured 3D model ready for a game engine or Production World. Your room becomes a 3D scanning studio.
+
+### What runs where
+| On the phone (Snapdragon 835, 4 GB) | On the Darkroom PC (GPU) |
+|---|---|
+| Capture, RAW bursts, gyroscope data | 3D reconstruction (Gaussian splats) |
+| Live tracking, framing, scene reading | Generative "what-if" video |
+| Controlling the pan-tilt head and turntable | Personal style model training |
+| Streaming and syncing with other Iris phones | Multi-cam AI editing, heavy denoise and upscaling |
+
+**Privacy stays the same:** the network is yours. Internet is a separate switch, off by default.
+
 ## Build plan
 
 | Phase | What | Risk to the phone |
@@ -88,4 +138,5 @@ Phases 1–4 deliver the full experience on the phone's original, factory-tuned 
 1. **Photos or video first?** Both are possible, but each needs different tuning and AI.
 2. **How much AI by default?** Auto+ as the default, or open in Manual?
 3. **How do photos leave the camera?** microSD card only (true offline), USB to a PC, or local Wi-Fi to a phone/PC when you choose?
-4. **Look and style:** a specific colour "look" of our own (like Fujifilm's film simulations), or neutral?
+4. **Which Wi-Fi feature first?** Recommended: reality capture into The Production World, since it connects Iris directly to an existing project.
+5. **Look and style:** a specific colour "look" of our own (like Fujifilm's film simulations), or neutral?
