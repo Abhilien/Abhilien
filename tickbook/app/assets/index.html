@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'">
+<title>Tickbook</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body data-theme="paper">
+  <header id="top">
+    <button id="back" class="icon" aria-label="Back">&lsaquo;</button>
+    <div id="crumbs"></div>
+    <button id="gear" class="icon" aria-label="Settings">&#9881;</button>
+  </header>
+
+  <main id="main"></main>
+
+  <div id="scrim" hidden></div>
+  <section id="sheet" hidden></section>
+
+  <div id="toast" hidden><span id="toastMsg"></span><button id="toastAct" hidden></button></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
